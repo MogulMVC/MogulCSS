@@ -1,0 +1,60 @@
+﻿.MSlider{
+  position:relative;
+}
+
+.jscroller{
+  position:static;
+  z-index:998;
+}
+
+.slider{
+  position:absolute;
+  z-index:1000;
+}
+
+.inner{
+  height:100%;
+  width:1px;
+  z-index:999;
+}
+
+.lgripper{
+  border:none;
+  outline:none;
+  position:relative;
+  top:0px;
+  z-index:1001;
+}
+
+.ticks{
+  float:left;
+  list-style:none;
+  margin:0;
+  padding:0;
+  position:absolute;
+  z-index:997;
+  
+  li{
+    display:inline;
+    float:left;
+    font-size:xx-small;
+  }
+  
+}
+
+.slider.style1{
+  -moz-box-shadow:inset 0 1px 2px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow:inset 0 1px 2px rgba(0, 0, 0, 0.5);
+  background-color:#D7D7D7;
+  border:solid 1px #646464;
+}
+
+.inner.style1{
+  -moz-box-shadow:inset 0 1px 2px #646464;
+  -webkit-box-shadow:inset 0 1px 2px #646464;
+  background-color:#646464;
+}
+
+.lgripper.style1{
+  background:url('/framework/img/MSlider/tracker.png') 0px 0px no-repeat;
+}

@@ -1,0 +1,28 @@
+.MPopupContainer{ @extend .MWidgetContainer;
+  box-shadow:$shadow_large;
+  left:50%;
+  margin-left:-27.4em;
+  position:fixed;
+  top:90px;
+  width:54.8em;
+  z-index:1600;
+}
+
+.MPopupMenu{
+  height:35px;
+}
+
+.MPopupList{
+  overflow-x:hidden;
+  overflow-y:auto;
+}
+
+.MPopupPreviewContainer{
+  text-align:center;
+  width:100%;
+}
+
+.MPopupPreview{
+  max-height:400px;
+  max-width:640px;
+}

@@ -1,0 +1,58 @@
+input[type="password"], input[type="text"], textarea{
+  -moz-transition:border-color 0.25s, box-shadow 0.25s, color 0.25s;
+  -webkit-transition:border-color 0.25s, box-shadow 0.25s, color 0.25s;
+  border-color:$mono_3;
+  border-radius:.3em;
+  border-style:solid;
+  border-width:.1em;
+  box-shadow:$shadow_inset_bg;
+  color:$mono_3;
+  margin:0 auto;
+  padding:0;
+
+  &:hover, &.input_invisible:hover{
+    border-color:$blue_2;
+    box-shadow:$shadow_inset_bg, 0 0 .3em rgba(0,125,250,1);
+    color:$mono_2;
+  }
+  
+  &:focus, &.input_invisible:hover{
+    border-color:$blue_1;
+    box-shadow:$shadow_inset_bg, 0 0 .3em rgba(0,75,150,1);
+    color:$mono_2;
+  }
+  
+  &[disabled], &[disabled]:hover, &[disabled]:active{
+    background:$mono_5;
+    border-color:$mono_4;
+    box-shadow:$shadow_inset_bg;
+    color:$mono_4;
+  }
+  
+  &.input_invisible{
+    border-color:transparent;
+    border-style:none;
+    border-width:0;
+    box-shadow:none;
+  }
+  
+}
+
+input{
+  
+  &[type="password"], &[type="text"]{
+    display:block;
+    font-size:1em;
+    height:1.75em;
+  }
+
+}
+
+
+textarea{
+  font-size:1em;
+  line-height:2em;
+  overflow:visible;
+  padding:0;
+  resize:vertical;
+}

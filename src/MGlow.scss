@@ -1,0 +1,17 @@
+.MGlow{
+  -moz-transition:box-shadow 0.25s;
+  -o-transition:box-shadow 0.25s;
+  -webkit-transition:box-shadow 0.25s;
+  transition:box-shadow 0.25s;
+  
+  &:hover{
+    border-color:$blue_2;
+    box-shadow:0 0 .4em rgba(0,125,250,1);
+  }
+  
+  &:active{
+    border-color:none;
+    box-shadow:none;
+  }
+  
+}

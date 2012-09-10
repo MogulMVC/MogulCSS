@@ -1,0 +1,24 @@
+.MHoverForm{ @extend .MWidgetContainer;
+  box-shadow:$shadow_large;
+  left:50%;
+  margin-left:-12em;
+  margin-top:-8em;
+  position:fixed;
+  top:40%;
+  width:24em;
+  z-index:500;
+}
+
+.MHoverMessage{ @extend .MWidgetContainer;
+  border-radius:.4em;
+  box-shadow:$shadow_large;
+  left:50%;
+  line-height:2.4em;
+  margin-left:-18.2em;
+  padding:.8em;
+  position:fixed;
+  text-align:left;
+  top:30%;
+  width:36.4em;
+  z-index:500;
+}

@@ -1,0 +1,127 @@
+a, h1, h2, h3, h4, h5, h6, input, label, p, span, textarea,{
+
+  &.bold{
+    font-weight:bold;
+  }
+
+  &.red{
+    color:$red_1;
+  }
+
+  &.yellow{
+    color:#fac800;
+  }
+
+  &.green{
+    color:$green_1;
+  }
+
+  &.blue{
+    color:$blue_1;
+  }
+
+  &.violet{
+    color:$violet_1;
+  }
+
+  &.black{
+    color:$mono_1;
+  }
+  
+  &.white{
+    color:$mono_6;
+  }
+
+}
+
+.text_left{
+  text-align:left;
+}
+
+.text_centered{
+  text-align:center;
+}
+
+.text_right{
+  text-align:right;
+}
+
+.left{
+  float:left;
+}
+
+.right{
+  float:right;
+}
+
+.clear{
+  clear:both;
+}
+
+.hidden{
+  display:none;
+}
+
+.shown{
+  display:block;
+}
+
+.cursor_pointer{
+  cursor:pointer;
+}
+
+.cursor_move{
+  cursor:move;
+}
+
+.shadow{
+  box-shadow:$shadow_small;
+}
+
+.shadow_large{
+  box-shadow:$shadow_large;
+}
+
+.shadow_inset_bg{
+  box-shadow:$shadow_inset_bg;
+}
+
+.shadow_inset_fg{
+  box-shadow:$shadow_inset_fg; 
+}
+
+.width_full{
+  width:100%;
+}
+
+.height_full{
+  height:100%;
+}
+
+.table_fixed_width{
+  table-layout:fixed;
+}
+
+.table_top td{
+  vertical-align:top;
+}
+
+.table_border{
+  border:.1em solid $mono_3;
+  border-collapse:collapse;
+  margin:0;
+  
+  td{
+    border:.1em solid $mono_3;
+    margin:0;
+  }
+  
+}
+
+.table_center{
+  
+  td{
+    text-align:center;
+  }
+
+}

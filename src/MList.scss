@@ -1,0 +1,99 @@
+.MListSummary{
+  display:list-item;
+  height:2em;
+  text-overflow:ellipsis;
+  width:100%;
+}
+
+.MListTitle{
+  display:inline;
+  margin:0;
+}
+
+.MListCitation{
+  margin-left:.4em;
+}
+
+.MListOptions{
+  display:inline-block;
+  float:right;
+  min-width:300px;
+  
+  a, img, span{
+    margin-left:2px;
+    margin-right:2px;
+  }
+  
+}
+
+.MListItemContainer{
+  border-radius:.4em;
+  opacity:0;
+  padding:1.2em;
+  position:relative;
+
+  &.red{
+    background:#dcc3c3;
+    color:$mono_2;
+    
+    &:hover{
+      background:#e1d5d5;
+    }
+  }
+
+  &.yellow{
+    background:#faf5b4;
+    color:$mono_2;
+    
+    &:hover{
+      background:#f0edcd;
+    }
+  }
+
+  &.green{
+    background:#c3dcc3;
+    color:$mono_2;
+    
+    &:hover{
+      background:#d5e1d5;
+    }
+  }
+
+  &.blue{
+    background:#b4d2f0;
+    color:$mono_2;
+    
+    &:hover{
+      background:#cddceb;
+    }
+  }
+
+  &:hover{
+    background:$mono_5;
+  }
+
+}
+
+.MListItemContainerSub{
+  background:#c8c8c8;
+  border-radius:.4em;
+  padding:.4em;
+  position:relative;
+}
+
+.MListInfoContainer{
+  -o-text-overflow:ellipsis;
+  display:block;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+
+
+.MListItemNotification{
+  background:$mono_2;
+  border-radius:4px;
+  color:white;
+  font-weight:bold;
+  padding-left:8px;
+  padding-right:8px;
+}

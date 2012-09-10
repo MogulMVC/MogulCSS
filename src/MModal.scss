@@ -1,0 +1,17 @@
+.MModalBG{
+  height:150%;
+  left:0;
+  opacity:.8;
+  position:fixed;
+  top:0;
+  width:150%;
+  z-index:1500;
+}
+
+.MModalBGBlack{ @extend .MModalBG;
+  background-color:#000000;
+}
+
+.MModalBGWhite{ @extend .MModalBG;
+  background-color:$mono_6;
+}

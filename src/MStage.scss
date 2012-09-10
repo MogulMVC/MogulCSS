@@ -1,0 +1,16 @@
+#MStage{
+  background-color:$mono_3;
+  background-position:50% 0%;
+  background-repeat:no-repeat;
+  border-bottom:.1em solid $mono_3;
+  overflow:hidden;
+  text-align:center;
+  width:100%;
+}
+  
+#MStageImage{
+  background-position:50% 50%;
+  background-repeat:no-repeat;
+  opacity:0;
+  width:100%;
+}

@@ -1,0 +1,201 @@
+.MButton{ @extend .MGlow;
+  background:$mono_5;
+  background:-moz-linear-gradient(top, $mono_5 0%, #c8c8c8 100%);
+  background:-ms-linear-gradient(top, $mono_5 0%,#c8c8c8 100%);
+  background:-o-linear-gradient(top, $mono_5 0%,#c8c8c8 100%);
+  background:-webkit-linear-gradient(top, $mono_5 0%,#c8c8c8 100%);
+  background:linear-gradient(top, $mono_5 0%,#c8c8c8 100%);
+  border-color:$mono_3;
+  border-radius:.3em;
+  border-style:solid;
+  border-width:.1em;
+  color:$mono_2;
+  cursor:pointer;
+  display:inline-block;
+  font-size:1em;
+  font-weight:bold;
+  overflow:hidden;
+  padding-left:1.250em;
+  padding-right:1.250em;
+
+  &:hover{
+    border-color:$blue_2;
+    color:$mono_2;
+  }
+  
+  &:active{
+    background:$mono_3;
+    border-color:$mono_2;
+    box-shadow:$shadow_inset_bg;
+    color:$mono_6;
+  }
+  
+  &[disabled], &[disabled]:hover, &[disabled]:active{
+    background:$mono_5;
+    border-color:$mono_4;
+    box-shadow:none;
+    color:$mono_4;
+    text-shadow:none;
+  }
+  
+}
+
+.MButtonRed, .MButtonR{ @extend .MButton;
+  background:$red_1;
+  background:-moz-linear-gradient(top, $red_2 0%, $red_1 100%);
+  background:-ms-linear-gradient(top, $red_2 0%,$red_1 100%);
+  background:-o-linear-gradient(top, $red_2 0%,$red_1 100%);
+  background:-webkit-linear-gradient(top, $red_2 0%,$red_1 100%);
+  background:linear-gradient(top, $red_2 0%,$red_1 100%);
+  color:$mono_6;
+  text-shadow:0 0 .4em $mono_2;
+  
+  &:hover{
+    color:$mono_6;
+  }
+  
+  &:active{
+    color:$mono_6;
+  }
+  
+}
+
+.MButtonOrange, .MButtonO{ @extend .MButton;
+  background:$orange_1;
+  background:-moz-linear-gradient(top, $orange_2 0%, $orange_1 100%);
+  background:-ms-linear-gradient(top, $orange_2 0%,$orange_1 100%);
+  background:-o-linear-gradient(top, $orange_2 0%,$orange_1 100%);
+  background:-webkit-linear-gradient(top, $orange_2 0%,$orange_1 100%);
+  background:linear-gradient(top, $orange_2 0%,$orange_1 100%);
+  color:$mono_6;
+  text-shadow:0 0 .4em $mono_2;
+  
+  &:hover{
+    color:$mono_6;
+  }
+  
+  &:active{
+    color:$mono_6;
+  }
+  
+}
+
+.MButtonYellow, .MButtonY{ @extend .MButton;
+  background:#fac800;
+  background:-moz-linear-gradient(top, $yellow_2 0%, #fac800 100%);
+  background:-ms-linear-gradient(top, $yellow_2 0%,#fac800 100%);
+  background:-o-linear-gradient(top, $yellow_2 0%,#fac800 100%);
+  background:-webkit-linear-gradient(top, $yellow_2 0%,#fac800 100%);
+  background:linear-gradient(top, $yellow_2 0%,#fac800 100%);
+  color:#000000;
+  
+  &:hover{
+    color:#000000;
+  }
+  
+  &:active{
+    color:$mono_6;
+  }
+  
+}
+
+.MButtonGreen, .MButtonG{ @extend .MButton;
+  background:$green_1;
+  background:-moz-linear-gradient(top, $green_2 0%, $green_1 100%);
+  background:-ms-linear-gradient(top, $green_2 0%,$green_1 100%);
+  background:-o-linear-gradient(top, $green_2 0%,$green_1 100%);
+  background:-webkit-linear-gradient(top, $green_2 0%,$green_1 100%);
+  background:linear-gradient(top, $green_2 0%,$green_1 100%);
+  color:$mono_6;
+  text-shadow:0 0 .4em $mono_2;
+  
+  &:hover{
+    color:$mono_6;
+  }
+  
+  &:active{
+    color:$mono_6;
+  }
+  
+}
+
+.MButtonBlue, .MButtonB{ @extend .MButton;
+  background:$blue_1;
+  background:-moz-linear-gradient(top, $blue_2 0%, $blue_1 100%);
+  background:-ms-linear-gradient(top, $blue_2 0%,$blue_1 100%);
+  background:-o-linear-gradient(top, $blue_2 0%,$blue_1 100%);
+  background:-webkit-linear-gradient(top, $blue_2 0%,$blue_1 100%);
+  background:linear-gradient(top, $blue_2 0%,$blue_1 100%);
+  color:$mono_6;
+  text-shadow:0 0 .4em $mono_2;
+  
+  &:hover{
+    color:$mono_6;
+  }
+  &:active{
+    color:$mono_6;
+  }
+  
+}
+
+.MButtonViolet, .MButtonV{ @extend .MButton;
+  background:$violet_1;
+  background:-moz-linear-gradient(top, $violet_2 0%, $violet_1 100%);
+  background:-ms-linear-gradient(top, $violet_2 0%,$violet_1 100%);
+  background:-o-linear-gradient(top, $violet_2 0%,$violet_1 100%);
+  background:-webkit-linear-gradient(top, $violet_2 0%,$violet_1 100%);
+  background:linear-gradient(top, $violet_2 0%,$violet_1 100%);
+  color:$mono_6;
+  text-shadow:0 0 .4em $mono_2;
+  
+  &:hover{
+    color:$mono_6;
+  }
+  &:active{
+    color:$mono_6;
+  }
+  
+}
+
+.MButtonUpload{ @extend .MButton;
+  cursor:default;
+  margin:0 auto;
+  overflow:hidden;
+  position:relative;
+  text-align:center;
+}
+
+.MButtonUploadForm, .MButtonUploadFrame{
+  left:0;
+  top:-.2em;
+  position:absolute;
+  width:100%;
+  opacity:0;
+}
+  
+a.MButton, div.MButton, span.MButton{
+  height:1.45em;
+  line-height:1.45em;
+  margin:.2em;
+}
+  
+button.MButton{
+  height:1.6em;
+  line-height:1;
+  margin:.2em;
+}
+
+button{ @extend .MButton; 
+  cursor:pointer;
+  font-size:1em;
+  
+  &::-moz-focus-inner{
+    border:0;
+  }
+  
+}
+
+input{
+  &[type="button"], &[type="submit"]{ @extend .MButton;}
+  &[type="reset"]{ @extend .MButtonRed;}
+}

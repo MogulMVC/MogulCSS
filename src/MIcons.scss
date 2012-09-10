@@ -1,0 +1,110 @@
+.MIconComplete{
+  background-image:url("/framework/img/icons/complete_150x150.png");
+  background-repeat:no-repeat;
+  height:150px;
+  margin-right:1.2em;
+  width:150px;
+}
+
+.MIconWarning{
+  background-image:url("/framework/img/icons/warning_150x150.png");
+  background-repeat:no-repeat;
+  height:150px;
+  margin-right:1.2em;
+  width:150px;
+}
+
+.MIconLoadingBlack150{
+  background-image:url("/framework/img/icons/loading_black_150x150.gif");
+  background-repeat:no-repeat;
+  height:150px;
+  margin-right:1.2em;
+  width:150px;
+}
+
+.MIconLoadingBlack50{
+  background-image:url("/framework/img/icons/loading_black_50x50.gif");
+  background-repeat:no-repeat;
+  height:50px;
+  margin:3.95em;
+  width:50px;
+}
+
+.MIconLoadingWhite50{
+  background-image:url("/framework/img/icons/loading_white_50x50.gif");
+  background-repeat:no-repeat;
+  height:50px;
+  margin:3.95em;
+  width:50px;
+}
+
+.MIconLoadingBlack16{
+  background-image:url("/framework/img/icons/loading_black_16x16.gif");
+  background-repeat:no-repeat;
+  height:16px;
+  width:16px;
+}
+
+.MIconLoadingButton{ @extend .MIconLoadingBlack16;
+  float:left;
+  margin-right:.8em;
+  margin-top:.1em;
+  opacity:.35;
+}
+
+.MIconClose{
+  background-image:url("/framework/img/icons/close_16x16.png");
+  background-position:0 0;
+  background-repeat:no-repeat;
+  cursor:pointer;
+  display:inline;
+  height:16px;
+  position:absolute;
+  right:.4em;
+  top:.4em;
+  width:16px;
+  z-index:5;
+  
+  &:hover{
+    background-position:0 -16px;
+  }
+
+}
+
+.MIconArrowLeft{
+  background-image:url("/framework/img/icons/arrow_left_16x16.png");
+  background-position:0 0;
+  background-repeat:no-repeat;
+  cursor:pointer;
+  display:inline;
+  height:16px;
+  position:absolute;
+  right:.4em;
+  top:.4em;
+  width:16px;
+  z-index:5;
+  
+  &:hover{
+    background-position:0 -16px;
+  }
+  
+}
+
+.MIconArrowRight{
+  background-image:url("/framework/img/icons/arrow_right_16x16.png");
+  background-position:0 0;
+  background-repeat:no-repeat;
+  cursor:pointer;
+  display:inline;
+  height:16px;
+  left:.4em;
+  position:absolute;
+  top:.4em;
+  width:16px;
+  z-index:5;
+  
+  &:hover{
+    background-position:0 -16px;
+  }
+  
+}
