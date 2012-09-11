@@ -1,52 +1,52 @@
-@import "src/MVariables";
+@import "MConfig";
 
-@import "src/MShadows";
+@import "MShadows";
 
 /***************************/
 /* Overridable Properties */
 /***************************/
 
-@import "src/MGlow";
+@import "MGlow";
 
 /***********/
 /* Globals */
 /***********/
 
-@import "src/MGlobals";
+@import "MGlobal";
 
 /*******************/
 /* Main Containers */
 /*******************/
 
-@import "src/MMainWindow";
-@import "src/MHeader";
-@import "src/MToolbar";
-@import "src/MHiddenBG";
-@import "src/MSidebar";
-@import "src/MStage";
-@import "src/MContent";
+@import "MMainWindow";
+@import "MHeader";
+@import "MToolbar";
+@import "MHiddenBG";
+@import "MSidebar";
+@import "MStage";
+@import "MContent";
 
 /************/
 /* Elements */
 /************/
 
-@import "src/MInputText";
-@import "src/MButtons";
-@import "src/MTabs";
-@import "src/MTip";
-@import "src/MList";
-@import "src/MSlider";
+@import "MInputText";
+@import "MButtons";
+@import "MTab";
+@import "MTip";
+@import "MList";
+@import "MSlider";
 
 /* Widgets */
 
-@import "src/MWidget";
-@import "src/MHover";
-@import "src/MPopup";
-@import "src/MPreviews";
-@import "src/MLoading";
-@import "src/MModal";
-@import "src/MBars";
-@import "src/MPagination";
-@import "src/MVR";
-@import "src/MIcons";
-@import "src/MProperties";
+@import "MWidget";
+@import "MHover";
+@import "MPopup";
+@import "MPreviews";
+@import "MLoading";
+@import "MModal";
+@import "MBars";
+@import "MPagination";
+@import "MVR";
+@import "MIcons";
+@import "MProperties";
