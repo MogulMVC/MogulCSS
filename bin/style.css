@@ -1,38 +1,9 @@
 /**********/
+/* Config */
+/**********/
+/**********/
 /* colors */
 /**********/
-.shadow_top {
-  background: url("/framework/img/global/shadow_top.png") repeat-x;
-  clear: both;
-  height: 2.4em;
-  margin: 0 auto;
-  width: 100%; }
-
-.shadow_bottom {
-  background: url("/framework/img/global/shadow_bottom.png") repeat-x;
-  clear: both;
-  height: 2.4em;
-  margin: 0 auto;
-  width: 100%; }
-
-/***************************/
-/* Overridable Properties */
-/***************************/
-.MGlow, .MButton, .MButtonRed, input[type="reset"], .MButtonR, .MButtonOrange, .MButtonO, .MButtonYellow, .MButtonY, .MButtonGreen, .MButtonG, .MButtonBlue, .MButtonB, .MButtonViolet, .MButtonV, .MButtonUpload, button, input[type="button"], input[type="submit"], .MTab, .MTabSelected, .eztab {
-  -moz-transition: box-shadow 0.25s;
-  -o-transition: box-shadow 0.25s;
-  -webkit-transition: box-shadow 0.25s;
-  transition: box-shadow 0.25s; }
-  .MGlow:hover, .MButton:hover, .MButtonRed:hover, input[type="reset"]:hover, .MButtonR:hover, .MButtonOrange:hover, .MButtonO:hover, .MButtonYellow:hover, .MButtonY:hover, .MButtonGreen:hover, .MButtonG:hover, .MButtonBlue:hover, .MButtonB:hover, .MButtonViolet:hover, .MButtonV:hover, .MButtonUpload:hover, button:hover, input[type="button"]:hover, input[type="submit"]:hover, .MTab:hover, .MTabSelected:hover, .eztab:hover {
-    border-color: #007dfa;
-    box-shadow: 0 0 0.4em #007dfa; }
-  .MGlow:active, .MButton:active, .MButtonRed:active, input[type="reset"]:active, .MButtonR:active, .MButtonOrange:active, .MButtonO:active, .MButtonYellow:active, .MButtonY:active, .MButtonGreen:active, .MButtonG:active, .MButtonBlue:active, .MButtonB:active, .MButtonViolet:active, .MButtonV:active, .MButtonUpload:active, button:active, input[type="button"]:active, input[type="submit"]:active, .MTab:active, .MTabSelected:active, .eztab:active {
-    border-color: none;
-    box-shadow: none; }
-
-/***********/
-/* Globals */
-/***********/
 * {
   -moz-user-select: -moz-none;
   -o-user-select: none;
@@ -124,6 +95,35 @@ ul {
 
 li {
   list-style-type: none; }
+
+/************/
+/* Managers */
+/************/
+.shadow_top {
+  background: url("/framework/img/global/shadow_top.png") repeat-x;
+  clear: both;
+  height: 2.4em;
+  margin: 0 auto;
+  width: 100%; }
+
+.shadow_bottom {
+  background: url("/framework/img/global/shadow_bottom.png") repeat-x;
+  clear: both;
+  height: 2.4em;
+  margin: 0 auto;
+  width: 100%; }
+
+.MGlow, .MButton, .MButtonRed, input[type="reset"], .MButtonR, .MButtonOrange, .MButtonO, .MButtonYellow, .MButtonY, .MButtonGreen, .MButtonG, .MButtonBlue, .MButtonB, .MButtonViolet, .MButtonV, .MButtonUpload, button, input[type="button"], input[type="submit"], .MTab, .MTabSelected, .eztab {
+  -moz-transition: box-shadow 0.25s;
+  -o-transition: box-shadow 0.25s;
+  -webkit-transition: box-shadow 0.25s;
+  transition: box-shadow 0.25s; }
+  .MGlow:hover, .MButton:hover, .MButtonRed:hover, input[type="reset"]:hover, .MButtonR:hover, .MButtonOrange:hover, .MButtonO:hover, .MButtonYellow:hover, .MButtonY:hover, .MButtonGreen:hover, .MButtonG:hover, .MButtonBlue:hover, .MButtonB:hover, .MButtonViolet:hover, .MButtonV:hover, .MButtonUpload:hover, button:hover, input[type="button"]:hover, input[type="submit"]:hover, .MTab:hover, .MTabSelected:hover, .eztab:hover {
+    border-color: #007dfa;
+    box-shadow: 0 0 0.4em #007dfa; }
+  .MGlow:active, .MButton:active, .MButtonRed:active, input[type="reset"]:active, .MButtonR:active, .MButtonOrange:active, .MButtonO:active, .MButtonYellow:active, .MButtonY:active, .MButtonGreen:active, .MButtonG:active, .MButtonBlue:active, .MButtonB:active, .MButtonViolet:active, .MButtonV:active, .MButtonUpload:active, button:active, input[type="button"]:active, input[type="submit"]:active, .MTab:active, .MTabSelected:active, .eztab:active {
+    border-color: none;
+    box-shadow: none; }
 
 /*******************/
 /* Main Containers */
@@ -1405,6 +1405,9 @@ button {
   .MIconArrowRight:hover {
     background-position: 0 -16px; }
 
+/********************/
+/* Config Overrides */
+/********************/
 a.bold, h1.bold, h2.bold, h3.bold, h4.bold, h5.bold, h6.bold, input.bold, label.bold, p.bold, span.bold, textarea.bold {
   font-weight: bold; }
 a.red, h1.red, h2.red, h3.red, h4.red, h5.red, h6.red, input.red, label.red, p.red, span.red, textarea.red {
