@@ -1,52 +1,55 @@
-@import "MConfig";
+/**********/
+/* Config */
+/**********/
 
-@import "MShadows";
+@import "config/MConfig";
+@import "config/MGlobal";
 
-/***************************/
-/* Overridable Properties */
-/***************************/
+/************/
+/* Managers */
+/************/
 
-@import "MGlow";
-
-/***********/
-/* Globals */
-/***********/
-
-@import "MGlobal";
+@import "manager/MShadows";
+@import "manager/MGlow";
 
 /*******************/
 /* Main Containers */
 /*******************/
 
-@import "MMainWindow";
-@import "MHeader";
-@import "MToolbar";
-@import "MHiddenBG";
-@import "MSidebar";
-@import "MStage";
-@import "MContent";
+@import "ui/MMainWindow";
+@import "ui/MHeader";
+@import "ui/MToolbar";
+@import "ui/MHiddenBG";
+@import "ui/MSidebar";
+@import "ui/MStage";
+@import "ui/MContent";
 
 /************/
 /* Elements */
 /************/
 
-@import "MInputText";
-@import "MButtons";
-@import "MTab";
-@import "MTip";
-@import "MList";
-@import "MSlider";
+@import "ui/MInputText";
+@import "ui/MButtons";
+@import "ui/MTab";
+@import "ui/MTip";
+@import "ui/MList";
+@import "ui/MSlider";
 
 /* Widgets */
 
-@import "MWidget";
-@import "MHover";
-@import "MPopup";
-@import "MPreviews";
-@import "MLoading";
-@import "MModal";
-@import "MBars";
-@import "MPagination";
-@import "MVR";
-@import "MIcons";
-@import "MProperties";
+@import "ui/MWidget";
+@import "ui/MHover";
+@import "ui/MPopup";
+@import "ui/MPreviews";
+@import "ui/MLoading";
+@import "ui/MModal";
+@import "ui/MBars";
+@import "ui/MPagination";
+@import "ui/MVR";
+@import "ui/MIcons";
+
+/********************/
+/* Config Overrides */
+/********************/
+
+@import "config/MProperties";
