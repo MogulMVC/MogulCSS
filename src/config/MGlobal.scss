@@ -2,7 +2,7 @@
   -moz-user-select:-moz-none;
   -o-user-select:none;
   -webkit-user-select:none;
-  font-family:sans-serif;
+  font-family:$font;
   user-select:none;
 }
 
@@ -48,7 +48,7 @@ fieldset{ @extend .MWidgetContainer;}
 legend{
   background:$mono_6;
   border-radius:.3em;
-  border:.1em solid $mono_3;
+  border:.1em solid $outline;
   font-weight:bold;
   text-align:center;
 }
@@ -83,7 +83,7 @@ select{
   background:-o-linear-gradient(top, $mono_5 0%,#c8c8c8 100%);
   background:-webkit-linear-gradient(top, $mono_5 0%,#c8c8c8 100%);
   background:linear-gradient(top, $mono_5 0%,#c8c8c8 100%);
-  border-color:$mono_3;
+  border-color:$outline;
   border-radius:.3em;
   border-style:solid;
   border-width:.1em;

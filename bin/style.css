@@ -1,15 +1,36 @@
 /**********/
 /* Config */
 /**********/
-/**********/
-/* colors */
-/**********/
+/* Color */
 /* Will Fix Later */
+/* Will Fix Later */
+/* Will Fix Later */
+/* Change to #fac800 after redesign */
+/* Visuals */
+/* half size of AS */
+/*Font / Text*/
+a.bold, h1.bold, h2.bold, h3.bold, h4.bold, h5.bold, h6.bold, input.bold, label.bold, p.bold, span.bold, textarea.bold {
+  font-weight: bold; }
+a.red, h1.red, h2.red, h3.red, h4.red, h5.red, h6.red, input.red, label.red, p.red, span.red, textarea.red {
+  color: #960000; }
+a.yellow, h1.yellow, h2.yellow, h3.yellow, h4.yellow, h5.yellow, h6.yellow, input.yellow, label.yellow, p.yellow, span.yellow, textarea.yellow {
+  color: #969600; }
+a.green, h1.green, h2.green, h3.green, h4.green, h5.green, h6.green, input.green, label.green, p.green, span.green, textarea.green {
+  color: #009600; }
+a.blue, h1.blue, h2.blue, h3.blue, h4.blue, h5.blue, h6.blue, input.blue, label.blue, p.blue, span.blue, textarea.blue {
+  color: #004b96; }
+a.violet, h1.violet, h2.violet, h3.violet, h4.violet, h5.violet, h6.violet, input.violet, label.violet, p.violet, span.violet, textarea.violet {
+  color: #4b0096; }
+a.black, h1.black, h2.black, h3.black, h4.black, h5.black, h6.black, input.black, label.black, p.black, span.black, textarea.black {
+  color: #0a0a0a; }
+a.white, h1.white, h2.white, h3.white, h4.white, h5.white, h6.white, input.white, label.white, p.white, span.white, textarea.white {
+  color: white; }
+
 * {
   -moz-user-select: -moz-none;
   -o-user-select: none;
   -webkit-user-select: none;
-  font-family: sans-serif;
+  font-family: Arial, sans-serif;
   user-select: none; }
 
 *:focus {
@@ -105,6 +126,18 @@ li {
   .MGlow:active, .MButton:active, .MButtonRed:active, input[type="reset"]:active, .MButtonR:active, .MButtonOrange:active, .MButtonO:active, .MButtonYellow:active, .MButtonY:active, .MButtonGreen:active, .MButtonG:active, .MButtonBlue:active, .MButtonB:active, .MButtonViolet:active, .MButtonV:active, .MButtonUpload:active, button:active, input[type="button"]:active, input[type="submit"]:active, .MTab:active, .MTabSelected:active, .eztab:active {
     border-color: none;
     box-shadow: none; }
+
+.shadow_outer_small {
+  box-shadow: 0 0.2em 0.35em rgba(0, 0, 0, 0.4); }
+
+.shadow_outer_large {
+  box-shadow: 0 1.2em 2.4em -0.8em rgba(0, 0, 0, 0.4); }
+
+.shadow_inner_small {
+  box-shadow: inset 0 0 0.4em rgba(0, 0, 0, 0.4); }
+
+.shadow_inner_large {
+  box-shadow: inset 0 0.2em 0.35em rgba(0, 0, 0, 0.4); }
 
 .shadow_top {
   background: url("/framework/img/global/shadow_top.png") repeat-x;
@@ -660,7 +693,7 @@ textarea {
     color: white; }
   .MButton[disabled], [disabled].MButtonRed, input[disabled][type="reset"], [disabled].MButtonR, [disabled].MButtonOrange, [disabled].MButtonO, [disabled].MButtonYellow, [disabled].MButtonY, [disabled].MButtonGreen, [disabled].MButtonG, [disabled].MButtonBlue, [disabled].MButtonB, [disabled].MButtonViolet, [disabled].MButtonV, [disabled].MButtonUpload, button[disabled], input[disabled][type="button"], input[disabled][type="submit"], .MButton[disabled]:hover, [disabled].MButtonRed:hover, input[disabled][type="reset"]:hover, [disabled].MButtonR:hover, [disabled].MButtonOrange:hover, [disabled].MButtonO:hover, [disabled].MButtonYellow:hover, [disabled].MButtonY:hover, [disabled].MButtonGreen:hover, [disabled].MButtonG:hover, [disabled].MButtonBlue:hover, [disabled].MButtonB:hover, [disabled].MButtonViolet:hover, [disabled].MButtonV:hover, [disabled].MButtonUpload:hover, button[disabled]:hover, input[disabled][type="button"]:hover, input[disabled][type="submit"]:hover, .MButton[disabled]:active, [disabled].MButtonRed:active, input[disabled][type="reset"]:active, [disabled].MButtonR:active, [disabled].MButtonOrange:active, [disabled].MButtonO:active, [disabled].MButtonYellow:active, [disabled].MButtonY:active, [disabled].MButtonGreen:active, [disabled].MButtonG:active, [disabled].MButtonBlue:active, [disabled].MButtonB:active, [disabled].MButtonViolet:active, [disabled].MButtonV:active, [disabled].MButtonUpload:active, button[disabled]:active, input[disabled][type="button"]:active, input[disabled][type="submit"]:active {
     background: #e6e6e6;
-    border-color: #969696;
+    border-color: #646464;
     box-shadow: none;
     color: #969696;
     text-shadow: none; }
@@ -694,12 +727,12 @@ textarea {
     color: white; }
 
 .MButtonYellow, .MButtonY {
-  background: #fac800;
-  background: -moz-linear-gradient(top, #fafa00 0%, #fac800 100%);
-  background: -ms-linear-gradient(top, #fafa00 0%, #fac800 100%);
-  background: -o-linear-gradient(top, #fafa00 0%, #fac800 100%);
-  background: -webkit-linear-gradient(top, #fafa00 0%, #fac800 100%);
-  background: linear-gradient(top, #fafa00 0%, #fac800 100%);
+  background: #fafa00;
+  background: -moz-linear-gradient(top, #fafa00 0%, #fafa00 100%);
+  background: -ms-linear-gradient(top, #fafa00 0%, #fafa00 100%);
+  background: -o-linear-gradient(top, #fafa00 0%, #fafa00 100%);
+  background: -webkit-linear-gradient(top, #fafa00 0%, #fafa00 100%);
+  background: linear-gradient(top, #fafa00 0%, #fafa00 100%);
   color: #000000; }
   .MButtonYellow:hover, .MButtonY:hover {
     color: #000000; }
@@ -1403,23 +1436,6 @@ button {
 /********************/
 /* Config Overrides */
 /********************/
-a.bold, h1.bold, h2.bold, h3.bold, h4.bold, h5.bold, h6.bold, input.bold, label.bold, p.bold, span.bold, textarea.bold {
-  font-weight: bold; }
-a.red, h1.red, h2.red, h3.red, h4.red, h5.red, h6.red, input.red, label.red, p.red, span.red, textarea.red {
-  color: #960000; }
-a.yellow, h1.yellow, h2.yellow, h3.yellow, h4.yellow, h5.yellow, h6.yellow, input.yellow, label.yellow, p.yellow, span.yellow, textarea.yellow {
-  color: #fac800; }
-a.green, h1.green, h2.green, h3.green, h4.green, h5.green, h6.green, input.green, label.green, p.green, span.green, textarea.green {
-  color: #009600; }
-a.blue, h1.blue, h2.blue, h3.blue, h4.blue, h5.blue, h6.blue, input.blue, label.blue, p.blue, span.blue, textarea.blue {
-  color: #004b96; }
-a.violet, h1.violet, h2.violet, h3.violet, h4.violet, h5.violet, h6.violet, input.violet, label.violet, p.violet, span.violet, textarea.violet {
-  color: #4b0096; }
-a.black, h1.black, h2.black, h3.black, h4.black, h5.black, h6.black, input.black, label.black, p.black, span.black, textarea.black {
-  color: #0a0a0a; }
-a.white, h1.white, h2.white, h3.white, h4.white, h5.white, h6.white, input.white, label.white, p.white, span.white, textarea.white {
-  color: white; }
-
 .text_left {
   text-align: left; }
 
@@ -1449,18 +1465,6 @@ a.white, h1.white, h2.white, h3.white, h4.white, h5.white, h6.white, input.white
 
 .cursor_move {
   cursor: move; }
-
-.shadow {
-  box-shadow: 0 0.2em 0.35em rgba(0, 0, 0, 0.4); }
-
-.shadow_large {
-  box-shadow: 0 1.2em 2.4em -0.8em rgba(0, 0, 0, 0.4); }
-
-.shadow_inset_bg {
-  box-shadow: inset 0 0.2em 0.35em rgba(0, 0, 0, 0.4); }
-
-.shadow_inset_fg {
-  box-shadow: inset 0 0 0.4em rgba(0, 0, 0, 0.4); }
 
 .width_full {
   width: 100%; }

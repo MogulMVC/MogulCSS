@@ -1,37 +1,4 @@
-a, h1, h2, h3, h4, h5, h6, input, label, p, span, textarea,{
-  &.bold{
-    font-weight:bold;
-  }
 
-  &.red{
-    color:$red_1;
-  }
-
-  &.yellow{
-    color:#fac800;
-  }
-
-  &.green{
-    color:$green_1;
-  }
-
-  &.blue{
-    color:$blue_1;
-  }
-
-  &.violet{
-    color:$violet_1;
-  }
-
-  &.black{
-    color:$mono_1;
-  }
-  
-  &.white{
-    color:$mono_6;
-  }
-
-}
 
 .text_left{
   text-align:left;
@@ -71,22 +38,6 @@ a, h1, h2, h3, h4, h5, h6, input, label, p, span, textarea,{
 
 .cursor_move{
   cursor:move;
-}
-
-.shadow{
-  box-shadow:$shadow_outer_small;
-}
-
-.shadow_large{
-  box-shadow:$shadow_outer_large;
-}
-
-.shadow_inset_bg{
-  box-shadow:$shadow_inner_large;
-}
-
-.shadow_inset_fg{
-  box-shadow:$shadow_inner_small; 
 }
 
 .width_full{

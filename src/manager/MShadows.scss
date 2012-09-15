@@ -6,6 +6,22 @@ $shadow_inner_large:inset 0 .2em .35em rgba(0,0,0,.4);
 
 $shadow_inner_small:inset 0 0 .4em rgba(0,0,0,.4);
 
+.shadow_outer_small{
+  box-shadow:$shadow_outer_small;
+}
+
+.shadow_outer_large{
+  box-shadow:$shadow_outer_large;
+}
+
+.shadow_inner_small{
+  box-shadow:$shadow_inner_small; 
+}
+
+.shadow_inner_large{
+  box-shadow:$shadow_inner_large;
+}
+
 .shadow_top{
   background:url("/framework/img/global/shadow_top.png") repeat-x;
   clear:both;

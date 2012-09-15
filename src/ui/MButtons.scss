@@ -1,11 +1,11 @@
 .MButton{@extend .MGlow;
   background:$mono_5;
   background:-moz-linear-gradient(top, $mono_5 0%, #c8c8c8 100%);
-  background:-ms-linear-gradient(top, $mono_5 0%,#c8c8c8 100%);
-  background:-o-linear-gradient(top, $mono_5 0%,#c8c8c8 100%);
-  background:-webkit-linear-gradient(top, $mono_5 0%,#c8c8c8 100%);
-  background:linear-gradient(top, $mono_5 0%,#c8c8c8 100%);
-  border-color:$mono_3;
+  background:-ms-linear-gradient(top, $mono_5 0%, #c8c8c8 100%);
+  background:-o-linear-gradient(top, $mono_5 0%, #c8c8c8 100%);
+  background:-webkit-linear-gradient(top, $mono_5 0%, #c8c8c8 100%);
+  background:linear-gradient(top, $mono_5 0%, #c8c8c8 100%);
+  border-color:$outline;
   border-radius:.3em;
   border-style:solid;
   border-width:.1em;
@@ -25,14 +25,14 @@
   
   &:active{
     background:$mono_3;
-    border-color:$mono_2;
+    border-color:$outline_down;
     box-shadow:$shadow_inner_large;
     color:$mono_6;
   }
   
   &[disabled], &[disabled]:hover, &[disabled]:active{
     background:$mono_5;
-    border-color:$mono_4;
+    border-color:$outline;
     box-shadow:none;
     color:$mono_4;
     text-shadow:none;
@@ -43,10 +43,10 @@
 .MButtonRed, .MButtonR{@extend .MButton;
   background:$red_1;
   background:-moz-linear-gradient(top, $red_2 0%, $red_1 100%);
-  background:-ms-linear-gradient(top, $red_2 0%,$red_1 100%);
-  background:-o-linear-gradient(top, $red_2 0%,$red_1 100%);
+  background:-ms-linear-gradient(top, $red_2 0%, $red_1 100%);
+  background:-o-linear-gradient(top, $red_2 0%, $red_1 100%);
   background:-webkit-linear-gradient(top, $red_2 0%,$red_1 100%);
-  background:linear-gradient(top, $red_2 0%,$red_1 100%);
+  background:linear-gradient(top, $red_2 0%, $red_1 100%);
   color:$mono_6;
   text-shadow:0 0 .4em $mono_2;
   
@@ -63,10 +63,10 @@
 .MButtonOrange, .MButtonO{@extend .MButton;
   background:$orange_1;
   background:-moz-linear-gradient(top, $orange_2 0%, $orange_1 100%);
-  background:-ms-linear-gradient(top, $orange_2 0%,$orange_1 100%);
-  background:-o-linear-gradient(top, $orange_2 0%,$orange_1 100%);
+  background:-ms-linear-gradient(top, $orange_2 0%, $orange_1 100%);
+  background:-o-linear-gradient(top, $orange_2 0%, $orange_1 100%);
   background:-webkit-linear-gradient(top, $orange_2 0%,$orange_1 100%);
-  background:linear-gradient(top, $orange_2 0%,$orange_1 100%);
+  background:linear-gradient(top, $orange_2 0%, $orange_1 100%);
   color:$mono_6;
   text-shadow:0 0 .4em $mono_2;
   
@@ -81,12 +81,12 @@
 }
 
 .MButtonYellow, .MButtonY{@extend .MButton;
-  background:#fac800;
-  background:-moz-linear-gradient(top, $yellow_2 0%, #fac800 100%);
-  background:-ms-linear-gradient(top, $yellow_2 0%,#fac800 100%);
-  background:-o-linear-gradient(top, $yellow_2 0%,#fac800 100%);
-  background:-webkit-linear-gradient(top, $yellow_2 0%,#fac800 100%);
-  background:linear-gradient(top, $yellow_2 0%,#fac800 100%);
+  background:$yellow_2;
+  background:-moz-linear-gradient(top, $yellow_2 0%, $yellow_2 100%);
+  background:-ms-linear-gradient(top, $yellow_2 0%, $yellow_2 100%);
+  background:-o-linear-gradient(top, $yellow_2 0%, $yellow_2 100%);
+  background:-webkit-linear-gradient(top, $yellow_2 0%, $yellow_2 100%);
+  background:linear-gradient(top, $yellow_2 0%, $yellow_2 100%);
   color:#000000;
   
   &:hover{
@@ -102,10 +102,10 @@
 .MButtonGreen, .MButtonG{@extend .MButton;
   background:$green_1;
   background:-moz-linear-gradient(top, $green_2 0%, $green_1 100%);
-  background:-ms-linear-gradient(top, $green_2 0%,$green_1 100%);
-  background:-o-linear-gradient(top, $green_2 0%,$green_1 100%);
-  background:-webkit-linear-gradient(top, $green_2 0%,$green_1 100%);
-  background:linear-gradient(top, $green_2 0%,$green_1 100%);
+  background:-ms-linear-gradient(top, $green_2 0%, $green_1 100%);
+  background:-o-linear-gradient(top, $green_2 0%, $green_1 100%);
+  background:-webkit-linear-gradient(top, $green_2 0%, $green_1 100%);
+  background:linear-gradient(top, $green_2 0%, $green_1 100%);
   color:$mono_6;
   text-shadow:0 0 .4em $mono_2;
   
