@@ -27,7 +27,7 @@
 }
 
 .MListItemContainer{
-  border-radius:.4em;
+  border-radius:$rounded;
   opacity:0;
   padding:1.2em;
   position:relative;
@@ -76,7 +76,7 @@
 
 .MListItemContainerSub{
   background:#c8c8c8;
-  border-radius:.4em;
+  border-radius:$rounded;
   padding:.4em;
   position:relative;
 }
@@ -86,14 +86,4 @@
   display:block;
   overflow:hidden;
   text-overflow:ellipsis;
-}
-
-
-.MListItemNotification{
-  background:$mono_2;
-  border-radius:4px;
-  color:white;
-  font-weight:bold;
-  padding-left:8px;
-  padding-right:8px;
 }

@@ -2,9 +2,9 @@ input[type="password"], input[type="text"], textarea{
   -moz-transition:border-color 0.25s, box-shadow 0.25s, color 0.25s;
   -webkit-transition:border-color 0.25s, box-shadow 0.25s, color 0.25s;
   border-color:$mono_3;
-  border-radius:.3em;
+  border-radius:$rounded;
   border-style:solid;
-  border-width:.1em;
+  border-width:1px;
   box-shadow:$shadow_inner_large;
   color:$mono_3;
   margin:0 auto;

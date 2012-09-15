@@ -1,6 +1,6 @@
 .MRatingsBarBG{
   background:$red_1;
-  border-radius:2em;
+  border-radius:$rounded_large;
   box-shadow:inset 0 1px .2em rgba(0,0,0,.5);
   height:.8em;
   overflow:hidden;
@@ -14,7 +14,7 @@
     background:-webkit-linear-gradient(left, $green_1 0%, $green_2 50%, $green_1 100%);
     background:linear-gradient(left, $green_1 0%, $green_2 50%, $green_1 100%);
     border-radius:2em;
-    box-shadow:inset 0 0 .4em rgba(0,0,0,.5);
+    box-shadow:$shadow_inner_small;
     height:100%;
     width:0%;
   }
@@ -23,13 +23,13 @@
 
 .MRatingsBarWarning{
   background:#faC800;
-  background:-moz-linear-gradient(left, #fac800 0%, $yellow_2 50%, #fac800 100%);
-  background:-ms-linear-gradient(left, #fac800 0%, $yellow_2 50%, #fac800 100%);
-  background:-o-linear-gradient(left, #fac800 0%, $yellow_2 50%, #fac800 100%);
-  background:-webkit-linear-gradient(left, #fac800 0%, $yellow_2 50%, #fac800 100%);
-  background:linear-gradient(left, #fac800 0%, $yellow_2 50%, #fac800 100%);
-  border-radius:2em;
-  box-shadow:inset 0 0 .4em rgba(0,0,0,.5);
+  background:-moz-linear-gradient(left, $yellow_2 0%, $yellow_2 50%, $yellow_2 100%);
+  background:-ms-linear-gradient(left, $yellow_2 0%, $yellow_2 50%, $yellow_2 100%);
+  background:-o-linear-gradient(left, $yellow_2 0%, $yellow_2 50%, $yellow_2 100%);
+  background:-webkit-linear-gradient(left, $yellow_2 0%, $yellow_2 50%, $yellow_2 100%);
+  background:linear-gradient(left, $yellow_2 0%, $yellow_2 50%, $yellow_2 100%);
+  border-radius:$rounded_large;
+  box-shadow:$shadow_inner_small;
   height:.8em;
   width:100%
 }

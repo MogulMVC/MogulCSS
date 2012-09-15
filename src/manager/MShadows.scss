@@ -6,6 +6,8 @@ $shadow_inner_large:inset 0 .2em .35em rgba(0,0,0,.4);
 
 $shadow_inner_small:inset 0 0 .4em rgba(0,0,0,.4);
 
+$shadow_text_small:inset 0 0 .4em rgba(0,0,0,.4);
+
 .shadow_outer_small{
   box-shadow:$shadow_outer_small;
 }

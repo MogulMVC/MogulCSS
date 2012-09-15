@@ -9,7 +9,7 @@
 }
 
 .MModalBGBlack{@extend .MModalBG;
-  background-color:#000000;
+  background-color:$mono_1;
 }
 
 .MModalBGWhite{@extend .MModalBG;

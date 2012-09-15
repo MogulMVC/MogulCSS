@@ -5,9 +5,9 @@
   background:#c8c8c8;
   border-color:$mono_3;
   border-style:solid;
-  border-top-left-radius:.4em;
-  border-top-right-radius:.4em;
-  border-width:.1em 1px 0 1px;
+  border-top-left-radius:$rounded;
+  border-top-right-radius:$rounded;
+  border-width:1px 1px 0 1px;
   box-shadow:$shadow_outer_small;
   color:$mono_2;
   cursor:pointer;
@@ -35,7 +35,7 @@
   background:-webkit-linear-gradient(top, $mono_5 0%,#c8c8c8 100%);
   background:linear-gradient(top, $mono_5 0%,#c8c8c8 100%);
   border-color:$mono_3;
-  border-radius:0 .4em .4em .4em;
+  border-radius:0 $rounded $rounded $rounded;
   border-style:solid;
   border-width:0 1px 1px 1px;
   box-shadow:$shadow_outer_small;
@@ -77,9 +77,9 @@
   background:#C8C8C8;
   border-color:$mono_3;
   border-style:solid;
-  border-top-left-radius:.4em;
-  border-top-right-radius:.4em;
-  border-width:.1em 1px 0 1px;
+  border-top-left-radius:$rounded;
+  border-top-right-radius:$rounded;
+  border-width:1px 1px 0 1px;
   box-shadow:$shadow_outer_small;
   color:$mono_2;
   cursor:pointer;
@@ -115,7 +115,7 @@
   background:-webkit-linear-gradient(top, $mono_5 0%,#c8c8c8 100%);
   background:linear-gradient(top, $mono_5 0%,#c8c8c8 100%);
   border-color:$mono_3;
-  border-radius:0 .4em .4em .4em;
+  border-radius:0 $rounded $rounded $rounded;
   border-style:solid;
   border-width:0 1px 1px 1px;
   box-shadow:$shadow_outer_small;

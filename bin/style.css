@@ -5,6 +5,7 @@
 /* Will Fix Later */
 /* Will Fix Later */
 /* Will Fix Later */
+/* Will Fix Later */
 /* Change to #fac800 after redesign */
 /* Visuals */
 /* half size of AS */
@@ -92,9 +93,9 @@ select {
   background: -webkit-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
   background: linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
   border-color: #646464;
-  border-radius: .3em;
+  border-radius: 3px;
   border-style: solid;
-  border-width: .1em;
+  border-width: 1px;
   color: #323232;
   cursor: pointer;
   font-size: 1em;
@@ -205,7 +206,7 @@ li {
     user-select: none; }
     #MHeader a:hover {
       background-color: #646464;
-      border-radius: .3em;
+      border-radius: 3px;
       box-shadow: inset 0 0.2em 0.35em rgba(0, 0, 0, 0.4);
       color: white;
       text-shadow: 0 0 0.4em rgba(0, 0, 0, 0.5); }
@@ -222,7 +223,7 @@ li {
   height: 100%;
   margin-left: .4em;
   margin-right: .4em;
-  width: .1em; }
+  width: 1px; }
 
 /* Header Unique Items */
 a#MHeaderHome {
@@ -240,7 +241,7 @@ a#MHeaderHome {
 
 #MHeaderUserPhoto {
   background: #646464;
-  border: 0.1em solid #646464;
+  border: 1px solid #646464;
   height: 24px;
   margin-top: .4em;
   width: 24px; }
@@ -332,7 +333,7 @@ a#MHeaderTools {
   background: -o-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
   background: -webkit-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
   background: linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
-  border-bottom: 0.1em solid #646464;
+  border-bottom: 1px solid #646464;
   box-shadow: 0 1.2em 2.4em -0.8em rgba(0, 0, 0, 0.4);
   color: #323232;
   height: 2.4em;
@@ -360,7 +361,7 @@ a#MHeaderTools {
     user-select: none; }
     #MToolbar a:hover {
       background: #646464;
-      border-radius: .3em;
+      border-radius: 3px;
       box-shadow: inset 0 0.2em 0.35em rgba(0, 0, 0, 0.4);
       color: white;
       text-shadow: 0 0 0.4em rgba(0, 0, 0, 0.5); }
@@ -398,7 +399,7 @@ h1.MToolbarTitle {
   background: -o-linear-gradient(top, #232323 0%, #141414 100%);
   background: -webkit-linear-gradient(top, #232323 0%, #141414 100%);
   background: linear-gradient(top, #232323 0%, #141414 100%);
-  border-radius: .4em;
+  border-radius: 3px;
   border-top: solid 1px #646464;
   box-shadow: 0 1.2em 2.4em -0.8em rgba(0, 0, 0, 0.4);
   color: white;
@@ -570,7 +571,7 @@ h1.MToolbarTitle {
   background-color: #646464;
   background-position: 50% 0%;
   background-repeat: no-repeat;
-  border-bottom: 0.1em solid #646464;
+  border-bottom: 1px solid #646464;
   overflow: hidden;
   text-align: center;
   width: 100%; }
@@ -626,9 +627,9 @@ input[type="password"], input[type="text"], textarea {
   -moz-transition: border-color 0.25s, box-shadow 0.25s, color 0.25s;
   -webkit-transition: border-color 0.25s, box-shadow 0.25s, color 0.25s;
   border-color: #646464;
-  border-radius: .3em;
+  border-radius: 3px;
   border-style: solid;
-  border-width: .1em;
+  border-width: 1px;
   box-shadow: inset 0 0.2em 0.35em rgba(0, 0, 0, 0.4);
   color: #646464;
   margin: 0 auto;
@@ -672,9 +673,9 @@ textarea {
   background: -webkit-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
   background: linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
   border-color: #646464;
-  border-radius: .3em;
+  border-radius: 3px;
   border-style: solid;
-  border-width: .1em;
+  border-width: 1px;
   color: #323232;
   cursor: pointer;
   display: inline-block;
@@ -818,9 +819,9 @@ button {
   background: #c8c8c8;
   border-color: #646464;
   border-style: solid;
-  border-top-left-radius: .4em;
-  border-top-right-radius: .4em;
-  border-width: .1em 1px 0 1px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-width: 1px 1px 0 1px;
   box-shadow: 0 0.2em 0.35em rgba(0, 0, 0, 0.4);
   color: #323232;
   cursor: pointer;
@@ -844,7 +845,7 @@ button {
   background: -webkit-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
   background: linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
   border-color: #646464;
-  border-radius: 0 .4em .4em .4em;
+  border-radius: 0 3px 3px 3px;
   border-style: solid;
   border-width: 0 1px 1px 1px;
   box-shadow: 0 0.2em 0.35em rgba(0, 0, 0, 0.4);
@@ -879,9 +880,9 @@ button {
   background: #C8C8C8;
   border-color: #646464;
   border-style: solid;
-  border-top-left-radius: .4em;
-  border-top-right-radius: .4em;
-  border-width: .1em 1px 0 1px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-width: 1px 1px 0 1px;
   box-shadow: 0 0.2em 0.35em rgba(0, 0, 0, 0.4);
   color: #323232;
   cursor: pointer;
@@ -908,7 +909,7 @@ button {
   background: -webkit-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
   background: linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
   border-color: #646464;
-  border-radius: 0 .4em .4em .4em;
+  border-radius: 0 3px 3px 3px;
   border-style: solid;
   border-width: 0 1px 1px 1px;
   box-shadow: 0 0.2em 0.35em rgba(0, 0, 0, 0.4);
@@ -923,8 +924,6 @@ button {
   z-index: 15000; }
 
 .MTipInner {
-  -moz-border-radius: .3em;
-  -webkit-border-radius: .3em;
   background: #141414;
   background: -moz-linear-gradient(top, #232323 0%, #141414 100%);
   background: -ms-linear-gradient(top, #232323 0%, #141414 100%);
@@ -932,7 +931,7 @@ button {
   background: -webkit-gradient(linear, left top, left bottom, from(#232323), to(#141414));
   background: -webkit-linear-gradient(top, #232323 0%, #141414 100%);
   background: linear-gradient(top, #232323 0%, #141414 100%);
-  border-radius: .3em;
+  border-radius: 3px;
   border-top: solid 1px #646464;
   color: white;
   font-weight: bold;
@@ -941,7 +940,7 @@ button {
   text-align: center; }
 
 .MTipArrow {
-  border: .4em dashed #141414;
+  border: 3px dashed #141414;
   height: 0;
   line-height: 0;
   position: absolute;
@@ -1049,7 +1048,7 @@ button {
     margin-right: 2px; }
 
 .MListItemContainer {
-  border-radius: .4em;
+  border-radius: 3px;
   opacity: 0;
   padding: 1.2em;
   position: relative; }
@@ -1078,7 +1077,7 @@ button {
 
 .MListItemContainerSub {
   background: #c8c8c8;
-  border-radius: .4em;
+  border-radius: 3px;
   padding: .4em;
   position: relative; }
 
@@ -1087,14 +1086,6 @@ button {
   display: block;
   overflow: hidden;
   text-overflow: ellipsis; }
-
-.MListItemNotification {
-  background: #323232;
-  border-radius: 4px;
-  color: white;
-  font-weight: bold;
-  padding-left: 8px;
-  padding-right: 8px; }
 
 .MSlider {
   position: relative; }
@@ -1154,9 +1145,9 @@ button {
   background: -webkit-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
   background: linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
   border-color: #646464;
-  border-radius: .4em;
+  border-radius: 3px;
   border-style: solid;
-  border-width: .1em;
+  border-width: 1px;
   color: #323232;
   margin: 0 auto;
   padding: 1.6em;
@@ -1186,7 +1177,7 @@ button {
   z-index: 500; }
 
 .MHoverMessage {
-  border-radius: .4em;
+  border-radius: 3px;
   box-shadow: 0 1.2em 2.4em -0.8em rgba(0, 0, 0, 0.4);
   left: 50%;
   line-height: 2.4em;
@@ -1263,7 +1254,7 @@ button {
   z-index: 1500; }
 
 .MModalBGBlack {
-  background-color: #000000; }
+  background-color: #0a0a0a; }
 
 .MModalBGWhite {
   background-color: white; }
@@ -1279,7 +1270,7 @@ button {
     line-height: 1.6em;
     overflow: hidden;
     position: relative;
-    text-shadow: 0 0 0.4em rgba(0, 0, 0, 0.5);
+    text-shadow: inset 0 0 0.4em rgba(0, 0, 0, 0.4);
     width: 100%; }
     .MProgressBarContainer .MProgressBarBG .MProgressBarFG {
       background: #004b96;
@@ -1289,7 +1280,7 @@ button {
       background: -webkit-linear-gradient(left, #004b96 0%, #007dfa 50%, #004b96 100%);
       background: linear-gradient(left, #004b96 0%, #007dfa 50%, #004b96 100%);
       border-radius: 2em;
-      box-shadow: inset 0 0 0.4em rgba(0, 0, 0, 0.5);
+      box-shadow: inset 0 0 0.4em rgba(0, 0, 0, 0.4);
       color: white;
       height: 100%;
       width: 0%; }
@@ -1313,19 +1304,19 @@ button {
     background: -webkit-linear-gradient(left, #009600 0%, #00fa00 50%, #009600 100%);
     background: linear-gradient(left, #009600 0%, #00fa00 50%, #009600 100%);
     border-radius: 2em;
-    box-shadow: inset 0 0 0.4em rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 0.4em rgba(0, 0, 0, 0.4);
     height: 100%;
     width: 0%; }
 
 .MRatingsBarWarning {
   background: #faC800;
-  background: -moz-linear-gradient(left, #fac800 0%, #fafa00 50%, #fac800 100%);
-  background: -ms-linear-gradient(left, #fac800 0%, #fafa00 50%, #fac800 100%);
-  background: -o-linear-gradient(left, #fac800 0%, #fafa00 50%, #fac800 100%);
-  background: -webkit-linear-gradient(left, #fac800 0%, #fafa00 50%, #fac800 100%);
-  background: linear-gradient(left, #fac800 0%, #fafa00 50%, #fac800 100%);
+  background: -moz-linear-gradient(left, #fafa00 0%, #fafa00 50%, #fafa00 100%);
+  background: -ms-linear-gradient(left, #fafa00 0%, #fafa00 50%, #fafa00 100%);
+  background: -o-linear-gradient(left, #fafa00 0%, #fafa00 50%, #fafa00 100%);
+  background: -webkit-linear-gradient(left, #fafa00 0%, #fafa00 50%, #fafa00 100%);
+  background: linear-gradient(left, #fafa00 0%, #fafa00 50%, #fafa00 100%);
   border-radius: 2em;
-  box-shadow: inset 0 0 0.4em rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 0 0.4em rgba(0, 0, 0, 0.4);
   height: .8em;
   width: 100%; }
 
@@ -1334,6 +1325,20 @@ button {
   .MPaginationContainer a, .MPaginationContainer span {
     padding: .4em; }
 
+.MHR, hr {
+  background: #646464;
+  border: 0;
+  height: 1px;
+  width: 100%; }
+
+/*
+hr{
+  background:url("/framework/img/global/hr.png") repeat-x;
+  border:0;
+  height:.2em;
+  margin:0;
+}
+*/
 .MVR {
   background: #646464;
   height: 100%;
