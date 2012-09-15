@@ -1,6 +1,6 @@
 .MPreviewBG{
   background-color:$mono_2;
-  box-shadow:$shadow_small;
+  box-shadow:$shadow_outer_small;
   display:inline-block;
   min-height:11.75em;
   min-width:11.75em;
@@ -9,7 +9,7 @@
 
 .MBackgroundPreviewBG{
   background-color:$mono_2;
-  box-shadow:$shadow_small;
+  box-shadow:$shadow_outer_small;
   height:145px;
   overflow:hidden;
   position:relative;

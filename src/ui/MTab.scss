@@ -1,4 +1,4 @@
-.MTab{ @extend .MGlow;
+.MTab{@extend .MGlow;
   -moz-user-select:none;
   -o-user-select:none;
   -webkit-user-select:none;
@@ -8,7 +8,7 @@
   border-top-left-radius:.4em;
   border-top-right-radius:.4em;
   border-width:.1em 1px 0 1px;
-  box-shadow:$shadow_small;
+  box-shadow:$shadow_outer_small;
   color:$mono_2;
   cursor:pointer;
   margin-right:.4em;
@@ -17,7 +17,7 @@
   user-select:none;
 }
 
-.MTabSelected{ @extend .MTab;
+.MTabSelected{@extend .MTab;
   background:$mono_5;
 
   &:hover{
@@ -38,7 +38,7 @@
   border-radius:0 .4em .4em .4em;
   border-style:solid;
   border-width:0 1px 1px 1px;
-  box-shadow:$shadow_small;
+  box-shadow:$shadow_outer_small;
   color:$mono_2;
   display:none;
   margin:-1px;
@@ -70,7 +70,7 @@
   text-align:left;
 }
 
-.eztab{ @extend .MGlow;
+.eztab{@extend .MGlow;
   -moz-user-select:none;
   -o-user-select:none;
   -webkit-user-select:none;
@@ -80,7 +80,7 @@
   border-top-left-radius:.4em;
   border-top-right-radius:.4em;
   border-width:.1em 1px 0 1px;
-  box-shadow:$shadow_small;
+  box-shadow:$shadow_outer_small;
   color:$mono_2;
   cursor:pointer;
   display:inline-block;
@@ -99,7 +99,7 @@
     position:relative;
     
     &:hover{
-      box-shadow:$shadow_small;
+      box-shadow:$shadow_outer_small;
       border-color:$mono_3;
     }
     
@@ -118,7 +118,7 @@
   border-radius:0 .4em .4em .4em;
   border-style:solid;
   border-width:0 1px 1px 1px;
-  box-shadow:$shadow_small;
+  box-shadow:$shadow_outer_small;
   padding:20px;
   position:relative;
   text-align:left;

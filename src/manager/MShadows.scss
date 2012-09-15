@@ -1,10 +1,10 @@
-$shadow_small:0 .2em .35em rgba(0,0,0,.25);
+$shadow_outer_large:0 1.2em 2.4em -.8em rgba(0,0,0,.4);
 
-$shadow_large:0 1.2em 2.4em -.8em rgba(0,0,0,.5);
+$shadow_outer_small:0 .2em .35em rgba(0,0,0,.4);
 
-$shadow_inset_bg:inset 0 .2em .35em rgba(0,0,0,.25);
+$shadow_inner_large:inset 0 .2em .35em rgba(0,0,0,.4);
 
-$shadow_inset_fg:inset 0 0 .4em rgba(0,0,0,.5);
+$shadow_inner_small:inset 0 0 .4em rgba(0,0,0,.4);
 
 .shadow_top{
   background:url("/framework/img/global/shadow_top.png") repeat-x;

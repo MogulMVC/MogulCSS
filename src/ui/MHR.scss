@@ -1,0 +1,18 @@
+.MHR{
+  background:$mono_3;
+  height:1px;
+  margin-bottom:1.6em;
+  margin-top:1.6em;
+  width:100%;
+} 
+
+hr{@extend .MHR;}
+
+/*
+hr{
+  background:url("/framework/img/global/hr.png") repeat-x;
+  border:0;
+  height:.2em;
+  margin:0;
+}
+*/

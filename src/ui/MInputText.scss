@@ -5,27 +5,27 @@ input[type="password"], input[type="text"], textarea{
   border-radius:.3em;
   border-style:solid;
   border-width:.1em;
-  box-shadow:$shadow_inset_bg;
+  box-shadow:$shadow_inner_large;
   color:$mono_3;
   margin:0 auto;
   padding:0;
 
   &:hover, &.input_invisible:hover{
     border-color:$blue_2;
-    box-shadow:$shadow_inset_bg, 0 0 .3em rgba(0,125,250,1);
+    box-shadow:$shadow_inner_large, 0 0 .3em rgba(0,125,250,1);
     color:$mono_2;
   }
   
   &:focus, &.input_invisible:hover{
     border-color:$blue_1;
-    box-shadow:$shadow_inset_bg, 0 0 .3em rgba(0,75,150,1);
+    box-shadow:$shadow_inner_large, 0 0 .3em rgba(0,75,150,1);
     color:$mono_2;
   }
   
   &[disabled], &[disabled]:hover, &[disabled]:active{
     background:$mono_5;
     border-color:$mono_4;
-    box-shadow:$shadow_inset_bg;
+    box-shadow:$shadow_inner_large;
     color:$mono_4;
   }
   

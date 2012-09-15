@@ -1,5 +1,5 @@
-.MHoverForm{ @extend .MWidgetContainer;
-  box-shadow:$shadow_large;
+.MHoverForm{@extend .MWidgetContainer;
+  box-shadow:$shadow_outer_large;
   left:50%;
   margin-left:-12em;
   margin-top:-8em;
@@ -9,9 +9,9 @@
   z-index:500;
 }
 
-.MHoverMessage{ @extend .MWidgetContainer;
+.MHoverMessage{@extend .MWidgetContainer;
   border-radius:.4em;
-  box-shadow:$shadow_large;
+  box-shadow:$shadow_outer_large;
   left:50%;
   line-height:2.4em;
   margin-left:-18.2em;

@@ -8,10 +8,10 @@
   z-index:1500;
 }
 
-.MModalBGBlack{ @extend .MModalBG;
+.MModalBGBlack{@extend .MModalBG;
   background-color:#000000;
 }
 
-.MModalBGWhite{ @extend .MModalBG;
+.MModalBGWhite{@extend .MModalBG;
   background-color:$mono_6;
 }

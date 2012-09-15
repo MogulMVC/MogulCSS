@@ -1,5 +1,5 @@
-.MPopupContainer{ @extend .MWidgetContainer;
-  box-shadow:$shadow_large;
+.MPopupContainer{@extend .MWidgetContainer;
+  box-shadow:$shadow_outer_large;
   left:50%;
   margin-left:-27.4em;
   position:fixed;

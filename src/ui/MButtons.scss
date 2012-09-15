@@ -1,4 +1,4 @@
-.MButton{ @extend .MGlow;
+.MButton{@extend .MGlow;
   background:$mono_5;
   background:-moz-linear-gradient(top, $mono_5 0%, #c8c8c8 100%);
   background:-ms-linear-gradient(top, $mono_5 0%,#c8c8c8 100%);
@@ -26,7 +26,7 @@
   &:active{
     background:$mono_3;
     border-color:$mono_2;
-    box-shadow:$shadow_inset_bg;
+    box-shadow:$shadow_inner_large;
     color:$mono_6;
   }
   
@@ -40,7 +40,7 @@
   
 }
 
-.MButtonRed, .MButtonR{ @extend .MButton;
+.MButtonRed, .MButtonR{@extend .MButton;
   background:$red_1;
   background:-moz-linear-gradient(top, $red_2 0%, $red_1 100%);
   background:-ms-linear-gradient(top, $red_2 0%,$red_1 100%);
@@ -60,7 +60,7 @@
   
 }
 
-.MButtonOrange, .MButtonO{ @extend .MButton;
+.MButtonOrange, .MButtonO{@extend .MButton;
   background:$orange_1;
   background:-moz-linear-gradient(top, $orange_2 0%, $orange_1 100%);
   background:-ms-linear-gradient(top, $orange_2 0%,$orange_1 100%);
@@ -80,7 +80,7 @@
   
 }
 
-.MButtonYellow, .MButtonY{ @extend .MButton;
+.MButtonYellow, .MButtonY{@extend .MButton;
   background:#fac800;
   background:-moz-linear-gradient(top, $yellow_2 0%, #fac800 100%);
   background:-ms-linear-gradient(top, $yellow_2 0%,#fac800 100%);
@@ -99,7 +99,7 @@
   
 }
 
-.MButtonGreen, .MButtonG{ @extend .MButton;
+.MButtonGreen, .MButtonG{@extend .MButton;
   background:$green_1;
   background:-moz-linear-gradient(top, $green_2 0%, $green_1 100%);
   background:-ms-linear-gradient(top, $green_2 0%,$green_1 100%);
@@ -119,7 +119,7 @@
   
 }
 
-.MButtonBlue, .MButtonB{ @extend .MButton;
+.MButtonBlue, .MButtonB{@extend .MButton;
   background:$blue_1;
   background:-moz-linear-gradient(top, $blue_2 0%, $blue_1 100%);
   background:-ms-linear-gradient(top, $blue_2 0%,$blue_1 100%);
@@ -138,7 +138,7 @@
   
 }
 
-.MButtonViolet, .MButtonV{ @extend .MButton;
+.MButtonViolet, .MButtonV{@extend .MButton;
   background:$violet_1;
   background:-moz-linear-gradient(top, $violet_2 0%, $violet_1 100%);
   background:-ms-linear-gradient(top, $violet_2 0%,$violet_1 100%);
@@ -157,7 +157,7 @@
   
 }
 
-.MButtonUpload{ @extend .MButton;
+.MButtonUpload{@extend .MButton;
   cursor:default;
   margin:0 auto;
   overflow:hidden;
@@ -185,7 +185,7 @@ button.MButton{
   margin:.2em;
 }
 
-button{ @extend .MButton; 
+button{@extend .MButton; 
   cursor:pointer;
   font-size:1em;
   
@@ -196,6 +196,6 @@ button{ @extend .MButton;
 }
 
 input{
-  &[type="button"], &[type="submit"]{ @extend .MButton;}
-  &[type="reset"]{ @extend .MButtonRed;}
+  &[type="button"], &[type="submit"]{@extend .MButton;}
+  &[type="reset"]{@extend .MButtonRed;}
 }

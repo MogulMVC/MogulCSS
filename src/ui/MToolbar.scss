@@ -13,7 +13,7 @@
   background:-webkit-linear-gradient(top, $mono_5 0%,#c8c8c8 100%);
   background:linear-gradient(top, $mono_5 0%,#c8c8c8 100%);
   border-bottom:.1em solid $mono_3;
-  box-shadow:$shadow_large;
+  box-shadow:$shadow_outer_large;
   color:$mono_2;
   height:2.4em;
   left:0;
@@ -43,7 +43,7 @@
     &:hover{
       background:$mono_3;
       border-radius:.3em;
-      box-shadow:$shadow_inset_bg;
+      box-shadow:$shadow_inner_large;
       color:$mono_6;
       text-shadow:0 0 .4em rgba(0,0,0,.5);
     }
@@ -97,7 +97,7 @@ h1.MToolbarTitle{
   background:linear-gradient(top, #232323 0%,#141414 100%);
   border-radius:.4em;
   border-top:solid 1px $mono_3;
-  box-shadow:$shadow_large;
+  box-shadow:$shadow_outer_large;
   color:white;
   display:none;
   font-size:.85em;
