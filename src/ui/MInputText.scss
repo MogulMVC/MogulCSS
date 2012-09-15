@@ -1,10 +1,8 @@
 input[type="password"], input[type="text"], textarea{
   -moz-transition:border-color 0.25s, box-shadow 0.25s, color 0.25s;
   -webkit-transition:border-color 0.25s, box-shadow 0.25s, color 0.25s;
-  border-color:$mono_3;
+  border: 1px solid $mono_3;
   border-radius:$rounded;
-  border-style:solid;
-  border-width:1px;
   box-shadow:$shadow_inner_large;
   color:$mono_3;
   margin:0 auto;
@@ -12,13 +10,13 @@ input[type="password"], input[type="text"], textarea{
 
   &:hover, &.input_invisible:hover{
     border-color:$blue_2;
-    box-shadow:$shadow_inner_large, 0 0 .3em rgba(0,125,250,1);
+    box-shadow:$shadow_inner_large, $glow;
     color:$mono_2;
   }
   
   &:focus, &.input_invisible:hover{
     border-color:$blue_1;
-    box-shadow:$shadow_inner_large, 0 0 .3em rgba(0,75,150,1);
+    box-shadow:$shadow_inner_large, $glow_light;
     color:$mono_2;
   }
   
@@ -30,22 +28,18 @@ input[type="password"], input[type="text"], textarea{
   }
   
   &.input_invisible{
-    border-color:transparent;
-    border-style:none;
-    border-width:0;
+    border:0 none transparent;
     box-shadow:none;
   }
   
 }
 
 input{
-  
   &[type="password"], &[type="text"]{
     display:block;
     font-size:1em;
     height:1.75em;
   }
-
 }
 
 textarea{

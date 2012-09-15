@@ -1,17 +1,17 @@
 #MHeaderPlaceholder{
-  background:#141414;
+  background:$mono_1_2;
   height:2.85em;
   margin:0 auto;
   width:100%;
 }
 
 #MHeader{
-  background:#141414;
-  background:-moz-linear-gradient(top, #232323 0%, #141414 100%);
-  background:-ms-linear-gradient(top, #232323 0%,#141414 100%);
-  background:-o-linear-gradient(top, #232323 0%,#141414 100%);
-  background:-webkit-linear-gradient(top, #232323 0%,#141414 100%);
-  background:linear-gradient(top, #232323 0%,#141414 100%);
+  background:$mono_1_2;
+  background:-moz-linear-gradient(top, $mono_1_3 0%, $mono_1_2 100%);
+  background:-ms-linear-gradient(top, $mono_1_3 0%,$mono_1_2 100%);
+  background:-o-linear-gradient(top, $mono_1_3 0%,$mono_1_2 100%);
+  background:-webkit-linear-gradient(top, $mono_1_3 0%,$mono_1_2 100%);
+  background:linear-gradient(top, $mono_1_3 0%,$mono_1_2 100%);
   box-shadow:$shadow_outer_large;
   color:$mono_6;
   height:2.85em;
@@ -28,7 +28,7 @@
   -moz-user-select:none;
   -o-user-select:none;
   -webkit-user-select:none;
-  color:#c8c8c8;
+  color:$mono_4_2;
   height:1.3em;
   line-height:1.3em;
   margin-top:6px;
@@ -154,27 +154,27 @@ a#MHeaderTools{
   right:.4em;
   top:41px;
   z-index:1200;
-}
-
-#MHeaderMenuDropdown li{
-  color:$mono_2;
-  font-weight:bold;
-  height:40px;
-  line-height:40px;
-  overflow:hidden;
-  padding-left:1.6em;
-  padding-right:1.6em;
   
-  &:hover{
-    background:#141414;
-    background:-moz-linear-gradient(top, #232323 0%, #141414 100%);
-    background:-ms-linear-gradient(top, #232323 0%,#141414 100%);
-    background:-o-linear-gradient(top, #232323 0%,#141414 100%);
-    background:-webkit-linear-gradient(top, #232323 0%,#141414 100%);
-    background:linear-gradient(top, #232323 0%,#141414 100%);
-    color:$mono_6;
+  li{
+    color:$mono_2;
+    font-weight:bold;
+    height:40px;
+    line-height:40px;
+    overflow:hidden;
+    padding-left:1.6em;
+    padding-right:1.6em;
+    
+    &:hover{
+      background:$mono_1_2;
+      background:-moz-linear-gradient(top, $mono_1_3 0%, $mono_1_2 100%);
+      background:-ms-linear-gradient(top, $mono_1_3 0%,$mono_1_2 100%);
+      background:-o-linear-gradient(top, $mono_1_3 0%,$mono_1_2 100%);
+      background:-webkit-linear-gradient(top, $mono_1_3 0%,$mono_1_2 100%);
+      background:linear-gradient(top, $mono_1_3 0%,$mono_1_2 100%);
+      color:$mono_6;
+    }
+    
   }
-  
 }
 
 #MHeaderLogin{

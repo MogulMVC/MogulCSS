@@ -5,15 +5,14 @@
   background:-o-linear-gradient(top, $mono_5 0%, #c8c8c8 100%);
   background:-webkit-linear-gradient(top, $mono_5 0%, #c8c8c8 100%);
   background:linear-gradient(top, $mono_5 0%, #c8c8c8 100%);
-  border-color:$outline;
+  border:1px solid $outline;
   border-radius:$rounded;
-  border-style:solid;
-  border-width:1px;
   color:$mono_2;
   cursor:pointer;
   display:inline-block;
   font-size:1em;
   font-weight:bold;
+  margin:.2em;
   overflow:hidden;
   padding-left:1.250em;
   padding-right:1.250em;
@@ -48,7 +47,7 @@
   background:-webkit-linear-gradient(top, $red_2 0%,$red_1 100%);
   background:linear-gradient(top, $red_2 0%, $red_1 100%);
   color:$mono_6;
-  text-shadow:0 0 .4em $mono_2;
+  text-shadow:$shadow_text_small;
   
   &:hover{
     color:$mono_6;
@@ -68,7 +67,7 @@
   background:-webkit-linear-gradient(top, $orange_2 0%,$orange_1 100%);
   background:linear-gradient(top, $orange_2 0%, $orange_1 100%);
   color:$mono_6;
-  text-shadow:0 0 .4em $mono_2;
+  text-shadow:$shadow_text_small;
   
   &:hover{
     color:$mono_6;
@@ -87,10 +86,10 @@
   background:-o-linear-gradient(top, $yellow_2 0%, $yellow_2 100%);
   background:-webkit-linear-gradient(top, $yellow_2 0%, $yellow_2 100%);
   background:linear-gradient(top, $yellow_2 0%, $yellow_2 100%);
-  color:#000000;
+  color:$mono_1;
   
   &:hover{
-    color:#000000;
+    color:$mono_1;
   }
   
   &:active{
@@ -107,7 +106,7 @@
   background:-webkit-linear-gradient(top, $green_2 0%, $green_1 100%);
   background:linear-gradient(top, $green_2 0%, $green_1 100%);
   color:$mono_6;
-  text-shadow:0 0 .4em $mono_2;
+  text-shadow:$shadow_text_small;
   
   &:hover{
     color:$mono_6;
@@ -127,7 +126,7 @@
   background:-webkit-linear-gradient(top, $blue_2 0%,$blue_1 100%);
   background:linear-gradient(top, $blue_2 0%,$blue_1 100%);
   color:$mono_6;
-  text-shadow:0 0 .4em $mono_2;
+  text-shadow:$shadow_text_small;
   
   &:hover{
     color:$mono_6;
@@ -146,7 +145,7 @@
   background:-webkit-linear-gradient(top, $violet_2 0%,$violet_1 100%);
   background:linear-gradient(top, $violet_2 0%,$violet_1 100%);
   color:$mono_6;
-  text-shadow:0 0 .4em $mono_2;
+  text-shadow:$shadow_text_small;
   
   &:hover{
     color:$mono_6;
@@ -176,13 +175,11 @@
 a.MButton, div.MButton, span.MButton{
   height:1.45em;
   line-height:1.45em;
-  margin:.2em;
 }
   
 button.MButton{
   height:1.6em;
   line-height:1;
-  margin:.2em;
 }
 
 button{@extend .MButton; 

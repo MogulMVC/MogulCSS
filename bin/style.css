@@ -626,21 +626,19 @@ h1.MToolbarTitle {
 input[type="password"], input[type="text"], textarea {
   -moz-transition: border-color 0.25s, box-shadow 0.25s, color 0.25s;
   -webkit-transition: border-color 0.25s, box-shadow 0.25s, color 0.25s;
-  border-color: #646464;
+  border: 1px solid #646464;
   border-radius: 3px;
-  border-style: solid;
-  border-width: 1px;
   box-shadow: inset 0 0.2em 0.35em rgba(0, 0, 0, 0.4);
   color: #646464;
   margin: 0 auto;
   padding: 0; }
   input[type="password"]:hover, input[type="password"].input_invisible:hover, input[type="text"]:hover, input[type="text"].input_invisible:hover, textarea:hover, textarea.input_invisible:hover {
     border-color: #007dfa;
-    box-shadow: inset 0 0.2em 0.35em rgba(0, 0, 0, 0.4), 0 0 0.3em #007dfa;
+    box-shadow: inset 0 0.2em 0.35em rgba(0, 0, 0, 0.4), 0 0 0.4em #007dfa;
     color: #323232; }
   input[type="password"]:focus, input[type="password"].input_invisible:hover, input[type="text"]:focus, input[type="text"].input_invisible:hover, textarea:focus, textarea.input_invisible:hover {
     border-color: #004b96;
-    box-shadow: inset 0 0.2em 0.35em rgba(0, 0, 0, 0.4), 0 0 0.3em #004b96;
+    box-shadow: inset 0 0.2em 0.35em rgba(0, 0, 0, 0.4), 0 0 0.4em #004b96;
     color: #323232; }
   input[type="password"][disabled], input[type="password"][disabled]:hover, input[type="password"][disabled]:active, input[type="text"][disabled], input[type="text"][disabled]:hover, input[type="text"][disabled]:active, textarea[disabled], textarea[disabled]:hover, textarea[disabled]:active {
     background: #e6e6e6;
@@ -672,15 +670,14 @@ textarea {
   background: -o-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
   background: -webkit-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
   background: linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
-  border-color: #646464;
+  border: 1px solid #646464;
   border-radius: 3px;
-  border-style: solid;
-  border-width: 1px;
   color: #323232;
   cursor: pointer;
   display: inline-block;
   font-size: 1em;
   font-weight: bold;
+  margin: .2em;
   overflow: hidden;
   padding-left: 1.250em;
   padding-right: 1.250em; }
@@ -707,7 +704,7 @@ textarea {
   background: -webkit-linear-gradient(top, #fa0000 0%, #960000 100%);
   background: linear-gradient(top, #fa0000 0%, #960000 100%);
   color: white;
-  text-shadow: 0 0 0.4em #323232; }
+  text-shadow: 0 0 0.4em rgba(0, 0, 0, 0.4); }
   .MButtonRed:hover, input[type="reset"]:hover, .MButtonR:hover {
     color: white; }
   .MButtonRed:active, input[type="reset"]:active, .MButtonR:active {
@@ -721,7 +718,7 @@ textarea {
   background: -webkit-linear-gradient(top, #fa6400 0%, #963c00 100%);
   background: linear-gradient(top, #fa6400 0%, #963c00 100%);
   color: white;
-  text-shadow: 0 0 0.4em #323232; }
+  text-shadow: 0 0 0.4em rgba(0, 0, 0, 0.4); }
   .MButtonOrange:hover, .MButtonO:hover {
     color: white; }
   .MButtonOrange:active, .MButtonO:active {
@@ -734,9 +731,9 @@ textarea {
   background: -o-linear-gradient(top, #fafa00 0%, #fafa00 100%);
   background: -webkit-linear-gradient(top, #fafa00 0%, #fafa00 100%);
   background: linear-gradient(top, #fafa00 0%, #fafa00 100%);
-  color: #000000; }
+  color: #0a0a0a; }
   .MButtonYellow:hover, .MButtonY:hover {
-    color: #000000; }
+    color: #0a0a0a; }
   .MButtonYellow:active, .MButtonY:active {
     color: white; }
 
@@ -748,7 +745,7 @@ textarea {
   background: -webkit-linear-gradient(top, #00fa00 0%, #009600 100%);
   background: linear-gradient(top, #00fa00 0%, #009600 100%);
   color: white;
-  text-shadow: 0 0 0.4em #323232; }
+  text-shadow: 0 0 0.4em rgba(0, 0, 0, 0.4); }
   .MButtonGreen:hover, .MButtonG:hover {
     color: white; }
   .MButtonGreen:active, .MButtonG:active {
@@ -762,7 +759,7 @@ textarea {
   background: -webkit-linear-gradient(top, #007dfa 0%, #004b96 100%);
   background: linear-gradient(top, #007dfa 0%, #004b96 100%);
   color: white;
-  text-shadow: 0 0 0.4em #323232; }
+  text-shadow: 0 0 0.4em rgba(0, 0, 0, 0.4); }
   .MButtonBlue:hover, .MButtonB:hover {
     color: white; }
   .MButtonBlue:active, .MButtonB:active {
@@ -776,7 +773,7 @@ textarea {
   background: -webkit-linear-gradient(top, #7d00fa 0%, #4b0096 100%);
   background: linear-gradient(top, #7d00fa 0%, #4b0096 100%);
   color: white;
-  text-shadow: 0 0 0.4em #323232; }
+  text-shadow: 0 0 0.4em rgba(0, 0, 0, 0.4); }
   .MButtonViolet:hover, .MButtonV:hover {
     color: white; }
   .MButtonViolet:active, .MButtonV:active {
@@ -798,13 +795,11 @@ textarea {
 
 a.MButton, a.MButtonRed, a.MButtonR, a.MButtonOrange, a.MButtonO, a.MButtonYellow, a.MButtonY, a.MButtonGreen, a.MButtonG, a.MButtonBlue, a.MButtonB, a.MButtonViolet, a.MButtonV, a.MButtonUpload, div.MButton, div.MButtonRed, div.MButtonR, div.MButtonOrange, div.MButtonO, div.MButtonYellow, div.MButtonY, div.MButtonGreen, div.MButtonG, div.MButtonBlue, div.MButtonB, div.MButtonViolet, div.MButtonV, div.MButtonUpload, span.MButton, span.MButtonRed, span.MButtonR, span.MButtonOrange, span.MButtonO, span.MButtonYellow, span.MButtonY, span.MButtonGreen, span.MButtonG, span.MButtonBlue, span.MButtonB, span.MButtonViolet, span.MButtonV, span.MButtonUpload {
   height: 1.45em;
-  line-height: 1.45em;
-  margin: .2em; }
+  line-height: 1.45em; }
 
 button.MButton, button.MButtonRed, button.MButtonR, button.MButtonOrange, button.MButtonO, button.MButtonYellow, button.MButtonY, button.MButtonGreen, button.MButtonG, button.MButtonBlue, button.MButtonB, button.MButtonViolet, button.MButtonV, button.MButtonUpload, button {
   height: 1.6em;
-  line-height: 1;
-  margin: .2em; }
+  line-height: 1; }
 
 button {
   cursor: pointer;
@@ -1270,7 +1265,7 @@ button {
     line-height: 1.6em;
     overflow: hidden;
     position: relative;
-    text-shadow: inset 0 0 0.4em rgba(0, 0, 0, 0.4);
+    text-shadow: 0 0 0.4em rgba(0, 0, 0, 0.4);
     width: 100%; }
     .MProgressBarContainer .MProgressBarBG .MProgressBarFG {
       background: #004b96;
@@ -1335,7 +1330,7 @@ button {
 hr{
   background:url("/framework/img/global/hr.png") repeat-x;
   border:0;
-  height:.2em;
+  height:1;
   margin:0;
 }
 */
