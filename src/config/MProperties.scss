@@ -1,5 +1,3 @@
-
-
 .text_left{
   text-align:left;
 }
@@ -12,15 +10,15 @@
   text-align:right;
 }
 
-.left{
+.left, .float_left{
   float:left;
 }
 
-.right{
+.right, .float_right{
   float:right;
 }
 
-.clear{
+.clear, .clearfix{
   clear:both;
 }
 

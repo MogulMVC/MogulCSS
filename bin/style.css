@@ -14,6 +14,8 @@ a.bold, h1.bold, h2.bold, h3.bold, h4.bold, h5.bold, h6.bold, input.bold, label.
   font-weight: bold; }
 a.red, h1.red, h2.red, h3.red, h4.red, h5.red, h6.red, input.red, label.red, p.red, span.red, textarea.red {
   color: #960000; }
+a.orange, h1.orange, h2.orange, h3.orange, h4.orange, h5.orange, h6.orange, input.orange, label.orange, p.orange, span.orange, textarea.orange {
+  color: #963c00; }
 a.yellow, h1.yellow, h2.yellow, h3.yellow, h4.yellow, h5.yellow, h6.yellow, input.yellow, label.yellow, p.yellow, span.yellow, textarea.yellow {
   color: #969600; }
 a.green, h1.green, h2.green, h3.green, h4.green, h5.green, h6.green, input.green, label.green, p.green, span.green, textarea.green {
@@ -1441,13 +1443,13 @@ hr{
 .text_right {
   text-align: right; }
 
-.left {
+.left, .float_left {
   float: left; }
 
-.right {
+.right, .float_right {
   float: right; }
 
-.clear {
+.clear, .clearfix {
   clear: both; }
 
 .hidden {

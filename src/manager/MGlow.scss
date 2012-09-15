@@ -9,7 +9,7 @@ $glow_light:0 0 .4em rgba(0,75,150,1);
   
   &:hover{
     border-color:$blue_2;
-    box-shadow:0 0 .4em rgba(0,125,250,1);
+    box-shadow:$glow;
   }
   
   &:active{
