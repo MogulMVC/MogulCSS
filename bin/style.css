@@ -1268,6 +1268,36 @@ button {
 .MModalBGWhite {
   background-color: white; }
 
+.MProgressBarContainer {
+  margin: 4px; }
+  .MProgressBarContainer .MProgressBarBG {
+    background: #969696;
+    border-radius: 2em;
+    box-shadow: inset 0 0.2em 0.35em rgba(0, 0, 0, 0.4);
+    font-weight: bold;
+    height: 1.6em;
+    line-height: 1.6em;
+    overflow: hidden;
+    position: relative;
+    text-shadow: 0 0 0.4em rgba(0, 0, 0, 0.5);
+    width: 100%; }
+    .MProgressBarContainer .MProgressBarBG .MProgressBarFG {
+      background: #004b96;
+      background: -moz-linear-gradient(left, #004b96 0%, #007dfa 50%, #004b96 100%);
+      background: -ms-linear-gradient(left, #004b96 0%, #007dfa 50%, #004b96 100%);
+      background: -o-linear-gradient(left, #004b96 0%, #007dfa 50%, #004b96 100%);
+      background: -webkit-linear-gradient(left, #004b96 0%, #007dfa 50%, #004b96 100%);
+      background: linear-gradient(left, #004b96 0%, #007dfa 50%, #004b96 100%);
+      border-radius: 2em;
+      box-shadow: inset 0 0 0.4em rgba(0, 0, 0, 0.5);
+      color: white;
+      height: 100%;
+      width: 0%; }
+      .MProgressBarContainer .MProgressBarBG .MProgressBarFG .MProgressBarIndicator {
+        left: 50%;
+        margin-left: -12px;
+        position: absolute; }
+
 .MRatingsBarBG {
   background: #960000;
   border-radius: 2em;
@@ -1298,36 +1328,6 @@ button {
   box-shadow: inset 0 0 0.4em rgba(0, 0, 0, 0.5);
   height: .8em;
   width: 100%; }
-
-.MProgressBarContainer {
-  margin: 4px; }
-  .MProgressBarContainer .MProgressBarBG {
-    background: #969696;
-    border-radius: 2em;
-    box-shadow: inset 0 0.2em 0.35em rgba(0, 0, 0, 0.4);
-    font-weight: bold;
-    height: 1.6em;
-    line-height: 1.6em;
-    overflow: hidden;
-    position: relative;
-    text-shadow: 0 0 0.4em rgba(0, 0, 0, 0.5);
-    width: 100%; }
-    .MProgressBarContainer .MProgressBarBG .MProgressBarFG {
-      background: #004b96;
-      background: -moz-linear-gradient(left, #004b96 0%, #007dfa 50%, #004b96 100%);
-      background: -ms-linear-gradient(left, #004b96 0%, #007dfa 50%, #004b96 100%);
-      background: -o-linear-gradient(left, #004b96 0%, #007dfa 50%, #004b96 100%);
-      background: -webkit-linear-gradient(left, #004b96 0%, #007dfa 50%, #004b96 100%);
-      background: linear-gradient(left, #004b96 0%, #007dfa 50%, #004b96 100%);
-      border-radius: 2em;
-      box-shadow: inset 0 0 0.4em rgba(0, 0, 0, 0.5);
-      color: white;
-      height: 100%;
-      width: 0%; }
-      .MProgressBarContainer .MProgressBarBG .MProgressBarFG .MProgressBarIndicator {
-        left: 50%;
-        margin-left: -12px;
-        position: absolute; }
 
 .MPaginationContainer {
   text-align: center; }
