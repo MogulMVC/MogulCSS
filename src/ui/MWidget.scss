@@ -1,14 +1,12 @@
 .MWidgetContainer{
   background:$mono_5;
-  background:-moz-linear-gradient(top, $mono_5 0%, #c8c8c8 100%);
-  background:-ms-linear-gradient(top, $mono_5 0%,#c8c8c8 100%);
-  background:-o-linear-gradient(top, $mono_5 0%,#c8c8c8 100%);
-  background:-webkit-linear-gradient(top, $mono_5 0%,#c8c8c8 100%);
-  background:linear-gradient(top, $mono_5 0%,#c8c8c8 100%);
-  border-color:$mono_3;
+  background:-moz-linear-gradient(top, $mono_5 0%, $mono_4_2 100%);
+  background:-ms-linear-gradient(top, $mono_5 0%,$mono_4_2 100%);
+  background:-o-linear-gradient(top, $mono_5 0%,$mono_4_2 100%);
+  background:-webkit-linear-gradient(top, $mono_5 0%,$mono_4_2 100%);
+  background:linear-gradient(top, $mono_5 0%,$mono_4_2 100%);
+  border:1px solid $mono_3;
   border-radius:$rounded;
-  border-style:solid;
-  border-width:1px;
   color:$mono_2;
   margin:0 auto;
   padding:1.6em;
@@ -16,7 +14,7 @@
 }
 
 .MWidgetContainerWide{
-  background:#c8c8c8;
+  background:$mono_4_2;
   color:$mono_2;
   margin:0 auto;
   padding:1.6em;

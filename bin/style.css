@@ -116,15 +116,15 @@ li {
 /************/
 /* Managers */
 /************/
-.MGlow, .MButton, .MButtonRed, input[type="reset"], .MButtonR, .MButtonOrange, .MButtonO, .MButtonYellow, .MButtonY, .MButtonGreen, .MButtonG, .MButtonBlue, .MButtonB, .MButtonViolet, .MButtonV, .MButtonUpload, button, input[type="button"], input[type="submit"], .MTab, .MTabSelected, .eztab {
+.MGlow, .MButton, .MButtonRed, input[type=reset], .MButtonR, .MButtonOrange, .MButtonO, .MButtonYellow, .MButtonY, .MButtonGreen, .MButtonG, .MButtonBlue, .MButtonB, .MButtonViolet, .MButtonV, .MButtonUpload, button, input[type=button], input[type=submit], .MTab, .MTabSelected, .eztab {
   -moz-transition: box-shadow 0.25s;
   -o-transition: box-shadow 0.25s;
   -webkit-transition: box-shadow 0.25s;
   transition: box-shadow 0.25s; }
-  .MGlow:hover, .MButton:hover, .MButtonRed:hover, input[type="reset"]:hover, .MButtonR:hover, .MButtonOrange:hover, .MButtonO:hover, .MButtonYellow:hover, .MButtonY:hover, .MButtonGreen:hover, .MButtonG:hover, .MButtonBlue:hover, .MButtonB:hover, .MButtonViolet:hover, .MButtonV:hover, .MButtonUpload:hover, button:hover, input[type="button"]:hover, input[type="submit"]:hover, .MTab:hover, .MTabSelected:hover, .eztab:hover {
+  .MGlow:hover, .MButton:hover, .MButtonRed:hover, input[type=reset]:hover, .MButtonR:hover, .MButtonOrange:hover, .MButtonO:hover, .MButtonYellow:hover, .MButtonY:hover, .MButtonGreen:hover, .MButtonG:hover, .MButtonBlue:hover, .MButtonB:hover, .MButtonViolet:hover, .MButtonV:hover, .MButtonUpload:hover, button:hover, input[type=button]:hover, input[type=submit]:hover, .MTab:hover, .MTabSelected:hover, .eztab:hover {
     border-color: #007dfa;
     box-shadow: 0 0 0.4em #007dfa; }
-  .MGlow:active, .MButton:active, .MButtonRed:active, input[type="reset"]:active, .MButtonR:active, .MButtonOrange:active, .MButtonO:active, .MButtonYellow:active, .MButtonY:active, .MButtonGreen:active, .MButtonG:active, .MButtonBlue:active, .MButtonB:active, .MButtonViolet:active, .MButtonV:active, .MButtonUpload:active, button:active, input[type="button"]:active, input[type="submit"]:active, .MTab:active, .MTabSelected:active, .eztab:active {
+  .MGlow:active, .MButton:active, .MButtonRed:active, input[type=reset]:active, .MButtonR:active, .MButtonOrange:active, .MButtonO:active, .MButtonYellow:active, .MButtonY:active, .MButtonGreen:active, .MButtonG:active, .MButtonBlue:active, .MButtonB:active, .MButtonViolet:active, .MButtonV:active, .MButtonUpload:active, button:active, input[type=button]:active, input[type=submit]:active, .MTab:active, .MTabSelected:active, .eztab:active {
     border-color: none;
     box-shadow: none; }
 
@@ -296,23 +296,22 @@ a#MHeaderTools {
   right: .4em;
   top: 41px;
   z-index: 1200; }
-
-#MHeaderMenuDropdown li {
-  color: #323232;
-  font-weight: bold;
-  height: 40px;
-  line-height: 40px;
-  overflow: hidden;
-  padding-left: 1.6em;
-  padding-right: 1.6em; }
-  #MHeaderMenuDropdown li:hover {
-    background: #141414;
-    background: -moz-linear-gradient(top, #232323 0%, #141414 100%);
-    background: -ms-linear-gradient(top, #232323 0%, #141414 100%);
-    background: -o-linear-gradient(top, #232323 0%, #141414 100%);
-    background: -webkit-linear-gradient(top, #232323 0%, #141414 100%);
-    background: linear-gradient(top, #232323 0%, #141414 100%);
-    color: white; }
+  #MHeaderMenuDropdown li {
+    color: #323232;
+    font-weight: bold;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    padding-left: 1.6em;
+    padding-right: 1.6em; }
+    #MHeaderMenuDropdown li:hover {
+      background: #141414;
+      background: -moz-linear-gradient(top, #232323 0%, #141414 100%);
+      background: -ms-linear-gradient(top, #232323 0%, #141414 100%);
+      background: -o-linear-gradient(top, #232323 0%, #141414 100%);
+      background: -webkit-linear-gradient(top, #232323 0%, #141414 100%);
+      background: linear-gradient(top, #232323 0%, #141414 100%);
+      color: white; }
 
 #MHeaderLogin {
   position: fixed;
@@ -391,28 +390,6 @@ h1.MToolbarTitle {
 .MToolbarSpacer {
   height: 100%;
   width: .4em; }
-
-.MToolbarMessage {
-  background: #141414;
-  background: -moz-linear-gradient(top, #232323 0%, #141414 100%);
-  background: -ms-linear-gradient(top, #232323 0%, #141414 100%);
-  background: -o-linear-gradient(top, #232323 0%, #141414 100%);
-  background: -webkit-linear-gradient(top, #232323 0%, #141414 100%);
-  background: linear-gradient(top, #232323 0%, #141414 100%);
-  border-radius: 3px;
-  border-top: solid 1px #646464;
-  box-shadow: 0 1.2em 2.4em -0.8em rgba(0, 0, 0, 0.4);
-  color: white;
-  display: none;
-  font-size: .85em;
-  font-weight: bold;
-  line-height: 1.6em;
-  max-width: 450px;
-  padding: 1.6em;
-  position: fixed;
-  right: .4em;
-  top: 71px;
-  z-index: 500; }
 
 .MHiddenBGFull {
   background: #232323;
@@ -623,6 +600,29 @@ h1.MToolbarTitle {
 /************/
 /* Elements */
 /************/
+.MSystemMessage, .MToolbarMessage {
+  background: #141414;
+  background: -moz-linear-gradient(top, #232323 0%, #141414 100%);
+  background: -ms-linear-gradient(top, #232323 0%, #141414 100%);
+  background: -o-linear-gradient(top, #232323 0%, #141414 100%);
+  background: -webkit-linear-gradient(top, #232323 0%, #141414 100%);
+  background: linear-gradient(top, #232323 0%, #141414 100%);
+  border-radius: 3px;
+  border-top: solid 1px #646464;
+  box-shadow: 0 1.2em 2.4em -0.8em rgba(0, 0, 0, 0.4);
+  color: white;
+  display: none;
+  font-size: .85em;
+  font-weight: bold;
+  line-height: 1.6em;
+  max-width: 450px;
+  padding: 1.6em;
+  position: fixed;
+  right: .4em;
+  top: 71px;
+  z-index: 500; }
+
+/* Legacy */
 input[type="password"], input[type="text"], textarea {
   -moz-transition: border-color 0.25s, box-shadow 0.25s, color 0.25s;
   -webkit-transition: border-color 0.25s, box-shadow 0.25s, color 0.25s;
@@ -646,9 +646,7 @@ input[type="password"], input[type="text"], textarea {
     box-shadow: inset 0 0.2em 0.35em rgba(0, 0, 0, 0.4);
     color: #969696; }
   input[type="password"].input_invisible, input[type="text"].input_invisible, textarea.input_invisible {
-    border-color: transparent;
-    border-style: none;
-    border-width: 0;
+    border: 0 none transparent;
     box-shadow: none; }
 
 input[type="password"], input[type="text"] {
@@ -663,7 +661,7 @@ textarea {
   padding: 0;
   resize: vertical; }
 
-.MButton, .MButtonRed, input[type="reset"], .MButtonR, .MButtonOrange, .MButtonO, .MButtonYellow, .MButtonY, .MButtonGreen, .MButtonG, .MButtonBlue, .MButtonB, .MButtonViolet, .MButtonV, .MButtonUpload, button, input[type="button"], input[type="submit"] {
+.MButton, .MButtonRed, input[type=reset], .MButtonR, .MButtonOrange, .MButtonO, .MButtonYellow, .MButtonY, .MButtonGreen, .MButtonG, .MButtonBlue, .MButtonB, .MButtonViolet, .MButtonV, .MButtonUpload, button, input[type=button], input[type=submit] {
   background: #e6e6e6;
   background: -moz-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
   background: -ms-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
@@ -681,22 +679,22 @@ textarea {
   overflow: hidden;
   padding-left: 1.250em;
   padding-right: 1.250em; }
-  .MButton:hover, .MButtonRed:hover, input[type="reset"]:hover, .MButtonR:hover, .MButtonOrange:hover, .MButtonO:hover, .MButtonYellow:hover, .MButtonY:hover, .MButtonGreen:hover, .MButtonG:hover, .MButtonBlue:hover, .MButtonB:hover, .MButtonViolet:hover, .MButtonV:hover, .MButtonUpload:hover, button:hover, input[type="button"]:hover, input[type="submit"]:hover {
+  .MButton:hover, .MButtonRed:hover, input[type=reset]:hover, .MButtonR:hover, .MButtonOrange:hover, .MButtonO:hover, .MButtonYellow:hover, .MButtonY:hover, .MButtonGreen:hover, .MButtonG:hover, .MButtonBlue:hover, .MButtonB:hover, .MButtonViolet:hover, .MButtonV:hover, .MButtonUpload:hover, button:hover, input[type=button]:hover, input[type=submit]:hover {
     border-color: #007dfa;
     color: #323232; }
-  .MButton:active, .MButtonRed:active, input[type="reset"]:active, .MButtonR:active, .MButtonOrange:active, .MButtonO:active, .MButtonYellow:active, .MButtonY:active, .MButtonGreen:active, .MButtonG:active, .MButtonBlue:active, .MButtonB:active, .MButtonViolet:active, .MButtonV:active, .MButtonUpload:active, button:active, input[type="button"]:active, input[type="submit"]:active {
+  .MButton:active, .MButtonRed:active, input[type=reset]:active, .MButtonR:active, .MButtonOrange:active, .MButtonO:active, .MButtonYellow:active, .MButtonY:active, .MButtonGreen:active, .MButtonG:active, .MButtonBlue:active, .MButtonB:active, .MButtonViolet:active, .MButtonV:active, .MButtonUpload:active, button:active, input[type=button]:active, input[type=submit]:active {
     background: #646464;
     border-color: #323232;
     box-shadow: inset 0 0.2em 0.35em rgba(0, 0, 0, 0.4);
     color: white; }
-  .MButton[disabled], [disabled].MButtonRed, input[disabled][type="reset"], [disabled].MButtonR, [disabled].MButtonOrange, [disabled].MButtonO, [disabled].MButtonYellow, [disabled].MButtonY, [disabled].MButtonGreen, [disabled].MButtonG, [disabled].MButtonBlue, [disabled].MButtonB, [disabled].MButtonViolet, [disabled].MButtonV, [disabled].MButtonUpload, button[disabled], input[disabled][type="button"], input[disabled][type="submit"], .MButton[disabled]:hover, [disabled].MButtonRed:hover, input[disabled][type="reset"]:hover, [disabled].MButtonR:hover, [disabled].MButtonOrange:hover, [disabled].MButtonO:hover, [disabled].MButtonYellow:hover, [disabled].MButtonY:hover, [disabled].MButtonGreen:hover, [disabled].MButtonG:hover, [disabled].MButtonBlue:hover, [disabled].MButtonB:hover, [disabled].MButtonViolet:hover, [disabled].MButtonV:hover, [disabled].MButtonUpload:hover, button[disabled]:hover, input[disabled][type="button"]:hover, input[disabled][type="submit"]:hover, .MButton[disabled]:active, [disabled].MButtonRed:active, input[disabled][type="reset"]:active, [disabled].MButtonR:active, [disabled].MButtonOrange:active, [disabled].MButtonO:active, [disabled].MButtonYellow:active, [disabled].MButtonY:active, [disabled].MButtonGreen:active, [disabled].MButtonG:active, [disabled].MButtonBlue:active, [disabled].MButtonB:active, [disabled].MButtonViolet:active, [disabled].MButtonV:active, [disabled].MButtonUpload:active, button[disabled]:active, input[disabled][type="button"]:active, input[disabled][type="submit"]:active {
+  .MButton[disabled], [disabled].MButtonRed, input[disabled][type=reset], [disabled].MButtonR, [disabled].MButtonOrange, [disabled].MButtonO, [disabled].MButtonYellow, [disabled].MButtonY, [disabled].MButtonGreen, [disabled].MButtonG, [disabled].MButtonBlue, [disabled].MButtonB, [disabled].MButtonViolet, [disabled].MButtonV, [disabled].MButtonUpload, button[disabled], input[disabled][type=button], input[disabled][type=submit], .MButton[disabled]:hover, [disabled].MButtonRed:hover, input[disabled][type=reset]:hover, [disabled].MButtonR:hover, [disabled].MButtonOrange:hover, [disabled].MButtonO:hover, [disabled].MButtonYellow:hover, [disabled].MButtonY:hover, [disabled].MButtonGreen:hover, [disabled].MButtonG:hover, [disabled].MButtonBlue:hover, [disabled].MButtonB:hover, [disabled].MButtonViolet:hover, [disabled].MButtonV:hover, [disabled].MButtonUpload:hover, button[disabled]:hover, input[disabled][type=button]:hover, input[disabled][type=submit]:hover, .MButton[disabled]:active, [disabled].MButtonRed:active, input[disabled][type=reset]:active, [disabled].MButtonR:active, [disabled].MButtonOrange:active, [disabled].MButtonO:active, [disabled].MButtonYellow:active, [disabled].MButtonY:active, [disabled].MButtonGreen:active, [disabled].MButtonG:active, [disabled].MButtonBlue:active, [disabled].MButtonB:active, [disabled].MButtonViolet:active, [disabled].MButtonV:active, [disabled].MButtonUpload:active, button[disabled]:active, input[disabled][type=button]:active, input[disabled][type=submit]:active {
     background: #e6e6e6;
     border-color: #646464;
     box-shadow: none;
     color: #969696;
     text-shadow: none; }
 
-.MButtonRed, input[type="reset"], .MButtonR {
+.MButtonRed, input[type=reset], .MButtonR {
   background: #960000;
   background: -moz-linear-gradient(top, #fa0000 0%, #960000 100%);
   background: -ms-linear-gradient(top, #fa0000 0%, #960000 100%);
@@ -705,9 +703,9 @@ textarea {
   background: linear-gradient(top, #fa0000 0%, #960000 100%);
   color: white;
   text-shadow: 0 0 0.4em rgba(0, 0, 0, 0.4); }
-  .MButtonRed:hover, input[type="reset"]:hover, .MButtonR:hover {
+  .MButtonRed:hover, input[type=reset]:hover, .MButtonR:hover {
     color: white; }
-  .MButtonRed:active, input[type="reset"]:active, .MButtonR:active {
+  .MButtonRed:active, input[type=reset]:active, .MButtonR:active {
     color: white; }
 
 .MButtonOrange, .MButtonO {
@@ -1139,10 +1137,8 @@ button {
   background: -o-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
   background: -webkit-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
   background: linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
-  border-color: #646464;
+  border: 1px solid #646464;
   border-radius: 3px;
-  border-style: solid;
-  border-width: 1px;
   color: #323232;
   margin: 0 auto;
   padding: 1.6em;
@@ -1341,14 +1337,14 @@ hr{
   margin-right: 1.6em;
   width: 1px; }
 
-.MIconComplete {
+.MIconComplete150 {
   background-image: url("/framework/img/icons/complete_150x150.png");
   background-repeat: no-repeat;
   height: 150px;
   margin-right: 1.2em;
   width: 150px; }
 
-.MIconWarning {
+.MIconWarning150 {
   background-image: url("/framework/img/icons/warning_150x150.png");
   background-repeat: no-repeat;
   height: 150px;

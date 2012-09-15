@@ -1,10 +1,10 @@
 .MButton{@extend .MGlow;
   background:$mono_5;
-  background:-moz-linear-gradient(top, $mono_5 0%, #c8c8c8 100%);
-  background:-ms-linear-gradient(top, $mono_5 0%, #c8c8c8 100%);
-  background:-o-linear-gradient(top, $mono_5 0%, #c8c8c8 100%);
-  background:-webkit-linear-gradient(top, $mono_5 0%, #c8c8c8 100%);
-  background:linear-gradient(top, $mono_5 0%, #c8c8c8 100%);
+  background:-moz-linear-gradient(top, $mono_5 0%, $mono_4_2 100%);
+  background:-ms-linear-gradient(top, $mono_5 0%, $mono_4_2 100%);
+  background:-o-linear-gradient(top, $mono_5 0%, $mono_4_2 100%);
+  background:-webkit-linear-gradient(top, $mono_5 0%, $mono_4_2 100%);
+  background:linear-gradient(top, $mono_5 0%, $mono_4_2 100%);
   border:1px solid $outline;
   border-radius:$rounded;
   color:$mono_2;
@@ -193,6 +193,6 @@ button{@extend .MButton;
 }
 
 input{
-  &[type="button"], &[type="submit"]{@extend .MButton;}
-  &[type="reset"]{@extend .MButtonRed;}
+  &[type=button], &[type=submit]{@extend .MButton;}
+  &[type=reset]{@extend .MButtonRed;}
 }

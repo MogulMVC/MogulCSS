@@ -1,17 +1,17 @@
 #MToolbarPlaceholder{
-  background:#c8c8c8;
+  background:$mono_4_2;
   height:2.4em;
   margin:0 auto;
   width:100%;
 }
 
 #MToolbar{
-  background:#c8c8c8;
-  background:-moz-linear-gradient(top, $mono_5 0%, #c8c8c8 100%);
-  background:-ms-linear-gradient(top, $mono_5 0%,#c8c8c8 100%);
-  background:-o-linear-gradient(top, $mono_5 0%,#c8c8c8 100%);
-  background:-webkit-linear-gradient(top, $mono_5 0%,#c8c8c8 100%);
-  background:linear-gradient(top, $mono_5 0%,#c8c8c8 100%);
+  background:$mono_4_2;
+  background:-moz-linear-gradient(top, $mono_5 0%, $mono_4_2 100%);
+  background:-ms-linear-gradient(top, $mono_5 0%,$mono_4_2 100%);
+  background:-o-linear-gradient(top, $mono_5 0%,$mono_4_2 100%);
+  background:-webkit-linear-gradient(top, $mono_5 0%,$mono_4_2 100%);
+  background:linear-gradient(top, $mono_5 0%,$mono_4_2 100%);
   border-bottom:1px solid $mono_3;
   box-shadow:$shadow_outer_large;
   color:$mono_2;
@@ -27,18 +27,18 @@
   z-index:1000;
 
   a{
-  -moz-user-select:none;
-  -o-user-select:none;
-  -webkit-user-select:none;
-  color:$mono_2;
-  height:1.3em;
-  line-height:1.3em;
-  margin-top:.4em;
-  padding-bottom:.2em;
-  padding-left:.4em;
-  padding-right:.4em;
-  padding-top:.2em;
-  user-select:none;
+    -moz-user-select:none;
+    -o-user-select:none;
+    -webkit-user-select:none;
+    color:$mono_2;
+    height:1.3em;
+    line-height:1.3em;
+    margin-top:.4em;
+    padding-bottom:.2em;
+    padding-left:.4em;
+    padding-right:.4em;
+    padding-top:.2em;
+    user-select:none;
   
     &:hover{
       background:$mono_3;
@@ -86,27 +86,4 @@ h1.MToolbarTitle{
 .MToolbarSpacer{
   height:100%;
   width:.4em;
-}
-
-.MToolbarMessage{
-  background:#141414;
-  background:-moz-linear-gradient(top, #232323 0%, #141414 100%);
-  background:-ms-linear-gradient(top, #232323 0%,#141414 100%);
-  background:-o-linear-gradient(top, #232323 0%,#141414 100%);
-  background:-webkit-linear-gradient(top, #232323 0%,#141414 100%);
-  background:linear-gradient(top, #232323 0%,#141414 100%);
-  border-radius:$rounded;
-  border-top:solid 1px $mono_3;
-  box-shadow:$shadow_outer_large;
-  color:white;
-  display:none;
-  font-size:.85em;
-  font-weight:bold;
-  line-height:1.6em;
-  max-width:450px;
-  padding:1.6em;
-  position:fixed;
-  right:.4em;
-  top:71px;
-  z-index:500;
 }
