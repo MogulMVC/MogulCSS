@@ -1,15 +1,3 @@
-/**********/
-/* Config */
-/**********/
-/* Color */
-/* Will Fix Later */
-/* Will Fix Later */
-/* Will Fix Later */
-/* Will Fix Later */
-/* Change to #fac800 after redesign */
-/* Visuals */
-/* half size of AS */
-/*Font / Text*/
 a.bold, h1.bold, h2.bold, h3.bold, h4.bold, h5.bold, h6.bold, input.bold, label.bold, p.bold, span.bold, textarea.bold {
   font-weight: bold; }
 a.red, h1.red, h2.red, h3.red, h4.red, h5.red, h6.red, input.red, label.red, p.red, span.red, textarea.red {
@@ -85,26 +73,6 @@ input[type="checkbox"], input[type="radio"] {
   display: inline;
   margin-right: .4em; }
 
-select {
-  -moz-transition: border-color 0.25s, box-shadow 0.25s;
-  -webkit-transition: border-color 0.25s, box-shadow 0.25s;
-  background: #e6e6e6;
-  background: -moz-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
-  background: -ms-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
-  background: -o-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
-  background: -webkit-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
-  background: linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
-  border-color: #646464;
-  border-radius: 3px;
-  border-style: solid;
-  border-width: 1px;
-  color: #323232;
-  cursor: pointer;
-  font-size: 1em;
-  height: 1.6em; }
-  select:hover {
-    border-color: #007dfa; }
-
 label {
   cursor: pointer; }
 
@@ -115,9 +83,6 @@ ul {
 li {
   list-style-type: none; }
 
-/************/
-/* Managers */
-/************/
 .MGlow, .MButton, .MButtonRed, input[type=reset], .MButtonR, .MButtonOrange, .MButtonO, .MButtonYellow, .MButtonY, .MButtonGreen, .MButtonG, .MButtonBlue, .MButtonB, .MButtonViolet, .MButtonV, .MButtonUpload, button, input[type=button], input[type=submit], .MTab, .MTabSelected, .eztab {
   -moz-transition: box-shadow 0.25s;
   -o-transition: box-shadow 0.25s;
@@ -156,9 +121,6 @@ li {
   margin: 0 auto;
   width: 100%; }
 
-/*******************/
-/* Main Containers */
-/*******************/
 #MMainWindow {
   border: 0;
   margin: 0 auto -70px;
@@ -166,8 +128,7 @@ li {
   padding: 0;
   text-align: left; }
   #MMainWindow img {
-    opacity: 0;
-    /*Images are faded in with JS*/ }
+    opacity: 0; }
 
 #MHeaderPlaceholder {
   background: #141414;
@@ -599,9 +560,6 @@ h1.MToolbarTitle {
 .MTableSpacer {
   height: 2.4em; }
 
-/************/
-/* Elements */
-/************/
 .MSystemMessage, .MToolbarMessage {
   background: #141414;
   background: -moz-linear-gradient(top, #232323 0%, #141414 100%);
@@ -806,6 +764,26 @@ button {
   font-size: 1em; }
   button::-moz-focus-inner {
     border: 0; }
+
+select {
+  -moz-transition: border-color 0.25s, box-shadow 0.25s;
+  -webkit-transition: border-color 0.25s, box-shadow 0.25s;
+  background: #e6e6e6;
+  background: -moz-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
+  background: -ms-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
+  background: -o-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
+  background: -webkit-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
+  background: linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
+  border-color: #646464;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1px;
+  color: #323232;
+  cursor: pointer;
+  font-size: 1em;
+  height: 1.6em; }
+  select:hover {
+    border-color: #007dfa; }
 
 .MTab, .MTabSelected {
   -moz-user-select: none;
@@ -1131,7 +1109,6 @@ button {
 .lgripper.style1 {
   background: url("/framework/img/MSlider/tracker.png") 0px 0px no-repeat; }
 
-/* Widgets */
 .MWidgetContainer, fieldset, .MHoverForm, .MHoverMessage, .MPopupContainer {
   background: #e6e6e6;
   background: -moz-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
@@ -1324,14 +1301,6 @@ button {
   height: 1px;
   width: 100%; }
 
-/*
-hr{
-  background:url("/framework/img/global/hr.png") repeat-x;
-  border:0;
-  height:1;
-  margin:0;
-}
-*/
 .MVR {
   background: #646464;
   height: 100%;
@@ -1431,9 +1400,6 @@ hr{
   .MIconArrowRight:hover {
     background-position: 0 -16px; }
 
-/********************/
-/* Config Overrides */
-/********************/
 .text_left {
   text-align: left; }
 

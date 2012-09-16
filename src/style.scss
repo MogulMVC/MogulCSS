@@ -1,20 +1,14 @@
-/**********/
-/* Config */
-/**********/
+//Config
 
 @import "config/MConfig";
 @import "config/MGlobal";
 
-/************/
-/* Managers */
-/************/
+// Managers
 
 @import "manager/MGlow";
 @import "manager/MShadows";
 
-/*******************/
-/* Main Containers */
-/*******************/
+// Main Containers
 
 @import "ui/MMainWindow";
 @import "ui/MHeader";
@@ -24,19 +18,18 @@
 @import "ui/MStage";
 @import "ui/MContent";
 
-/************/
-/* Elements */
-/************/
+// Elements
 
 @import "ui/MSystemMessage.scss";
 @import "ui/MInputText";
 @import "ui/MButtons";
+@import "ui/MComboBox";
 @import "ui/MTab";
 @import "ui/MTip";
 @import "ui/MList";
 @import "ui/MSlider";
 
-/* Widgets */
+// Widgets
 
 @import "ui/MWidget";
 @import "ui/MHover";
@@ -51,8 +44,6 @@
 @import "ui/MVR";
 @import "ui/MIcons";
 
-/********************/
-/* Config Overrides */
-/********************/
+// Config Overrides
 
 @import "config/MProperties";

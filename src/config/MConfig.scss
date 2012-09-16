@@ -1,14 +1,23 @@
-/* Color */
+// @Author Alan James - alanjames1987@gmail.com
+
+// Speed
+
+// Needs Matching
+$speedFast:125;
+$speedNorm:250;
+$speedSlow:500;
+
+// Color
 
 $mono_1:#0a0a0a;
-$mono_1_2:#141414; /* Will Fix Later */
-$mono_1_3:#232323; /* Will Fix Later */
+$mono_1_2:#141414; // Will Fix Later
+$mono_1_3:#232323; // Will Fix Later
 $mono_2:#323232;
 $mono_3:#646464;
 $mono_4:#969696;
-$mono_4_2:#c8c8c8; /* Will Fix Later */
+$mono_4_2:#c8c8c8; // Will Fix Later
 $mono_5:#e6e6e6;
-$mono_5_2:#f0f0f0; /* Will Fix Later */
+$mono_5_2:#f0f0f0; // Will Fix Later
 $mono_6:#ffffff;
 
 $red_1:#960000;
@@ -22,7 +31,7 @@ $orange_3:#f0a573;
 $orange_4:#8c4110;
 
 $yellow_1:#969600;
-$yellow_2:#fafa00; /* Change to #fac800 after redesign */
+$yellow_2:#fafa00; // Change to #fac800 after redesign
 $yellow_3:#f0f073;
 $yellow_4:#8b8b0e;
 
@@ -44,12 +53,12 @@ $violet_4:#4a0c89;
 $outline:$mono_3;
 $outline_down:$mono_2;
 
-/* Visuals */
+// Visual
 
-$rounded:3px; /* half size of AS */
+$rounded:3px; // Half size of AS
 $rounded_large:2em;
 
-/*Font / Text*/
+// Font / Text
 
 $font:Arial, sans-serif;
 
