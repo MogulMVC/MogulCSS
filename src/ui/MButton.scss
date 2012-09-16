@@ -195,6 +195,7 @@ button{@extend .MButton;
 }
 
 input{
-  &[type=button], &[type=submit]{@extend .MButton;}
+  &[type=button]{@extend .MButton;}
+  &[type=submit]{@extend .MButtonBlue;}
   &[type=reset]{@extend .MButtonRed;}
 }
