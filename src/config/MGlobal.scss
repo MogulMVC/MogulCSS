@@ -45,16 +45,6 @@ body{
   text-align:center;
 }
 
-fieldset{ @extend .MWidgetContainer;}
-
-legend{
-  background:$mono_6;
-  border-radius:.3em;
-  border:.1em solid $outline;
-  font-weight:bold;
-  text-align:center;
-}
-
 iframe{
   border:0;
 }
@@ -77,13 +67,4 @@ input{
 
 label{
   cursor:pointer;
-}
-
-ul{
-  margin:0;
-  padding:0;
-}
-
-li{
- list-style-type:none; 
 }

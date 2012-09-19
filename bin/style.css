@@ -53,13 +53,6 @@ body {
   padding: 0;
   text-align: center; }
 
-legend {
-  background: white;
-  border-radius: .3em;
-  border: 0.1em solid #646464;
-  font-weight: bold;
-  text-align: center; }
-
 iframe {
   border: 0; }
 
@@ -75,13 +68,6 @@ input[type="checkbox"], input[type="radio"] {
 
 label {
   cursor: pointer; }
-
-ul {
-  margin: 0;
-  padding: 0; }
-
-li {
-  list-style-type: none; }
 
 .MGlow, .MButton, .MButtonRed, input[type=reset], .MButtonR, .MButtonOrange, .MButtonO, .MButtonYellow, .MButtonY, .MButtonGreen, .MButtonG, .MButtonBlue, input[type=submit], .MButtonB, .MButtonViolet, .MButtonV, .MButtonUpload, button, input[type=button], .MTab {
   -moz-transition: box-shadow 0.25s;
@@ -1071,6 +1057,13 @@ select {
   overflow: hidden;
   text-overflow: ellipsis; }
 
+ul {
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style-type: none; }
+
 .MSlider {
   position: relative; }
 
@@ -1120,7 +1113,7 @@ select {
 .lgripper.style1 {
   background: url("/framework/img/MSlider/tracker.png") 0px 0px no-repeat; }
 
-.MWidgetContainer, fieldset, .MHoverForm, .MHoverMessage, .MPopupContainer {
+.MWidgetContainer, .MHoverForm, .MHoverMessage, .MPopupContainer {
   background: #e6e6e6;
   background: -moz-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
   background: -ms-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);

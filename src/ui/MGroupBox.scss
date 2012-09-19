@@ -1,0 +1,9 @@
+fieldset{ @extend .MWidgetContainer;}
+
+legend{
+  background:$mono_6;
+  border-radius:.3em;
+  border:.1em solid $outline;
+  font-weight:bold;
+  text-align:center;
+}
