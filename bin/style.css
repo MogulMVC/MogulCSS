@@ -1060,7 +1060,8 @@ li {
   top: 0;
   width: 350px;
   z-index: 200;
-  right: 0.4em; }
+  right: 0;
+  display: none; }
 
 .MSystemMessage, .MToolbarMessage {
   background: #141414;
@@ -1071,7 +1072,7 @@ li {
   background: linear-gradient(top, #232323 0%, #141414 100%);
   border-radius: 3px;
   border-top: solid 1px #646464;
-  box-shadow: 0 1.2em 2.4em -0.8em rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0.2em 0.35em rgba(0, 0, 0, 0.4);
   color: white;
   display: block;
   font-size: .85em;
