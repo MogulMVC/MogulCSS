@@ -1,34 +1,6 @@
 // @Author Alan James - alanjames1987@gmail.com
 
-.MListSummary{
-  display:list-item;
-  height:2em;
-  text-overflow:ellipsis;
-  width:100%;
-}
-
-.MListTitle{
-  display:inline;
-  margin:0;
-}
-
-.MListCitation{
-  margin-left:.4em;
-}
-
-.MListOptions{
-  display:inline-block;
-  float:right;
-  min-width:300px;
-  
-  a, img, span{
-    margin-left:2px;
-    margin-right:2px;
-  }
-  
-}
-
-.MListItemContainer{
+.MListItem{
   border-radius:$rounded;
   opacity:0;
   padding:1.2em;
@@ -76,18 +48,46 @@
 
 }
 
-.MListItemContainerSub{
+.MListItemSub{
   background:$mono_4_2;
   border-radius:$rounded;
   padding:.4em;
   position:relative;
 }
 
-.MListInfoContainer{
+.MListInfo{
   -o-text-overflow:ellipsis;
   display:block;
   overflow:hidden;
   text-overflow:ellipsis;
+}
+
+.MListSummary{
+  display:list-item;
+  height:2em;
+  text-overflow:ellipsis;
+  width:100%;
+}
+
+.MListTitle{
+  display:inline;
+  margin:0;
+}
+
+.MListCitation{
+  margin-left:.4em;
+}
+
+.MListOptions{
+  display:inline-block;
+  float:right;
+  min-width:300px;
+  
+  a, img, span{
+    margin-left:2px;
+    margin-right:2px;
+  }
+  
 }
 
 ul{

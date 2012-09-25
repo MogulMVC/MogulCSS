@@ -330,6 +330,7 @@ legend {
   background: linear-gradient(top, #232323 0%, #141414 100%);
   box-shadow: 0 1.2em 2.4em -0.8em rgba(0, 0, 0, 0.4);
   color: white;
+  font-weight: bold;
   height: 2.85em;
   left: 0;
   line-height: 2.85em;
@@ -647,6 +648,46 @@ textarea {
   padding: 0;
   resize: vertical; }
 
+.MListItem {
+  border-radius: 3px;
+  opacity: 0;
+  padding: 1.2em;
+  position: relative; }
+  .MListItem.red {
+    background: #dcc3c3;
+    color: #323232; }
+    .MListItem.red:hover {
+      background: #e1d5d5; }
+  .MListItem.yellow {
+    background: #faf5b4;
+    color: #323232; }
+    .MListItem.yellow:hover {
+      background: #f0edcd; }
+  .MListItem.green {
+    background: #c3dcc3;
+    color: #323232; }
+    .MListItem.green:hover {
+      background: #d5e1d5; }
+  .MListItem.blue {
+    background: #b4d2f0;
+    color: #323232; }
+    .MListItem.blue:hover {
+      background: #cddceb; }
+  .MListItem:hover {
+    background: #e6e6e6; }
+
+.MListItemSub {
+  background: #c8c8c8;
+  border-radius: 3px;
+  padding: .4em;
+  position: relative; }
+
+.MListInfo {
+  -o-text-overflow: ellipsis;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
 .MListSummary {
   display: list-item;
   height: 2em;
@@ -667,46 +708,6 @@ textarea {
   .MListOptions a, .MListOptions img, .MListOptions span {
     margin-left: 2px;
     margin-right: 2px; }
-
-.MListItemContainer {
-  border-radius: 3px;
-  opacity: 0;
-  padding: 1.2em;
-  position: relative; }
-  .MListItemContainer.red {
-    background: #dcc3c3;
-    color: #323232; }
-    .MListItemContainer.red:hover {
-      background: #e1d5d5; }
-  .MListItemContainer.yellow {
-    background: #faf5b4;
-    color: #323232; }
-    .MListItemContainer.yellow:hover {
-      background: #f0edcd; }
-  .MListItemContainer.green {
-    background: #c3dcc3;
-    color: #323232; }
-    .MListItemContainer.green:hover {
-      background: #d5e1d5; }
-  .MListItemContainer.blue {
-    background: #b4d2f0;
-    color: #323232; }
-    .MListItemContainer.blue:hover {
-      background: #cddceb; }
-  .MListItemContainer:hover {
-    background: #e6e6e6; }
-
-.MListItemContainerSub {
-  background: #c8c8c8;
-  border-radius: 3px;
-  padding: .4em;
-  position: relative; }
-
-.MListInfoContainer {
-  -o-text-overflow: ellipsis;
-  display: block;
-  overflow: hidden;
-  text-overflow: ellipsis; }
 
 ul {
   margin: 0;
