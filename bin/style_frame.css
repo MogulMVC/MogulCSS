@@ -1,23 +1,38 @@
-*{
-  border:0px;
-  margin:0px;
-  padding:0px;
-}
+a.bold, h1.bold, h2.bold, h3.bold, h4.bold, h5.bold, h6.bold, input.bold, label.bold, p.bold, span.bold, textarea.bold {
+  font-weight: bold; }
+a.red, h1.red, h2.red, h3.red, h4.red, h5.red, h6.red, input.red, label.red, p.red, span.red, textarea.red {
+  color: #960000; }
+a.orange, h1.orange, h2.orange, h3.orange, h4.orange, h5.orange, h6.orange, input.orange, label.orange, p.orange, span.orange, textarea.orange {
+  color: #963c00; }
+a.yellow, h1.yellow, h2.yellow, h3.yellow, h4.yellow, h5.yellow, h6.yellow, input.yellow, label.yellow, p.yellow, span.yellow, textarea.yellow {
+  color: #969600; }
+a.green, h1.green, h2.green, h3.green, h4.green, h5.green, h6.green, input.green, label.green, p.green, span.green, textarea.green {
+  color: #009600; }
+a.blue, h1.blue, h2.blue, h3.blue, h4.blue, h5.blue, h6.blue, input.blue, label.blue, p.blue, span.blue, textarea.blue {
+  color: #004b96; }
+a.violet, h1.violet, h2.violet, h3.violet, h4.violet, h5.violet, h6.violet, input.violet, label.violet, p.violet, span.violet, textarea.violet {
+  color: #4b0096; }
+a.black, h1.black, h2.black, h3.black, h4.black, h5.black, h6.black, input.black, label.black, p.black, span.black, textarea.black {
+  color: #0a0a0a; }
+a.white, h1.white, h2.white, h3.white, h4.white, h5.white, h6.white, input.white, label.white, p.white, span.white, textarea.white {
+  color: white; }
 
-body{
-  background:#c8c8c8;
-  text-align:left;
+* {
+  border: 0px;
+  margin: 0px;
+  padding: 0px; }
 
-}
+body {
+  background: #c8c8c8;
+  text-align: left; }
 
-.MWidgetContainerFrame{
-  background:#c8c8c8;
-  border-style:none;
-  color:$mono_2;
-  height:100%;
-  margin:0px auto;
-  padding:0px;
-  text-align:center;
-  text-align:left;
-  width:100%;
-}
+.MWidgetContainerFrame {
+  background: #c8c8c8;
+  border-style: none;
+  color: #323232;
+  height: 100%;
+  margin: 0px auto;
+  padding: 0px;
+  text-align: center;
+  text-align: left;
+  width: 100%; }
