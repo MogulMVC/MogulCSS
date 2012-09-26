@@ -1364,6 +1364,8 @@ li {
     margin-top: .1em; }
   #MToolbar img {
     vertical-align: top; }
+  #MToolbar input[type="password"], #MToolbar input[type="text"] {
+    margin: 3px; }
 
 h1.MToolbarTitle {
   font-size: 1em;

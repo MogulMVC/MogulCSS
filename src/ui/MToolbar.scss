@@ -66,6 +66,12 @@
     vertical-align:top;
   }
   
+  input{
+    &[type="password"], &[type="text"]{
+      margin:3px;
+    }
+  }
+  
 }
 
 h1.MToolbarTitle{
