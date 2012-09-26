@@ -1,6 +1,6 @@
 // @Author Alan James - alanjames1987@gmail.com
 
-input[type="email"], input[type="password"], input[type="search"], input[type="text"], input[type="url"], textarea{
+input[type="password"], input[type="text"], textarea{
   -moz-transition:border-color 0.25s, box-shadow 0.25s, color 0.25s;
   -webkit-transition:border-color 0.25s, box-shadow 0.25s, color 0.25s;
   border: 1px solid $mono_3;
@@ -37,7 +37,7 @@ input[type="email"], input[type="password"], input[type="search"], input[type="t
 }
 
 input{
-  &[type="email"], &[type="password"], &[type="search"], &[type="text"], &[type="url"]{
+  &[type="password"], &[type="text"]{
     display:block;
     font-size:1em;
     height:1.75em;
