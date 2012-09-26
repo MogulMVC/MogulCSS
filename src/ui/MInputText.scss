@@ -1,6 +1,6 @@
 // @Author Alan James - alanjames1987@gmail.com
 
-input[type="password"], input[type="text"], textarea{
+input[type="email"], input[type="password"], input[type="search"], input[type="text"], input[type="url"], textarea{
   -moz-transition:border-color 0.25s, box-shadow 0.25s, color 0.25s;
   -webkit-transition:border-color 0.25s, box-shadow 0.25s, color 0.25s;
   border: 1px solid $mono_3;
@@ -9,7 +9,7 @@ input[type="password"], input[type="text"], textarea{
   color:$mono_3;
   margin:0 auto;
   padding:0;
-
+  
   &:hover, &.input_invisible:hover{
     border-color:$blue_2;
     box-shadow:$shadow_inner_large, $glow;
@@ -33,11 +33,11 @@ input[type="password"], input[type="text"], textarea{
     border:0 none transparent;
     box-shadow:none;
   }
-  
+
 }
 
 input{
-  &[type="password"], &[type="text"]{
+  &[type="email"], &[type="password"], &[type="search"], &[type="text"], &[type="url"]{
     display:block;
     font-size:1em;
     height:1.75em;
