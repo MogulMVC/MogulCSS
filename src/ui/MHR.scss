@@ -1,17 +1,6 @@
-// @Author Alan James - alanjames1987@gmail.com
-
-.MHR{
+hr{  
   background:$mono_3;
   border: 0;
   height:1px;
   width:100%;
-} 
-
-hr{@extend .MHR;}
-
-// hr{
-  // background:url("/framework/img/global/hr.png") repeat-x;
-  // border:0;
-  // height:1;
-  // margin:0;
-// }
+}

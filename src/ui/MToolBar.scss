@@ -1,13 +1,11 @@
-// @Author Alan James - alanjames1987@gmail.com
-
-#MToolbarPlaceholder{
+#MToolBarPlaceholder{
   background:$mono_4_2;
   height:2.4em;
   margin:0 auto;
   width:100%;
 }
 
-#MToolbar{
+#MToolBar{
   background:$mono_4_2;
   background:-moz-linear-gradient(top, $mono_5 0%, $mono_4_2 100%);
   background:-ms-linear-gradient(top, $mono_5 0%,$mono_4_2 100%);
@@ -74,16 +72,16 @@
   
 }
 
-h1.MToolbarTitle{
+h1.MToolBarTitle{
   font-size:1em;
   margin:0;
 }
 
-.MToolbarIcon{
+.MToolBarIcon{
   margin-right:.4em;
 }
   
-.MToolbarSeperator{
+.MToolBarSeperator{
   background:$mono_3;
   height:100%;
   margin-left:.4em;
@@ -91,7 +89,7 @@ h1.MToolbarTitle{
   width:1px;
 } 
 
-.MToolbarSpacer{
+.MToolBarSpacer{
   height:100%;
   width:.4em;
 }

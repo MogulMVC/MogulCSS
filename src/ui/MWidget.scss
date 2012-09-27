@@ -1,6 +1,4 @@
-// @Author Alan James - alanjames1987@gmail.com
-
-.MWidgetContainer{
+.MWidget{
   background:$mono_5;
   background:-moz-linear-gradient(top, $mono_5 0%, $mono_4_2 100%);
   background:-ms-linear-gradient(top, $mono_5 0%,$mono_4_2 100%);
@@ -15,7 +13,7 @@
   text-align:left;
 }
 
-.MWidgetContainerWide{
+.MWideWidget{
   background:$mono_4_2;
   color:$mono_2;
   margin:0 auto;

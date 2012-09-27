@@ -1,38 +1,34 @@
-// @Author Alan James - alanjames1987@gmail.com
-
-#MContentList{
+.MContent{
   margin:0 auto;
+  text-align:left;
+}
+
+#MContentList{@extend .MContent;
   min-width:900px;
   width:80%;
 }
 
-.MContent900{
-  margin:0 auto;
+.MContent900{@extend .MContent;
   width:900px;
 }
 
-.MContent870{
-  margin:0 auto;
+.MContent870{@extend .MContent;
   width:870px;
 }
 
-.MContent840{
-  margin:0 auto;
+.MContent840{@extend .MContent;
   width:840px;
 }
 
-.MContent740{
-  margin:0 auto;
+.MContent740{@extend .MContent;
   width:740px;
 }
 
-.MContent610{
-  text-align:left;
+.MContent610{@extend .MContent;
   width:610px;
 }
 
-.MContent200{
-  text-align:center;
+.MContent200{@extend .MContent;
   width:200px;
 }
 

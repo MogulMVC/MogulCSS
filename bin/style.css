@@ -270,33 +270,30 @@ select {
   select:hover {
     border-color: #007dfa; }
 
-#MContentList {
+.MContent, #MContentList, .MContent900, .MContent870, .MContent840, .MContent740, .MContent610, .MContent200 {
   margin: 0 auto;
+  text-align: left; }
+
+#MContentList {
   min-width: 900px;
   width: 80%; }
 
 .MContent900 {
-  margin: 0 auto;
   width: 900px; }
 
 .MContent870 {
-  margin: 0 auto;
   width: 870px; }
 
 .MContent840 {
-  margin: 0 auto;
   width: 840px; }
 
 .MContent740 {
-  margin: 0 auto;
   width: 740px; }
 
 .MContent610 {
-  text-align: left;
   width: 610px; }
 
 .MContent200 {
-  text-align: center;
   width: 200px; }
 
 .MContentSpacer {
@@ -490,30 +487,7 @@ a#MHeaderTools {
 #hidden_content {
   text-align: center; }
 
-.MHoverForm {
-  box-shadow: 0 1.2em 2.4em -0.8em rgba(0, 0, 0, 0.4);
-  left: 50%;
-  margin-left: -12em;
-  margin-top: -8em;
-  position: fixed;
-  top: 40%;
-  width: 24em;
-  z-index: 500; }
-
-.MHoverMessage {
-  border-radius: 3px;
-  box-shadow: 0 1.2em 2.4em -0.8em rgba(0, 0, 0, 0.4);
-  left: 50%;
-  line-height: 2.4em;
-  margin-left: -18.2em;
-  padding: .8em;
-  position: fixed;
-  text-align: left;
-  top: 30%;
-  width: 36.4em;
-  z-index: 500; }
-
-.MHR, hr {
+hr {
   background: #646464;
   border: 0;
   height: 1px;
@@ -749,12 +723,12 @@ li {
 .MModalBGWhite {
   background-color: white; }
 
-.MPaginationContainer {
+.MPagination {
   text-align: center; }
-  .MPaginationContainer a, .MPaginationContainer span {
+  .MPagination a, .MPagination span {
     padding: .4em; }
 
-.MPopupContainer {
+.MPopup {
   box-shadow: 0 1.2em 2.4em -0.8em rgba(0, 0, 0, 0.4);
   left: 50%;
   margin-left: -27.4em;
@@ -778,6 +752,29 @@ li {
   max-height: 400px;
   max-width: 640px; }
 
+.MHoverForm {
+  box-shadow: 0 1.2em 2.4em -0.8em rgba(0, 0, 0, 0.4);
+  left: 50%;
+  margin-left: -12em;
+  margin-top: -8em;
+  position: fixed;
+  top: 40%;
+  width: 24em;
+  z-index: 500; }
+
+.MHoverMessage {
+  border-radius: 3px;
+  box-shadow: 0 1.2em 2.4em -0.8em rgba(0, 0, 0, 0.4);
+  left: 50%;
+  line-height: 2.4em;
+  margin-left: -18.2em;
+  padding: .8em;
+  position: fixed;
+  text-align: left;
+  top: 30%;
+  width: 36.4em;
+  z-index: 500; }
+
 .MPreviewBG {
   background-color: #323232;
   box-shadow: 0 0.2em 0.35em rgba(0, 0, 0, 0.4);
@@ -799,9 +796,9 @@ li {
   max-height: 145px;
   max-width: 550px; }
 
-.MProgressBarContainer {
+.MProgressBar {
   margin: 4px; }
-  .MProgressBarContainer .MProgressBarBG {
+  .MProgressBar .MProgressBarBG {
     background: #969696;
     border-radius: 2em;
     box-shadow: inset 0 0.2em 0.35em rgba(0, 0, 0, 0.4);
@@ -812,7 +809,7 @@ li {
     position: relative;
     text-shadow: 0 0 0.4em rgba(0, 0, 0, 0.4);
     width: 100%; }
-    .MProgressBarContainer .MProgressBarBG .MProgressBarFG {
+    .MProgressBar .MProgressBarBG .MProgressBarFG {
       background: #004b96;
       background: -moz-linear-gradient(left, #004b96 0%, #007dfa 50%, #004b96 100%);
       background: -ms-linear-gradient(left, #004b96 0%, #007dfa 50%, #004b96 100%);
@@ -824,7 +821,7 @@ li {
       color: white;
       height: 100%;
       width: 0%; }
-      .MProgressBarContainer .MProgressBarBG .MProgressBarFG .MProgressBarIndicator {
+      .MProgressBar .MProgressBarBG .MProgressBarFG .MProgressBarIndicator {
         left: 50%;
         margin-left: -12px;
         position: absolute; }
@@ -1073,7 +1070,7 @@ li {
   right: 0;
   display: none; }
 
-.MSystemMessage, .MToolbarMessage {
+.MSystemMessage {
   background: #141414;
   background: -moz-linear-gradient(top, #232323 0%, #141414 100%);
   background: -ms-linear-gradient(top, #232323 0%, #141414 100%);
@@ -1094,7 +1091,6 @@ li {
   z-index: 500;
   position: relative; }
 
-/* Legacy */
 /*
 .MTab{@extend .MGlow;
   -moz-user-select:none;
@@ -1320,13 +1316,13 @@ li {
   margin-top: -5px;
   top: 50%; }
 
-#MToolbarPlaceholder {
+#MToolBarPlaceholder {
   background: #c8c8c8;
   height: 2.4em;
   margin: 0 auto;
   width: 100%; }
 
-#MToolbar {
+#MToolBar {
   background: #c8c8c8;
   background: -moz-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
   background: -ms-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
@@ -1346,7 +1342,7 @@ li {
   top: 2.85em;
   width: 100%;
   z-index: 1000; }
-  #MToolbar a {
+  #MToolBar a {
     -moz-user-select: none;
     -o-user-select: none;
     -webkit-user-select: none;
@@ -1359,38 +1355,38 @@ li {
     padding-right: .4em;
     padding-top: .2em;
     user-select: none; }
-    #MToolbar a:hover {
+    #MToolBar a:hover {
       background: #646464;
       border-radius: 3px;
       box-shadow: inset 0 0.2em 0.35em rgba(0, 0, 0, 0.4);
       color: white;
       text-shadow: 0 0 0.4em rgba(0, 0, 0, 0.5); }
-  #MToolbar a.MButton, #MToolbar a.MButtonRed, #MToolbar a.MButtonR, #MToolbar a.MButtonOrange, #MToolbar a.MButtonO, #MToolbar a.MButtonYellow, #MToolbar a.MButtonY, #MToolbar a.MButtonGreen, #MToolbar a.MButtonG, #MToolbar a.MButtonBlue, #MToolbar a.MButtonUpload, #MToolbar a.MButtonB, #MToolbar a.MButtonViolet, #MToolbar a.MButtonV, #MToolbar button.MButton, #MToolbar button, #MToolbar div.MButton, #MToolbar div.MButtonRed, #MToolbar div.MButtonR, #MToolbar div.MButtonOrange, #MToolbar div.MButtonO, #MToolbar div.MButtonYellow, #MToolbar div.MButtonY, #MToolbar div.MButtonGreen, #MToolbar div.MButtonG, #MToolbar div.MButtonBlue, #MToolbar div.MButtonUpload, #MToolbar div.MButtonB, #MToolbar div.MButtonViolet, #MToolbar div.MButtonV, #MToolbar span.MButton, #MToolbar span.MButtonRed, #MToolbar span.MButtonR, #MToolbar span.MButtonOrange, #MToolbar span.MButtonO, #MToolbar span.MButtonYellow, #MToolbar span.MButtonY, #MToolbar span.MButtonGreen, #MToolbar span.MButtonG, #MToolbar span.MButtonBlue, #MToolbar span.MButtonUpload, #MToolbar span.MButtonB, #MToolbar span.MButtonViolet, #MToolbar span.MButtonV, #MToolbar select {
+  #MToolBar a.MButton, #MToolBar a.MButtonRed, #MToolBar a.MButtonR, #MToolBar a.MButtonOrange, #MToolBar a.MButtonO, #MToolBar a.MButtonYellow, #MToolBar a.MButtonY, #MToolBar a.MButtonGreen, #MToolBar a.MButtonG, #MToolBar a.MButtonBlue, #MToolBar a.MButtonUpload, #MToolBar a.MButtonB, #MToolBar a.MButtonViolet, #MToolBar a.MButtonV, #MToolBar button.MButton, #MToolBar button, #MToolBar div.MButton, #MToolBar div.MButtonRed, #MToolBar div.MButtonR, #MToolBar div.MButtonOrange, #MToolBar div.MButtonO, #MToolBar div.MButtonYellow, #MToolBar div.MButtonY, #MToolBar div.MButtonGreen, #MToolBar div.MButtonG, #MToolBar div.MButtonBlue, #MToolBar div.MButtonUpload, #MToolBar div.MButtonB, #MToolBar div.MButtonViolet, #MToolBar div.MButtonV, #MToolBar span.MButton, #MToolBar span.MButtonRed, #MToolBar span.MButtonR, #MToolBar span.MButtonOrange, #MToolBar span.MButtonO, #MToolBar span.MButtonYellow, #MToolBar span.MButtonY, #MToolBar span.MButtonGreen, #MToolBar span.MButtonG, #MToolBar span.MButtonBlue, #MToolBar span.MButtonUpload, #MToolBar span.MButtonB, #MToolBar span.MButtonViolet, #MToolBar span.MButtonV, #MToolBar select {
     margin-top: .4em; }
-  #MToolbar MButton img {
+  #MToolBar MButton img {
     margin-left: -10px;
     margin-right: .4em;
     margin-top: .1em; }
-  #MToolbar img {
+  #MToolBar img {
     vertical-align: top; }
-  #MToolbar input[type="password"], #MToolbar input[type="text"] {
+  #MToolBar input[type="password"], #MToolBar input[type="text"] {
     margin: 3px; }
 
-h1.MToolbarTitle {
+h1.MToolBarTitle {
   font-size: 1em;
   margin: 0; }
 
-.MToolbarIcon {
+.MToolBarIcon {
   margin-right: .4em; }
 
-.MToolbarSeperator {
+.MToolBarSeperator {
   background: #646464;
   height: 100%;
   margin-left: .4em;
   margin-right: .4em;
   width: 1px; }
 
-.MToolbarSpacer {
+.MToolBarSpacer {
   height: 100%;
   width: .4em; }
 
@@ -1404,7 +1400,7 @@ h1.MToolbarTitle {
   margin-right: 1.6em;
   width: 1px; }
 
-.MWidgetContainer, fieldset, .MHoverForm, .MHoverMessage, .MPopupContainer {
+.MWidget, fieldset, .MPopup, .MHoverForm, .MHoverMessage {
   background: #e6e6e6;
   background: -moz-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
   background: -ms-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
@@ -1418,7 +1414,7 @@ h1.MToolbarTitle {
   padding: 1.6em;
   text-align: left; }
 
-.MWidgetContainerWide {
+.MWideWidget {
   background: #c8c8c8;
   color: #323232;
   margin: 0 auto;
