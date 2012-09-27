@@ -34,7 +34,7 @@
     }
   }
 
-  &.blue{
+  &.blue, &.active{
     background:#b4d2f0;
     color:$mono_2;
     
