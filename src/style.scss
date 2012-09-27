@@ -8,46 +8,12 @@
 @import "manager/MGlow";
 @import "manager/MShadows";
 
-// Main Containers
-
-/*
-@import "ui/MMainWindow";
-@import "ui/MHeader";
-@import "ui/MToolbar";
-@import "ui/MHiddenBG";
-@import "ui/MSidebar";
-@import "ui/MStage";
-@import "ui/MContent";
-
-// Elements
-
-@import "ui/MSystemMessage";
-@import "ui/MInputText";
-@import "ui/MButton";
-@import "ui/MComboBox";
-@import "ui/MTab";
-@import "ui/MTip";
-@import "ui/MList";
-@import "ui/MSlider";
-
-// Widgets
-
-@import "ui/MWidget";
-@import "ui/MHover";
-@import "ui/MPopup";
-@import "ui/MPreviews";
-@import "ui/MModal";
-@import "ui/MProgressBar";
-@import "ui/MRatingBar";
-@import "ui/MPagination";
-@import "ui/MHR";
-@import "ui/MVR";
-@import "ui/MIcons";
-*/
+// Containers
 
 @import "ui/MButton";
 @import "ui/MComboBox";
 @import "ui/MContent";
+@import "ui/MFooter";
 @import "ui/MGroupBox";
 @import "ui/MHBoxLayout";
 @import "ui/MHeader";

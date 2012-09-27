@@ -308,6 +308,11 @@ select {
 .MTableSpacer {
   height: 2.4em; }
 
+#MFooter {
+  clear: both;
+  height: 70px;
+  margin: 0 auto; }
+
 legend {
   background: white;
   border-radius: .3em;
