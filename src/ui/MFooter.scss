@@ -1,5 +1,9 @@
 #MFooter{
   clear: both;
-  height: 70px;
-  margin: 0 auto;
+ 
+  & a, & span{
+    margin-left: .4em;
+    margin-right: .4em;
+  }
+  
 }
