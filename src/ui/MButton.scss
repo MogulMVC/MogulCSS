@@ -1,4 +1,4 @@
-.MButton{@extend .MGlow; 
+.MButton{@extend .MGlow;
   background:$mono_5;
   background:-moz-linear-gradient(top, $mono_5 0%, $mono_4_2 100%);
   background:-ms-linear-gradient(top, $mono_5 0%, $mono_4_2 100%);
@@ -35,6 +35,14 @@
     box-shadow:none;
     color:$mono_4;
     text-shadow:none;
+  }
+  
+  & span{
+    -moz-user-select:-moz-none;
+    -o-user-select:none;
+    -webkit-user-select:none;
+    font-family:$font;
+    user-select:none;
   }
   
 }

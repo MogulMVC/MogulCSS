@@ -1,4 +1,4 @@
 #!/bin/bash 
 
-sass src/style.scss:bin/style.css
-sass src/style_frame.scss:bin/style_frame.css
+sass src/MStyle.scss:bin/MStyle.css
+sass src/MStyleFrame.scss:bin/MStyleFrame.css
