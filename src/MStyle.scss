@@ -1,15 +1,12 @@
 //Config
-
 @import "config/MConfig";
 @import "config/MGlobal";
 
 // Managers
-
 @import "manager/MGlow";
-@import "manager/MShadows";
+@import "manager/MShadow";
 
 // Containers
-
 @import "ui/MButton";
 @import "ui/MComboBox";
 @import "ui/MContent";
@@ -24,12 +21,11 @@
 @import "ui/MList";
 @import "ui/MMainWindow";
 @import "ui/MModal";
-@import "ui/MPagination";
 @import "ui/MPopup";
 @import "ui/MPreviews";
 @import "ui/MProgressBar";
 @import "ui/MRatingBar";
-@import "ui/MSidebar";
+@import "ui/MSideBar";
 @import "ui/MSlider";
 @import "ui/MStage";
 @import "ui/MSystemMessage";
@@ -41,5 +37,4 @@
 @import "ui/MWidget";
 
 // Config Overrides
-
 @import "config/MProperties";
