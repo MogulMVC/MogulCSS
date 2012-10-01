@@ -1,4 +1,4 @@
-input[type="password"], input[type="text"], textarea{
+input[type="number"], input[type="password"], input[type="text"], textarea{
   -moz-transition:border-color $speedNorm, box-shadow 0.25s, color $speedNorm;
   -webkit-transition:border-color $speedNorm, box-shadow 0.25s, color $speedNorm;
   border: 1px solid $mono_3;
@@ -35,7 +35,7 @@ input[type="password"], input[type="text"], textarea{
 }
 
 input{
-  &[type="password"], &[type="text"]{
+  &[type="number"], &[type="password"], &[type="text"]{
     font-size:1em;
     height:1.75em;
   }

@@ -1,6 +1,7 @@
 .MListItem{
   border-radius:$rounded;
-  margin-bottom:5px;
+  margin-top:2px;
+  margin-bottom:2px;
   opacity:0;
   padding:1.2em;
   position:relative;
@@ -45,6 +46,13 @@
     background:$mono_5;
   }
 
+}
+
+.MListSeperator{
+  background: #646464;
+  height:1px;
+  margin-top:0.4em;
+  margin-bottom:0.4em;
 }
 
 .MListItemSub{

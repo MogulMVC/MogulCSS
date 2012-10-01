@@ -360,7 +360,7 @@ hr {
   .MIconArrowRight:hover {
     background-position: 0 -16px; }
 
-input[type="password"], input[type="text"], textarea {
+input[type="number"], input[type="password"], input[type="text"], textarea {
   -moz-transition: border-color 0.25s, box-shadow 0.25s, color 0.25s;
   -webkit-transition: border-color 0.25s, box-shadow 0.25s, color 0.25s;
   border: 1px solid #646464;
@@ -369,24 +369,24 @@ input[type="password"], input[type="text"], textarea {
   color: #646464;
   margin: 0 auto;
   padding: 0; }
-  input[type="password"]:hover, input[type="password"].input_invisible:hover, input[type="text"]:hover, input[type="text"].input_invisible:hover, textarea:hover, textarea.input_invisible:hover {
+  input[type="number"]:hover, input[type="number"].input_invisible:hover, input[type="password"]:hover, input[type="password"].input_invisible:hover, input[type="text"]:hover, input[type="text"].input_invisible:hover, textarea:hover, textarea.input_invisible:hover {
     border-color: #007dfa;
     box-shadow: inset 0 0.2em 0.35em rgba(0, 0, 0, 0.4), 0 0 0.4em #007dfa;
     color: #323232; }
-  input[type="password"]:focus, input[type="password"].input_invisible:hover, input[type="text"]:focus, input[type="text"].input_invisible:hover, textarea:focus, textarea.input_invisible:hover {
+  input[type="number"]:focus, input[type="number"].input_invisible:hover, input[type="password"]:focus, input[type="password"].input_invisible:hover, input[type="text"]:focus, input[type="text"].input_invisible:hover, textarea:focus, textarea.input_invisible:hover {
     border-color: #004b96;
     box-shadow: inset 0 0.2em 0.35em rgba(0, 0, 0, 0.4), 0 0 0.4em #004b96;
     color: #323232; }
-  input[type="password"][disabled], input[type="password"][disabled]:hover, input[type="password"][disabled]:active, input[type="text"][disabled], input[type="text"][disabled]:hover, input[type="text"][disabled]:active, textarea[disabled], textarea[disabled]:hover, textarea[disabled]:active {
+  input[type="number"][disabled], input[type="number"][disabled]:hover, input[type="number"][disabled]:active, input[type="password"][disabled], input[type="password"][disabled]:hover, input[type="password"][disabled]:active, input[type="text"][disabled], input[type="text"][disabled]:hover, input[type="text"][disabled]:active, textarea[disabled], textarea[disabled]:hover, textarea[disabled]:active {
     background: #e6e6e6;
     border-color: #969696;
     box-shadow: inset 0 0.2em 0.35em rgba(0, 0, 0, 0.4);
     color: #969696; }
-  input[type="password"].input_invisible, input[type="text"].input_invisible, textarea.input_invisible {
+  input[type="number"].input_invisible, input[type="password"].input_invisible, input[type="text"].input_invisible, textarea.input_invisible {
     border: 0 none transparent;
     box-shadow: none; }
 
-input[type="password"], input[type="text"] {
+input[type="number"], input[type="password"], input[type="text"] {
   font-size: 1em;
   height: 1.75em; }
 
@@ -399,7 +399,8 @@ textarea {
 
 .MListItem {
   border-radius: 3px;
-  margin-bottom: 5px;
+  margin-top: 2px;
+  margin-bottom: 2px;
   opacity: 0;
   padding: 1.2em;
   position: relative; }
@@ -425,6 +426,12 @@ textarea {
       background: #cddceb; }
   .MListItem:hover {
     background: #e6e6e6; }
+
+.MListSeperator {
+  background: #646464;
+  height: 1px;
+  margin-top: 0.4em;
+  margin-bottom: 0.4em; }
 
 .MListItemSub {
   background: #c8c8c8;
@@ -1437,12 +1444,24 @@ h1.MToolBarTitle {
     margin-right: 0.4em; }
 
 .MHBoxLayout * {
-  display: inline; }
+  display: inline-block; }
 .MHBoxLayout option {
   display: block; }
 
+.MHBoxSpacer {
+  height: 100%;
+  width: 0.4em; }
+
+.MHBoxSeperator {
+  background: none repeat scroll 0 0 #646464;
+  height: 100%;
+  margin-left: 0.4em;
+  margin-right: 0.4em;
+  width: 1px; }
+
 .MVBoxLayout * {
-  display: block; }
+  display: block;
+  width: 100%; }
 
 .text_left {
   text-align: left; }
