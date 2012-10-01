@@ -1,7 +1,3 @@
-The library is broken into multiple packages.
+Mogul CSS is a Sass based CSS library that is used by Mogul JS and Mogul MVC for styling. It attempts to stay stylistically consistent with Mogul AS.
 
-config holds global Sass variable files.
-
-manager is a collection of CSS properties that can be used in other classes.
-
-ui holds all visible UI elements.
+Built with Aptana.
