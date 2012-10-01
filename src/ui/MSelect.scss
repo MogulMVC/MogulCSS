@@ -1,6 +1,6 @@
 select{
-  -moz-transition:border-color $speedNormal, box-shadow $speedNormal;
-  -webkit-transition:border-color $speedNormal, box-shadow $speedNormal;
+  -moz-transition:border-color $speedNorm, box-shadow $speedNorm;
+  -webkit-transition:border-color $speedNorm, box-shadow $speedNorm;
   background:$mono_5;
   background:-moz-linear-gradient(top, $mono_5 0%, #c8c8c8 100%);
   background:-ms-linear-gradient(top, $mono_5 0%,#c8c8c8 100%);
