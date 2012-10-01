@@ -119,17 +119,10 @@
     color:$mono_2;
     opacity:0;
     overflow:hidden;
-    padding-top:1em;
-    padding-right:1.6em;
-    padding-bottom:1em;
-    width:330px;
+    padding:1em;
     
     span{
       font-weight:bold;
-    }
-    
-    & span:first-child{
-      margin-left:20px;
     }
     
     &:hover{

@@ -1351,14 +1351,9 @@ h1.MToolBarTitle {
   color: #323232;
   opacity: 0;
   overflow: hidden;
-  padding-top: 1em;
-  padding-right: 1.6em;
-  padding-bottom: 1em;
-  width: 330px; }
+  padding: 1em; }
   #MSideBar li span {
     font-weight: bold; }
-  #MSideBar li span:first-child {
-    margin-left: 20px; }
   #MSideBar li:hover {
     background: #141414;
     background: -moz-linear-gradient(top, #232323 0%, #141414 100%);
