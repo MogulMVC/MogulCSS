@@ -1,5 +1,7 @@
 a.bold, h1.bold, h2.bold, h3.bold, h4.bold, h5.bold, h6.bold, input.bold, label.bold, p.bold, span.bold, textarea.bold {
   font-weight: bold; }
+a.italics, h1.italics, h2.italics, h3.italics, h4.italics, h5.italics, h6.italics, input.italics, label.italics, p.italics, span.italics, textarea.italics {
+  font-style: italic; }
 a.red, h1.red, h2.red, h3.red, h4.red, h5.red, h6.red, input.red, label.red, p.red, span.red, textarea.red {
   color: #960000; }
 a.orange, h1.orange, h2.orange, h3.orange, h4.orange, h5.orange, h6.orange, input.orange, label.orange, p.orange, span.orange, textarea.orange {
@@ -242,25 +244,8 @@ button {
   button::-moz-focus-inner {
     border: 0; }
 
-select {
-  -moz-transition: border-color 0.25s, box-shadow 0.25s;
-  -webkit-transition: border-color 0.25s, box-shadow 0.25s;
-  background: #e6e6e6;
-  background: -moz-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
-  background: -ms-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
-  background: -o-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
-  background: -webkit-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
-  background: linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
-  border-color: #646464;
-  border-radius: 3px;
-  border-style: solid;
-  border-width: 1px;
-  color: #323232;
-  cursor: pointer;
-  font-size: 1em;
-  height: 1.6em; }
-  select:hover {
-    border-color: #007dfa; }
+code {
+  font-family: monospace; }
 
 legend {
   background: white;
@@ -550,6 +535,16 @@ li {
   width: 36.4em;
   z-index: 500; }
 
+pre {
+  background: #e6e6e6;
+  border: 1px solid #646464;
+  border-radius: 3px;
+  box-shadow: inset 0 0.2em 0.35em rgba(0, 0, 0, 0.4);
+  color: #323232;
+  display: block;
+  padding: 0.5em;
+  text-align: left; }
+
 .MPreviewBG {
   background-color: #323232;
   box-shadow: 0 0.2em 0.35em rgba(0, 0, 0, 0.4);
@@ -631,6 +626,27 @@ li {
   box-shadow: inset 0 0 0.4em rgba(0, 0, 0, 0.4);
   height: .8em;
   width: 100%; }
+
+select {
+  -moz-transition: border-color 0.25s, box-shadow 0.25s;
+  -webkit-transition: border-color 0.25s, box-shadow 0.25s;
+  background: #e6e6e6;
+  background: -moz-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
+  background: -ms-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
+  background: -o-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
+  background: -webkit-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
+  background: linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
+  border-color: #646464;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1px;
+  color: #323232;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: bold;
+  height: 1.6em; }
+  select:hover {
+    border-color: #007dfa; }
 
 .MSlider {
   position: relative; }
@@ -1333,12 +1349,16 @@ h1.MToolBarTitle {
 
 #MSideBar li {
   color: #323232;
-  height: 54px;
-  line-height: 54px;
   opacity: 0;
   overflow: hidden;
+  padding-top: 1em;
   padding-right: 1.6em;
+  padding-bottom: 1em;
   width: 330px; }
+  #MSideBar li span {
+    font-weight: bold; }
+  #MSideBar li span:first-child {
+    margin-left: 20px; }
   #MSideBar li:hover {
     background: #141414;
     background: -moz-linear-gradient(top, #232323 0%, #141414 100%);
@@ -1347,24 +1367,17 @@ h1.MToolBarTitle {
     background: -webkit-linear-gradient(top, #232323 0%, #141414 100%);
     background: linear-gradient(top, #232323 0%, #141414 100%);
     color: white; }
-
-#MSideBar li.blue {
-  background: #b4d2f0;
-  color: #323232; }
-  #MSideBar li.blue:hover {
-    background: #647382;
-    background: -moz-linear-gradient(top, #6b7a89 0%, #647382 100%);
-    background: -ms-linear-gradient(top, #6b7a89 0%, #647382 100%);
-    background: -o-linear-gradient(top, #6b7a89 0%, #647382 100%);
-    background: -webkit-linear-gradient(top, #6b7a89 0%, #647382 100%);
-    background: linear-gradient(top, #6b7a89 0%, #647382 100%);
-    color: white; }
-
-#MSideBar li span:first-child {
-  margin-left: 20px; }
-
-#MSideBar span {
-  font-weight: bold; }
+  #MSideBar li .blue {
+    background: #b4d2f0;
+    color: #323232; }
+    #MSideBar li .blue:hover {
+      background: #647382;
+      background: -moz-linear-gradient(top, #6b7a89 0%, #647382 100%);
+      background: -ms-linear-gradient(top, #6b7a89 0%, #647382 100%);
+      background: -o-linear-gradient(top, #6b7a89 0%, #647382 100%);
+      background: -webkit-linear-gradient(top, #6b7a89 0%, #647382 100%);
+      background: linear-gradient(top, #6b7a89 0%, #647382 100%);
+      color: white; }
 
 .MSideBarThumbnail {
   height: 3.95em;
@@ -1430,6 +1443,8 @@ h1.MToolBarTitle {
 
 .MHBoxLayout * {
   display: inline; }
+.MHBoxLayout option {
+  display: block; }
 
 .MVBoxLayout * {
   display: block; }
@@ -1452,10 +1467,10 @@ h1.MToolBarTitle {
 .clear, .clearfix {
   clear: both; }
 
-.hidden {
+.hide, .hidden {
   display: none; }
 
-.shown {
+.show, .shown {
   display: block; }
 
 .cursor_pointer {

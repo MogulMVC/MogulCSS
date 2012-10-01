@@ -1,5 +1,7 @@
 a.bold, h1.bold, h2.bold, h3.bold, h4.bold, h5.bold, h6.bold, input.bold, label.bold, p.bold, span.bold, textarea.bold {
   font-weight: bold; }
+a.italics, h1.italics, h2.italics, h3.italics, h4.italics, h5.italics, h6.italics, input.italics, label.italics, p.italics, span.italics, textarea.italics {
+  font-style: italic; }
 a.red, h1.red, h2.red, h3.red, h4.red, h5.red, h6.red, input.red, label.red, p.red, span.red, textarea.red {
   color: #960000; }
 a.orange, h1.orange, h2.orange, h3.orange, h4.orange, h5.orange, h6.orange, input.orange, label.orange, p.orange, span.orange, textarea.orange {

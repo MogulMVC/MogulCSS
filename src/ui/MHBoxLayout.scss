@@ -2,4 +2,10 @@
   & *{
     display:inline;
   }
+  
+  // Fix option tag in some browsers
+  & option{
+    display:block;
+  }
+  
 }

@@ -60,6 +60,10 @@ a, h1, h2, h3, h4, h5, h6, input, label, p, span, textarea,{
   &.bold{
     font-weight:bold;
   }
+  
+  &.italics{
+    font-style: italic;
+  }
 
   &.red{
     color:$red_1;

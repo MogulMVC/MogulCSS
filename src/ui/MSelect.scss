@@ -14,10 +14,10 @@ select{
   color:$mono_2;
   cursor:pointer;
   font-size:1em;
+  font-weight:bold;
   height:1.6em;
   
   &:hover{
     border-color:$blue_2;
-  }
-  
+  }  
 }
