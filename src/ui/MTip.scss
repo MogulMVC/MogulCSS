@@ -15,6 +15,7 @@
   background:linear-gradient(top, $mono_1_3 0%,$mono_1_2 100%);
   border-radius:$rounded;
   border-top:solid 1px $mono_3;
+  box-shadow:$shadow_outer_large;
   color:$mono_6;
   font-weight:bold;
   max-width:350px;
@@ -23,7 +24,7 @@
 }
 
 .MTipArrow{
-  border:$rounded dashed $mono_1_2;
+  border:5px dashed $mono_1_2;
   height:0;
   line-height:0;
   position:absolute;

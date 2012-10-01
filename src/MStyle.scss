@@ -6,35 +6,41 @@
 @import "manager/MGlow";
 @import "manager/MShadow";
 
-// Containers
+// Widgets
 @import "ui/MButton";
 @import "ui/MComboBox";
-@import "ui/MContent";
-@import "ui/MFooter";
 @import "ui/MGroupBox";
-@import "ui/MHBoxLayout";
-@import "ui/MHeader";
-@import "ui/MHiddenBG";
 @import "ui/MHR";
 @import "ui/MIcons";
 @import "ui/MInputText";
 @import "ui/MList";
-@import "ui/MMainWindow";
 @import "ui/MModal";
+@import "ui/MNote";
 @import "ui/MPopup";
 @import "ui/MPreviews";
 @import "ui/MProgressBar";
 @import "ui/MRatingBar";
-@import "ui/MSideBar";
 @import "ui/MSlider";
-@import "ui/MStage";
 @import "ui/MSystemMessage";
 @import "ui/MTab";
 @import "ui/MTip";
-@import "ui/MToolBar";
-@import "ui/MVBoxLayout";
 @import "ui/MVR";
+@import "ui/MWell";
 @import "ui/MWidget";
+
+// Containers
+@import "ui/MMainWindow";
+@import "ui/MHeader";
+@import "ui/MToolBar";
+@import "ui/MHiddenBG";
+@import "ui/MSideBar";
+@import "ui/MStage";
+@import "ui/MContent";
+@import "ui/MFooter";
+
+// Widget Containers
+@import "ui/MHBoxLayout";
+@import "ui/MVBoxLayout";
 
 // Config Overrides
 @import "config/MProperties";
