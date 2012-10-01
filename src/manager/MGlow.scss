@@ -2,10 +2,10 @@ $glow:0 0 .4em rgba(0,125,250,1);
 $glow_light:0 0 .4em rgba(0,75,150,1);
 
 .MGlow{
-  -moz-transition:box-shadow 0.25s;
-  -o-transition:box-shadow 0.25s;
-  -webkit-transition:box-shadow 0.25s;
-  transition:box-shadow 0.25s;
+  -moz-transition:box-shadow $speedNorm;
+  -o-transition:box-shadow $speedNorm;
+  -webkit-transition:box-shadow $speedNorm;
+  transition:box-shadow $speedNorm;
   
   &:hover{
     border-color:$blue_2;

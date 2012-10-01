@@ -1,6 +1,6 @@
 input[type="password"], input[type="text"], textarea{
-  -moz-transition:border-color 0.25s, box-shadow 0.25s, color 0.25s;
-  -webkit-transition:border-color 0.25s, box-shadow 0.25s, color 0.25s;
+  -moz-transition:border-color $speedNorm, box-shadow 0.25s, color $speedNorm;
+  -webkit-transition:border-color $speedNorm, box-shadow 0.25s, color $speedNorm;
   border: 1px solid $mono_3;
   border-radius:$rounded;
   box-shadow:$shadow_inner_large;
