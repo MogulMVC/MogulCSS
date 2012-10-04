@@ -565,8 +565,7 @@ li {
   top: 0;
   width: 350px;
   z-index: 200;
-  right: 0;
-  display: none; }
+  right: 0; }
 
 .MSystemMessage {
   background: #141414;
@@ -1351,6 +1350,15 @@ h1.MToolBarTitle {
 
 .height_full {
   height: 100%; }
+
+.padding_small {
+  padding: 15px; }
+
+.padding {
+  padding: 30px; }
+
+.padding_large {
+  padding: 45px; }
 
 .table_fixed_width {
   table-layout: fixed; }
