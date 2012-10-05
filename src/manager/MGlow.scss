@@ -13,8 +13,8 @@ $glow_light:0 0 .4em rgba(0,75,150,1);
   }
   
   &:active{
-    border-color:none;
-    box-shadow:none;
+    border-color:inherit;
+    box-shadow:inherit;
   }
   
 }

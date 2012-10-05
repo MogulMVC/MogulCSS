@@ -28,8 +28,8 @@ a.white, h1.white, h2.white, h3.white, h4.white, h5.white, h6.white, input.white
     border-color: #007dfa;
     box-shadow: 0 0 0.4em #007dfa; }
   .MGlow:active, .MButton:active, .MButtonRed:active, input[type=reset]:active, .MButtonR:active, .MButtonOrange:active, .MButtonO:active, .MButtonYellow:active, .MButtonY:active, .MButtonGreen:active, .MButtonG:active, .MButtonBlue:active, .MButtonUpload:active, input[type=submit]:active, .MButtonB:active, .MButtonViolet:active, .MButtonV:active, button:active, input[type=button]:active, .MTab:active {
-    border-color: none;
-    box-shadow: none; }
+    border-color: inherit;
+    box-shadow: inherit; }
 
 .shadow_outer_small {
   box-shadow: 0 0.2em 0.35em rgba(0, 0, 0, 0.4); }
@@ -276,7 +276,7 @@ a.MButton, a.MButtonRed, a.MButtonR, a.MButtonOrange, a.MButtonO, a.MButtonYello
   height: 1.45em;
   line-height: 1.45em; }
 
-button.MButtonRed, button.MButtonR, button.MButtonOrange, button.MButtonO, button.MButtonYellow, button.MButtonY, button.MButtonGreen, button.MButtonG, button.MButtonBlue, button.MButtonUpload, button.MButtonB, button.MButtonViolet, button.MButtonV, button {
+button.MButton, button.MButtonRed, button.MButtonR, button.MButtonOrange, button.MButtonO, button.MButtonYellow, button.MButtonY, button.MButtonGreen, button.MButtonG, button.MButtonBlue, button.MButtonUpload, button.MButtonB, button.MButtonViolet, button.MButtonV, button {
   height: 1.6em;
   line-height: 1; }
 
@@ -829,7 +829,7 @@ li {
   box-shadow: inset 0 0.2em 0.35em rgba(0, 0, 0, 0.4);
   color: #323232;
   display: block;
-  padding: 1.6em;
+  padding: 1em;
   text-align: left; }
 
 .MWidget, fieldset, .MPopup, .MHoverForm, .MHoverMessage {
@@ -844,7 +844,7 @@ li {
   box-shadow: 0 0.2em 0.35em rgba(0, 0, 0, 0.4);
   color: #323232;
   display: block;
-  padding: 1.6em;
+  padding: 1em;
   text-align: left; }
 
 .MWideWidget {
@@ -1067,7 +1067,7 @@ a#MHeaderTools {
       box-shadow: inset 0 0.2em 0.35em rgba(0, 0, 0, 0.4);
       color: white;
       text-shadow: 0 0 0.4em rgba(0, 0, 0, 0.5); }
-  #MToolBar a.MButton, #MToolBar a.MButtonRed, #MToolBar a.MButtonR, #MToolBar a.MButtonOrange, #MToolBar a.MButtonO, #MToolBar a.MButtonYellow, #MToolBar a.MButtonY, #MToolBar a.MButtonGreen, #MToolBar a.MButtonG, #MToolBar a.MButtonBlue, #MToolBar a.MButtonUpload, #MToolBar a.MButtonB, #MToolBar a.MButtonViolet, #MToolBar a.MButtonV, #MToolBar button.MButtonRed, #MToolBar button.MButtonR, #MToolBar button.MButtonOrange, #MToolBar button.MButtonO, #MToolBar button.MButtonYellow, #MToolBar button.MButtonY, #MToolBar button.MButtonGreen, #MToolBar button.MButtonG, #MToolBar button.MButtonBlue, #MToolBar button.MButtonUpload, #MToolBar button.MButtonB, #MToolBar button.MButtonViolet, #MToolBar button.MButtonV, #MToolBar button, #MToolBar div.MButton, #MToolBar div.MButtonRed, #MToolBar div.MButtonR, #MToolBar div.MButtonOrange, #MToolBar div.MButtonO, #MToolBar div.MButtonYellow, #MToolBar div.MButtonY, #MToolBar div.MButtonGreen, #MToolBar div.MButtonG, #MToolBar div.MButtonBlue, #MToolBar div.MButtonUpload, #MToolBar div.MButtonB, #MToolBar div.MButtonViolet, #MToolBar div.MButtonV, #MToolBar span.MButton, #MToolBar span.MButtonRed, #MToolBar span.MButtonR, #MToolBar span.MButtonOrange, #MToolBar span.MButtonO, #MToolBar span.MButtonYellow, #MToolBar span.MButtonY, #MToolBar span.MButtonGreen, #MToolBar span.MButtonG, #MToolBar span.MButtonBlue, #MToolBar span.MButtonUpload, #MToolBar span.MButtonB, #MToolBar span.MButtonViolet, #MToolBar span.MButtonV, #MToolBar select {
+  #MToolBar a.MButton, #MToolBar a.MButtonRed, #MToolBar a.MButtonR, #MToolBar a.MButtonOrange, #MToolBar a.MButtonO, #MToolBar a.MButtonYellow, #MToolBar a.MButtonY, #MToolBar a.MButtonGreen, #MToolBar a.MButtonG, #MToolBar a.MButtonBlue, #MToolBar a.MButtonUpload, #MToolBar a.MButtonB, #MToolBar a.MButtonViolet, #MToolBar a.MButtonV, #MToolBar button.MButton, #MToolBar button, #MToolBar div.MButton, #MToolBar div.MButtonRed, #MToolBar div.MButtonR, #MToolBar div.MButtonOrange, #MToolBar div.MButtonO, #MToolBar div.MButtonYellow, #MToolBar div.MButtonY, #MToolBar div.MButtonGreen, #MToolBar div.MButtonG, #MToolBar div.MButtonBlue, #MToolBar div.MButtonUpload, #MToolBar div.MButtonB, #MToolBar div.MButtonViolet, #MToolBar div.MButtonV, #MToolBar span.MButton, #MToolBar span.MButtonRed, #MToolBar span.MButtonR, #MToolBar span.MButtonOrange, #MToolBar span.MButtonO, #MToolBar span.MButtonYellow, #MToolBar span.MButtonY, #MToolBar span.MButtonGreen, #MToolBar span.MButtonG, #MToolBar span.MButtonBlue, #MToolBar span.MButtonUpload, #MToolBar span.MButtonB, #MToolBar span.MButtonViolet, #MToolBar span.MButtonV, #MToolBar select {
     margin-top: .4em; }
   #MToolBar MButton img {
     margin-left: -10px;
@@ -1212,7 +1212,7 @@ h1.MToolBarTitle {
   color: #323232;
   overflow: hidden;
   padding: 1em; }
-  #MSideBar li span {
+  #MSideBar li label, #MSideBar li span {
     font-weight: bold; }
   #MSideBar li:hover {
     background: #141414;
