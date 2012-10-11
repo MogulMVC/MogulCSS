@@ -330,33 +330,33 @@ textarea {
   padding: 0;
   resize: vertical; }
 
-.MListItem {
+.MList li, .MListItem {
   border-radius: 3px;
   margin-top: 2px;
   margin-bottom: 2px;
   padding: 1.2em;
   position: relative; }
-  .MListItem.red {
+  .MList li.red, .MListItem.red {
     background: #dcc3c3;
     color: #323232; }
-    .MListItem.red:hover {
+    .MList li.red:hover, .MListItem.red:hover {
       background: #e1d5d5; }
-  .MListItem.yellow {
+  .MList li.yellow, .MListItem.yellow {
     background: #faf5b4;
     color: #323232; }
-    .MListItem.yellow:hover {
+    .MList li.yellow:hover, .MListItem.yellow:hover {
       background: #f0edcd; }
-  .MListItem.green {
+  .MList li.green, .MListItem.green {
     background: #c3dcc3;
     color: #323232; }
-    .MListItem.green:hover {
+    .MList li.green:hover, .MListItem.green:hover {
       background: #d5e1d5; }
-  .MListItem.active, .MListItem.blue {
+  .MList li.active, .MList li.blue, .MListItem.active, .MListItem.blue {
     background: #b4d2f0;
     color: #323232; }
-    .MListItem.active:hover, .MListItem.blue:hover {
+    .MList li.active:hover, .MList li.blue:hover, .MListItem.active:hover, .MListItem.blue:hover {
       background: #cddceb; }
-  .MListItem:hover {
+  .MList li:hover, .MListItem:hover {
     background: #e6e6e6; }
 
 .MListSeperator {
