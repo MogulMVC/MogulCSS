@@ -1,5 +1,5 @@
 .MNote{
-  background: #FEF045;
+  background: #f0f0f0;
   box-shadow: $shadow_outer_small;
   display: inline-block;
   font-weight: normal;
@@ -7,3 +7,28 @@
   padding: 0.4em;
   position: relative;
 }
+
+.MNoteRed, .MNoteR{@extend .MNote;
+  background:$red_2;
+}
+
+.MNoteOrange, .MNoteO{@extend .MNote;
+  background:$orange_2;
+}
+
+.MNoteYellow, .MNoteY{@extend .MNote;
+  background:#fff046
+}
+
+.MNoteGreen, .MNoteG{@extend .MNote;
+  background:$green_2;
+}
+
+.MNoteBlue, .MNoteB{@extend .MNote;
+  background:$blue_2;
+}
+
+.MNoteViolet, .MNoteV{@extend .MNote;
+  background:$violet_2;
+}
+

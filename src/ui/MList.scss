@@ -47,6 +47,18 @@
 
 }
 
+.MListIcon{
+  float:left;
+  margin-right:15px;
+}
+
+.MListInfo{
+  -o-text-overflow:ellipsis;
+  display:block;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+
 .MListSeperator{
   background: #646464;
   height:1px;
@@ -61,12 +73,6 @@
   position:relative;
 }
 
-.MListInfo{
-  -o-text-overflow:ellipsis;
-  display:block;
-  overflow:hidden;
-  text-overflow:ellipsis;
-}
 
 .MListSummary{
   display:list-item;
