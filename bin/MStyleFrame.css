@@ -1,22 +1,22 @@
-a.bold, h1.bold, h2.bold, h3.bold, h4.bold, h5.bold, h6.bold, input.bold, label.bold, p.bold, span.bold, textarea.bold {
+a.MBold, a.bold, h1.MBold, h1.bold, h2.MBold, h2.bold, h3.MBold, h3.bold, h4.MBold, h4.bold, h5.MBold, h5.bold, h6.MBold, h6.bold, input.MBold, input.bold, label.MBold, label.bold, p.MBold, p.bold, span.MBold, span.bold, textarea.MBold, textarea.bold {
   font-weight: bold; }
-a.italics, h1.italics, h2.italics, h3.italics, h4.italics, h5.italics, h6.italics, input.italics, label.italics, p.italics, span.italics, textarea.italics {
+a.MItalics, a.italics, h1.MItalics, h1.italics, h2.MItalics, h2.italics, h3.MItalics, h3.italics, h4.MItalics, h4.italics, h5.MItalics, h5.italics, h6.MItalics, h6.italics, input.MItalics, input.italics, label.MItalics, label.italics, p.MItalics, p.italics, span.MItalics, span.italics, textarea.MItalics, textarea.italics {
   font-style: italic; }
-a.red, h1.red, h2.red, h3.red, h4.red, h5.red, h6.red, input.red, label.red, p.red, span.red, textarea.red {
+a.MRed, a.red, h1.MRed, h1.red, h2.MRed, h2.red, h3.MRed, h3.red, h4.MRed, h4.red, h5.MRed, h5.red, h6.MRed, h6.red, input.MRed, input.red, label.MRed, label.red, p.MRed, p.red, span.MRed, span.red, textarea.MRed, textarea.red {
   color: #960000; }
-a.orange, h1.orange, h2.orange, h3.orange, h4.orange, h5.orange, h6.orange, input.orange, label.orange, p.orange, span.orange, textarea.orange {
+a.MOrange, a.orange, h1.MOrange, h1.orange, h2.MOrange, h2.orange, h3.MOrange, h3.orange, h4.MOrange, h4.orange, h5.MOrange, h5.orange, h6.MOrange, h6.orange, input.MOrange, input.orange, label.MOrange, label.orange, p.MOrange, p.orange, span.MOrange, span.orange, textarea.MOrange, textarea.orange {
   color: #963c00; }
-a.yellow, h1.yellow, h2.yellow, h3.yellow, h4.yellow, h5.yellow, h6.yellow, input.yellow, label.yellow, p.yellow, span.yellow, textarea.yellow {
+a.MYellow, a.yellow, h1.MYellow, h1.yellow, h2.MYellow, h2.yellow, h3.MYellow, h3.yellow, h4.MYellow, h4.yellow, h5.MYellow, h5.yellow, h6.MYellow, h6.yellow, input.MYellow, input.yellow, label.MYellow, label.yellow, p.MYellow, p.yellow, span.MYellow, span.yellow, textarea.MYellow, textarea.yellow {
   color: #969600; }
-a.green, h1.green, h2.green, h3.green, h4.green, h5.green, h6.green, input.green, label.green, p.green, span.green, textarea.green {
+a.MGreen, a.green, h1.MGreen, h1.green, h2.MGreen, h2.green, h3.MGreen, h3.green, h4.MGreen, h4.green, h5.MGreen, h5.green, h6.MGreen, h6.green, input.MGreen, input.green, label.MGreen, label.green, p.MGreen, p.green, span.MGreen, span.green, textarea.MGreen, textarea.green {
   color: #009600; }
-a.blue, h1.blue, h2.blue, h3.blue, h4.blue, h5.blue, h6.blue, input.blue, label.blue, p.blue, span.blue, textarea.blue {
+a.MBlue, a.blue, h1.MBlue, h1.blue, h2.MBlue, h2.blue, h3.MBlue, h3.blue, h4.MBlue, h4.blue, h5.MBlue, h5.blue, h6.MBlue, h6.blue, input.MBlue, input.blue, label.MBlue, label.blue, p.MBlue, p.blue, span.MBlue, span.blue, textarea.MBlue, textarea.blue {
   color: #004b96; }
-a.violet, h1.violet, h2.violet, h3.violet, h4.violet, h5.violet, h6.violet, input.violet, label.violet, p.violet, span.violet, textarea.violet {
+a.MViolet, a.violet, h1.MViolet, h1.violet, h2.MViolet, h2.violet, h3.MViolet, h3.violet, h4.MViolet, h4.violet, h5.MViolet, h5.violet, h6.MViolet, h6.violet, input.MViolet, input.violet, label.MViolet, label.violet, p.MViolet, p.violet, span.MViolet, span.violet, textarea.MViolet, textarea.violet {
   color: #4b0096; }
-a.black, h1.black, h2.black, h3.black, h4.black, h5.black, h6.black, input.black, label.black, p.black, span.black, textarea.black {
+a.MBlack, a.black, h1.MBlack, h1.black, h2.MBlack, h2.black, h3.MBlack, h3.black, h4.MBlack, h4.black, h5.MBlack, h5.black, h6.MBlack, h6.black, input.MBlack, input.black, label.MBlack, label.black, p.MBlack, p.black, span.MBlack, span.black, textarea.MBlack, textarea.black {
   color: #0a0a0a; }
-a.white, h1.white, h2.white, h3.white, h4.white, h5.white, h6.white, input.white, label.white, p.white, span.white, textarea.white {
+a.MWhite, a.white, h1.MWhite, h1.white, h2.MWhite, h2.white, h3.MWhite, h3.white, h4.MWhite, h4.white, h5.MWhite, h5.white, h6.MWhite, h6.white, input.MWhite, input.white, label.MWhite, label.white, p.MWhite, p.white, span.MWhite, span.white, textarea.MWhite, textarea.white {
   color: white; }
 
 * {

@@ -8,18 +8,18 @@ $shadow_text_small:0 0 .4em rgba(0,0,0,.4);
 
 // Classes
 
-.shadow_outer_small{
+.MShadowOuterSmall{
   box-shadow:$shadow_outer_small;
 }
 
-.shadow_outer_large{
+.MShadowOuterLarge{
   box-shadow:$shadow_outer_large;
 }
 
-.shadow_inner_small{
+.MShadowInnerSmall{
   box-shadow:$shadow_inner_small; 
 }
 
-.shadow_inner_large{
+.MShadowInnerLarge{
   box-shadow:$shadow_inner_large;
 }

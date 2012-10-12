@@ -1,72 +1,72 @@
-.text_left{
+.MTextLeft, .text_left{
   text-align:left;
 }
 
-.text_centered{
+.MTextCenter, .MTextCentered, .text_center, .text_centered{
   text-align:center;
 }
 
-.text_right{
+.MTextRight, .text_right{
   text-align:right;
 }
 
-.left, .float_left{
+.MLeft, .float_left, .left{
   float:left;
 }
 
-.right, .float_right{
+.MRight, .float_right, .right{
   float:right;
 }
 
-.clear, .clearfix{
+.MClear, .clear, .clearfix{
   clear:both;
 }
 
-.hide, .hidden{
+.MHide, .MHiden, .hide, .hidden{
   display:none;
 }
 
-.show, .shown{
+.MShow, .MShown, .show, .shown{
   display:block;
 }
 
-.cursor_pointer{
+.MCursorPointer, .cursor_pointer{
   cursor:pointer;
 }
 
-.cursor_move{
+.MCursorMove, .cursor_move{
   cursor:move;
 }
 
-.width_full{
+.MWidthFull, .width_full{
   width:100%;
 }
 
-.height_full{
+.MHeightFull, .height_full{
   height:100%;
 }
 
-.padding_small{
+.MPaddingSmall, .padding_small{
   padding:15px;
 }
 
-.padding{
+.MPadding, .padding{
   padding:30px;
 }
 
-.padding_large{
+.MPaddingLarge, .padding_large{
   padding:45px;
 }
 
-.table_fixed_width{
+.MTableFixedWidth, .table_fixed_width{
   table-layout:fixed;
 }
 
-.table_top td{
+.MTableTop, .table_top td{
   vertical-align:top;
 }
 
-.table_border{
+.MTableBorder, .table_border{
   border:.1em solid $mono_3;
   border-collapse:collapse;
   margin:0;
@@ -78,10 +78,15 @@
   
 }
 
-.table_center{
+.MTableCenter, .table_center{
   
   td{
     text-align:center;
   }
 
+}
+
+.MIntent, .intent {
+  background: #00ff00;
+  color: #ff00ff;
 }

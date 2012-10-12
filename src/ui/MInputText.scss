@@ -8,13 +8,13 @@ input[type="number"], input[type="password"], input[type="text"], input[type="se
   margin:0 auto;
   padding:0;
   
-  &:hover, &.input_invisible:hover{
+  &:hover, &.MInputInvisible:hover{
     border-color:$blue_2;
     box-shadow:$shadow_inner_large, $glow;
     color:$mono_2;
   }
   
-  &:focus, &.input_invisible:hover{
+  &:focus, &.MInputInvisible:hover{
     border-color:$blue_1;
     box-shadow:$shadow_inner_large, $glow_light;
     color:$mono_2;
@@ -27,7 +27,7 @@ input[type="number"], input[type="password"], input[type="text"], input[type="se
     color:$mono_4;
   }
   
-  &.input_invisible{
+  &.MInputInvisible{
     background:transparent;
     border:0 none transparent;
     box-shadow:none;
