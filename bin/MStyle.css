@@ -19,15 +19,15 @@ a.MBlack, a.black, h1.MBlack, h1.black, h2.MBlack, h2.black, h3.MBlack, h3.black
 a.MWhite, a.white, h1.MWhite, h1.white, h2.MWhite, h2.white, h3.MWhite, h3.white, h4.MWhite, h4.white, h5.MWhite, h5.white, h6.MWhite, h6.white, input.MWhite, input.white, label.MWhite, label.white, p.MWhite, p.white, span.MWhite, span.white, textarea.MWhite, textarea.white {
   color: white; }
 
-.MGlow, .MButton, .MButtonRed, input[type=reset], .MButtonR, .MButtonOrange, .MButtonO, .MButtonYellow, .MButtonY, .MButtonGreen, .MButtonG, .MButtonBlue, .MButtonUpload, input[type=submit], .MButtonB, .MButtonViolet, .MButtonV, button, input[type=button], .MTab {
+.MGlow, input[type='range']::-webkit-slider-thumb, select, .MButton, .MButtonRed, input[type=reset], .MButtonR, .MButtonOrange, .MButtonO, .MButtonYellow, .MButtonY, .MButtonGreen, .MButtonG, .MButtonBlue, .MButtonUpload, input[type=submit], .MButtonB, .MButtonViolet, .MButtonV, button, input[type=button], .MTab {
   -moz-transition: box-shadow 0.25s;
   -o-transition: box-shadow 0.25s;
   -webkit-transition: box-shadow 0.25s;
   transition: box-shadow 0.25s; }
-  .MGlow:hover, .MButton:hover, .MButtonRed:hover, input[type=reset]:hover, .MButtonR:hover, .MButtonOrange:hover, .MButtonO:hover, .MButtonYellow:hover, .MButtonY:hover, .MButtonGreen:hover, .MButtonG:hover, .MButtonBlue:hover, .MButtonUpload:hover, input[type=submit]:hover, .MButtonB:hover, .MButtonViolet:hover, .MButtonV:hover, button:hover, input[type=button]:hover, .MTab:hover {
+  .MGlow:hover, input[type='range']:hover::-webkit-slider-thumb, select:hover, .MButton:hover, .MButtonRed:hover, input[type=reset]:hover, .MButtonR:hover, .MButtonOrange:hover, .MButtonO:hover, .MButtonYellow:hover, .MButtonY:hover, .MButtonGreen:hover, .MButtonG:hover, .MButtonBlue:hover, .MButtonUpload:hover, input[type=submit]:hover, .MButtonB:hover, .MButtonViolet:hover, .MButtonV:hover, button:hover, input[type=button]:hover, .MTab:hover {
     border-color: #007dfa;
     box-shadow: 0 0 0.4em #007dfa; }
-  .MGlow:active, .MButton:active, .MButtonRed:active, input[type=reset]:active, .MButtonR:active, .MButtonOrange:active, .MButtonO:active, .MButtonYellow:active, .MButtonY:active, .MButtonGreen:active, .MButtonG:active, .MButtonBlue:active, .MButtonUpload:active, input[type=submit]:active, .MButtonB:active, .MButtonViolet:active, .MButtonV:active, button:active, input[type=button]:active, .MTab:active {
+  .MGlow:active, input[type='range']:active::-webkit-slider-thumb, select:active, .MButton:active, .MButtonRed:active, input[type=reset]:active, .MButtonR:active, .MButtonOrange:active, .MButtonO:active, .MButtonYellow:active, .MButtonY:active, .MButtonGreen:active, .MButtonG:active, .MButtonBlue:active, .MButtonUpload:active, input[type=submit]:active, .MButtonB:active, .MButtonViolet:active, .MButtonV:active, button:active, input[type=button]:active, .MTab:active {
     border-color: inherit;
     box-shadow: inherit; }
 
@@ -101,6 +101,26 @@ input[type="checkbox"], input[type="radio"] {
   cursor: pointer;
   display: inline;
   margin-right: 0.4em; }
+input[type='range'] {
+  -webkit-appearance: none !important;
+  box-shadow: inset 0 0.2em 0.35em rgba(0, 0, 0, 0.4);
+  background: #969696;
+  border: 1px solid #646464;
+  border-radius: 3px;
+  height: 5px; }
+  input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none !important;
+    background: #c8c8c8;
+    background: -moz-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
+    background: -ms-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
+    background: -o-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
+    background: -webkit-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
+    background: linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
+    border: 1px solid #646464;
+    border-radius: 2em;
+    cursor: pointer;
+    height: 15px;
+    width: 15px; }
 
 label {
   cursor: pointer; }
@@ -134,8 +154,23 @@ select {
   font-weight: bold;
   height: 1.6em;
   margin: 0.2em; }
-  select:hover {
-    border-color: #007dfa; }
+
+::-webkit-scrollbar {
+  width: 12px; }
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0.2em 0.35em rgba(0, 0, 0, 0.4);
+  background: #969696;
+  border: 1px solid #646464; }
+
+::-webkit-scrollbar-thumb {
+  background: #c8c8c8;
+  background: -moz-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
+  background: -ms-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
+  background: -o-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
+  background: -webkit-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
+  background: linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
+  border: 1px solid #646464; }
 
 .MButton, .MButtonRed, input[type=reset], .MButtonR, .MButtonOrange, .MButtonO, .MButtonYellow, .MButtonY, .MButtonGreen, .MButtonG, .MButtonBlue, .MButtonUpload, input[type=submit], .MButtonB, .MButtonViolet, .MButtonV, button, input[type=button] {
   background: #e6e6e6;
