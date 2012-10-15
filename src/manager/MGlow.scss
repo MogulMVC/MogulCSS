@@ -18,3 +18,21 @@ $glow_light:0 0 .4em rgba(0,75,150,1);
   }
   
 }
+
+.MGlowText{
+  -moz-transition:box-shadow $speedNorm;
+  -o-transition:box-shadow $speedNorm;
+  -webkit-transition:box-shadow $speedNorm;
+  transition:box-shadow $speedNorm;
+  
+  &:hover{
+    border-color:$blue_2;
+    text-shadow:$glow;
+  }
+  
+  &:active{
+    border-color:inherit;
+    text-shadow:inherit;
+  }
+  
+}

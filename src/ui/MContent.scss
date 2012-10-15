@@ -8,6 +8,10 @@
   width:80%;
 }
 
+.MContent960{@extend .MContent;
+  width:960px;
+}
+
 .MContent900{@extend .MContent;
   width:900px;
 }

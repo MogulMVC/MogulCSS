@@ -31,6 +31,18 @@ a.MWhite, a.white, h1.MWhite, h1.white, h2.MWhite, h2.white, h3.MWhite, h3.white
     border-color: inherit;
     box-shadow: inherit; }
 
+.MGlowText {
+  -moz-transition: box-shadow 0.25s;
+  -o-transition: box-shadow 0.25s;
+  -webkit-transition: box-shadow 0.25s;
+  transition: box-shadow 0.25s; }
+  .MGlowText:hover {
+    border-color: #007dfa;
+    text-shadow: 0 0 0.4em #007dfa; }
+  .MGlowText:active {
+    border-color: inherit;
+    text-shadow: inherit; }
+
 .MShadowOuterSmall {
   box-shadow: 0 0.2em 0.35em rgba(0, 0, 0, 0.4); }
 
@@ -1313,13 +1325,16 @@ h1.MToolBarTitle {
   opacity: 0;
   width: 100%; }
 
-.MContent, #MContentList, .MContent900, .MContent870, .MContent840, .MContent740, .MContent610, .MContent200 {
+.MContent, #MContentList, .MContent960, .MContent900, .MContent870, .MContent840, .MContent740, .MContent610, .MContent200 {
   margin: 0 auto;
   text-align: left; }
 
 #MContentList {
   min-width: 900px;
   width: 80%; }
+
+.MContent960 {
+  width: 960px; }
 
 .MContent900 {
   width: 900px; }
