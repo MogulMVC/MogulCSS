@@ -324,7 +324,7 @@ a.MButton, a.MButtonRed, a.MButtonR, a.MButtonOrange, a.MButtonO, a.MButtonYello
   height: 1.45em;
   line-height: 1.45em; }
 
-button.MButton, button.MButtonRed, button.MButtonR, button.MButtonOrange, button.MButtonO, button.MButtonYellow, button.MButtonY, button.MButtonGreen, button.MButtonG, button.MButtonBlue, button.MButtonUpload, button.MButtonB, button.MButtonViolet, button.MButtonV, button {
+button.MButtonRed, button.MButtonR, button.MButtonOrange, button.MButtonO, button.MButtonYellow, button.MButtonY, button.MButtonGreen, button.MButtonG, button.MButtonBlue, button.MButtonUpload, button.MButtonB, button.MButtonViolet, button.MButtonV, button {
   height: 1.6em;
   line-height: 1; }
 
@@ -341,7 +341,7 @@ legend {
   font-weight: bold;
   text-align: center; }
 
-input[type="number"], input[type="password"], input[type="text"], input[type="search"], textarea {
+input[type="email"], input[type="number"], input[type="password"], input[type="text"], input[type="search"], textarea {
   -moz-transition: border-color 0.25s, box-shadow 0.25s, color 0.25s;
   -webkit-transition: border-color 0.25s, box-shadow 0.25s, color 0.25s;
   border: 1px solid #646464;
@@ -350,25 +350,25 @@ input[type="number"], input[type="password"], input[type="text"], input[type="se
   color: #646464;
   margin: 0 auto;
   padding: 0; }
-  input[type="number"]:hover, input[type="number"].MInputInvisible:hover, input[type="password"]:hover, input[type="password"].MInputInvisible:hover, input[type="text"]:hover, input[type="text"].MInputInvisible:hover, input[type="search"]:hover, input[type="search"].MInputInvisible:hover, textarea:hover, textarea.MInputInvisible:hover {
+  input[type="email"]:hover, input[type="email"].MInputInvisible:hover, input[type="number"]:hover, input[type="number"].MInputInvisible:hover, input[type="password"]:hover, input[type="password"].MInputInvisible:hover, input[type="text"]:hover, input[type="text"].MInputInvisible:hover, input[type="search"]:hover, input[type="search"].MInputInvisible:hover, textarea:hover, textarea.MInputInvisible:hover {
     border-color: #007dfa;
     box-shadow: inset 0 0.2em 0.35em rgba(0, 0, 0, 0.4), 0 0 0.4em #007dfa;
     color: #323232; }
-  input[type="number"]:focus, input[type="number"].MInputInvisible:hover, input[type="password"]:focus, input[type="password"].MInputInvisible:hover, input[type="text"]:focus, input[type="text"].MInputInvisible:hover, input[type="search"]:focus, input[type="search"].MInputInvisible:hover, textarea:focus, textarea.MInputInvisible:hover {
+  input[type="email"]:focus, input[type="email"].MInputInvisible:hover, input[type="number"]:focus, input[type="number"].MInputInvisible:hover, input[type="password"]:focus, input[type="password"].MInputInvisible:hover, input[type="text"]:focus, input[type="text"].MInputInvisible:hover, input[type="search"]:focus, input[type="search"].MInputInvisible:hover, textarea:focus, textarea.MInputInvisible:hover {
     border-color: #004b96;
     box-shadow: inset 0 0.2em 0.35em rgba(0, 0, 0, 0.4), 0 0 0.4em #004b96;
     color: #323232; }
-  input[type="number"][disabled], input[type="number"][disabled]:hover, input[type="number"][disabled]:active, input[type="password"][disabled], input[type="password"][disabled]:hover, input[type="password"][disabled]:active, input[type="text"][disabled], input[type="text"][disabled]:hover, input[type="text"][disabled]:active, input[type="search"][disabled], input[type="search"][disabled]:hover, input[type="search"][disabled]:active, textarea[disabled], textarea[disabled]:hover, textarea[disabled]:active {
+  input[type="email"][disabled], input[type="email"][disabled]:hover, input[type="email"][disabled]:active, input[type="number"][disabled], input[type="number"][disabled]:hover, input[type="number"][disabled]:active, input[type="password"][disabled], input[type="password"][disabled]:hover, input[type="password"][disabled]:active, input[type="text"][disabled], input[type="text"][disabled]:hover, input[type="text"][disabled]:active, input[type="search"][disabled], input[type="search"][disabled]:hover, input[type="search"][disabled]:active, textarea[disabled], textarea[disabled]:hover, textarea[disabled]:active {
     background: #e6e6e6;
     border-color: #969696;
     box-shadow: inset 0 0.2em 0.35em rgba(0, 0, 0, 0.4);
     color: #969696; }
-  input[type="number"].MInputInvisible, input[type="password"].MInputInvisible, input[type="text"].MInputInvisible, input[type="search"].MInputInvisible, textarea.MInputInvisible {
+  input[type="email"].MInputInvisible, input[type="number"].MInputInvisible, input[type="password"].MInputInvisible, input[type="text"].MInputInvisible, input[type="search"].MInputInvisible, textarea.MInputInvisible {
     background: transparent;
     border: 0 none transparent;
     box-shadow: none; }
 
-input[type="number"], input[type="password"], input[type="text"], input[type="search"] {
+input[type="email"], input[type="number"], input[type="password"], input[type="text"], input[type="search"] {
   font-size: 1em;
   height: 1.75em; }
 
@@ -1137,7 +1137,7 @@ a#MHeaderTools {
       box-shadow: inset 0 0.2em 0.35em rgba(0, 0, 0, 0.4);
       color: white;
       text-shadow: 0 0 0.4em rgba(0, 0, 0, 0.5); }
-  #MToolBar a.MButton, #MToolBar a.MButtonRed, #MToolBar a.MButtonR, #MToolBar a.MButtonOrange, #MToolBar a.MButtonO, #MToolBar a.MButtonYellow, #MToolBar a.MButtonY, #MToolBar a.MButtonGreen, #MToolBar a.MButtonG, #MToolBar a.MButtonBlue, #MToolBar a.MButtonUpload, #MToolBar a.MButtonB, #MToolBar a.MButtonViolet, #MToolBar a.MButtonV, #MToolBar button.MButton, #MToolBar button, #MToolBar div.MButton, #MToolBar div.MButtonRed, #MToolBar div.MButtonR, #MToolBar div.MButtonOrange, #MToolBar div.MButtonO, #MToolBar div.MButtonYellow, #MToolBar div.MButtonY, #MToolBar div.MButtonGreen, #MToolBar div.MButtonG, #MToolBar div.MButtonBlue, #MToolBar div.MButtonUpload, #MToolBar div.MButtonB, #MToolBar div.MButtonViolet, #MToolBar div.MButtonV, #MToolBar span.MButton, #MToolBar span.MButtonRed, #MToolBar span.MButtonR, #MToolBar span.MButtonOrange, #MToolBar span.MButtonO, #MToolBar span.MButtonYellow, #MToolBar span.MButtonY, #MToolBar span.MButtonGreen, #MToolBar span.MButtonG, #MToolBar span.MButtonBlue, #MToolBar span.MButtonUpload, #MToolBar span.MButtonB, #MToolBar span.MButtonViolet, #MToolBar span.MButtonV, #MToolBar select {
+  #MToolBar a.MButton, #MToolBar a.MButtonRed, #MToolBar a.MButtonR, #MToolBar a.MButtonOrange, #MToolBar a.MButtonO, #MToolBar a.MButtonYellow, #MToolBar a.MButtonY, #MToolBar a.MButtonGreen, #MToolBar a.MButtonG, #MToolBar a.MButtonBlue, #MToolBar a.MButtonUpload, #MToolBar a.MButtonB, #MToolBar a.MButtonViolet, #MToolBar a.MButtonV, #MToolBar button.MButtonRed, #MToolBar button.MButtonR, #MToolBar button.MButtonOrange, #MToolBar button.MButtonO, #MToolBar button.MButtonYellow, #MToolBar button.MButtonY, #MToolBar button.MButtonGreen, #MToolBar button.MButtonG, #MToolBar button.MButtonBlue, #MToolBar button.MButtonUpload, #MToolBar button.MButtonB, #MToolBar button.MButtonViolet, #MToolBar button.MButtonV, #MToolBar button, #MToolBar div.MButton, #MToolBar div.MButtonRed, #MToolBar div.MButtonR, #MToolBar div.MButtonOrange, #MToolBar div.MButtonO, #MToolBar div.MButtonYellow, #MToolBar div.MButtonY, #MToolBar div.MButtonGreen, #MToolBar div.MButtonG, #MToolBar div.MButtonBlue, #MToolBar div.MButtonUpload, #MToolBar div.MButtonB, #MToolBar div.MButtonViolet, #MToolBar div.MButtonV, #MToolBar span.MButton, #MToolBar span.MButtonRed, #MToolBar span.MButtonR, #MToolBar span.MButtonOrange, #MToolBar span.MButtonO, #MToolBar span.MButtonYellow, #MToolBar span.MButtonY, #MToolBar span.MButtonGreen, #MToolBar span.MButtonG, #MToolBar span.MButtonBlue, #MToolBar span.MButtonUpload, #MToolBar span.MButtonB, #MToolBar span.MButtonViolet, #MToolBar span.MButtonV, #MToolBar select {
     margin-top: .4em; }
   #MToolBar MButton img {
     margin-left: -10px;
