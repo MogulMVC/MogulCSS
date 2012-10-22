@@ -135,7 +135,9 @@ select{@extend .MGlow;
   margin:0.2em;
 }
 
-
+td{
+  vertical-align:top;
+}
 
 ::-webkit-scrollbar {
   width: 12px;

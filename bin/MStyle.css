@@ -167,6 +167,9 @@ select {
   height: 1.6em;
   margin: 0.2em; }
 
+td {
+  vertical-align: top; }
+
 ::-webkit-scrollbar {
   width: 12px; }
 
@@ -1436,9 +1439,6 @@ h1.MToolBarTitle {
 
 .MTableFixedWidth, .table_fixed_width {
   table-layout: fixed; }
-
-.MTableTop td, .table_top td {
-  vertical-align: top; }
 
 .MTableBorder, .table_border {
   border: 0.1em solid #646464;
