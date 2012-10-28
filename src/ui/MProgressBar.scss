@@ -1,7 +1,7 @@
-.MProgressBar{
+.MProgressBar, .progess-bar{
   margin:4px;
   
-  .MProgressBarBG{
+  .MProgressBarBG, .progress-bar-bg{
     background:$mono_4;
     border-radius:$rounded_large;
     box-shadow:$shadow_inner_large;
@@ -13,7 +13,7 @@
     text-shadow:$shadow_text_small;
     width:100%;
   
-    .MProgressBarFG{
+    .MProgressBarFG, .progress-fg{
       background:$blue_1;
       background:-moz-linear-gradient(left, $blue_1 0%, $blue_2 50%, $blue_1 100%);
       background:-ms-linear-gradient(left, $blue_1 0%,$blue_2 50%,$blue_1 100%);
@@ -26,7 +26,7 @@
       height:100%;
       width:0%;
       
-      .MProgressBarIndicator{
+      .MProgressBarIndicator, .progress-indicator{
       	left:50%;
       	margin-left:-12px;
       	position:absolute;

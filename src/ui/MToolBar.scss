@@ -1,11 +1,4 @@
-#MToolBarPlaceholder{
-  background:$mono_4_2;
-  height:2.4em;
-  margin:0 auto;
-  width:100%;
-}
-
-#MToolBar{
+.MToolBar, .tool-bar{
   background:$mono_4_2;
   background:-moz-linear-gradient(top, $mono_5 0%, $mono_4_2 100%);
   background:-ms-linear-gradient(top, $mono_5 0%,$mono_4_2 100%);
@@ -13,18 +6,13 @@
   background:-webkit-linear-gradient(top, $mono_5 0%,$mono_4_2 100%);
   background:linear-gradient(top, $mono_5 0%,$mono_4_2 100%);
   border-bottom:1px solid $mono_3;
-  box-shadow:$shadow_outer_large;
   color:$mono_2;
   height:2.4em;
-  left:0;
   line-height:2.4em;
   margin:0 auto;
   overflow:hidden;
-  position:fixed;
   text-align:left;
-  top:2.85em;
   width:100%;
-  z-index:1000;
 
   a{
     -moz-user-select:none;
@@ -69,19 +57,37 @@
       margin:3px;
     }
   }
-  
 }
 
-h1.MToolBarTitle{
+#MToolBarPlaceholder, #tool-bar-placeholder{
+  background:-moz-linear-gradient(top, $mono_5 0%, $mono_4_2 100%);
+  background:-ms-linear-gradient(top, $mono_5 0%,$mono_4_2 100%);
+  background:-o-linear-gradient(top, $mono_5 0%,$mono_4_2 100%);
+  background:-webkit-linear-gradient(top, $mono_5 0%,$mono_4_2 100%);
+  background:linear-gradient(top, $mono_5 0%,$mono_4_2 100%);
+  height:2.4em;
+  margin:0 auto;
+  width:100%;
+}
+
+#MToolBar, #tool-bar{@extend .MToolBar;
+  box-shadow:$shadow_outer_large;
+  left:0;
+  position:fixed;
+  top:2.85em;
+  z-index:1000;
+}
+
+h1.MToolBarTitle, h1.tool-bar-title{
   font-size:1em;
   margin:0;
 }
 
-.MToolBarIcon{
+.MToolBarIcon, .tool-bar-icon{
   margin-right:0.4em;
 }
   
-.MToolBarSeperator{
+.MToolBarSeperator, .tool-bar-seperator{
   background:$mono_3;
   height:100%;
   margin-left:0.4em;
@@ -89,7 +95,7 @@ h1.MToolBarTitle{
   width:1px;
 } 
 
-.MToolBarSpacer{
+.MToolBarSpacer, .toolbar-spacer{
   height:100%;
   width:0.4em;
 }

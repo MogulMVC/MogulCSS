@@ -56,43 +56,43 @@ $rounded_large:2em;
 $font:Arial, sans-serif;
 
 a, h1, h2, h3, h4, h5, h6, input, label, p, span, textarea,{
-  &.MBold, &.bold{
+  &.MTextBold, &.text-bold{
     font-weight:bold;
   }
   
-  &.MItalics, &.italics{
+  &.MTextItalics, &.text-italics{
     font-style: italic;
   }
 
-  &.MRed, &.red{
+  &.MTextRed, &.text-red{
     color:$red_1;
   }
   
-  &.MOrange, &.orange{
+  &.MTextOrange, &.text-orange{
     color:$orange_1;
   }
 
-  &.MYellow, &.yellow{
+  &.MTextYellow, &.text-yellow{
     color:$yellow_1;
   }
 
-  &.MGreen, &.green{
+  &.MTextGreen, &.text-green{
     color:$green_1;
   }
 
-  &.MBlue, &.blue{
+  &.MTextBlue, &.text-blue{
     color:$blue_1;
   }
 
-  &.MViolet, &.violet{
+  &.MTextViolet, &.text-violet{
     color:$violet_1;
   }
 
-  &.MBlack, &.black{
+  &.MTextBlack, &.text-black{
     color:$mono_1;
   }
   
-  &.MWhite, &.white{
+  &.MTextWhite, &.text-white{
     color:$mono_6;
   }
 

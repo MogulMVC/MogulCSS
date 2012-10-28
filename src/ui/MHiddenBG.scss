@@ -1,16 +1,16 @@
-.MHiddenBGFull{
+.MHiddenBGFull, .hidden-bg-full{
   background:$mono_1_3;
   overflow:hidden;
   width:100%;
 }
 
-.MHiddenBGMin{
+.MHiddenBGMin, .hidden-bg-min{
   background:$mono_1_3;
   height:0;
   overflow:hidden;
   width:100%;
 }
 
-#hidden_content{
+#MHiddenContent, #hidden-contet{
   text-align:center;
 }

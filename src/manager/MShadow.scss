@@ -4,6 +4,7 @@ $shadow_outer_small:0 .2em .35em rgba(0,0,0,.4);
 $shadow_inner_large:inset 0 .2em .35em rgba(0,0,0,.4);
 $shadow_inner_small:inset 0 0 .4em rgba(0,0,0,.4);
 
+$shadow_text_large:0 .2em .35em rgba(0,0,0,.4);
 $shadow_text_small:0 0 .4em rgba(0,0,0,.4);
 
 // Classes
@@ -22,4 +23,12 @@ $shadow_text_small:0 0 .4em rgba(0,0,0,.4);
 
 .MShadowInnerLarge{
   box-shadow:$shadow_inner_large;
+}
+
+.MTextShadowSmall{
+  text-shadow:$shadow_text_small;
+}
+
+.MTextShadowLarge{
+  text-shadow:$shadow_text_large;
 }

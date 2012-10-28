@@ -1,33 +1,33 @@
-a.MBold, a.bold, h1.MBold, h1.bold, h2.MBold, h2.bold, h3.MBold, h3.bold, h4.MBold, h4.bold, h5.MBold, h5.bold, h6.MBold, h6.bold, input.MBold, input.bold, label.MBold, label.bold, p.MBold, p.bold, span.MBold, span.bold, textarea.MBold, textarea.bold {
+a.MTextBold, a.text-bold, h1.MTextBold, h1.text-bold, h2.MTextBold, h2.text-bold, h3.MTextBold, h3.text-bold, h4.MTextBold, h4.text-bold, h5.MTextBold, h5.text-bold, h6.MTextBold, h6.text-bold, input.MTextBold, input.text-bold, label.MTextBold, label.text-bold, p.MTextBold, p.text-bold, span.MTextBold, span.text-bold, textarea.MTextBold, textarea.text-bold {
   font-weight: bold; }
-a.MItalics, a.italics, h1.MItalics, h1.italics, h2.MItalics, h2.italics, h3.MItalics, h3.italics, h4.MItalics, h4.italics, h5.MItalics, h5.italics, h6.MItalics, h6.italics, input.MItalics, input.italics, label.MItalics, label.italics, p.MItalics, p.italics, span.MItalics, span.italics, textarea.MItalics, textarea.italics {
+a.MTextItalics, a.text-italics, h1.MTextItalics, h1.text-italics, h2.MTextItalics, h2.text-italics, h3.MTextItalics, h3.text-italics, h4.MTextItalics, h4.text-italics, h5.MTextItalics, h5.text-italics, h6.MTextItalics, h6.text-italics, input.MTextItalics, input.text-italics, label.MTextItalics, label.text-italics, p.MTextItalics, p.text-italics, span.MTextItalics, span.text-italics, textarea.MTextItalics, textarea.text-italics {
   font-style: italic; }
-a.MRed, a.red, h1.MRed, h1.red, h2.MRed, h2.red, h3.MRed, h3.red, h4.MRed, h4.red, h5.MRed, h5.red, h6.MRed, h6.red, input.MRed, input.red, label.MRed, label.red, p.MRed, p.red, span.MRed, span.red, textarea.MRed, textarea.red {
+a.MTextRed, a.text-red, h1.MTextRed, h1.text-red, h2.MTextRed, h2.text-red, h3.MTextRed, h3.text-red, h4.MTextRed, h4.text-red, h5.MTextRed, h5.text-red, h6.MTextRed, h6.text-red, input.MTextRed, input.text-red, label.MTextRed, label.text-red, p.MTextRed, p.text-red, span.MTextRed, span.text-red, textarea.MTextRed, textarea.text-red {
   color: #960000; }
-a.MOrange, a.orange, h1.MOrange, h1.orange, h2.MOrange, h2.orange, h3.MOrange, h3.orange, h4.MOrange, h4.orange, h5.MOrange, h5.orange, h6.MOrange, h6.orange, input.MOrange, input.orange, label.MOrange, label.orange, p.MOrange, p.orange, span.MOrange, span.orange, textarea.MOrange, textarea.orange {
+a.MTextOrange, a.text-orange, h1.MTextOrange, h1.text-orange, h2.MTextOrange, h2.text-orange, h3.MTextOrange, h3.text-orange, h4.MTextOrange, h4.text-orange, h5.MTextOrange, h5.text-orange, h6.MTextOrange, h6.text-orange, input.MTextOrange, input.text-orange, label.MTextOrange, label.text-orange, p.MTextOrange, p.text-orange, span.MTextOrange, span.text-orange, textarea.MTextOrange, textarea.text-orange {
   color: #963c00; }
-a.MYellow, a.yellow, h1.MYellow, h1.yellow, h2.MYellow, h2.yellow, h3.MYellow, h3.yellow, h4.MYellow, h4.yellow, h5.MYellow, h5.yellow, h6.MYellow, h6.yellow, input.MYellow, input.yellow, label.MYellow, label.yellow, p.MYellow, p.yellow, span.MYellow, span.yellow, textarea.MYellow, textarea.yellow {
+a.MTextYellow, a.text-yellow, h1.MTextYellow, h1.text-yellow, h2.MTextYellow, h2.text-yellow, h3.MTextYellow, h3.text-yellow, h4.MTextYellow, h4.text-yellow, h5.MTextYellow, h5.text-yellow, h6.MTextYellow, h6.text-yellow, input.MTextYellow, input.text-yellow, label.MTextYellow, label.text-yellow, p.MTextYellow, p.text-yellow, span.MTextYellow, span.text-yellow, textarea.MTextYellow, textarea.text-yellow {
   color: #969600; }
-a.MGreen, a.green, h1.MGreen, h1.green, h2.MGreen, h2.green, h3.MGreen, h3.green, h4.MGreen, h4.green, h5.MGreen, h5.green, h6.MGreen, h6.green, input.MGreen, input.green, label.MGreen, label.green, p.MGreen, p.green, span.MGreen, span.green, textarea.MGreen, textarea.green {
+a.MTextGreen, a.text-green, h1.MTextGreen, h1.text-green, h2.MTextGreen, h2.text-green, h3.MTextGreen, h3.text-green, h4.MTextGreen, h4.text-green, h5.MTextGreen, h5.text-green, h6.MTextGreen, h6.text-green, input.MTextGreen, input.text-green, label.MTextGreen, label.text-green, p.MTextGreen, p.text-green, span.MTextGreen, span.text-green, textarea.MTextGreen, textarea.text-green {
   color: #009600; }
-a.MBlue, a.blue, h1.MBlue, h1.blue, h2.MBlue, h2.blue, h3.MBlue, h3.blue, h4.MBlue, h4.blue, h5.MBlue, h5.blue, h6.MBlue, h6.blue, input.MBlue, input.blue, label.MBlue, label.blue, p.MBlue, p.blue, span.MBlue, span.blue, textarea.MBlue, textarea.blue {
+a.MTextBlue, a.text-blue, h1.MTextBlue, h1.text-blue, h2.MTextBlue, h2.text-blue, h3.MTextBlue, h3.text-blue, h4.MTextBlue, h4.text-blue, h5.MTextBlue, h5.text-blue, h6.MTextBlue, h6.text-blue, input.MTextBlue, input.text-blue, label.MTextBlue, label.text-blue, p.MTextBlue, p.text-blue, span.MTextBlue, span.text-blue, textarea.MTextBlue, textarea.text-blue {
   color: #004b96; }
-a.MViolet, a.violet, h1.MViolet, h1.violet, h2.MViolet, h2.violet, h3.MViolet, h3.violet, h4.MViolet, h4.violet, h5.MViolet, h5.violet, h6.MViolet, h6.violet, input.MViolet, input.violet, label.MViolet, label.violet, p.MViolet, p.violet, span.MViolet, span.violet, textarea.MViolet, textarea.violet {
+a.MTextViolet, a.text-violet, h1.MTextViolet, h1.text-violet, h2.MTextViolet, h2.text-violet, h3.MTextViolet, h3.text-violet, h4.MTextViolet, h4.text-violet, h5.MTextViolet, h5.text-violet, h6.MTextViolet, h6.text-violet, input.MTextViolet, input.text-violet, label.MTextViolet, label.text-violet, p.MTextViolet, p.text-violet, span.MTextViolet, span.text-violet, textarea.MTextViolet, textarea.text-violet {
   color: #4b0096; }
-a.MBlack, a.black, h1.MBlack, h1.black, h2.MBlack, h2.black, h3.MBlack, h3.black, h4.MBlack, h4.black, h5.MBlack, h5.black, h6.MBlack, h6.black, input.MBlack, input.black, label.MBlack, label.black, p.MBlack, p.black, span.MBlack, span.black, textarea.MBlack, textarea.black {
+a.MTextBlack, a.text-black, h1.MTextBlack, h1.text-black, h2.MTextBlack, h2.text-black, h3.MTextBlack, h3.text-black, h4.MTextBlack, h4.text-black, h5.MTextBlack, h5.text-black, h6.MTextBlack, h6.text-black, input.MTextBlack, input.text-black, label.MTextBlack, label.text-black, p.MTextBlack, p.text-black, span.MTextBlack, span.text-black, textarea.MTextBlack, textarea.text-black {
   color: #0a0a0a; }
-a.MWhite, a.white, h1.MWhite, h1.white, h2.MWhite, h2.white, h3.MWhite, h3.white, h4.MWhite, h4.white, h5.MWhite, h5.white, h6.MWhite, h6.white, input.MWhite, input.white, label.MWhite, label.white, p.MWhite, p.white, span.MWhite, span.white, textarea.MWhite, textarea.white {
+a.MTextWhite, a.text-white, h1.MTextWhite, h1.text-white, h2.MTextWhite, h2.text-white, h3.MTextWhite, h3.text-white, h4.MTextWhite, h4.text-white, h5.MTextWhite, h5.text-white, h6.MTextWhite, h6.text-white, input.MTextWhite, input.text-white, label.MTextWhite, label.text-white, p.MTextWhite, p.text-white, span.MTextWhite, span.text-white, textarea.MTextWhite, textarea.text-white {
   color: white; }
 
-.MGlow, input[type='range']::-webkit-slider-thumb, select, .MButton, .MButtonRed, input[type=reset], .MButtonR, .MButtonOrange, .MButtonO, .MButtonYellow, .MButtonY, .MButtonGreen, .MButtonG, .MButtonBlue, .MButtonUpload, input[type=submit], .MButtonB, .MButtonViolet, .MButtonV, button, input[type=button], .MTab {
+.MGlow, input[type='range']::-webkit-slider-thumb, select, .MButton, .MButtonRed, input[type=reset], .MButtonR, .button-red, .button-r, .MButtonOrange, .MButtonO, .button-orange, .button-o, .MButtonYellow, .MButtonY, .button-yellow, .MButtonGreen, .MButtonG, .button-green, .button-g, .MButtonBlue, .MButtonUpload, .MButtonU, .button-upload, .button-u, input[type=submit], .MButtonB, .button-blue, .button-b, .MButtonViolet, .MButtonV, .button-violet, .button-v, button, input[type=button], .button, .MTab, .tab {
   -moz-transition: box-shadow 0.25s;
   -o-transition: box-shadow 0.25s;
   -webkit-transition: box-shadow 0.25s;
   transition: box-shadow 0.25s; }
-  .MGlow:hover, input[type='range']:hover::-webkit-slider-thumb, select:hover, .MButton:hover, .MButtonRed:hover, input[type=reset]:hover, .MButtonR:hover, .MButtonOrange:hover, .MButtonO:hover, .MButtonYellow:hover, .MButtonY:hover, .MButtonGreen:hover, .MButtonG:hover, .MButtonBlue:hover, .MButtonUpload:hover, input[type=submit]:hover, .MButtonB:hover, .MButtonViolet:hover, .MButtonV:hover, button:hover, input[type=button]:hover, .MTab:hover {
+  .MGlow:hover, input[type='range']:hover::-webkit-slider-thumb, select:hover, .MButton:hover, .MButtonRed:hover, input[type=reset]:hover, .MButtonR:hover, .button-red:hover, .button-r:hover, .MButtonOrange:hover, .MButtonO:hover, .button-orange:hover, .button-o:hover, .MButtonYellow:hover, .MButtonY:hover, .button-yellow:hover, .MButtonGreen:hover, .MButtonG:hover, .button-green:hover, .button-g:hover, .MButtonBlue:hover, .MButtonUpload:hover, .MButtonU:hover, .button-upload:hover, .button-u:hover, input[type=submit]:hover, .MButtonB:hover, .button-blue:hover, .button-b:hover, .MButtonViolet:hover, .MButtonV:hover, .button-violet:hover, .button-v:hover, button:hover, input[type=button]:hover, .button:hover, .MTab:hover, .tab:hover {
     border-color: #007dfa;
     box-shadow: 0 0 0.4em #007dfa; }
-  .MGlow:active, input[type='range']:active::-webkit-slider-thumb, select:active, .MButton:active, .MButtonRed:active, input[type=reset]:active, .MButtonR:active, .MButtonOrange:active, .MButtonO:active, .MButtonYellow:active, .MButtonY:active, .MButtonGreen:active, .MButtonG:active, .MButtonBlue:active, .MButtonUpload:active, input[type=submit]:active, .MButtonB:active, .MButtonViolet:active, .MButtonV:active, button:active, input[type=button]:active, .MTab:active {
+  .MGlow:active, input[type='range']:active::-webkit-slider-thumb, select:active, .MButton:active, .MButtonRed:active, input[type=reset]:active, .MButtonR:active, .button-red:active, .button-r:active, .MButtonOrange:active, .MButtonO:active, .button-orange:active, .button-o:active, .MButtonYellow:active, .MButtonY:active, .button-yellow:active, .MButtonGreen:active, .MButtonG:active, .button-green:active, .button-g:active, .MButtonBlue:active, .MButtonUpload:active, .MButtonU:active, .button-upload:active, .button-u:active, input[type=submit]:active, .MButtonB:active, .button-blue:active, .button-b:active, .MButtonViolet:active, .MButtonV:active, .button-violet:active, .button-v:active, button:active, input[type=button]:active, .button:active, .MTab:active, .tab:active {
     border-color: inherit;
     box-shadow: inherit; }
 
@@ -54,6 +54,12 @@ a.MWhite, a.white, h1.MWhite, h1.white, h2.MWhite, h2.white, h3.MWhite, h3.white
 
 .MShadowInnerLarge {
   box-shadow: inset 0 0.2em 0.35em rgba(0, 0, 0, 0.4); }
+
+.MTextShadowSmall {
+  text-shadow: 0 0 0.4em rgba(0, 0, 0, 0.4); }
+
+.MTextShadowLarge {
+  text-shadow: 0 0.2em 0.35em rgba(0, 0, 0, 0.4); }
 
 * {
   -moz-user-select: -moz-none;
@@ -187,7 +193,7 @@ td {
   background: linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
   border: 1px solid #646464; }
 
-.MButton, .MButtonRed, input[type=reset], .MButtonR, .MButtonOrange, .MButtonO, .MButtonYellow, .MButtonY, .MButtonGreen, .MButtonG, .MButtonBlue, .MButtonUpload, input[type=submit], .MButtonB, .MButtonViolet, .MButtonV, button, input[type=button] {
+.MButton, .MButtonRed, input[type=reset], .MButtonR, .button-red, .button-r, .MButtonOrange, .MButtonO, .button-orange, .button-o, .MButtonYellow, .MButtonY, .button-yellow, .MButtonGreen, .MButtonG, .button-green, .button-g, .MButtonBlue, .MButtonUpload, .MButtonU, .button-upload, .button-u, input[type=submit], .MButtonB, .button-blue, .button-b, .MButtonViolet, .MButtonV, .button-violet, .button-v, button, input[type=button], .button {
   background: #e6e6e6;
   background: -moz-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
   background: -ms-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
@@ -206,28 +212,28 @@ td {
   padding-left: 0.5em;
   padding-right: 0.5em;
   white-space: nowrap; }
-  .MButton:hover, .MButtonRed:hover, input[type=reset]:hover, .MButtonR:hover, .MButtonOrange:hover, .MButtonO:hover, .MButtonYellow:hover, .MButtonY:hover, .MButtonGreen:hover, .MButtonG:hover, .MButtonBlue:hover, .MButtonUpload:hover, input[type=submit]:hover, .MButtonB:hover, .MButtonViolet:hover, .MButtonV:hover, button:hover, input[type=button]:hover {
+  .MButton:hover, .MButtonRed:hover, input[type=reset]:hover, .MButtonR:hover, .button-red:hover, .button-r:hover, .MButtonOrange:hover, .MButtonO:hover, .button-orange:hover, .button-o:hover, .MButtonYellow:hover, .MButtonY:hover, .button-yellow:hover, .MButtonGreen:hover, .MButtonG:hover, .button-green:hover, .button-g:hover, .MButtonBlue:hover, .MButtonUpload:hover, .MButtonU:hover, .button-upload:hover, .button-u:hover, input[type=submit]:hover, .MButtonB:hover, .button-blue:hover, .button-b:hover, .MButtonViolet:hover, .MButtonV:hover, .button-violet:hover, .button-v:hover, button:hover, input[type=button]:hover, .button:hover {
     border-color: #007dfa;
     color: #323232; }
-  .MButton:active, .MButtonRed:active, input[type=reset]:active, .MButtonR:active, .MButtonOrange:active, .MButtonO:active, .MButtonYellow:active, .MButtonY:active, .MButtonGreen:active, .MButtonG:active, .MButtonBlue:active, .MButtonUpload:active, input[type=submit]:active, .MButtonB:active, .MButtonViolet:active, .MButtonV:active, button:active, input[type=button]:active {
+  .MButton:active, .MButtonRed:active, input[type=reset]:active, .MButtonR:active, .button-red:active, .button-r:active, .MButtonOrange:active, .MButtonO:active, .button-orange:active, .button-o:active, .MButtonYellow:active, .MButtonY:active, .button-yellow:active, .MButtonGreen:active, .MButtonG:active, .button-green:active, .button-g:active, .MButtonBlue:active, .MButtonUpload:active, .MButtonU:active, .button-upload:active, .button-u:active, input[type=submit]:active, .MButtonB:active, .button-blue:active, .button-b:active, .MButtonViolet:active, .MButtonV:active, .button-violet:active, .button-v:active, button:active, input[type=button]:active, .button:active {
     background: #646464;
     border-color: #323232;
     box-shadow: inset 0 0.2em 0.35em rgba(0, 0, 0, 0.4);
     color: white; }
-  .MButton[disabled], [disabled].MButtonRed, input[disabled][type=reset], [disabled].MButtonR, [disabled].MButtonOrange, [disabled].MButtonO, [disabled].MButtonYellow, [disabled].MButtonY, [disabled].MButtonGreen, [disabled].MButtonG, [disabled].MButtonBlue, [disabled].MButtonUpload, input[disabled][type=submit], [disabled].MButtonB, [disabled].MButtonViolet, [disabled].MButtonV, button[disabled], input[disabled][type=button], .MButton[disabled]:hover, [disabled].MButtonRed:hover, input[disabled][type=reset]:hover, [disabled].MButtonR:hover, [disabled].MButtonOrange:hover, [disabled].MButtonO:hover, [disabled].MButtonYellow:hover, [disabled].MButtonY:hover, [disabled].MButtonGreen:hover, [disabled].MButtonG:hover, [disabled].MButtonBlue:hover, [disabled].MButtonUpload:hover, input[disabled][type=submit]:hover, [disabled].MButtonB:hover, [disabled].MButtonViolet:hover, [disabled].MButtonV:hover, button[disabled]:hover, input[disabled][type=button]:hover, .MButton[disabled]:active, [disabled].MButtonRed:active, input[disabled][type=reset]:active, [disabled].MButtonR:active, [disabled].MButtonOrange:active, [disabled].MButtonO:active, [disabled].MButtonYellow:active, [disabled].MButtonY:active, [disabled].MButtonGreen:active, [disabled].MButtonG:active, [disabled].MButtonBlue:active, [disabled].MButtonUpload:active, input[disabled][type=submit]:active, [disabled].MButtonB:active, [disabled].MButtonViolet:active, [disabled].MButtonV:active, button[disabled]:active, input[disabled][type=button]:active {
+  .MButton[disabled], [disabled].MButtonRed, input[disabled][type=reset], [disabled].MButtonR, [disabled].button-red, [disabled].button-r, [disabled].MButtonOrange, [disabled].MButtonO, [disabled].button-orange, [disabled].button-o, [disabled].MButtonYellow, [disabled].MButtonY, [disabled].button-yellow, [disabled].MButtonGreen, [disabled].MButtonG, [disabled].button-green, [disabled].button-g, [disabled].MButtonBlue, [disabled].MButtonUpload, [disabled].MButtonU, [disabled].button-upload, [disabled].button-u, input[disabled][type=submit], [disabled].MButtonB, [disabled].button-blue, [disabled].button-b, [disabled].MButtonViolet, [disabled].MButtonV, [disabled].button-violet, [disabled].button-v, button[disabled], input[disabled][type=button], .MButton[disabled]:hover, [disabled].MButtonRed:hover, input[disabled][type=reset]:hover, [disabled].MButtonR:hover, [disabled].button-red:hover, [disabled].button-r:hover, [disabled].MButtonOrange:hover, [disabled].MButtonO:hover, [disabled].button-orange:hover, [disabled].button-o:hover, [disabled].MButtonYellow:hover, [disabled].MButtonY:hover, [disabled].button-yellow:hover, [disabled].MButtonGreen:hover, [disabled].MButtonG:hover, [disabled].button-green:hover, [disabled].button-g:hover, [disabled].MButtonBlue:hover, [disabled].MButtonUpload:hover, [disabled].MButtonU:hover, [disabled].button-upload:hover, [disabled].button-u:hover, input[disabled][type=submit]:hover, [disabled].MButtonB:hover, [disabled].button-blue:hover, [disabled].button-b:hover, [disabled].MButtonViolet:hover, [disabled].MButtonV:hover, [disabled].button-violet:hover, [disabled].button-v:hover, button[disabled]:hover, input[disabled][type=button]:hover, .MButton[disabled]:active, [disabled].MButtonRed:active, input[disabled][type=reset]:active, [disabled].MButtonR:active, [disabled].button-red:active, [disabled].button-r:active, [disabled].MButtonOrange:active, [disabled].MButtonO:active, [disabled].button-orange:active, [disabled].button-o:active, [disabled].MButtonYellow:active, [disabled].MButtonY:active, [disabled].button-yellow:active, [disabled].MButtonGreen:active, [disabled].MButtonG:active, [disabled].button-green:active, [disabled].button-g:active, [disabled].MButtonBlue:active, [disabled].MButtonUpload:active, [disabled].MButtonU:active, [disabled].button-upload:active, [disabled].button-u:active, input[disabled][type=submit]:active, [disabled].MButtonB:active, [disabled].button-blue:active, [disabled].button-b:active, [disabled].MButtonViolet:active, [disabled].MButtonV:active, [disabled].button-violet:active, [disabled].button-v:active, button[disabled]:active, input[disabled][type=button]:active, .button[disabled], .button[disabled]:hover, .button[disabled]:active {
     background: #e6e6e6;
     border-color: #646464;
     box-shadow: none;
     color: #969696;
     text-shadow: none; }
-  .MButton span, .MButtonRed span, input[type=reset] span, .MButtonR span, .MButtonOrange span, .MButtonO span, .MButtonYellow span, .MButtonY span, .MButtonGreen span, .MButtonG span, .MButtonBlue span, .MButtonUpload span, input[type=submit] span, .MButtonB span, .MButtonViolet span, .MButtonV span, button span, input[type=button] span {
+  .MButton span, .MButtonRed span, input[type=reset] span, .MButtonR span, .button-red span, .button-r span, .MButtonOrange span, .MButtonO span, .button-orange span, .button-o span, .MButtonYellow span, .MButtonY span, .button-yellow span, .MButtonGreen span, .MButtonG span, .button-green span, .button-g span, .MButtonBlue span, .MButtonUpload span, .MButtonU span, .button-upload span, .button-u span, input[type=submit] span, .MButtonB span, .button-blue span, .button-b span, .MButtonViolet span, .MButtonV span, .button-violet span, .button-v span, button span, input[type=button] span, .button span {
     -moz-user-select: -moz-none;
     -o-user-select: none;
     -webkit-user-select: none;
     font-family: Arial, sans-serif;
     user-select: none; }
 
-.MButtonRed, input[type=reset], .MButtonR {
+.MButtonRed, input[type=reset], .MButtonR, .button-red, .button-r {
   background: #960000;
   background: -moz-linear-gradient(top, #fa0000 0%, #960000 100%);
   background: -ms-linear-gradient(top, #fa0000 0%, #960000 100%);
@@ -236,12 +242,12 @@ td {
   background: linear-gradient(top, #fa0000 0%, #960000 100%);
   color: white;
   text-shadow: 0 0 0.4em rgba(0, 0, 0, 0.4); }
-  .MButtonRed:hover, input[type=reset]:hover, .MButtonR:hover {
+  .MButtonRed:hover, input[type=reset]:hover, .MButtonR:hover, .button-red:hover, .button-r:hover {
     color: white; }
-  .MButtonRed:active, input[type=reset]:active, .MButtonR:active {
+  .MButtonRed:active, input[type=reset]:active, .MButtonR:active, .button-red:active, .button-r:active {
     color: white; }
 
-.MButtonOrange, .MButtonO {
+.MButtonOrange, .MButtonO, .button-orange, .button-o {
   background: #963c00;
   background: -moz-linear-gradient(top, #fa6400 0%, #963c00 100%);
   background: -ms-linear-gradient(top, #fa6400 0%, #963c00 100%);
@@ -250,12 +256,12 @@ td {
   background: linear-gradient(top, #fa6400 0%, #963c00 100%);
   color: white;
   text-shadow: 0 0 0.4em rgba(0, 0, 0, 0.4); }
-  .MButtonOrange:hover, .MButtonO:hover {
+  .MButtonOrange:hover, .MButtonO:hover, .button-orange:hover, .button-o:hover {
     color: white; }
-  .MButtonOrange:active, .MButtonO:active {
+  .MButtonOrange:active, .MButtonO:active, .button-orange:active, .button-o:active {
     color: white; }
 
-.MButtonYellow, .MButtonY {
+.MButtonYellow, .MButtonY, .button-yellow, .button-yellow {
   background: #fafa00;
   background: -moz-linear-gradient(top, #fafa00 0%, #fafa00 100%);
   background: -ms-linear-gradient(top, #fafa00 0%, #fafa00 100%);
@@ -263,12 +269,12 @@ td {
   background: -webkit-linear-gradient(top, #fafa00 0%, #fafa00 100%);
   background: linear-gradient(top, #fafa00 0%, #fafa00 100%);
   color: #0a0a0a; }
-  .MButtonYellow:hover, .MButtonY:hover {
+  .MButtonYellow:hover, .MButtonY:hover, .button-yellow:hover, .button-yellow:hover {
     color: #0a0a0a; }
-  .MButtonYellow:active, .MButtonY:active {
+  .MButtonYellow:active, .MButtonY:active, .button-yellow:active, .button-yellow:active {
     color: white; }
 
-.MButtonGreen, .MButtonG {
+.MButtonGreen, .MButtonG, .button-green, .button-g {
   background: #009600;
   background: -moz-linear-gradient(top, #00fa00 0%, #009600 100%);
   background: -ms-linear-gradient(top, #00fa00 0%, #009600 100%);
@@ -277,12 +283,12 @@ td {
   background: linear-gradient(top, #00fa00 0%, #009600 100%);
   color: white;
   text-shadow: 0 0 0.4em rgba(0, 0, 0, 0.4); }
-  .MButtonGreen:hover, .MButtonG:hover {
+  .MButtonGreen:hover, .MButtonG:hover, .button-green:hover, .button-g:hover {
     color: white; }
-  .MButtonGreen:active, .MButtonG:active {
+  .MButtonGreen:active, .MButtonG:active, .button-green:active, .button-g:active {
     color: white; }
 
-.MButtonBlue, .MButtonUpload, input[type=submit], .MButtonB {
+.MButtonBlue, .MButtonUpload, .MButtonU, .button-upload, .button-u, input[type=submit], .MButtonB, .button-blue, .button-b {
   background: #004b96;
   background: -moz-linear-gradient(top, #007dfa 0%, #004b96 100%);
   background: -ms-linear-gradient(top, #007dfa 0%, #004b96 100%);
@@ -291,12 +297,12 @@ td {
   background: linear-gradient(top, #007dfa 0%, #004b96 100%);
   color: white;
   text-shadow: 0 0 0.4em rgba(0, 0, 0, 0.4); }
-  .MButtonBlue:hover, .MButtonUpload:hover, input[type=submit]:hover, .MButtonB:hover {
+  .MButtonBlue:hover, .MButtonUpload:hover, .MButtonU:hover, .button-upload:hover, .button-u:hover, input[type=submit]:hover, .MButtonB:hover, .button-blue:hover, .button-b:hover {
     color: white; }
-  .MButtonBlue:active, .MButtonUpload:active, input[type=submit]:active, .MButtonB:active {
+  .MButtonBlue:active, .MButtonUpload:active, .MButtonU:active, .button-upload:active, .button-u:active, input[type=submit]:active, .MButtonB:active, .button-blue:active, .button-b:active {
     color: white; }
 
-.MButtonViolet, .MButtonV {
+.MButtonViolet, .MButtonV, .button-violet, .button-v {
   background: #4b0096;
   background: -moz-linear-gradient(top, #7d00fa 0%, #4b0096 100%);
   background: -ms-linear-gradient(top, #7d00fa 0%, #4b0096 100%);
@@ -305,29 +311,29 @@ td {
   background: linear-gradient(top, #7d00fa 0%, #4b0096 100%);
   color: white;
   text-shadow: 0 0 0.4em rgba(0, 0, 0, 0.4); }
-  .MButtonViolet:hover, .MButtonV:hover {
+  .MButtonViolet:hover, .MButtonV:hover, .button-violet:hover, .button-v:hover {
     color: white; }
-  .MButtonViolet:active, .MButtonV:active {
+  .MButtonViolet:active, .MButtonV:active, .button-violet:active, .button-v:active {
     color: white; }
 
-.MButtonUpload {
+.MButtonUpload, .MButtonU, .button-upload, .button-u {
   cursor: default;
   overflow: hidden;
   position: relative;
   text-align: center; }
 
-.MButtonUploadInput {
+.MButtonUploadInput, .MButtonUI, .button-upload-input, .button-ui {
   left: 0;
   top: -0.2em;
   position: absolute;
   width: 100%;
   opacity: 0; }
 
-a.MButton, a.MButtonRed, a.MButtonR, a.MButtonOrange, a.MButtonO, a.MButtonYellow, a.MButtonY, a.MButtonGreen, a.MButtonG, a.MButtonBlue, a.MButtonUpload, a.MButtonB, a.MButtonViolet, a.MButtonV, div.MButton, div.MButtonRed, div.MButtonR, div.MButtonOrange, div.MButtonO, div.MButtonYellow, div.MButtonY, div.MButtonGreen, div.MButtonG, div.MButtonBlue, div.MButtonUpload, div.MButtonB, div.MButtonViolet, div.MButtonV, span.MButton, span.MButtonRed, span.MButtonR, span.MButtonOrange, span.MButtonO, span.MButtonYellow, span.MButtonY, span.MButtonGreen, span.MButtonG, span.MButtonBlue, span.MButtonUpload, span.MButtonB, span.MButtonViolet, span.MButtonV {
+a.MButton, a.MButtonRed, a.MButtonR, a.button-red, a.button-r, a.MButtonOrange, a.MButtonO, a.button-orange, a.button-o, a.MButtonYellow, a.MButtonY, a.button-yellow, a.MButtonGreen, a.MButtonG, a.button-green, a.button-g, a.MButtonBlue, a.MButtonUpload, a.MButtonU, a.button-upload, a.button-u, a.MButtonB, a.button-blue, a.button-b, a.MButtonViolet, a.MButtonV, a.button-violet, a.button-v, div.MButton, div.MButtonRed, div.MButtonR, div.button-red, div.button-r, div.MButtonOrange, div.MButtonO, div.button-orange, div.button-o, div.MButtonYellow, div.MButtonY, div.button-yellow, div.MButtonGreen, div.MButtonG, div.button-green, div.button-g, div.MButtonBlue, div.MButtonUpload, div.MButtonU, div.button-upload, div.button-u, div.MButtonB, div.button-blue, div.button-b, div.MButtonViolet, div.MButtonV, div.button-violet, div.button-v, span.MButton, span.MButtonRed, span.MButtonR, span.button-red, span.button-r, span.MButtonOrange, span.MButtonO, span.button-orange, span.button-o, span.MButtonYellow, span.MButtonY, span.button-yellow, span.MButtonGreen, span.MButtonG, span.button-green, span.button-g, span.MButtonBlue, span.MButtonUpload, span.MButtonU, span.button-upload, span.button-u, span.MButtonB, span.button-blue, span.button-b, span.MButtonViolet, span.MButtonV, span.button-violet, span.button-v {
   height: 1.45em;
   line-height: 1.45em; }
 
-button.MButton, button.MButtonRed, button.MButtonR, button.MButtonOrange, button.MButtonO, button.MButtonYellow, button.MButtonY, button.MButtonGreen, button.MButtonG, button.MButtonBlue, button.MButtonUpload, button.MButtonB, button.MButtonViolet, button.MButtonV, button {
+button.MButton, button.MButtonRed, button.MButtonR, button.button-red, button.button-r, button.MButtonOrange, button.MButtonO, button.button-orange, button.button-o, button.MButtonYellow, button.MButtonY, button.button-yellow, button.MButtonGreen, button.MButtonG, button.button-green, button.button-g, button.MButtonBlue, button.MButtonUpload, button.MButtonU, button.button-upload, button.button-u, button.MButtonB, button.button-blue, button.button-b, button.MButtonViolet, button.MButtonV, button.button-violet, button.button-v, button {
   height: 1.6em;
   line-height: 1; }
 
@@ -382,75 +388,75 @@ textarea {
   padding: 0;
   resize: vertical; }
 
-.MList li, .MListItem {
+.MListItem, .list-item {
   border-radius: 3px;
   margin-top: 2px;
   margin-bottom: 2px;
   padding: 1.2em;
   position: relative; }
-  .MList li.red, .MListItem.red {
+  .MListItem.red, .list-item.red {
     background: #dcc3c3;
     color: #323232; }
-    .MList li.red:hover, .MListItem.red:hover {
+    .MListItem.red:hover, .list-item.red:hover {
       background: #e1d5d5; }
-  .MList li.yellow, .MListItem.yellow {
+  .MListItem.yellow, .list-item.yellow {
     background: #faf5b4;
     color: #323232; }
-    .MList li.yellow:hover, .MListItem.yellow:hover {
+    .MListItem.yellow:hover, .list-item.yellow:hover {
       background: #f0edcd; }
-  .MList li.green, .MListItem.green {
+  .MListItem.green, .list-item.green {
     background: #c3dcc3;
     color: #323232; }
-    .MList li.green:hover, .MListItem.green:hover {
+    .MListItem.green:hover, .list-item.green:hover {
       background: #d5e1d5; }
-  .MList li.active, .MList li.blue, .MListItem.active, .MListItem.blue {
+  .MListItem.active, .MListItem.blue, .list-item.active, .list-item.blue {
     background: #b4d2f0;
     color: #323232; }
-    .MList li.active:hover, .MList li.blue:hover, .MListItem.active:hover, .MListItem.blue:hover {
+    .MListItem.active:hover, .MListItem.blue:hover, .list-item.active:hover, .list-item.blue:hover {
       background: #cddceb; }
-  .MList li:hover, .MListItem:hover {
+  .MListItem:hover, .list-item:hover {
     background: #e6e6e6; }
 
-.MListIcon {
+.MListIcon, .list-icon {
   float: left;
   margin-right: 15px; }
 
-.MListInfo {
+.MListInfo, .list-info {
   -o-text-overflow: ellipsis;
   display: block;
   overflow: hidden;
   text-overflow: ellipsis; }
 
-.MListSeperator {
+.MListSeperator, .list-seperator {
   background: #646464;
   height: 1px;
   margin-top: 0.4em;
   margin-bottom: 0.4em; }
 
-.MListItemSub {
+.MListItemSub, .list-item-sub {
   background: #c8c8c8;
   border-radius: 3px;
   padding: .4em;
   position: relative; }
 
-.MListSummary {
+.MListSummary, .list-summary {
   display: list-item;
   height: 2em;
   text-overflow: ellipsis;
   width: 100%; }
 
-.MListTitle {
+.MListTitle, .list-title {
   display: inline;
   margin: 0; }
 
-.MListCitation {
+.MListCitation, .list-citation {
   margin-left: .4em; }
 
-.MListOptions {
+.MListOptions, .list-options {
   display: inline-block;
   float: right;
   min-width: 300px; }
-  .MListOptions a, .MListOptions img, .MListOptions span {
+  .MListOptions a, .MListOptions img, .MListOptions span, .list-options a, .list-options img, .list-options span {
     margin-left: 2px;
     margin-right: 2px; }
 
@@ -461,7 +467,7 @@ ul {
 li {
   list-style-type: none; }
 
-.MModalBG, .MModalBGBlack, .MModalBGWhite {
+.MModalBG, .MModalBGBlack, .modal-bg-black, .MModalBGWhite, .modal-bg-white, .modal-bg {
   height: 150%;
   left: 0;
   opacity: .8;
@@ -470,13 +476,13 @@ li {
   width: 150%;
   z-index: 1500; }
 
-.MModalBGBlack {
+.MModalBGBlack, .modal-bg-black {
   background-color: #0a0a0a; }
 
-.MModalBGWhite {
+.MModalBGWhite, .modal-bg-white {
   background-color: white; }
 
-.MNote, .MNoteRed, .MNoteR, .MNoteOrange, .MNoteO, .MNoteYellow, .MNoteY, .MNoteGreen, .MNoteG, .MNoteBlue, .MNoteB, .MNoteViolet, .MNoteV {
+.MNote, .MNoteRed, .MNoteR, .note-red, .note-r, .MNoteOrange, .MNoteO, .note-orange, .note-o, .MNoteYellow, .MNoteY, .note-yellow, .note-y, .MNoteGreen, .MNoteG, .note-green, .note-g, .MNoteBlue, .MNoteB, .note-blue, .note-b, .MNoteViolet, .MNoteV, .note-violet, .note-v, .note {
   background: #f0f0f0;
   box-shadow: 0 0.2em 0.35em rgba(0, 0, 0, 0.4);
   display: inline-block;
@@ -485,25 +491,25 @@ li {
   padding: 0.4em;
   position: relative; }
 
-.MNoteRed, .MNoteR {
+.MNoteRed, .MNoteR, .note-red, .note-r {
   background: #fa0000; }
 
-.MNoteOrange, .MNoteO {
+.MNoteOrange, .MNoteO, .note-orange, .note-o {
   background: #fa6400; }
 
-.MNoteYellow, .MNoteY {
+.MNoteYellow, .MNoteY, .note-yellow, .note-y {
   background: #fff046; }
 
-.MNoteGreen, .MNoteG {
+.MNoteGreen, .MNoteG, .note-green, .note-g {
   background: #00fa00; }
 
-.MNoteBlue, .MNoteB {
+.MNoteBlue, .MNoteB, .note-blue, .note-b {
   background: #007dfa; }
 
-.MNoteViolet, .MNoteV {
+.MNoteViolet, .MNoteV, .note-violet, .note-v {
   background: #7d00fa; }
 
-.MPopup {
+.MPopup, .popup {
   box-shadow: 0 1.2em 2.4em -0.8em rgba(0, 0, 0, 0.4);
   left: 50%;
   margin-left: -27.4em;
@@ -512,22 +518,22 @@ li {
   width: 54.8em;
   z-index: 1600; }
 
-.MPopupMenu {
+.MPopupMenu, .popup-menu {
   height: 35px; }
 
-.MPopupList {
+.MPopupList, .popup-list {
   overflow-x: hidden;
   overflow-y: auto; }
 
-.MPopupPreviewContainer {
+.MPopupPreviewContainer, .popup-preview-container {
   text-align: center;
   width: 100%; }
 
-.MPopupPreview {
+.MPopupPreview, .popup-preview {
   max-height: 400px;
   max-width: 640px; }
 
-.MHoverForm {
+.MHoverForm, .hover-form {
   box-shadow: 0 1.2em 2.4em -0.8em rgba(0, 0, 0, 0.4);
   left: 50%;
   margin-left: -12em;
@@ -537,7 +543,7 @@ li {
   width: 24em;
   z-index: 500; }
 
-.MHoverMessage {
+.MHoverMessage, .hover-message {
   border-radius: 3px;
   box-shadow: 0 1.2em 2.4em -0.8em rgba(0, 0, 0, 0.4);
   left: 50%;
@@ -550,7 +556,7 @@ li {
   width: 36.4em;
   z-index: 500; }
 
-.MPreviewBG {
+.MPreviewBG, .preivew-bg {
   background-color: #323232;
   box-shadow: 0 0.2em 0.35em rgba(0, 0, 0, 0.4);
   display: inline-block;
@@ -558,7 +564,7 @@ li {
   min-width: 11.75em;
   position: relative; }
 
-.MBackgroundPreviewBG {
+.MBackgroundPreviewBG, .background-preview-bg {
   background-color: #323232;
   box-shadow: 0 0.2em 0.35em rgba(0, 0, 0, 0.4);
   height: 145px;
@@ -567,13 +573,13 @@ li {
   text-align: center;
   width: 560px; }
 
-.MBackgroundPreview {
+.MBackgroundPreview, .background-preview {
   max-height: 145px;
   max-width: 550px; }
 
-.MProgressBar {
+.MProgressBar, .progess-bar {
   margin: 4px; }
-  .MProgressBar .MProgressBarBG {
+  .MProgressBar .MProgressBarBG, .MProgressBar .progress-bar-bg, .progess-bar .MProgressBarBG, .progess-bar .progress-bar-bg {
     background: #969696;
     border-radius: 2em;
     box-shadow: inset 0 0.2em 0.35em rgba(0, 0, 0, 0.4);
@@ -584,7 +590,7 @@ li {
     position: relative;
     text-shadow: 0 0 0.4em rgba(0, 0, 0, 0.4);
     width: 100%; }
-    .MProgressBar .MProgressBarBG .MProgressBarFG {
+    .MProgressBar .MProgressBarBG .MProgressBarFG, .MProgressBar .MProgressBarBG .progress-fg, .MProgressBar .progress-bar-bg .MProgressBarFG, .MProgressBar .progress-bar-bg .progress-fg, .progess-bar .MProgressBarBG .MProgressBarFG, .progess-bar .MProgressBarBG .progress-fg, .progess-bar .progress-bar-bg .MProgressBarFG, .progess-bar .progress-bar-bg .progress-fg {
       background: #004b96;
       background: -moz-linear-gradient(left, #004b96 0%, #007dfa 50%, #004b96 100%);
       background: -ms-linear-gradient(left, #004b96 0%, #007dfa 50%, #004b96 100%);
@@ -596,21 +602,21 @@ li {
       color: white;
       height: 100%;
       width: 0%; }
-      .MProgressBar .MProgressBarBG .MProgressBarFG .MProgressBarIndicator {
+      .MProgressBar .MProgressBarBG .MProgressBarFG .MProgressBarIndicator, .MProgressBar .MProgressBarBG .MProgressBarFG .progress-indicator, .MProgressBar .MProgressBarBG .progress-fg .MProgressBarIndicator, .MProgressBar .MProgressBarBG .progress-fg .progress-indicator, .MProgressBar .progress-bar-bg .MProgressBarFG .MProgressBarIndicator, .MProgressBar .progress-bar-bg .MProgressBarFG .progress-indicator, .MProgressBar .progress-bar-bg .progress-fg .MProgressBarIndicator, .MProgressBar .progress-bar-bg .progress-fg .progress-indicator, .progess-bar .MProgressBarBG .MProgressBarFG .MProgressBarIndicator, .progess-bar .MProgressBarBG .MProgressBarFG .progress-indicator, .progess-bar .MProgressBarBG .progress-fg .MProgressBarIndicator, .progess-bar .MProgressBarBG .progress-fg .progress-indicator, .progess-bar .progress-bar-bg .MProgressBarFG .MProgressBarIndicator, .progess-bar .progress-bar-bg .MProgressBarFG .progress-indicator, .progess-bar .progress-bar-bg .progress-fg .MProgressBarIndicator, .progess-bar .progress-bar-bg .progress-fg .progress-indicator {
         left: 50%;
         margin-left: -12px;
         position: absolute; }
 
-.MRatingsBar {
+.MRatingsBar, .ratings-bar {
   margin: 4px; }
-  .MRatingsBar .MRatingsBarBG {
+  .MRatingsBar .MRatingsBarBG, .MRatingsBar .ratings-bg, .ratings-bar .MRatingsBarBG, .ratings-bar .ratings-bg {
     background: #960000;
     border-radius: 2em;
     box-shadow: inset 0 1px 0.2em rgba(0, 0, 0, 0.5);
     height: .8em;
     overflow: hidden;
     width: 100%; }
-    .MRatingsBar .MRatingsBarBG .MRatingsBarFG {
+    .MRatingsBar .MRatingsBarBG .MRatingsBarFG, .MRatingsBar .MRatingsBarBG .ratings-bf, .MRatingsBar .ratings-bg .MRatingsBarFG, .MRatingsBar .ratings-bg .ratings-bf, .ratings-bar .MRatingsBarBG .MRatingsBarFG, .ratings-bar .MRatingsBarBG .ratings-bf, .ratings-bar .ratings-bg .MRatingsBarFG, .ratings-bar .ratings-bg .ratings-bf {
       background: #009600;
       background: -moz-linear-gradient(left, #009600 0%, #00fa00 50%, #009600 100%);
       background: -ms-linear-gradient(left, #009600 0%, #00fa00 50%, #009600 100%);
@@ -621,7 +627,7 @@ li {
       box-shadow: inset 0 0 0.4em rgba(0, 0, 0, 0.4);
       height: 100%;
       width: 0%; }
-  .MRatingsBar .MRatingsBarWarning {
+  .MRatingsBar .MRatingsBarWarning, .MRatingsBar .ratings-warning, .ratings-bar .MRatingsBarWarning, .ratings-bar .ratings-warning {
     background: #faC800;
     background: -moz-linear-gradient(left, #fafa00 0%, #fafa00 50%, #fafa00 100%);
     background: -ms-linear-gradient(left, #fafa00 0%, #fafa00 50%, #fafa00 100%);
@@ -633,7 +639,7 @@ li {
     height: .8em;
     width: 100%; }
 
-#MSystemMessageContainer {
+#MSystemMessageContainer, #system-message-container {
   overflow-x: hidden;
   overflow-y: hidden;
   position: fixed;
@@ -642,7 +648,7 @@ li {
   z-index: 200;
   right: 0; }
 
-.MSystemMessage {
+.MSystemMessage, .system-message {
   background: #141414;
   background: -moz-linear-gradient(top, #232323 0%, #141414 100%);
   background: -ms-linear-gradient(top, #232323 0%, #141414 100%);
@@ -730,12 +736,12 @@ li {
   text-align:left;
 }
 */
-.MTabContainer {
+.MTabContainer, .tab-container {
   margin: 0;
   padding: 0;
   text-align: left; }
 
-.MTab {
+.MTab, .tab {
   -moz-user-select: none;
   -o-user-select: none;
   -webkit-user-select: none;
@@ -751,19 +757,19 @@ li {
   display: inline-block;
   padding: 0;
   user-select: none; }
-  .MTab a {
+  .MTab a, .tab a {
     color: #323232;
     display: block;
     padding-left: .8em;
     padding-right: .8em; }
-  .MTab.active {
+  .MTab.active, .tab.active {
     background: #e6e6e6;
     position: relative; }
-    .MTab.active:hover {
+    .MTab.active:hover, .tab.active:hover {
       box-shadow: 0 0.2em 0.35em rgba(0, 0, 0, 0.4);
       border-color: #646464; }
 
-.MTabBodyContainer {
+.MTabBodyContainer, .tab-body-container {
   background: #e6e6e6;
   background: -moz-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
   background: -ms-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
@@ -779,13 +785,13 @@ li {
   position: relative;
   text-align: left; }
 
-.MTip {
+.MTip, .tip {
   font-size: .85em;
   padding: .4em;
   position: absolute;
   z-index: 15000; }
 
-.MTipInner {
+.MTipInner, .tip-inner {
   background: #141414;
   background: -moz-linear-gradient(top, #232323 0%, #141414 100%);
   background: -ms-linear-gradient(top, #232323 0%, #141414 100%);
@@ -802,26 +808,26 @@ li {
   padding: 0 8px 0 8px;
   text-align: center; }
 
-.MTipArrow {
+.MTipArrow, .tip-arrow {
   border: 5px dashed #141414;
   height: 0;
   line-height: 0;
   position: absolute;
   width: 0; }
 
-.MTipArrowN {
+.MTipArrowN, .tip-arrow-n {
   border-bottom-color: #141414; }
 
-.MTipArrowS {
+.MTipArrowS, .tip-arrow-s {
   border-top-color: #141414; }
 
-.MTipArrowE {
+.MTipArrowE, .tip-arrow-e {
   border-left-color: #141414; }
 
-.MTipArrowW {
+.MTipArrowW, .tip-arrow-w {
   border-right-color: #141414; }
 
-.MTipN .MTipArrow {
+.MTipN .MTipArrow, .tip-n .tip-arrow {
   border-bottom-style: solid;
   border-left-color: transparent;
   border-right-color: transparent;
@@ -830,7 +836,7 @@ li {
   margin-left: -5px;
   top: 0; }
 
-.MTipNW .MTipArrow {
+.MTipNW .MTipArrow, .tip-nw .tip-arrow {
   border-bottom-style: solid;
   border-left-color: transparent;
   border-right-color: transparent;
@@ -838,7 +844,7 @@ li {
   left: .8em;
   top: 0; }
 
-.MTipNE .MTipArrow {
+.MTipNE .MTipArrow, .tip-ne .tip-arrow {
   border-bottom-style: solid;
   border-left-color: transparent;
   border-right-color: transparent;
@@ -846,7 +852,7 @@ li {
   right: .8em;
   top: 0; }
 
-.MTipS .MTipArrow {
+.MTipS .MTipArrow, .tip-s .tip-arrow {
   border-bottom: none;
   border-left-color: transparent;
   border-right-color: transparent;
@@ -855,7 +861,7 @@ li {
   left: 50%;
   margin-left: -5px; }
 
-.MTipSW .MTipArrow {
+.MTipSW .MTipArrow, .tip-sw .tip-arrow {
   border-bottom: none;
   border-left-color: transparent;
   border-right-color: transparent;
@@ -863,7 +869,7 @@ li {
   bottom: 0;
   left: .8em; }
 
-.MTipSE .MTipArrow {
+.MTipSE .MTipArrow, .tip-se .tip-arrow {
   border-bottom: none;
   border-left-color: transparent;
   border-right-color: transparent;
@@ -871,7 +877,7 @@ li {
   bottom: 0;
   right: .8em; }
 
-.MTipE .MTipArrow {
+.MTipE .MTipArrow, .tip-e .tip-arrow {
   border-bottom-color: transparent;
   border-left-style: solid;
   border-right: none;
@@ -880,7 +886,7 @@ li {
   right: 0;
   top: 50%; }
 
-.MTipW .MTipArrow {
+.MTipW .MTipArrow, .tip-w .tip-arrow {
   border-bottom-color: transparent;
   border-left: none;
   border-right-style: solid;
@@ -889,14 +895,14 @@ li {
   margin-top: -5px;
   top: 50%; }
 
-.MVR {
+.MVR, .vr {
   background: #646464;
   height: 100%;
   margin-left: 1.6em;
   margin-right: 1.6em;
   width: 1px; }
 
-.MWell {
+.MWell, .well {
   background: #e6e6e6;
   border: 1px solid #646464;
   border-radius: 3px;
@@ -906,7 +912,7 @@ li {
   padding: 1em;
   text-align: left; }
 
-.MWidget, fieldset, .MPopup, .MHoverForm, .MHoverMessage {
+.MWidget, fieldset, .MPopup, .popup, .MHoverForm, .hover-form, .MHoverMessage, .hover-message, .widget {
   background: #e6e6e6;
   background: -moz-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
   background: -ms-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
@@ -920,35 +926,40 @@ li {
   padding: 1em;
   text-align: left; }
 
-.MWideWidget {
+.MWidgetWide, .widget-wide {
   background: #c8c8c8;
   color: #323232;
   margin: 0 auto;
   padding: 1.6em;
   text-align: left; }
 
-.MWidgetTitle {
+.MWidgetTitle, .widget-title {
   font-weight: bold;
   margin: -5px auto 0.8em auto;
   text-align: center;
   display: block; }
 
-#MMainWindow {
+#MMainWindow, #main-window {
   border: 0;
   margin: 0 auto -70px;
   min-height: 100%;
   padding: 0;
   text-align: left; }
-  #MMainWindow img {
+  #MMainWindow img, #main-window img {
     opacity: 0; }
 
-#MHeaderPlaceholder {
+#MHeaderPlaceholder, #header-placeholder {
   background: #141414;
+  background: -moz-linear-gradient(top, #232323 0%, #141414 100%);
+  background: -ms-linear-gradient(top, #232323 0%, #141414 100%);
+  background: -o-linear-gradient(top, #232323 0%, #141414 100%);
+  background: -webkit-linear-gradient(top, #232323 0%, #141414 100%);
+  background: linear-gradient(top, #232323 0%, #141414 100%);
   height: 2.85em;
   margin: 0 auto;
   width: 100%; }
 
-#MHeader {
+#MHeader, #header {
   background: #141414;
   background: -moz-linear-gradient(top, #232323 0%, #141414 100%);
   background: -ms-linear-gradient(top, #232323 0%, #141414 100%);
@@ -967,7 +978,7 @@ li {
   top: 0;
   width: 100%;
   z-index: 900; }
-  #MHeader a {
+  #MHeader a, #header a {
     -moz-user-select: none;
     -o-user-select: none;
     -webkit-user-select: none;
@@ -980,21 +991,21 @@ li {
     padding-right: .35em;
     padding-top: .35em;
     user-select: none; }
-    #MHeader a:hover {
+    #MHeader a:hover, #header a:hover {
       background-color: #646464;
       border-radius: 3px;
       box-shadow: inset 0 0.2em 0.35em rgba(0, 0, 0, 0.4);
       color: white;
       text-shadow: 0 0 0.4em rgba(0, 0, 0, 0.5); }
-  #MHeader img {
+  #MHeader img, #header img {
     opacity: 1;
     /*Header images should not be faded in*/ }
 
-.MHeaderSpacer {
+.MHeaderSpacer, .header-spacer {
   height: 36px;
   width: .4em; }
 
-.MHeaderSeperator {
+.MHeaderSeperator, .header-seperator {
   background: #646464;
   height: 100%;
   margin-left: .4em;
@@ -1002,27 +1013,28 @@ li {
   width: 1px; }
 
 /* Header Unique Items */
-a#MHeaderHome {
-  margin-top: .3em;
-  padding: 0;
-  width: 86px; }
-  a#MHeaderHome:hover {
+#MHeaderHome, #header-home {
+  padding: 0; }
+  #MHeaderHome:hover, #header-home:hover {
     background: none;
     box-shadow: none;
     text-shadow: none; }
+  #MHeaderHome img, #header-home img {
+    float: left;
+    height: 100%; }
 
-#MHeaderSearch {
+#MHeaderSearch, #header-search {
   margin-top: 6px;
   width: 300px; }
 
-#MHeaderUserPhoto {
+#MHeaderPhoto, #header-photo {
   background: #646464;
   border: 1px solid #646464;
   height: 24px;
   margin-top: .4em;
   width: 24px; }
 
-a#MHeaderMenu {
+a#MHeaderMenu, a#header-menu {
   background-color: transparent;
   background-image: url("/framework/img/global/header_menu.png");
   background-position: 0 0;
@@ -1031,7 +1043,7 @@ a#MHeaderMenu {
   margin: 0;
   padding: 0;
   width: 22px; }
-  a#MHeaderMenu:hover {
+  a#MHeaderMenu:hover, a#header-menu:hover {
     background-color: transparent;
     background-image: url("/framework/img/global/header_menu.png");
     background-position: 0 -36px;
@@ -1042,7 +1054,7 @@ a#MHeaderMenu {
     padding: 0;
     text-shadow: none; }
 
-a#MHeaderTools {
+a#MHeaderTools, a#header-tools {
   background-color: transparent;
   background-image: url("/framework/img/global/header_tools.png");
   background-position: 0 0;
@@ -1051,7 +1063,7 @@ a#MHeaderTools {
   margin: 0;
   padding: 0;
   width: 22px; }
-  a#MHeaderTools:hover {
+  a#MHeaderTools:hover, a#header-tools:hover {
     background-color: transparent;
     background-image: url("/framework/img/global/header_tools.png");
     background-position: 0 -36px;
@@ -1062,17 +1074,17 @@ a#MHeaderTools {
     padding: 0;
     text-shadow: none; }
 
-#MHeaderToolsWide {
+#MHeaderToolsWide, #header-tools-wide {
   height: 100%; }
 
-#MHeaderMenuDropdown {
+#MHeaderMenuDropdown, #header-menu-dropdown {
   background: white;
   padding: 0;
   position: fixed;
   right: .4em;
   top: 41px;
   z-index: 1200; }
-  #MHeaderMenuDropdown li {
+  #MHeaderMenuDropdown li, #header-menu-dropdown li {
     color: #323232;
     font-weight: bold;
     height: 40px;
@@ -1080,7 +1092,7 @@ a#MHeaderTools {
     overflow: hidden;
     padding-left: 1.6em;
     padding-right: 1.6em; }
-    #MHeaderMenuDropdown li:hover {
+    #MHeaderMenuDropdown li:hover, #header-menu-dropdown li:hover {
       background: #141414;
       background: -moz-linear-gradient(top, #232323 0%, #141414 100%);
       background: -ms-linear-gradient(top, #232323 0%, #141414 100%);
@@ -1089,19 +1101,13 @@ a#MHeaderTools {
       background: linear-gradient(top, #232323 0%, #141414 100%);
       color: white; }
 
-#MHeaderLogin {
+#MHeaderLogin, #header-login {
   position: fixed;
   right: .4em;
   top: 41px;
   z-index: 1200; }
 
-#MToolBarPlaceholder {
-  background: #c8c8c8;
-  height: 2.4em;
-  margin: 0 auto;
-  width: 100%; }
-
-#MToolBar {
+.MToolBar, #MToolBar, #tool-bar, .tool-bar {
   background: #c8c8c8;
   background: -moz-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
   background: -ms-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
@@ -1109,19 +1115,14 @@ a#MHeaderTools {
   background: -webkit-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
   background: linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
   border-bottom: 1px solid #646464;
-  box-shadow: 0 1.2em 2.4em -0.8em rgba(0, 0, 0, 0.4);
   color: #323232;
   height: 2.4em;
-  left: 0;
   line-height: 2.4em;
   margin: 0 auto;
   overflow: hidden;
-  position: fixed;
   text-align: left;
-  top: 2.85em;
-  width: 100%;
-  z-index: 1000; }
-  #MToolBar a {
+  width: 100%; }
+  .MToolBar a, #MToolBar a, #tool-bar a, .tool-bar a {
     -moz-user-select: none;
     -o-user-select: none;
     -webkit-user-select: none;
@@ -1134,56 +1135,73 @@ a#MHeaderTools {
     padding-right: 0.4em;
     padding-top: 0.2em;
     user-select: none; }
-    #MToolBar a:hover {
+    .MToolBar a:hover, #MToolBar a:hover, #tool-bar a:hover, .tool-bar a:hover {
       background: #646464;
       border-radius: 3px;
       box-shadow: inset 0 0.2em 0.35em rgba(0, 0, 0, 0.4);
       color: white;
       text-shadow: 0 0 0.4em rgba(0, 0, 0, 0.5); }
-  #MToolBar a.MButton, #MToolBar a.MButtonRed, #MToolBar a.MButtonR, #MToolBar a.MButtonOrange, #MToolBar a.MButtonO, #MToolBar a.MButtonYellow, #MToolBar a.MButtonY, #MToolBar a.MButtonGreen, #MToolBar a.MButtonG, #MToolBar a.MButtonBlue, #MToolBar a.MButtonUpload, #MToolBar a.MButtonB, #MToolBar a.MButtonViolet, #MToolBar a.MButtonV, #MToolBar button.MButton, #MToolBar button, #MToolBar div.MButton, #MToolBar div.MButtonRed, #MToolBar div.MButtonR, #MToolBar div.MButtonOrange, #MToolBar div.MButtonO, #MToolBar div.MButtonYellow, #MToolBar div.MButtonY, #MToolBar div.MButtonGreen, #MToolBar div.MButtonG, #MToolBar div.MButtonBlue, #MToolBar div.MButtonUpload, #MToolBar div.MButtonB, #MToolBar div.MButtonViolet, #MToolBar div.MButtonV, #MToolBar input[type="button"], #MToolBar input[type="submit"], #MToolBar span.MButton, #MToolBar span.MButtonRed, #MToolBar span.MButtonR, #MToolBar span.MButtonOrange, #MToolBar span.MButtonO, #MToolBar span.MButtonYellow, #MToolBar span.MButtonY, #MToolBar span.MButtonGreen, #MToolBar span.MButtonG, #MToolBar span.MButtonBlue, #MToolBar span.MButtonUpload, #MToolBar span.MButtonB, #MToolBar span.MButtonViolet, #MToolBar span.MButtonV, #MToolBar select {
+  .MToolBar a.MButton, #MToolBar a.MButton, #tool-bar a.MButton, .MToolBar a.MButtonRed, #MToolBar a.MButtonRed, #tool-bar a.MButtonRed, .MToolBar a.MButtonR, #MToolBar a.MButtonR, #tool-bar a.MButtonR, .MToolBar a.button-red, #MToolBar a.button-red, #tool-bar a.button-red, .MToolBar a.button-r, #MToolBar a.button-r, #tool-bar a.button-r, .MToolBar a.MButtonOrange, #MToolBar a.MButtonOrange, #tool-bar a.MButtonOrange, .MToolBar a.MButtonO, #MToolBar a.MButtonO, #tool-bar a.MButtonO, .MToolBar a.button-orange, #MToolBar a.button-orange, #tool-bar a.button-orange, .MToolBar a.button-o, #MToolBar a.button-o, #tool-bar a.button-o, .MToolBar a.MButtonYellow, #MToolBar a.MButtonYellow, #tool-bar a.MButtonYellow, .MToolBar a.MButtonY, #MToolBar a.MButtonY, #tool-bar a.MButtonY, .MToolBar a.button-yellow, #MToolBar a.button-yellow, #tool-bar a.button-yellow, .MToolBar a.MButtonGreen, #MToolBar a.MButtonGreen, #tool-bar a.MButtonGreen, .MToolBar a.MButtonG, #MToolBar a.MButtonG, #tool-bar a.MButtonG, .MToolBar a.button-green, #MToolBar a.button-green, #tool-bar a.button-green, .MToolBar a.button-g, #MToolBar a.button-g, #tool-bar a.button-g, .MToolBar a.MButtonBlue, #MToolBar a.MButtonBlue, #tool-bar a.MButtonBlue, .MToolBar a.MButtonUpload, #MToolBar a.MButtonUpload, #tool-bar a.MButtonUpload, .MToolBar a.MButtonU, #MToolBar a.MButtonU, #tool-bar a.MButtonU, .MToolBar a.button-upload, #MToolBar a.button-upload, #tool-bar a.button-upload, .MToolBar a.button-u, #MToolBar a.button-u, #tool-bar a.button-u, .MToolBar a.MButtonB, #MToolBar a.MButtonB, #tool-bar a.MButtonB, .MToolBar a.button-blue, #MToolBar a.button-blue, #tool-bar a.button-blue, .MToolBar a.button-b, #MToolBar a.button-b, #tool-bar a.button-b, .MToolBar a.MButtonViolet, #MToolBar a.MButtonViolet, #tool-bar a.MButtonViolet, .MToolBar a.MButtonV, #MToolBar a.MButtonV, #tool-bar a.MButtonV, .MToolBar a.button-violet, #MToolBar a.button-violet, #tool-bar a.button-violet, .MToolBar a.button-v, #MToolBar a.button-v, #tool-bar a.button-v, .MToolBar button.MButton, #MToolBar button.MButtonRed, #tool-bar button.MButtonRed, #MToolBar button.MButtonR, #tool-bar button.MButtonR, #MToolBar button.button-red, #tool-bar button.button-red, #MToolBar button.button-r, #tool-bar button.button-r, #MToolBar button.MButtonOrange, #tool-bar button.MButtonOrange, #MToolBar button.MButtonO, #tool-bar button.MButtonO, #MToolBar button.button-orange, #tool-bar button.button-orange, #MToolBar button.button-o, #tool-bar button.button-o, #MToolBar button.MButtonYellow, #tool-bar button.MButtonYellow, #MToolBar button.MButtonY, #tool-bar button.MButtonY, #MToolBar button.button-yellow, #tool-bar button.button-yellow, #MToolBar button.MButtonGreen, #tool-bar button.MButtonGreen, #MToolBar button.MButtonG, #tool-bar button.MButtonG, #MToolBar button.button-green, #tool-bar button.button-green, #MToolBar button.button-g, #tool-bar button.button-g, #MToolBar button.MButtonBlue, #tool-bar button.MButtonBlue, .MToolBar button.MButtonUpload, #MToolBar button.MButtonUpload, #tool-bar button.MButtonUpload, .MToolBar button.MButtonU, #MToolBar button.MButtonU, #tool-bar button.MButtonU, .MToolBar button.button-upload, #MToolBar button.button-upload, #tool-bar button.button-upload, .MToolBar button.button-u, #MToolBar button.button-u, #tool-bar button.button-u, #MToolBar button.MButtonB, #tool-bar button.MButtonB, #MToolBar button.button-blue, #tool-bar button.button-blue, #MToolBar button.button-b, #tool-bar button.button-b, #MToolBar button.MButtonViolet, #tool-bar button.MButtonViolet, #MToolBar button.MButtonV, #tool-bar button.MButtonV, #MToolBar button.button-violet, #tool-bar button.button-violet, #MToolBar button.button-v, #tool-bar button.button-v, .MToolBar button, #MToolBar button, #tool-bar button, .MToolBar div.MButton, #MToolBar div.MButton, #tool-bar div.MButton, .MToolBar div.MButtonRed, #MToolBar div.MButtonRed, #tool-bar div.MButtonRed, .MToolBar div.MButtonR, #MToolBar div.MButtonR, #tool-bar div.MButtonR, .MToolBar div.button-red, #MToolBar div.button-red, #tool-bar div.button-red, .MToolBar div.button-r, #MToolBar div.button-r, #tool-bar div.button-r, .MToolBar div.MButtonOrange, #MToolBar div.MButtonOrange, #tool-bar div.MButtonOrange, .MToolBar div.MButtonO, #MToolBar div.MButtonO, #tool-bar div.MButtonO, .MToolBar div.button-orange, #MToolBar div.button-orange, #tool-bar div.button-orange, .MToolBar div.button-o, #MToolBar div.button-o, #tool-bar div.button-o, .MToolBar div.MButtonYellow, #MToolBar div.MButtonYellow, #tool-bar div.MButtonYellow, .MToolBar div.MButtonY, #MToolBar div.MButtonY, #tool-bar div.MButtonY, .MToolBar div.button-yellow, #MToolBar div.button-yellow, #tool-bar div.button-yellow, .MToolBar div.MButtonGreen, #MToolBar div.MButtonGreen, #tool-bar div.MButtonGreen, .MToolBar div.MButtonG, #MToolBar div.MButtonG, #tool-bar div.MButtonG, .MToolBar div.button-green, #MToolBar div.button-green, #tool-bar div.button-green, .MToolBar div.button-g, #MToolBar div.button-g, #tool-bar div.button-g, .MToolBar div.MButtonBlue, #MToolBar div.MButtonBlue, #tool-bar div.MButtonBlue, .MToolBar div.MButtonUpload, #MToolBar div.MButtonUpload, #tool-bar div.MButtonUpload, .MToolBar div.MButtonU, #MToolBar div.MButtonU, #tool-bar div.MButtonU, .MToolBar div.button-upload, #MToolBar div.button-upload, #tool-bar div.button-upload, .MToolBar div.button-u, #MToolBar div.button-u, #tool-bar div.button-u, .MToolBar div.MButtonB, #MToolBar div.MButtonB, #tool-bar div.MButtonB, .MToolBar div.button-blue, #MToolBar div.button-blue, #tool-bar div.button-blue, .MToolBar div.button-b, #MToolBar div.button-b, #tool-bar div.button-b, .MToolBar div.MButtonViolet, #MToolBar div.MButtonViolet, #tool-bar div.MButtonViolet, .MToolBar div.MButtonV, #MToolBar div.MButtonV, #tool-bar div.MButtonV, .MToolBar div.button-violet, #MToolBar div.button-violet, #tool-bar div.button-violet, .MToolBar div.button-v, #MToolBar div.button-v, #tool-bar div.button-v, .MToolBar input[type="button"], #MToolBar input[type="button"], #tool-bar input[type="button"], .MToolBar input[type="submit"], #MToolBar input[type="submit"], #tool-bar input[type="submit"], .MToolBar span.MButton, #MToolBar span.MButton, #tool-bar span.MButton, .MToolBar span.MButtonRed, #MToolBar span.MButtonRed, #tool-bar span.MButtonRed, .MToolBar span.MButtonR, #MToolBar span.MButtonR, #tool-bar span.MButtonR, .MToolBar span.button-red, #MToolBar span.button-red, #tool-bar span.button-red, .MToolBar span.button-r, #MToolBar span.button-r, #tool-bar span.button-r, .MToolBar span.MButtonOrange, #MToolBar span.MButtonOrange, #tool-bar span.MButtonOrange, .MToolBar span.MButtonO, #MToolBar span.MButtonO, #tool-bar span.MButtonO, .MToolBar span.button-orange, #MToolBar span.button-orange, #tool-bar span.button-orange, .MToolBar span.button-o, #MToolBar span.button-o, #tool-bar span.button-o, .MToolBar span.MButtonYellow, #MToolBar span.MButtonYellow, #tool-bar span.MButtonYellow, .MToolBar span.MButtonY, #MToolBar span.MButtonY, #tool-bar span.MButtonY, .MToolBar span.button-yellow, #MToolBar span.button-yellow, #tool-bar span.button-yellow, .MToolBar span.MButtonGreen, #MToolBar span.MButtonGreen, #tool-bar span.MButtonGreen, .MToolBar span.MButtonG, #MToolBar span.MButtonG, #tool-bar span.MButtonG, .MToolBar span.button-green, #MToolBar span.button-green, #tool-bar span.button-green, .MToolBar span.button-g, #MToolBar span.button-g, #tool-bar span.button-g, .MToolBar span.MButtonBlue, #MToolBar span.MButtonBlue, #tool-bar span.MButtonBlue, .MToolBar span.MButtonUpload, #MToolBar span.MButtonUpload, #tool-bar span.MButtonUpload, .MToolBar span.MButtonU, #MToolBar span.MButtonU, #tool-bar span.MButtonU, .MToolBar span.button-upload, #MToolBar span.button-upload, #tool-bar span.button-upload, .MToolBar span.button-u, #MToolBar span.button-u, #tool-bar span.button-u, .MToolBar span.MButtonB, #MToolBar span.MButtonB, #tool-bar span.MButtonB, .MToolBar span.button-blue, #MToolBar span.button-blue, #tool-bar span.button-blue, .MToolBar span.button-b, #MToolBar span.button-b, #tool-bar span.button-b, .MToolBar span.MButtonViolet, #MToolBar span.MButtonViolet, #tool-bar span.MButtonViolet, .MToolBar span.MButtonV, #MToolBar span.MButtonV, #tool-bar span.MButtonV, .MToolBar span.button-violet, #MToolBar span.button-violet, #tool-bar span.button-violet, .MToolBar span.button-v, #MToolBar span.button-v, #tool-bar span.button-v, .MToolBar select, #MToolBar select, #tool-bar select, .tool-bar a.MButton, .tool-bar a.MButtonRed, .tool-bar a.MButtonR, .tool-bar a.button-red, .tool-bar a.button-r, .tool-bar a.MButtonOrange, .tool-bar a.MButtonO, .tool-bar a.button-orange, .tool-bar a.button-o, .tool-bar a.MButtonYellow, .tool-bar a.MButtonY, .tool-bar a.button-yellow, .tool-bar a.MButtonGreen, .tool-bar a.MButtonG, .tool-bar a.button-green, .tool-bar a.button-g, .tool-bar a.MButtonBlue, .tool-bar a.MButtonUpload, .tool-bar a.MButtonU, .tool-bar a.button-upload, .tool-bar a.button-u, .tool-bar a.MButtonB, .tool-bar a.button-blue, .tool-bar a.button-b, .tool-bar a.MButtonViolet, .tool-bar a.MButtonV, .tool-bar a.button-violet, .tool-bar a.button-v, .tool-bar button.MButton, .tool-bar button.MButtonUpload, .tool-bar button.MButtonU, .tool-bar button.button-upload, .tool-bar button.button-u, .tool-bar button, .tool-bar div.MButton, .tool-bar div.MButtonRed, .tool-bar div.MButtonR, .tool-bar div.button-red, .tool-bar div.button-r, .tool-bar div.MButtonOrange, .tool-bar div.MButtonO, .tool-bar div.button-orange, .tool-bar div.button-o, .tool-bar div.MButtonYellow, .tool-bar div.MButtonY, .tool-bar div.button-yellow, .tool-bar div.MButtonGreen, .tool-bar div.MButtonG, .tool-bar div.button-green, .tool-bar div.button-g, .tool-bar div.MButtonBlue, .tool-bar div.MButtonUpload, .tool-bar div.MButtonU, .tool-bar div.button-upload, .tool-bar div.button-u, .tool-bar div.MButtonB, .tool-bar div.button-blue, .tool-bar div.button-b, .tool-bar div.MButtonViolet, .tool-bar div.MButtonV, .tool-bar div.button-violet, .tool-bar div.button-v, .tool-bar input[type="button"], .tool-bar input[type="submit"], .tool-bar span.MButton, .tool-bar span.MButtonRed, .tool-bar span.MButtonR, .tool-bar span.button-red, .tool-bar span.button-r, .tool-bar span.MButtonOrange, .tool-bar span.MButtonO, .tool-bar span.button-orange, .tool-bar span.button-o, .tool-bar span.MButtonYellow, .tool-bar span.MButtonY, .tool-bar span.button-yellow, .tool-bar span.MButtonGreen, .tool-bar span.MButtonG, .tool-bar span.button-green, .tool-bar span.button-g, .tool-bar span.MButtonBlue, .tool-bar span.MButtonUpload, .tool-bar span.MButtonU, .tool-bar span.button-upload, .tool-bar span.button-u, .tool-bar span.MButtonB, .tool-bar span.button-blue, .tool-bar span.button-b, .tool-bar span.MButtonViolet, .tool-bar span.MButtonV, .tool-bar span.button-violet, .tool-bar span.button-v, .tool-bar select {
     margin-top: 0.4em; }
-  #MToolBar MButton img {
+  .MToolBar MButton img, #MToolBar MButton img, #tool-bar MButton img, .tool-bar MButton img {
     margin-left: -10px;
     margin-right: 0.4em;
     margin-top: 0.1em; }
-  #MToolBar img {
+  .MToolBar img, #MToolBar img, #tool-bar img, .tool-bar img {
     vertical-align: top; }
-  #MToolBar input[type="password"], #MToolBar input[type="text"] {
+  .MToolBar input[type="password"], #MToolBar input[type="password"], #tool-bar input[type="password"], .MToolBar input[type="text"], #MToolBar input[type="text"], #tool-bar input[type="text"], .tool-bar input[type="password"], .tool-bar input[type="text"] {
     margin: 3px; }
 
-h1.MToolBarTitle {
+#MToolBarPlaceholder, #tool-bar-placeholder {
+  background: -moz-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
+  background: -ms-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
+  background: -o-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
+  background: -webkit-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
+  background: linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
+  height: 2.4em;
+  margin: 0 auto;
+  width: 100%; }
+
+#MToolBar, #tool-bar {
+  box-shadow: 0 1.2em 2.4em -0.8em rgba(0, 0, 0, 0.4);
+  left: 0;
+  position: fixed;
+  top: 2.85em;
+  z-index: 1000; }
+
+h1.MToolBarTitle, h1.tool-bar-title {
   font-size: 1em;
   margin: 0; }
 
-.MToolBarIcon {
+.MToolBarIcon, .tool-bar-icon {
   margin-right: 0.4em; }
 
-.MToolBarSeperator {
+.MToolBarSeperator, .tool-bar-seperator {
   background: #646464;
   height: 100%;
   margin-left: 0.4em;
   margin-right: 0.4em;
   width: 1px; }
 
-.MToolBarSpacer {
+.MToolBarSpacer, .toolbar-spacer {
   height: 100%;
   width: 0.4em; }
 
-.MHiddenBGFull {
+.MHiddenBGFull, .hidden-bg-full {
   background: #232323;
   overflow: hidden;
   width: 100%; }
 
-.MHiddenBGMin {
+.MHiddenBGMin, .hidden-bg-min {
   background: #232323;
   height: 0;
   overflow: hidden;
   width: 100%; }
 
-#hidden_content {
+#MHiddenContent, #hidden-contet {
   text-align: center; }
 
-#MSideBarTriggerLeft {
+#MSideBarTriggerLeft, .side-bar-trigger-left {
   height: 100%;
   left: 0;
   position: fixed;
@@ -1191,7 +1209,7 @@ h1.MToolBarTitle {
   width: .8em;
   z-index: 100; }
 
-#MSideBarTriggerRight {
+#MSideBarTriggerRight, .side-bar-trigger-right {
   height: 100%;
   position: fixed;
   right: 0;
@@ -1199,7 +1217,7 @@ h1.MToolBarTitle {
   width: .8em;
   z-index: 100; }
 
-#MSideBarTriggerLeftIndicator {
+#MSideBarTriggerLeftIndicator, .side-bar-trigger-left-indicator {
   background: -moz-linear-gradient(left, #007dfa 0%, rgba(0, 125, 250, 0) 100%);
   background: -ms-linear-gradient(left, #007dfa 0%, rgba(0, 125, 250, 0) 100%);
   background: -o-linear-gradient(left, #007dfa 0%, rgba(0, 125, 250, 0) 100%);
@@ -1212,7 +1230,7 @@ h1.MToolBarTitle {
   width: .8em;
   z-index: 150; }
 
-#MSideBarTriggerRightIndicator {
+#MSideBarTriggerRightIndicator, .side-bar-trigger-right-indicator {
   background: -moz-linear-gradient(right, #007dfa 0%, rgba(0, 125, 250, 0) 100%);
   background: -ms-linear-gradient(right, #007dfa 0%, rgba(0, 125, 250, 0) 100%);
   background: -o-linear-gradient(right, #007dfa 0%, rgba(0, 125, 250, 0) 100%);
@@ -1225,35 +1243,23 @@ h1.MToolBarTitle {
   width: .8em;
   z-index: 150; }
 
-#MSideBarContainer {
+#MSideBarContainer, #side-bar-container {
   min-width: 352px;
   width: 352px; }
 
-#MSideBar {
-  background: #f0f0f0;
-  border-left: solid 1px #646464;
-  border-right: solid 1px #646464;
-  overflow-x: auto;
-  overflow-y: auto;
-  position: fixed;
-  text-align: left;
-  top: 0;
-  width: 350px;
-  z-index: 200; }
-
-.MSideBarLeft {
+.MSideBarLeft, .side-bar-left {
   left: 0px; }
 
-.MSideBarLeftHidden {
+.MSideBarLeftHidden, .side-bar-left-hidden {
   left: -360px; }
 
-.MSideBarRight {
+.MSideBarRight, .side-bar-right {
   right: 0px; }
 
-.MSideBarRightHidden {
+.MSideBarRightHidden, .side-bar-right-hidden {
   right: -360px; }
 
-.MSideBarMenu, #MSideBarMenuFixed, #MSideBarMenuFixedPlaceholder {
+.MSideBarMenu, #MSideBarMenuFixed, #side-bar-menu-fixed, #MSideBarMenuFixedPlaceholder, #side-bar-menu-fixed-placeholder, .side-bar-menu {
   background: #c8c8c8;
   background: -moz-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
   background: -ms-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
@@ -1266,54 +1272,81 @@ h1.MToolBarTitle {
   padding: .35em;
   text-align: center; }
 
-#MSideBarMenuFixed {
+#MSideBarMenuFixed, #side-bar-menu-fixed {
   left: 0px;
   padding-bottom: 0px;
   position: fixed;
   width: 343px;
   z-index: 50; }
 
-#MSideBarMenuFixedPlaceholder {
+#MSideBarMenuFixedPlaceholder, #side-bar-menu-fixed-placeholder {
   padding-bottom: 0px; }
 
-#MSideBar a {
+#MSideBar a, #side-bar a {
   color: #323232; }
-  #MSideBar a:hover {
+  #MSideBar a:hover, #side-bar a:hover {
     color: white; }
 
-#MSideBar .MSideBarItem {
-  color: #323232;
-  overflow: hidden;
-  padding: 1em; }
-  #MSideBar .MSideBarItem label, #MSideBar .MSideBarItem span {
-    font-weight: bold; }
-  #MSideBar .MSideBarItem:hover {
-    background: #141414;
-    background: -moz-linear-gradient(top, #232323 0%, #141414 100%);
-    background: -ms-linear-gradient(top, #232323 0%, #141414 100%);
-    background: -o-linear-gradient(top, #232323 0%, #141414 100%);
-    background: -webkit-linear-gradient(top, #232323 0%, #141414 100%);
-    background: linear-gradient(top, #232323 0%, #141414 100%);
-    color: white; }
-  #MSideBar .MSideBarItem.active, #MSideBar .MSideBarItem.blue {
-    background: #b4d2f0;
-    color: #323232; }
-    #MSideBar .MSideBarItem.active:hover, #MSideBar .MSideBarItem.blue:hover {
-      background: #647382;
-      background: -moz-linear-gradient(top, #6b7a89 0%, #647382 100%);
-      background: -ms-linear-gradient(top, #6b7a89 0%, #647382 100%);
-      background: -o-linear-gradient(top, #6b7a89 0%, #647382 100%);
-      background: -webkit-linear-gradient(top, #6b7a89 0%, #647382 100%);
-      background: linear-gradient(top, #6b7a89 0%, #647382 100%);
+#MSideBar, #side-bar {
+  background: #f0f0f0;
+  border-left: solid 1px #646464;
+  border-right: solid 1px #646464;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: fixed;
+  text-align: left;
+  top: 0;
+  width: 350px;
+  z-index: 200; }
+  #MSideBar .MSideBarListItem, #MSideBar .side-bar-list-item,
+  #MSideBar .MSideBarItem, #MSideBar .side-bar-item, #side-bar .MSideBarListItem, #side-bar .side-bar-list-item,
+  #side-bar .MSideBarItem, #side-bar .side-bar-item {
+    color: #323232;
+    overflow: hidden;
+    padding: 1em; }
+    #MSideBar .MSideBarListItem label, #MSideBar .MSideBarListItem span, #MSideBar .side-bar-list-item label, #MSideBar .side-bar-list-item span,
+    #MSideBar .MSideBarItem label,
+    #MSideBar .MSideBarItem span, #MSideBar .side-bar-item label, #MSideBar .side-bar-item span, #side-bar .MSideBarListItem label, #side-bar .MSideBarListItem span, #side-bar .side-bar-list-item label, #side-bar .side-bar-list-item span,
+    #side-bar .MSideBarItem label,
+    #side-bar .MSideBarItem span, #side-bar .side-bar-item label, #side-bar .side-bar-item span {
+      font-weight: bold; }
+    #MSideBar .MSideBarListItem:hover, #MSideBar .side-bar-list-item:hover,
+    #MSideBar .MSideBarItem:hover, #MSideBar .side-bar-item:hover, #side-bar .MSideBarListItem:hover, #side-bar .side-bar-list-item:hover,
+    #side-bar .MSideBarItem:hover, #side-bar .side-bar-item:hover {
+      background: #141414;
+      background: -moz-linear-gradient(top, #232323 0%, #141414 100%);
+      background: -ms-linear-gradient(top, #232323 0%, #141414 100%);
+      background: -o-linear-gradient(top, #232323 0%, #141414 100%);
+      background: -webkit-linear-gradient(top, #232323 0%, #141414 100%);
+      background: linear-gradient(top, #232323 0%, #141414 100%);
       color: white; }
+    #MSideBar .MSideBarListItem.active, #MSideBar .MSideBarListItem.blue, #MSideBar .side-bar-list-item.active, #MSideBar .side-bar-list-item.blue,
+    #MSideBar .MSideBarItem.active,
+    #MSideBar .MSideBarItem.blue, #MSideBar .side-bar-item.active, #MSideBar .side-bar-item.blue, #side-bar .MSideBarListItem.active, #side-bar .MSideBarListItem.blue, #side-bar .side-bar-list-item.active, #side-bar .side-bar-list-item.blue,
+    #side-bar .MSideBarItem.active,
+    #side-bar .MSideBarItem.blue, #side-bar .side-bar-item.active, #side-bar .side-bar-item.blue {
+      background: #b4d2f0;
+      color: #323232; }
+      #MSideBar .MSideBarListItem.active:hover, #MSideBar .MSideBarListItem.blue:hover, #MSideBar .side-bar-list-item.active:hover, #MSideBar .side-bar-list-item.blue:hover,
+      #MSideBar .MSideBarItem.active:hover,
+      #MSideBar .MSideBarItem.blue:hover, #MSideBar .side-bar-item.active:hover, #MSideBar .side-bar-item.blue:hover, #side-bar .MSideBarListItem.active:hover, #side-bar .MSideBarListItem.blue:hover, #side-bar .side-bar-list-item.active:hover, #side-bar .side-bar-list-item.blue:hover,
+      #side-bar .MSideBarItem.active:hover,
+      #side-bar .MSideBarItem.blue:hover, #side-bar .side-bar-item.active:hover, #side-bar .side-bar-item.blue:hover {
+        background: #647382;
+        background: -moz-linear-gradient(top, #6b7a89 0%, #647382 100%);
+        background: -ms-linear-gradient(top, #6b7a89 0%, #647382 100%);
+        background: -o-linear-gradient(top, #6b7a89 0%, #647382 100%);
+        background: -webkit-linear-gradient(top, #6b7a89 0%, #647382 100%);
+        background: linear-gradient(top, #6b7a89 0%, #647382 100%);
+        color: white; }
 
-.MSideBarThumbnail {
+.MSideBarThumbnail, .side-bar-thumbnail {
   height: 3.95em;
   margin-left: .35em;
   margin-right: .35em;
   margin: .2em; }
 
-#MStage {
+#MStage, #stage {
   background-color: #646464;
   background-position: 50% 0%;
   background-repeat: no-repeat;
@@ -1322,133 +1355,160 @@ h1.MToolBarTitle {
   text-align: center;
   width: 100%; }
 
-#MStageImage {
+#MStageImage, #stage-image {
   background-position: 50% 50%;
   background-repeat: no-repeat;
   opacity: 0;
   width: 100%; }
 
-.MContent, #MContentList, .MContent960, .MContent900, .MContent870, .MContent840, .MContent740, .MContent610, .MContent200 {
+.MContent, #MContentList, #content-list, .MContent1000, .content-1000, .MContent960, .content-960, .MContent900, .content-900, .MContent870, .content-870, .MContent840, .content-840, .MContent800, .content-800, .MContent740, .content-740, .MContent700, .content-700, .MContent610, .content-610, .MContent600, .content-600, .MContent500, .content-500, .MContent400, .content-400, .MContent300, .content-300, .MContent200, .content-200, .MContent100, .content-100, .content {
   margin: 0 auto;
   text-align: left; }
 
-#MContentList {
+#MContentList, #content-list {
   min-width: 900px;
   width: 80%; }
 
-.MContent960 {
+.MContent1000, .content-1000 {
+  width: 1000px; }
+
+.MContent960, .content-960 {
   width: 960px; }
 
-.MContent900 {
+.MContent900, .content-900 {
   width: 900px; }
 
-.MContent870 {
+.MContent870, .content-870 {
   width: 870px; }
 
-.MContent840 {
+.MContent840, .content-840 {
   width: 840px; }
 
-.MContent740 {
+.MContent800, .content-800 {
+  width: 600px; }
+
+.MContent740, .content-740 {
   width: 740px; }
 
-.MContent610 {
+.MContent700, .content-700 {
+  width: 700px; }
+
+.MContent610, .content-610 {
   width: 610px; }
 
-.MContent200 {
+.MContent600, .content-600 {
+  width: 600px; }
+
+.MContent500, .content-500 {
+  width: 500px; }
+
+.MContent400, .content-400 {
+  width: 400px; }
+
+.MContent300, .content-300 {
+  width: 300px; }
+
+.MContent200, .content-200 {
   width: 200px; }
 
-.MContentSpacer {
+.MContent100, .content-100 {
+  width: 100px; }
+
+.MContentSpacer, .content-spacer {
   clear: both;
   height: 0;
   padding-top: 1.2em;
   padding-bottom: 1.2em; }
 
-.MTableSpacer {
+.MTableSpacer, .table-spacer {
   height: 2.4em; }
 
-#MFooter {
+#MFooter, #footer {
   clear: both; }
-  #MFooter a, #MFooter span {
+  #MFooter a, #MFooter span, #footer a, #footer span {
     margin-left: 0.4em;
     margin-right: 0.4em; }
 
-.MHBoxLayout * {
+.MHBoxLayout *, .h-box-layout * {
   display: inline-block; }
-.MHBoxLayout option {
+.MHBoxLayout option, .h-box-layout option {
   display: block; }
 
-.MHBoxSpacer {
+.MHBoxSpacer, .h-box-spacer {
   height: 100%;
   width: 0.4em; }
 
-.MHBoxSeperator {
+.MHBoxSeperator, .h-box-seperator {
   background: none repeat scroll 0 0 #646464;
   height: 100%;
   margin-left: 0.4em;
   margin-right: 0.4em;
   width: 1px; }
 
-.MVBoxLayout * {
+.MVBoxLayout *, .v-box-layout * {
   display: block;
   width: 100%; }
 
-.MTextLeft, .text_left {
+.MTextLeft, .text-left {
   text-align: left; }
 
-.MTextCenter, .MTextCentered, .text_center, .text_centered {
+.MTextCenter, .MCenter, .center,
+.MTextCentered, .MCentered, .centered {
   text-align: center; }
 
-.MTextRight, .text_right {
+.MTextRight, .text-right {
   text-align: right; }
 
-.MLeft, .float_left, .left {
+.MLeft, .float-left, .left {
   float: left; }
 
-.MRight, .float_right, .right {
+.MRight, .float-right, .right {
   float: right; }
 
 .MClear, .clear, .clearfix {
   clear: both; }
 
-.MHide, .MHiden, .hide, .hidden {
+.MHidden, .hidden,
+.MHide, .hide {
   display: none; }
 
-.MShow, .MShown, .show, .shown {
+.MShown, .shown,
+.MShow, .show {
   display: block; }
 
-.MCursorPointer, .cursor_pointer {
+.MCursorPointer, .cursor-pointer {
   cursor: pointer; }
 
-.MCursorMove, .cursor_move {
+.MCursorMove, .cursor-move {
   cursor: move; }
 
-.MWidthFull, .width_full {
+.MWidthFull, .width-full {
   width: 100%; }
 
-.MHeightFull, .height_full {
+.MHeightFull, .height-full {
   height: 100%; }
 
-.MPaddingSmall, .padding_small {
+.MPaddingSmall, .padding-small {
   padding: 15px; }
 
 .MPadding, .padding {
   padding: 30px; }
 
-.MPaddingLarge, .padding_large {
+.MPaddingLarge, .padding-large {
   padding: 45px; }
 
-.MTableFixedWidth, .table_fixed_width {
+.MTableFixedWidth, .table-fixed-width {
   table-layout: fixed; }
 
-.MTableBorder, .table_border {
+.MTableBorder, .table-border {
   border: 0.1em solid #646464;
   border-collapse: collapse;
   margin: 0; }
-  .MTableBorder td, .table_border td {
+  .MTableBorder td, .table-border td {
     border: 0.1em solid #646464;
     margin: 0; }
 
-.MTableCenter td, .table_center td {
+.MTableCenter td, .table-center td {
   text-align: center; }
 
 .MIntent, .intent {

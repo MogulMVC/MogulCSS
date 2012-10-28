@@ -1,4 +1,4 @@
-#MSystemMessageContainer{
+#MSystemMessageContainer, #system-message-container{
   overflow-x:hidden;
   overflow-y:hidden;
   position:fixed;
@@ -8,7 +8,7 @@
   right:0;
 }
 
-.MSystemMessage{
+.MSystemMessage, .system-message{
   background:$mono_1_2;
   background:-moz-linear-gradient(top, $mono_1_3 0%, $mono_1_2 100%);
   background:-ms-linear-gradient(top, $mono_1_3 0%, $mono_1_2 100%);

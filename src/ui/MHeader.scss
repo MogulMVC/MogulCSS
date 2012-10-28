@@ -1,11 +1,16 @@
-#MHeaderPlaceholder{
+#MHeaderPlaceholder, #header-placeholder{
   background:$mono_1_2;
+  background:-moz-linear-gradient(top, $mono_1_3 0%, $mono_1_2 100%);
+  background:-ms-linear-gradient(top, $mono_1_3 0%,$mono_1_2 100%);
+  background:-o-linear-gradient(top, $mono_1_3 0%,$mono_1_2 100%);
+  background:-webkit-linear-gradient(top, $mono_1_3 0%,$mono_1_2 100%);
+  background:linear-gradient(top, $mono_1_3 0%,$mono_1_2 100%);
   height:2.85em;
   margin:0 auto;
   width:100%;
 }
 
-#MHeader{
+#MHeader, #header{
   background:$mono_1_2;
   background:-moz-linear-gradient(top, $mono_1_3 0%, $mono_1_2 100%);
   background:-ms-linear-gradient(top, $mono_1_3 0%,$mono_1_2 100%);
@@ -55,12 +60,12 @@
   
 }
 
-.MHeaderSpacer{
+.MHeaderSpacer, .header-spacer{
   height:36px;
   width:.4em;
 }
 
-.MHeaderSeperator{
+.MHeaderSeperator, .header-seperator{
   background:$mono_3;
   height:100%;
   margin-left:.4em;
@@ -70,25 +75,28 @@
 
 /* Header Unique Items */
 
-a#MHeaderHome{
-  margin-top:.3em;
+#MHeaderHome, #header-home{
   padding:0;
-  width:86px;
-  
+    
   &:hover{
     background:none;
     box-shadow:none;
     text-shadow:none;
   }
   
+  & img{
+    float:left;
+    height:100%
+  }
+  
 }
 
-#MHeaderSearch{
+#MHeaderSearch, #header-search{
   margin-top:6px;
   width:300px;
 }
 
-#MHeaderUserPhoto{
+#MHeaderPhoto, #header-photo{
   background:$mono_3;
   border:1px solid $mono_3;
   height:24px;
@@ -96,7 +104,7 @@ a#MHeaderHome{
   width:24px;
 }
 
-a#MHeaderMenu{
+a#MHeaderMenu, a#header-menu{
   background-color:transparent;
   background-image:url("/framework/img/global/header_menu.png");
   background-position:0 0;
@@ -120,7 +128,7 @@ a#MHeaderMenu{
   
 }
 
-a#MHeaderTools{
+a#MHeaderTools, a#header-tools{
   background-color:transparent;
   background-image:url("/framework/img/global/header_tools.png");
   background-position:0 0;
@@ -144,11 +152,11 @@ a#MHeaderTools{
   
 }
 
-#MHeaderToolsWide{
+#MHeaderToolsWide, #header-tools-wide{
   height:100%;
 }
 
-#MHeaderMenuDropdown{
+#MHeaderMenuDropdown, #header-menu-dropdown{
   background:$mono_6;
   padding:0;
   position:fixed;
@@ -178,7 +186,7 @@ a#MHeaderTools{
   }
 }
 
-#MHeaderLogin{
+#MHeaderLogin, #header-login{
   position:fixed;
   right:.4em;
   top:41px;

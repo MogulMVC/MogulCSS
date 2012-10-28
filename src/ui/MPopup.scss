@@ -1,4 +1,4 @@
-.MPopup{@extend .MWidget;
+.MPopup, .popup{@extend .MWidget;
   box-shadow:$shadow_outer_large;
   left:50%;
   margin-left:-27.4em;
@@ -8,26 +8,26 @@
   z-index:1600;
 }
 
-.MPopupMenu{
+.MPopupMenu, .popup-menu{
   height:35px;
 }
 
-.MPopupList{
+.MPopupList, .popup-list{
   overflow-x:hidden;
   overflow-y:auto;
 }
 
-.MPopupPreviewContainer{
+.MPopupPreviewContainer, .popup-preview-container{
   text-align:center;
   width:100%;
 }
 
-.MPopupPreview{
+.MPopupPreview, .popup-preview{
   max-height:400px;
   max-width:640px;
 }
 
-.MHoverForm{@extend .MWidget;
+.MHoverForm, .hover-form{@extend .MWidget;
   box-shadow:$shadow_outer_large;
   left:50%;
   margin-left:-12em;
@@ -38,7 +38,7 @@
   z-index:500;
 }
 
-.MHoverMessage{@extend .MWidget;
+.MHoverMessage, .hover-message{@extend .MWidget;
   border-radius:$rounded;
   box-shadow:$shadow_outer_large;
   left:50%;

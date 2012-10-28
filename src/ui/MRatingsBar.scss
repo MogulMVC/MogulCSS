@@ -1,7 +1,7 @@
-.MRatingsBar{
+.MRatingsBar, .ratings-bar{
   margin:4px;
   
-  .MRatingsBarBG{
+  .MRatingsBarBG, .ratings-bg{
     background:$red_1;
     border-radius:$rounded_large;
     box-shadow:inset 0 1px .2em rgba(0,0,0,.5);
@@ -9,7 +9,7 @@
     overflow:hidden;
     width:100%;
     
-    .MRatingsBarFG{
+    .MRatingsBarFG, .ratings-bf{
       background:$green_1;
       background:-moz-linear-gradient(left, $green_1 0%, $green_2 50%, $green_1 100%);
       background:-ms-linear-gradient(left, $green_1 0%, $green_2 50%, $green_1 100%);
@@ -24,7 +24,7 @@
     
   }
   
-  .MRatingsBarWarning{
+  .MRatingsBarWarning, .ratings-warning{
     background:#faC800;
     background:-moz-linear-gradient(left, $yellow_2 0%, $yellow_2 50%, $yellow_2 100%);
     background:-ms-linear-gradient(left, $yellow_2 0%, $yellow_2 50%, $yellow_2 100%);

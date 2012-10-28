@@ -1,4 +1,4 @@
-.MModalBG{
+.MModalBG, .modal-bg{
   height:150%;
   left:0;
   opacity:.8;
@@ -8,10 +8,10 @@
   z-index:1500;
 }
 
-.MModalBGBlack{@extend .MModalBG;
+.MModalBGBlack, .modal-bg-black{@extend .MModalBG;
   background-color:$mono_1;
 }
 
-.MModalBGWhite{@extend .MModalBG;
+.MModalBGWhite, .modal-bg-white{@extend .MModalBG;
   background-color:$mono_6;
 }
