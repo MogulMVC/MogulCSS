@@ -1,0 +1,21 @@
+.MHButtonGroup, .h-button-group{
+  
+  & *{@extend .MButton;
+    border-radius:0px;
+    float:left;
+    margin-left:0px;
+    margin-right:0px;
+    
+    &:first-child{
+      border-bottom-left-radius:$rounded;
+      border-top-left-radius:$rounded;
+    }
+    
+    &:last-child{
+      border-bottom-right-radius:$rounded;
+      border-top-right-radius:$rounded;
+    }
+    
+  }
+  
+}
