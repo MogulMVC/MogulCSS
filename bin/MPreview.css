@@ -16,7 +16,7 @@
 .MTextShadowLarge {
   text-shadow: 0 0.2em 0.35em rgba(0, 0, 0, 0.4); }
 
-.MPreviewBG, .preivew-bg {
+.MPreviewBG {
   background-color: #323232;
   box-shadow: 0 0.2em 0.35em rgba(0, 0, 0, 0.4);
   display: inline-block;
@@ -24,7 +24,7 @@
   min-width: 11.75em;
   position: relative; }
 
-.MBackgroundPreviewBG, .background-preview-bg {
+.MBackgroundPreviewBG {
   background-color: #323232;
   box-shadow: 0 0.2em 0.35em rgba(0, 0, 0, 0.4);
   height: 145px;
@@ -33,6 +33,6 @@
   text-align: center;
   width: 560px; }
 
-.MBackgroundPreview, .background-preview {
+.MBackgroundPreview {
   max-height: 145px;
   max-width: 550px; }

@@ -1,5 +1,5 @@
-#MFooter, #footer {
+#MFooter {
   clear: both; }
-  #MFooter a, #MFooter span, #footer a, #footer span {
+  #MFooter a, #MFooter span {
     margin-left: 0.4em;
     margin-right: 0.4em; }

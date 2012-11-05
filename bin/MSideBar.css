@@ -1,4 +1,4 @@
-#MSideBarTriggerLeft, .side-bar-trigger-left {
+#MSideBarTriggerLeft {
   height: 100%;
   left: 0;
   position: fixed;
@@ -6,7 +6,7 @@
   width: .8em;
   z-index: 100; }
 
-#MSideBarTriggerRight, .side-bar-trigger-right {
+#MSideBarTriggerRight {
   height: 100%;
   position: fixed;
   right: 0;
@@ -14,7 +14,7 @@
   width: .8em;
   z-index: 100; }
 
-#MSideBarTriggerLeftIndicator, .side-bar-trigger-left-indicator {
+#MSideBarTriggerLeftIndicator {
   background: -moz-linear-gradient(left, #007dfa 0%, rgba(0, 125, 250, 0) 100%);
   background: -ms-linear-gradient(left, #007dfa 0%, rgba(0, 125, 250, 0) 100%);
   background: -o-linear-gradient(left, #007dfa 0%, rgba(0, 125, 250, 0) 100%);
@@ -27,7 +27,7 @@
   width: .8em;
   z-index: 150; }
 
-#MSideBarTriggerRightIndicator, .side-bar-trigger-right-indicator {
+#MSideBarTriggerRightIndicator {
   background: -moz-linear-gradient(right, #007dfa 0%, rgba(0, 125, 250, 0) 100%);
   background: -ms-linear-gradient(right, #007dfa 0%, rgba(0, 125, 250, 0) 100%);
   background: -o-linear-gradient(right, #007dfa 0%, rgba(0, 125, 250, 0) 100%);
@@ -40,23 +40,23 @@
   width: .8em;
   z-index: 150; }
 
-#MSideBarContainer, #side-bar-container {
+#MSideBarContainer {
   min-width: 352px;
   width: 352px; }
 
-.MSideBarLeft, .side-bar-left {
+.MSideBarLeft {
   left: 0px; }
 
-.MSideBarLeftHidden, .side-bar-left-hidden {
+.MSideBarLeftHidden {
   left: -360px; }
 
-.MSideBarRight, .side-bar-right {
+.MSideBarRight {
   right: 0px; }
 
-.MSideBarRightHidden, .side-bar-right-hidden {
+.MSideBarRightHidden {
   right: -360px; }
 
-.MSideBarMenu, #MSideBarMenuFixed, #side-bar-menu-fixed, #MSideBarMenuFixedPlaceholder, #side-bar-menu-fixed-placeholder, .side-bar-menu {
+.MSideBarMenu, #MSideBarMenuFixed, #MSideBarMenuFixedPlaceholder {
   background: #c8c8c8;
   background: -moz-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
   background: -ms-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
@@ -69,22 +69,22 @@
   padding: .35em;
   text-align: center; }
 
-#MSideBarMenuFixed, #side-bar-menu-fixed {
+#MSideBarMenuFixed {
   left: 0px;
   padding-bottom: 0px;
   position: fixed;
   width: 343px;
   z-index: 50; }
 
-#MSideBarMenuFixedPlaceholder, #side-bar-menu-fixed-placeholder {
+#MSideBarMenuFixedPlaceholder {
   padding-bottom: 0px; }
 
-#MSideBar a, #side-bar a {
+#MSideBar a {
   color: #323232; }
-  #MSideBar a:hover, #side-bar a:hover {
+  #MSideBar a:hover {
     color: white; }
 
-#MSideBar, #side-bar {
+#MSideBar {
   background: #f0f0f0;
   border-left: solid 1px #646464;
   border-right: solid 1px #646464;
@@ -95,21 +95,13 @@
   top: 0;
   width: 350px;
   z-index: 200; }
-  #MSideBar .MSideBarListItem, #MSideBar .side-bar-list-item,
-  #MSideBar .MSideBarItem, #MSideBar .side-bar-item, #side-bar .MSideBarListItem, #side-bar .side-bar-list-item,
-  #side-bar .MSideBarItem, #side-bar .side-bar-item {
+  #MSideBar .MSideBarListItem, #MSideBar .MSideBarItem {
     color: #323232;
     overflow: hidden;
     padding: 1em; }
-    #MSideBar .MSideBarListItem label, #MSideBar .MSideBarListItem span, #MSideBar .side-bar-list-item label, #MSideBar .side-bar-list-item span,
-    #MSideBar .MSideBarItem label,
-    #MSideBar .MSideBarItem span, #MSideBar .side-bar-item label, #MSideBar .side-bar-item span, #side-bar .MSideBarListItem label, #side-bar .MSideBarListItem span, #side-bar .side-bar-list-item label, #side-bar .side-bar-list-item span,
-    #side-bar .MSideBarItem label,
-    #side-bar .MSideBarItem span, #side-bar .side-bar-item label, #side-bar .side-bar-item span {
+    #MSideBar .MSideBarListItem label, #MSideBar .MSideBarListItem span, #MSideBar .MSideBarItem label, #MSideBar .MSideBarItem span {
       font-weight: bold; }
-    #MSideBar .MSideBarListItem:hover, #MSideBar .side-bar-list-item:hover,
-    #MSideBar .MSideBarItem:hover, #MSideBar .side-bar-item:hover, #side-bar .MSideBarListItem:hover, #side-bar .side-bar-list-item:hover,
-    #side-bar .MSideBarItem:hover, #side-bar .side-bar-item:hover {
+    #MSideBar .MSideBarListItem:hover, #MSideBar .MSideBarItem:hover {
       background: #141414;
       background: -moz-linear-gradient(top, #232323 0%, #141414 100%);
       background: -ms-linear-gradient(top, #232323 0%, #141414 100%);
@@ -117,18 +109,10 @@
       background: -webkit-linear-gradient(top, #232323 0%, #141414 100%);
       background: linear-gradient(top, #232323 0%, #141414 100%);
       color: white; }
-    #MSideBar .MSideBarListItem.active, #MSideBar .MSideBarListItem.blue, #MSideBar .side-bar-list-item.active, #MSideBar .side-bar-list-item.blue,
-    #MSideBar .MSideBarItem.active,
-    #MSideBar .MSideBarItem.blue, #MSideBar .side-bar-item.active, #MSideBar .side-bar-item.blue, #side-bar .MSideBarListItem.active, #side-bar .MSideBarListItem.blue, #side-bar .side-bar-list-item.active, #side-bar .side-bar-list-item.blue,
-    #side-bar .MSideBarItem.active,
-    #side-bar .MSideBarItem.blue, #side-bar .side-bar-item.active, #side-bar .side-bar-item.blue {
+    #MSideBar .MSideBarListItem.active, #MSideBar .MSideBarListItem.blue, #MSideBar .MSideBarItem.active, #MSideBar .MSideBarItem.blue {
       background: #b4d2f0;
       color: #323232; }
-      #MSideBar .MSideBarListItem.active:hover, #MSideBar .MSideBarListItem.blue:hover, #MSideBar .side-bar-list-item.active:hover, #MSideBar .side-bar-list-item.blue:hover,
-      #MSideBar .MSideBarItem.active:hover,
-      #MSideBar .MSideBarItem.blue:hover, #MSideBar .side-bar-item.active:hover, #MSideBar .side-bar-item.blue:hover, #side-bar .MSideBarListItem.active:hover, #side-bar .MSideBarListItem.blue:hover, #side-bar .side-bar-list-item.active:hover, #side-bar .side-bar-list-item.blue:hover,
-      #side-bar .MSideBarItem.active:hover,
-      #side-bar .MSideBarItem.blue:hover, #side-bar .side-bar-item.active:hover, #side-bar .side-bar-item.blue:hover {
+      #MSideBar .MSideBarListItem.active:hover, #MSideBar .MSideBarListItem.blue:hover, #MSideBar .MSideBarItem.active:hover, #MSideBar .MSideBarItem.blue:hover {
         background: #647382;
         background: -moz-linear-gradient(top, #6b7a89 0%, #647382 100%);
         background: -ms-linear-gradient(top, #6b7a89 0%, #647382 100%);
@@ -137,7 +121,7 @@
         background: linear-gradient(top, #6b7a89 0%, #647382 100%);
         color: white; }
 
-.MSideBarThumbnail, .side-bar-thumbnail {
+.MSideBarThumbnail {
   height: 3.95em;
   margin-left: .35em;
   margin-right: .35em;

@@ -1,72 +1,72 @@
-.MListItem, .list-item {
+.MListItem {
   border-radius: 3px;
   margin-top: 2px;
   margin-bottom: 2px;
   padding: 1.2em;
   position: relative; }
-  .MListItem.red, .list-item.red {
+  .MListItem.red {
     background: #dcc3c3;
     color: #323232; }
-    .MListItem.red:hover, .list-item.red:hover {
+    .MListItem.red:hover {
       background: #e1d5d5; }
-  .MListItem.yellow, .list-item.yellow {
+  .MListItem.yellow {
     background: #faf5b4;
     color: #323232; }
-    .MListItem.yellow:hover, .list-item.yellow:hover {
+    .MListItem.yellow:hover {
       background: #f0edcd; }
-  .MListItem.green, .list-item.green {
+  .MListItem.green {
     background: #c3dcc3;
     color: #323232; }
-    .MListItem.green:hover, .list-item.green:hover {
+    .MListItem.green:hover {
       background: #d5e1d5; }
-  .MListItem.active, .MListItem.blue, .list-item.active, .list-item.blue {
+  .MListItem.active, .MListItem.blue {
     background: #b4d2f0;
     color: #323232; }
-    .MListItem.active:hover, .MListItem.blue:hover, .list-item.active:hover, .list-item.blue:hover {
+    .MListItem.active:hover, .MListItem.blue:hover {
       background: #cddceb; }
-  .MListItem:hover, .list-item:hover {
+  .MListItem:hover {
     background: #e6e6e6; }
 
-.MListIcon, .list-icon {
+.MListIcon {
   float: left;
   margin-right: 15px; }
 
-.MListInfo, .list-info {
+.MListInfo {
   -o-text-overflow: ellipsis;
   display: block;
   overflow: hidden;
   text-overflow: ellipsis; }
 
-.MListSeperator, .list-seperator {
+.MListSeperator {
   background: #646464;
   height: 1px;
   margin-top: 0.4em;
   margin-bottom: 0.4em; }
 
-.MListItemSub, .list-item-sub {
+.MListItemSub {
   background: #c8c8c8;
   border-radius: 3px;
   padding: .4em;
   position: relative; }
 
-.MListSummary, .list-summary {
+.MListSummary {
   display: list-item;
   height: 2em;
   text-overflow: ellipsis;
   width: 100%; }
 
-.MListTitle, .list-title {
+.MListTitle {
   display: inline;
   margin: 0; }
 
-.MListCitation, .list-citation {
+.MListCitation {
   margin-left: .4em; }
 
-.MListOptions, .list-options {
+.MListOptions {
   display: inline-block;
   float: right;
   min-width: 300px; }
-  .MListOptions a, .MListOptions img, .MListOptions span, .list-options a, .list-options img, .list-options span {
+  .MListOptions a, .MListOptions img, .MListOptions span {
     margin-left: 2px;
     margin-right: 2px; }
 

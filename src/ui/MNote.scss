@@ -1,4 +1,4 @@
-.MNote, .note{
+.MNote{
   background: #f0f0f0;
   box-shadow: $shadow_outer_small;
   display: inline-block;
@@ -8,27 +8,27 @@
   position: relative;
 }
 
-.MNoteRed, .MNoteR, .note-red, .note-r{@extend .MNote;
+.MNoteRed, .MNoteR{@extend .MNote;
   background:$red_2;
 }
 
-.MNoteOrange, .MNoteO, .note-orange, .note-o{@extend .MNote;
+.MNoteOrange, .MNoteO{@extend .MNote;
   background:$orange_2;
 }
 
-.MNoteYellow, .MNoteY, .note-yellow, .note-y{@extend .MNote;
+.MNoteYellow, .MNoteY{@extend .MNote;
   background:#fff046
 }
 
-.MNoteGreen, .MNoteG, .note-green, .note-g{@extend .MNote;
+.MNoteGreen, .MNoteG{@extend .MNote;
   background:$green_2;
 }
 
-.MNoteBlue, .MNoteB, .note-blue, .note-b{@extend .MNote;
+.MNoteBlue, .MNoteB{@extend .MNote;
   background:$blue_2;
 }
 
-.MNoteViolet, .MNoteV, .note-violet, .note-v{@extend .MNote;
+.MNoteViolet, .MNoteV{@extend .MNote;
   background:$violet_2;
 }
 

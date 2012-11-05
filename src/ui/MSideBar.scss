@@ -1,4 +1,4 @@
-#MSideBarTriggerLeft, .side-bar-trigger-left{
+#MSideBarTriggerLeft{
   height:100%;
   left:0;
   position:fixed;
@@ -7,7 +7,7 @@
   z-index:100;
 }
 
-#MSideBarTriggerRight, .side-bar-trigger-right{
+#MSideBarTriggerRight{
   height:100%;
   position:fixed;
   right:0;
@@ -16,7 +16,7 @@
   z-index:100;
 }
 
-#MSideBarTriggerLeftIndicator, .side-bar-trigger-left-indicator{
+#MSideBarTriggerLeftIndicator{
   background:-moz-linear-gradient(left, rgba(0,125,250,1) 0%, rgba(0,125,250,0) 100%);
   background:-ms-linear-gradient(left, rgba(0,125,250,1) 0%,rgba(0,125,250,0) 100%);
   background:-o-linear-gradient(left, rgba(0,125,250,1) 0%,rgba(0,125,250,0) 100%);
@@ -30,7 +30,7 @@
   z-index:150;
 }
 
-#MSideBarTriggerRightIndicator, .side-bar-trigger-right-indicator{
+#MSideBarTriggerRightIndicator{
   background:-moz-linear-gradient(right, rgba(0,125,250,1) 0%, rgba(0,125,250,0) 100%);
   background:-ms-linear-gradient(right, rgba(0,125,250,1) 0%,rgba(0,125,250,0) 100%);
   background:-o-linear-gradient(right, rgba(0,125,250,1) 0%,rgba(0,125,250,0) 100%);
@@ -44,28 +44,28 @@
   z-index:150;
 }
 
-#MSideBarContainer, #side-bar-container{
+#MSideBarContainer{
   min-width:352px;
   width:352px;
 }
 
-.MSideBarLeft, .side-bar-left{
+.MSideBarLeft{
   left:0px;
 }
 
-.MSideBarLeftHidden, .side-bar-left-hidden{
+.MSideBarLeftHidden{
   left:-360px;
 }
 
-.MSideBarRight, .side-bar-right{
+.MSideBarRight{
   right:0px;
 }
 
-.MSideBarRightHidden, .side-bar-right-hidden{
+.MSideBarRightHidden{
   right:-360px;
 }
 
-.MSideBarMenu, .side-bar-menu{
+.MSideBarMenu{
   background:$mono_4_2;
   background:-moz-linear-gradient(top, $mono_5 0%, $mono_4_2 100%);
   background:-ms-linear-gradient(top, $mono_5 0%,$mono_4_2 100%);
@@ -79,7 +79,7 @@
   text-align:center;
 }
 
-#MSideBarMenuFixed, #side-bar-menu-fixed{@extend .MSideBarMenu;
+#MSideBarMenuFixed{@extend .MSideBarMenu;
   left:0px;
   padding-bottom:0px;
   position:fixed;
@@ -87,11 +87,11 @@
   z-index:50;
 }
 
-#MSideBarMenuFixedPlaceholder, #side-bar-menu-fixed-placeholder{@extend .MSideBarMenu;
+#MSideBarMenuFixedPlaceholder{@extend .MSideBarMenu;
   padding-bottom:0px;
 }
 
-#MSideBar a, #side-bar a{
+#MSideBar a{
   color:$mono_2;
   
   &:hover{
@@ -100,7 +100,7 @@
  
 }
 
-#MSideBar, #side-bar {
+#MSideBar{
   background:#f0f0f0;
   border-left:solid 1px $mono_3;
   border-right:solid 1px $mono_3;
@@ -112,8 +112,7 @@
   width:350px;
   z-index:200;
   
-  .MSideBarListItem, .side-bar-list-item,
-  .MSideBarItem, .side-bar-item{
+  .MSideBarListItem, .MSideBarItem{
     color:$mono_2;
     overflow:hidden;
     padding:1em;
@@ -152,7 +151,7 @@
   
 }
 
-.MSideBarThumbnail, .side-bar-thumbnail{
+.MSideBarThumbnail{
   height:3.95em;
   margin-left:.35em;
   margin-right:.35em;

@@ -16,7 +16,7 @@
 .MTextShadowLarge {
   text-shadow: 0 0.2em 0.35em rgba(0, 0, 0, 0.4); }
 
-#MHeaderPlaceholder, #header-placeholder {
+#MHeaderPlaceholder {
   background: #141414;
   background: -moz-linear-gradient(top, #232323 0%, #141414 100%);
   background: -ms-linear-gradient(top, #232323 0%, #141414 100%);
@@ -27,7 +27,7 @@
   margin: 0 auto;
   width: 100%; }
 
-#MHeader, #header {
+#MHeader {
   background: #141414;
   background: -moz-linear-gradient(top, #232323 0%, #141414 100%);
   background: -ms-linear-gradient(top, #232323 0%, #141414 100%);
@@ -46,7 +46,7 @@
   top: 0;
   width: 100%;
   z-index: 900; }
-  #MHeader a, #header a {
+  #MHeader a {
     -moz-user-select: none;
     -o-user-select: none;
     -webkit-user-select: none;
@@ -59,21 +59,21 @@
     padding-right: .35em;
     padding-top: .35em;
     user-select: none; }
-    #MHeader a:hover, #header a:hover {
+    #MHeader a:hover {
       background-color: #646464;
       border-radius: 3px;
       box-shadow: inset 0 0.2em 0.35em rgba(0, 0, 0, 0.4);
       color: white;
       text-shadow: 0 0 0.4em rgba(0, 0, 0, 0.5); }
-  #MHeader img, #header img {
+  #MHeader img {
     opacity: 1;
     /*Header images should not be faded in*/ }
 
-.MHeaderSpacer, .header-spacer {
+.MHeaderSpacer {
   height: 36px;
   width: .4em; }
 
-.MHeaderSeperator, .header-seperator {
+.MHeaderSeperator {
   background: #646464;
   height: 100%;
   margin-left: .4em;
@@ -81,28 +81,28 @@
   width: 1px; }
 
 /* Header Unique Items */
-#MHeaderHome, #header-home {
+#MHeaderHome {
   padding: 0; }
-  #MHeaderHome:hover, #header-home:hover {
+  #MHeaderHome:hover {
     background: none;
     box-shadow: none;
     text-shadow: none; }
-  #MHeaderHome img, #header-home img {
+  #MHeaderHome img {
     float: left;
     height: 100%; }
 
-#MHeaderSearch, #header-search {
+#MHeaderSearch {
   margin-top: 6px;
   width: 300px; }
 
-#MHeaderPhoto, #header-photo {
+#MHeaderPhoto {
   background: #646464;
   border: 1px solid #646464;
   height: 24px;
   margin-top: .4em;
   width: 24px; }
 
-a#MHeaderMenu, a#header-menu {
+a#MHeaderMenu {
   background-color: transparent;
   background-image: url("/framework/img/global/header_menu.png");
   background-position: 0 0;
@@ -111,7 +111,7 @@ a#MHeaderMenu, a#header-menu {
   margin: 0;
   padding: 0;
   width: 22px; }
-  a#MHeaderMenu:hover, a#header-menu:hover {
+  a#MHeaderMenu:hover {
     background-color: transparent;
     background-image: url("/framework/img/global/header_menu.png");
     background-position: 0 -36px;
@@ -122,7 +122,7 @@ a#MHeaderMenu, a#header-menu {
     padding: 0;
     text-shadow: none; }
 
-a#MHeaderTools, a#header-tools {
+a#MHeaderTools {
   background-color: transparent;
   background-image: url("/framework/img/global/header_tools.png");
   background-position: 0 0;
@@ -131,7 +131,7 @@ a#MHeaderTools, a#header-tools {
   margin: 0;
   padding: 0;
   width: 22px; }
-  a#MHeaderTools:hover, a#header-tools:hover {
+  a#MHeaderTools:hover {
     background-color: transparent;
     background-image: url("/framework/img/global/header_tools.png");
     background-position: 0 -36px;
@@ -142,17 +142,17 @@ a#MHeaderTools, a#header-tools {
     padding: 0;
     text-shadow: none; }
 
-#MHeaderToolsWide, #header-tools-wide {
+#MHeaderToolsWide {
   height: 100%; }
 
-#MHeaderMenuDropdown, #header-menu-dropdown {
+#MHeaderMenuDropdown {
   background: white;
   padding: 0;
   position: fixed;
   right: .4em;
   top: 41px;
   z-index: 1200; }
-  #MHeaderMenuDropdown li, #header-menu-dropdown li {
+  #MHeaderMenuDropdown li {
     color: #323232;
     font-weight: bold;
     height: 40px;
@@ -160,7 +160,7 @@ a#MHeaderTools, a#header-tools {
     overflow: hidden;
     padding-left: 1.6em;
     padding-right: 1.6em; }
-    #MHeaderMenuDropdown li:hover, #header-menu-dropdown li:hover {
+    #MHeaderMenuDropdown li:hover {
       background: #141414;
       background: -moz-linear-gradient(top, #232323 0%, #141414 100%);
       background: -ms-linear-gradient(top, #232323 0%, #141414 100%);
@@ -169,7 +169,7 @@ a#MHeaderTools, a#header-tools {
       background: linear-gradient(top, #232323 0%, #141414 100%);
       color: white; }
 
-#MHeaderLogin, #header-login {
+#MHeaderLogin {
   position: fixed;
   right: .4em;
   top: 41px;

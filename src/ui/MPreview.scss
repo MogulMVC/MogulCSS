@@ -1,4 +1,4 @@
-.MPreviewBG, .preivew-bg{
+.MPreviewBG{
   background-color:$mono_2;
   box-shadow:$shadow_outer_small;
   display:inline-block;
@@ -7,7 +7,7 @@
   position:relative;
 }
 
-.MBackgroundPreviewBG, .background-preview-bg{
+.MBackgroundPreviewBG{
   background-color:$mono_2;
   box-shadow:$shadow_outer_small;
   height:145px;
@@ -17,7 +17,7 @@
   width:560px;
 }
 
-.MBackgroundPreview, .background-preview{
+.MBackgroundPreview{
   max-height:145px;
   max-width:550px;
 }

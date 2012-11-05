@@ -1,8 +1,10 @@
-.MTextLeft, .text-left{
+//This file can contain lowercase hyphenated classes as they are fairly universal
+
+.MTextLeft{
   text-align:left;
 }
 
-.MTextCenter, .MCenter, .center,
+.MTextCenter, .MCenter,
 .MTextCentered, .MCentered, .centered{
   text-align:center;
 }

@@ -1,41 +1,41 @@
 a, h1, h2, h3, h4, h5, h6, input, label, p, span, textarea,{
-  &.MTextBold, &.text-bold{
+  &.MTextBold{
     font-weight:bold;
   }
   
-  &.MTextItalics, &.text-italics{
+  &.MTextItalics{
     font-style: italic;
   }
 
-  &.MTextRed, &.text-red{
+  &.MTextRed{
     color:$red_1;
   }
   
-  &.MTextOrange, &.text-orange{
+  &.MTextOrange{
     color:$orange_1;
   }
 
-  &.MTextYellow, &.text-yellow{
+  &.MTextYellow{
     color:$yellow_1;
   }
 
-  &.MTextGreen, &.text-green{
+  &.MTextGreen{
     color:$green_1;
   }
 
-  &.MTextBlue, &.text-blue{
+  &.MTextBlue{
     color:$blue_1;
   }
 
-  &.MTextViolet, &.text-violet{
+  &.MTextViolet{
     color:$violet_1;
   }
 
-  &.MTextBlack, &.text-black{
+  &.MTextBlack{
     color:$mono_1;
   }
   
-  &.MTextWhite, &.text-white{
+  &.MTextWhite{
     color:$mono_6;
   }
 

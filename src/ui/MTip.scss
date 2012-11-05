@@ -1,11 +1,11 @@
-.MTip, .tip{
+.MTip{
   font-size:.85em;
   padding:.4em;
   position:absolute;
   z-index:15000;
 }
 
-.MTipInner, .tip-inner{
+.MTipInner{
   background:$mono_1_2;
   background:-moz-linear-gradient(top, $mono_1_3 0%, $mono_1_2 100%);
   background:-ms-linear-gradient(top, $mono_1_3 0%,$mono_1_2 100%);
@@ -23,7 +23,7 @@
   text-align:center;
 }
 
-.MTipArrow, .tip-arrow{
+.MTipArrow{
   border:5px dashed $mono_1_2;
   height:0;
   line-height:0;
@@ -31,23 +31,23 @@
   width:0;
 }
 
-.MTipArrowN, .tip-arrow-n{
+.MTipArrowN{
   border-bottom-color:$mono_1_2;
 }
 
-.MTipArrowS, .tip-arrow-s{
+.MTipArrowS{
   border-top-color:$mono_1_2;
 }
 
-.MTipArrowE, .tip-arrow-e{
+.MTipArrowE{
   border-left-color:$mono_1_2;
 }
 
-.MTipArrowW, .tip-arrow-w{
+.MTipArrowW{
   border-right-color:$mono_1_2;
 }
 
-.MTipN .MTipArrow, .tip-n .tip-arrow{
+.MTipN .MTipArrow{
   border-bottom-style:solid;
   border-left-color:transparent;
   border-right-color:transparent;
@@ -57,7 +57,7 @@
   top:0;
 }
 
-.MTipNW .MTipArrow, .tip-nw .tip-arrow{
+.MTipNW .MTipArrow{
   border-bottom-style:solid;
   border-left-color:transparent;
   border-right-color:transparent;
@@ -66,7 +66,7 @@
   top:0;
 }
 
-.MTipNE .MTipArrow, .tip-ne .tip-arrow{
+.MTipNE .MTipArrow{
   border-bottom-style:solid;
   border-left-color:transparent;
   border-right-color:transparent;
@@ -75,7 +75,7 @@
   top:0;
 }
 
-.MTipS .MTipArrow, .tip-s .tip-arrow{
+.MTipS .MTipArrow{
   border-bottom:none;
   border-left-color:transparent;
   border-right-color:transparent;
@@ -85,7 +85,7 @@
   margin-left:-5px;
 }
 
-.MTipSW .MTipArrow, .tip-sw .tip-arrow{
+.MTipSW .MTipArrow{
   border-bottom:none;
   border-left-color:transparent;
   border-right-color:transparent;
@@ -94,7 +94,7 @@
   left:.8em;
 }
 
-.MTipSE .MTipArrow, .tip-se .tip-arrow{
+.MTipSE .MTipArrow{
   border-bottom:none;
   border-left-color:transparent;
   border-right-color:transparent;
@@ -103,7 +103,7 @@
   right:.8em;
 }
 
-.MTipE .MTipArrow, .tip-e .tip-arrow{
+.MTipE .MTipArrow{
   border-bottom-color:transparent;
   border-left-style:solid;
   border-right:none;
@@ -113,7 +113,7 @@
   top:50%;
 }
 
-.MTipW .MTipArrow, .tip-w .tip-arrow{
+.MTipW .MTipArrow{
   border-bottom-color:transparent;
   border-left:none;
   border-right-style:solid;

@@ -1,4 +1,4 @@
-#MHeaderPlaceholder, #header-placeholder{
+#MHeaderPlaceholder{
   background:$mono_1_2;
   background:-moz-linear-gradient(top, $mono_1_3 0%, $mono_1_2 100%);
   background:-ms-linear-gradient(top, $mono_1_3 0%,$mono_1_2 100%);
@@ -10,7 +10,7 @@
   width:100%;
 }
 
-#MHeader, #header{
+#MHeader{
   background:$mono_1_2;
   background:-moz-linear-gradient(top, $mono_1_3 0%, $mono_1_2 100%);
   background:-ms-linear-gradient(top, $mono_1_3 0%,$mono_1_2 100%);
@@ -60,12 +60,12 @@
   
 }
 
-.MHeaderSpacer, .header-spacer{
+.MHeaderSpacer{
   height:36px;
   width:.4em;
 }
 
-.MHeaderSeperator, .header-seperator{
+.MHeaderSeperator{
   background:$mono_3;
   height:100%;
   margin-left:.4em;
@@ -75,7 +75,7 @@
 
 /* Header Unique Items */
 
-#MHeaderHome, #header-home{
+#MHeaderHome{
   padding:0;
     
   &:hover{
@@ -91,12 +91,12 @@
   
 }
 
-#MHeaderSearch, #header-search{
+#MHeaderSearch{
   margin-top:6px;
   width:300px;
 }
 
-#MHeaderPhoto, #header-photo{
+#MHeaderPhoto{
   background:$mono_3;
   border:1px solid $mono_3;
   height:24px;
@@ -104,7 +104,7 @@
   width:24px;
 }
 
-a#MHeaderMenu, a#header-menu{
+a#MHeaderMenu{
   background-color:transparent;
   background-image:url("/framework/img/global/header_menu.png");
   background-position:0 0;
@@ -128,7 +128,7 @@ a#MHeaderMenu, a#header-menu{
   
 }
 
-a#MHeaderTools, a#header-tools{
+a#MHeaderTools{
   background-color:transparent;
   background-image:url("/framework/img/global/header_tools.png");
   background-position:0 0;
@@ -152,11 +152,11 @@ a#MHeaderTools, a#header-tools{
   
 }
 
-#MHeaderToolsWide, #header-tools-wide{
+#MHeaderToolsWide{
   height:100%;
 }
 
-#MHeaderMenuDropdown, #header-menu-dropdown{
+#MHeaderMenuDropdown{
   background:$mono_6;
   padding:0;
   position:fixed;
@@ -186,7 +186,7 @@ a#MHeaderTools, a#header-tools{
   }
 }
 
-#MHeaderLogin, #header-login{
+#MHeaderLogin{
   position:fixed;
   right:.4em;
   top:41px;

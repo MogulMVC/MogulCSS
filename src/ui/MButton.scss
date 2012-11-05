@@ -1,4 +1,4 @@
-.MButton, .button{@extend .MGlow;
+.MButton{@extend .MGlow;
   background:$mono_5;
   background:-moz-linear-gradient(top, $mono_5 0%, $mono_4_2 100%);
   background:-ms-linear-gradient(top, $mono_5 0%, $mono_4_2 100%);
@@ -48,7 +48,7 @@
   
 }
 
-.MButtonRed, .MButtonR, .button-red, .button-r{@extend .MButton;
+.MButtonRed, .MButtonR{@extend .MButton;
   background:$red_1;
   background:-moz-linear-gradient(top, $red_2 0%, $red_1 100%);
   background:-ms-linear-gradient(top, $red_2 0%, $red_1 100%);
@@ -68,7 +68,7 @@
   
 }
 
-.MButtonOrange, .MButtonO, .button-orange, .button-o{@extend .MButton;
+.MButtonOrange, .MButtonO{@extend .MButton;
   background:$orange_1;
   background:-moz-linear-gradient(top, $orange_2 0%, $orange_1 100%);
   background:-ms-linear-gradient(top, $orange_2 0%, $orange_1 100%);
@@ -88,7 +88,7 @@
   
 }
 
-.MButtonYellow, .MButtonY, .button-yellow, .button-yellow{@extend .MButton;
+.MButtonYellow, .MButtonY{@extend .MButton;
   background:$yellow_2;
   background:-moz-linear-gradient(top, $yellow_2 0%, $yellow_2 100%);
   background:-ms-linear-gradient(top, $yellow_2 0%, $yellow_2 100%);
@@ -107,7 +107,7 @@
   
 }
 
-.MButtonGreen, .MButtonG, .button-green, .button-g{@extend .MButton;
+.MButtonGreen, .MButtonG{@extend .MButton;
   background:$green_1;
   background:-moz-linear-gradient(top, $green_2 0%, $green_1 100%);
   background:-ms-linear-gradient(top, $green_2 0%, $green_1 100%);
@@ -127,7 +127,7 @@
   
 }
 
-.MButtonBlue, .MButtonB, .button-blue, .button-b{@extend .MButton;
+.MButtonBlue, .MButtonB{@extend .MButton;
   background:$blue_1;
   background:-moz-linear-gradient(top, $blue_2 0%, $blue_1 100%);
   background:-ms-linear-gradient(top, $blue_2 0%,$blue_1 100%);
@@ -146,7 +146,7 @@
   
 }
 
-.MButtonViolet, .MButtonV, .button-violet, .button-v{@extend .MButton;
+.MButtonViolet, .MButtonV{@extend .MButton;
   background:$violet_1;
   background:-moz-linear-gradient(top, $violet_2 0%, $violet_1 100%);
   background:-ms-linear-gradient(top, $violet_2 0%,$violet_1 100%);
@@ -165,14 +165,14 @@
   
 }
 
-.MButtonUpload, .MButtonU, .button-upload, .button-u{@extend .MButtonBlue;
+.MButtonUpload, .MButtonU{@extend .MButtonBlue;
   cursor:default;
   overflow:hidden;
   position:relative;
   text-align:center;
 }
 
-.MButtonUploadInput, .MButtonUI, .button-upload-input, .button-ui{
+.MButtonUploadInput, .MButtonUI{
   left:0;
   top:-0.2em;
   position:absolute;

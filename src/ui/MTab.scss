@@ -66,13 +66,13 @@
 }
 */
 
-.MTabContainer, .tab-container{
+.MTabContainer{
   margin:0;
   padding:0;
   text-align:left;
 }
 
-.MTab, .tab{@extend .MGlow;
+.MTab{@extend .MGlow;
   -moz-user-select:none;
   -o-user-select:none;
   -webkit-user-select:none;
@@ -109,7 +109,7 @@
   
 }
 
-.MTabBodyContainer, .tab-body-container{
+.MTabBodyContainer{
   background:$mono_5;
   background:-moz-linear-gradient(top, $mono_5 0%, #c8c8c8 100%);
   background:-ms-linear-gradient(top, $mono_5 0%,#c8c8c8 100%);

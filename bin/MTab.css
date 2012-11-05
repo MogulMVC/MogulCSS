@@ -1,12 +1,12 @@
-.MGlow, .MTab, .tab {
+.MGlow, .MTab {
   -moz-transition: box-shadow 0.25s;
   -o-transition: box-shadow 0.25s;
   -webkit-transition: box-shadow 0.25s;
   transition: box-shadow 0.25s; }
-  .MGlow:hover, .MTab:hover, .tab:hover {
+  .MGlow:hover, .MTab:hover {
     border-color: #007dfa;
     box-shadow: 0 0 0.4em #007dfa; }
-  .MGlow:active, .MTab:active, .tab:active {
+  .MGlow:active, .MTab:active {
     border-color: inherit;
     box-shadow: inherit; }
 
@@ -107,12 +107,12 @@
   text-align:left;
 }
 */
-.MTabContainer, .tab-container {
+.MTabContainer {
   margin: 0;
   padding: 0;
   text-align: left; }
 
-.MTab, .tab {
+.MTab {
   -moz-user-select: none;
   -o-user-select: none;
   -webkit-user-select: none;
@@ -128,19 +128,19 @@
   display: inline-block;
   padding: 0;
   user-select: none; }
-  .MTab a, .tab a {
+  .MTab a {
     color: #323232;
     display: block;
     padding-left: .8em;
     padding-right: .8em; }
-  .MTab.active, .tab.active {
+  .MTab.active {
     background: #e6e6e6;
     position: relative; }
-    .MTab.active:hover, .tab.active:hover {
+    .MTab.active:hover {
       box-shadow: 0 0.2em 0.35em rgba(0, 0, 0, 0.4);
       border-color: #646464; }
 
-.MTabBodyContainer, .tab-body-container {
+.MTabBodyContainer {
   background: #e6e6e6;
   background: -moz-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
   background: -ms-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);

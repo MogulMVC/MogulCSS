@@ -1,4 +1,4 @@
-.MListItem, .list-item{
+.MListItem{
   border-radius:$rounded;
   margin-top:2px;
   margin-bottom:2px;
@@ -47,26 +47,26 @@
 
 }
 
-.MListIcon, .list-icon{
+.MListIcon{
   float:left;
   margin-right:15px;
 }
 
-.MListInfo, .list-info{
+.MListInfo{
   -o-text-overflow:ellipsis;
   display:block;
   overflow:hidden;
   text-overflow:ellipsis;
 }
 
-.MListSeperator, .list-seperator{
+.MListSeperator{
   background: #646464;
   height:1px;
   margin-top:0.4em;
   margin-bottom:0.4em;
 }
 
-.MListItemSub, .list-item-sub{
+.MListItemSub{
   background:$mono_4_2;
   border-radius:$rounded;
   padding:.4em;
@@ -74,23 +74,23 @@
 }
 
 
-.MListSummary, .list-summary{
+.MListSummary{
   display:list-item;
   height:2em;
   text-overflow:ellipsis;
   width:100%;
 }
 
-.MListTitle, .list-title{
+.MListTitle{
   display:inline;
   margin:0;
 }
 
-.MListCitation, .list-citation{
+.MListCitation{
   margin-left:.4em;
 }
 
-.MListOptions, .list-options{
+.MListOptions{
   display:inline-block;
   float:right;
   min-width:300px;

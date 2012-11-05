@@ -16,7 +16,7 @@
 .MTextShadowLarge {
   text-shadow: 0 0.2em 0.35em rgba(0, 0, 0, 0.4); }
 
-#MSystemMessageContainer, #system-message-container {
+#MSystemMessageContainer {
   overflow-x: hidden;
   overflow-y: hidden;
   position: fixed;
@@ -25,7 +25,7 @@
   z-index: 200;
   right: 0; }
 
-.MSystemMessage, .system-message {
+.MSystemMessage {
   background: #141414;
   background: -moz-linear-gradient(top, #232323 0%, #141414 100%);
   background: -ms-linear-gradient(top, #232323 0%, #141414 100%);

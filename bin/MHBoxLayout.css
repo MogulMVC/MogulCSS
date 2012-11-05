@@ -1,13 +1,13 @@
-.MHBoxLayout *, .h-box-layout * {
+.MHBoxLayout * {
   display: inline-block; }
-.MHBoxLayout option, .h-box-layout option {
+.MHBoxLayout option {
   display: block; }
 
-.MHBoxSpacer, .h-box-spacer {
+.MHBoxSpacer {
   height: 100%;
   width: 0.4em; }
 
-.MHBoxSeperator, .h-box-seperator {
+.MHBoxSeperator {
   background: none repeat scroll 0 0 #646464;
   height: 100%;
   margin-left: 0.4em;

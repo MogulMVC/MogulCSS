@@ -1,4 +1,4 @@
-.MWidget, .widget {
+.MWidget {
   background: #e6e6e6;
   background: -moz-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
   background: -ms-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
@@ -12,14 +12,14 @@
   padding: 1em;
   text-align: left; }
 
-.MWidgetWide, .widget-wide {
+.MWidgetWide {
   background: #c8c8c8;
   color: #323232;
   margin: 0 auto;
   padding: 1.6em;
   text-align: left; }
 
-.MWidgetTitle, .widget-title {
+.MWidgetTitle {
   font-weight: bold;
   margin: -5px auto 0.8em auto;
   text-align: center;

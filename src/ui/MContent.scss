@@ -1,80 +1,80 @@
-.MContent, .content{
+.MContent{
   margin:0 auto;
   text-align:left;
 }
 
-#MContentList, #content-list{@extend .MContent;
+#MContentList{@extend .MContent;
   min-width:900px;
   width:80%;
 }
 
-.MContent1000, .content-1000{@extend .MContent;
+.MContent1000{@extend .MContent;
   width:1000px;
 }
 
-.MContent960, .content-960{@extend .MContent;
+.MContent960{@extend .MContent;
   width:960px;
 }
 
-.MContent900, .content-900{@extend .MContent;
+.MContent900{@extend .MContent;
   width:900px;
 }
 
-.MContent870, .content-870{@extend .MContent;
+.MContent870{@extend .MContent;
   width:870px;
 }
 
-.MContent840, .content-840{@extend .MContent;
+.MContent840{@extend .MContent;
   width:840px;
 }
 
-.MContent800, .content-800{@extend .MContent;
+.MContent800{@extend .MContent;
   width:600px;
 }
 
-.MContent740, .content-740{@extend .MContent;
+.MContent740{@extend .MContent;
   width:740px;
 }
 
-.MContent700, .content-700{@extend .MContent;
+.MContent700{@extend .MContent;
   width:700px;
 }
 
-.MContent610, .content-610{@extend .MContent;
+.MContent610{@extend .MContent;
   width:610px;
 }
 
-.MContent600, .content-600{@extend .MContent;
+.MContent600{@extend .MContent;
   width:600px;
 }
 
-.MContent500, .content-500{@extend .MContent;
+.MContent500{@extend .MContent;
   width:500px;
 }
 
-.MContent400, .content-400{@extend .MContent;
+.MContent400{@extend .MContent;
   width:400px;
 }
 
-.MContent300, .content-300{@extend .MContent;
+.MContent300{@extend .MContent;
   width:300px;
 }
 
-.MContent200, .content-200{@extend .MContent;
+.MContent200{@extend .MContent;
   width:200px;
 }
 
-.MContent100, .content-100{@extend .MContent;
+.MContent100{@extend .MContent;
   width:100px;
 }
 
-.MContentSpacer, .content-spacer{
+.MContentSpacer{
   clear:both;
   height:0;
   padding-top:1.2em;
   padding-bottom:1.2em;
 }
 
-.MTableSpacer, .table-spacer{
+.MTableSpacer{
   height:2.4em;
 }

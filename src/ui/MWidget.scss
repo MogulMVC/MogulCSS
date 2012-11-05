@@ -1,4 +1,4 @@
-.MWidget, .widget{
+.MWidget{
   background:$mono_5;
   background:-moz-linear-gradient(top, $mono_5 0%, $mono_4_2 100%);
   background:-ms-linear-gradient(top, $mono_5 0%,$mono_4_2 100%);
@@ -13,7 +13,7 @@
   text-align:left;
 }
 
-.MWidgetWide, .widget-wide{
+.MWidgetWide{
   background:$mono_4_2;
   color:$mono_2;
   margin:0 auto;
@@ -21,7 +21,7 @@
   text-align:left;
 }
 
-.MWidgetTitle, .widget-title{
+.MWidgetTitle{
   font-weight:bold;
   margin:-5px auto .8em auto;
   text-align:center;

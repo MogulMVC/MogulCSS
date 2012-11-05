@@ -16,7 +16,7 @@
 .MTextShadowLarge {
   text-shadow: 0 0.2em 0.35em rgba(0, 0, 0, 0.4); }
 
-.MToolBar, #MToolBar, #tool-bar, .tool-bar {
+.MToolBar, #MToolBar {
   background: #c8c8c8;
   background: -moz-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
   background: -ms-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
@@ -31,7 +31,7 @@
   overflow: hidden;
   text-align: left;
   width: 100%; }
-  .MToolBar a, #MToolBar a, #tool-bar a, .tool-bar a {
+  .MToolBar a, #MToolBar a {
     -moz-user-select: none;
     -o-user-select: none;
     -webkit-user-select: none;
@@ -44,24 +44,24 @@
     padding-right: 0.4em;
     padding-top: 0.2em;
     user-select: none; }
-    .MToolBar a:hover, #MToolBar a:hover, #tool-bar a:hover, .tool-bar a:hover {
+    .MToolBar a:hover, #MToolBar a:hover {
       background: #646464;
       border-radius: 3px;
       box-shadow: inset 0 0.2em 0.35em rgba(0, 0, 0, 0.4);
       color: white;
       text-shadow: 0 0 0.4em rgba(0, 0, 0, 0.5); }
-  .MToolBar a.MButton, #MToolBar a.MButton, #tool-bar a.MButton, .MToolBar button.MButton, #MToolBar button.MButton, #tool-bar button.MButton, .MToolBar div.MButton, #MToolBar div.MButton, #tool-bar div.MButton, .MToolBar input[type="button"], #MToolBar input[type="button"], #tool-bar input[type="button"], .MToolBar input[type="submit"], #MToolBar input[type="submit"], #tool-bar input[type="submit"], .MToolBar span.MButton, #MToolBar span.MButton, #tool-bar span.MButton, .MToolBar select, #MToolBar select, #tool-bar select, .tool-bar a.MButton, .tool-bar button.MButton, .tool-bar div.MButton, .tool-bar input[type="button"], .tool-bar input[type="submit"], .tool-bar span.MButton, .tool-bar select {
+  .MToolBar a.MButton, #MToolBar a.MButton, .MToolBar button.MButton, #MToolBar button.MButton, .MToolBar div.MButton, #MToolBar div.MButton, .MToolBar input[type="button"], #MToolBar input[type="button"], .MToolBar input[type="submit"], #MToolBar input[type="submit"], .MToolBar span.MButton, #MToolBar span.MButton, .MToolBar select, #MToolBar select {
     margin-top: 0.4em; }
-  .MToolBar MButton img, #MToolBar MButton img, #tool-bar MButton img, .tool-bar MButton img {
+  .MToolBar MButton img, #MToolBar MButton img {
     margin-left: -10px;
     margin-right: 0.4em;
     margin-top: 0.1em; }
-  .MToolBar img, #MToolBar img, #tool-bar img, .tool-bar img {
+  .MToolBar img, #MToolBar img {
     vertical-align: top; }
-  .MToolBar input[type="password"], #MToolBar input[type="password"], #tool-bar input[type="password"], .MToolBar input[type="text"], #MToolBar input[type="text"], #tool-bar input[type="text"], .tool-bar input[type="password"], .tool-bar input[type="text"] {
+  .MToolBar input[type="password"], #MToolBar input[type="password"], .MToolBar input[type="text"], #MToolBar input[type="text"] {
     margin: 3px; }
 
-#MToolBarPlaceholder, #tool-bar-placeholder {
+#MToolBarPlaceholder {
   background: -moz-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
   background: -ms-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
   background: -o-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
@@ -71,27 +71,27 @@
   margin: 0 auto;
   width: 100%; }
 
-#MToolBar, #tool-bar {
+#MToolBar {
   box-shadow: 0 1.2em 2.4em -0.8em rgba(0, 0, 0, 0.4);
   left: 0;
   position: fixed;
   top: 2.85em;
   z-index: 1000; }
 
-h1.MToolBarTitle, h1.tool-bar-title {
+h1.MToolBarTitle {
   font-size: 1em;
   margin: 0; }
 
-.MToolBarIcon, .tool-bar-icon {
+.MToolBarIcon {
   margin-right: 0.4em; }
 
-.MToolBarSeperator, .tool-bar-seperator {
+.MToolBarSeperator {
   background: #646464;
   height: 100%;
   margin-left: 0.4em;
   margin-right: 0.4em;
   width: 1px; }
 
-.MToolBarSpacer, .toolbar-spacer {
+.MToolBarSpacer {
   height: 100%;
   width: 0.4em; }
