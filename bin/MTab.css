@@ -1,0 +1,157 @@
+.MGlow, .MTab, .tab {
+  -moz-transition: box-shadow 0.25s;
+  -o-transition: box-shadow 0.25s;
+  -webkit-transition: box-shadow 0.25s;
+  transition: box-shadow 0.25s; }
+  .MGlow:hover, .MTab:hover, .tab:hover {
+    border-color: #007dfa;
+    box-shadow: 0 0 0.4em #007dfa; }
+  .MGlow:active, .MTab:active, .tab:active {
+    border-color: inherit;
+    box-shadow: inherit; }
+
+.MGlowText {
+  -moz-transition: box-shadow 0.25s;
+  -o-transition: box-shadow 0.25s;
+  -webkit-transition: box-shadow 0.25s;
+  transition: box-shadow 0.25s; }
+  .MGlowText:hover {
+    border-color: #007dfa;
+    text-shadow: 0 0 0.4em #007dfa; }
+  .MGlowText:active {
+    border-color: inherit;
+    text-shadow: inherit; }
+
+.MShadowOuterSmall {
+  box-shadow: 0 0.2em 0.35em rgba(0, 0, 0, 0.4); }
+
+.MShadowOuterLarge {
+  box-shadow: 0 1.2em 2.4em -0.8em rgba(0, 0, 0, 0.4); }
+
+.MShadowInnerSmall {
+  box-shadow: inset 0 0 0.4em rgba(0, 0, 0, 0.4); }
+
+.MShadowInnerLarge {
+  box-shadow: inset 0 0.2em 0.35em rgba(0, 0, 0, 0.4); }
+
+.MTextShadowSmall {
+  text-shadow: 0 0 0.4em rgba(0, 0, 0, 0.4); }
+
+.MTextShadowLarge {
+  text-shadow: 0 0.2em 0.35em rgba(0, 0, 0, 0.4); }
+
+/*
+.MTab{@extend .MGlow;
+  -moz-user-select:none;
+  -o-user-select:none;
+  -webkit-user-select:none;
+  background:#c8c8c8;
+  border-color:$mono_3;
+  border-style:solid;
+  border-top-left-radius:$rounded;
+  border-top-right-radius:$rounded;
+  border-width:1px 1px 0 1px;
+  box-shadow:$shadow_outer_small;
+  color:$mono_2;
+  cursor:pointer;
+  margin-right:.4em;
+  padding-left:.8em;
+  padding-right:.8em;
+  user-select:none;
+}
+
+.MTabSelected{@extend .MTab;
+  background:$mono_5;
+
+  &:hover{
+    box-shadow:none;
+    cursor:default;
+    border-color:$mono_3;
+  }
+}
+
+.MTabBody{
+  background:$mono_5;
+  background:-moz-linear-gradient(top, $mono_5 0%, #c8c8c8 100%);
+  background:-ms-linear-gradient(top, $mono_5 0%,#c8c8c8 100%);
+  background:-o-linear-gradient(top, $mono_5 0%,#c8c8c8 100%);
+  background:-webkit-linear-gradient(top, $mono_5 0%,#c8c8c8 100%);
+  background:linear-gradient(top, $mono_5 0%,#c8c8c8 100%);
+  border-color:$mono_3;
+  border-radius:0 $rounded $rounded $rounded;
+  border-style:solid;
+  border-width:0 1px 1px 1px;
+  box-shadow:$shadow_outer_small;
+  color:$mono_2;
+  display:none;
+  margin:-1px;
+  margin:0 auto;
+  padding:1.6em;
+  text-align:left;
+  width:100%;
+  
+  textarea{
+    resize:none;
+  }
+  
+}
+
+.MTabBodySelected{
+  display:table;
+}
+
+.MTabBodySidebar{
+  color:$mono_2;
+  display:none;
+  margin:0 auto;
+  text-align:left;
+}
+*/
+.MTabContainer, .tab-container {
+  margin: 0;
+  padding: 0;
+  text-align: left; }
+
+.MTab, .tab {
+  -moz-user-select: none;
+  -o-user-select: none;
+  -webkit-user-select: none;
+  background: #C8C8C8;
+  border-color: #646464;
+  border-style: solid;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-width: 1px 1px 0 1px;
+  box-shadow: 0 0.2em 0.35em rgba(0, 0, 0, 0.4);
+  color: #323232;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0;
+  user-select: none; }
+  .MTab a, .tab a {
+    color: #323232;
+    display: block;
+    padding-left: .8em;
+    padding-right: .8em; }
+  .MTab.active, .tab.active {
+    background: #e6e6e6;
+    position: relative; }
+    .MTab.active:hover, .tab.active:hover {
+      box-shadow: 0 0.2em 0.35em rgba(0, 0, 0, 0.4);
+      border-color: #646464; }
+
+.MTabBodyContainer, .tab-body-container {
+  background: #e6e6e6;
+  background: -moz-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
+  background: -ms-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
+  background: -o-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
+  background: -webkit-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
+  background: linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
+  border-color: #646464;
+  border-radius: 0 3px 3px 3px;
+  border-style: solid;
+  border-width: 0 1px 1px 1px;
+  box-shadow: 0 0.2em 0.35em rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  position: relative;
+  text-align: left; }

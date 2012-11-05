@@ -1,0 +1,44 @@
+.MShadowOuterSmall {
+  box-shadow: 0 0.2em 0.35em rgba(0, 0, 0, 0.4); }
+
+.MShadowOuterLarge {
+  box-shadow: 0 1.2em 2.4em -0.8em rgba(0, 0, 0, 0.4); }
+
+.MShadowInnerSmall {
+  box-shadow: inset 0 0 0.4em rgba(0, 0, 0, 0.4); }
+
+.MShadowInnerLarge {
+  box-shadow: inset 0 0.2em 0.35em rgba(0, 0, 0, 0.4); }
+
+.MTextShadowSmall {
+  text-shadow: 0 0 0.4em rgba(0, 0, 0, 0.4); }
+
+.MTextShadowLarge {
+  text-shadow: 0 0.2em 0.35em rgba(0, 0, 0, 0.4); }
+
+.MNote, .MNoteRed, .MNoteR, .note-red, .note-r, .MNoteOrange, .MNoteO, .note-orange, .note-o, .MNoteYellow, .MNoteY, .note-yellow, .note-y, .MNoteGreen, .MNoteG, .note-green, .note-g, .MNoteBlue, .MNoteB, .note-blue, .note-b, .MNoteViolet, .MNoteV, .note-violet, .note-v, .note {
+  background: #f0f0f0;
+  box-shadow: 0 0.2em 0.35em rgba(0, 0, 0, 0.4);
+  display: inline-block;
+  font-weight: normal;
+  max-width: 200px;
+  padding: 0.4em;
+  position: relative; }
+
+.MNoteRed, .MNoteR, .note-red, .note-r {
+  background: #fa0000; }
+
+.MNoteOrange, .MNoteO, .note-orange, .note-o {
+  background: #fa6400; }
+
+.MNoteYellow, .MNoteY, .note-yellow, .note-y {
+  background: #fff046; }
+
+.MNoteGreen, .MNoteG, .note-green, .note-g {
+  background: #00fa00; }
+
+.MNoteBlue, .MNoteB, .note-blue, .note-b {
+  background: #007dfa; }
+
+.MNoteViolet, .MNoteV, .note-violet, .note-v {
+  background: #7d00fa; }

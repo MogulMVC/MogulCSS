@@ -1,9 +1,15 @@
 #!/bin/bash 
 
-sass src/MStyle.scss:bin/MStyle.css
-sass src/MStyle.scss:bin/MStyle.min.css --style compressed
-echo 'MStyle Complete'
+for i in src/compilers/*.scss; 
+do
 
-sass src/MStyleFrame.scss:bin/MStyleFrame.css
-sass src/MStyleFrame.scss:bin/MStyleFrame.min.css --style compressed
-echo 'MStyleFrame Complete'
+filename=$(basename $i)
+extension="${filename##*.}"
+filename="${filename%.*}"
+
+sass src/compilers/$filename.scss:bin/$filename.css
+sass src/compilers/$filename.scss:bin/$filename.min.css --style compressed
+echo $filename 'Complete'
+
+done
+

@@ -1,24 +1,3 @@
-a.MTextBold, a.text-bold, h1.MTextBold, h1.text-bold, h2.MTextBold, h2.text-bold, h3.MTextBold, h3.text-bold, h4.MTextBold, h4.text-bold, h5.MTextBold, h5.text-bold, h6.MTextBold, h6.text-bold, input.MTextBold, input.text-bold, label.MTextBold, label.text-bold, p.MTextBold, p.text-bold, span.MTextBold, span.text-bold, textarea.MTextBold, textarea.text-bold {
-  font-weight: bold; }
-a.MTextItalics, a.text-italics, h1.MTextItalics, h1.text-italics, h2.MTextItalics, h2.text-italics, h3.MTextItalics, h3.text-italics, h4.MTextItalics, h4.text-italics, h5.MTextItalics, h5.text-italics, h6.MTextItalics, h6.text-italics, input.MTextItalics, input.text-italics, label.MTextItalics, label.text-italics, p.MTextItalics, p.text-italics, span.MTextItalics, span.text-italics, textarea.MTextItalics, textarea.text-italics {
-  font-style: italic; }
-a.MTextRed, a.text-red, h1.MTextRed, h1.text-red, h2.MTextRed, h2.text-red, h3.MTextRed, h3.text-red, h4.MTextRed, h4.text-red, h5.MTextRed, h5.text-red, h6.MTextRed, h6.text-red, input.MTextRed, input.text-red, label.MTextRed, label.text-red, p.MTextRed, p.text-red, span.MTextRed, span.text-red, textarea.MTextRed, textarea.text-red {
-  color: #960000; }
-a.MTextOrange, a.text-orange, h1.MTextOrange, h1.text-orange, h2.MTextOrange, h2.text-orange, h3.MTextOrange, h3.text-orange, h4.MTextOrange, h4.text-orange, h5.MTextOrange, h5.text-orange, h6.MTextOrange, h6.text-orange, input.MTextOrange, input.text-orange, label.MTextOrange, label.text-orange, p.MTextOrange, p.text-orange, span.MTextOrange, span.text-orange, textarea.MTextOrange, textarea.text-orange {
-  color: #963c00; }
-a.MTextYellow, a.text-yellow, h1.MTextYellow, h1.text-yellow, h2.MTextYellow, h2.text-yellow, h3.MTextYellow, h3.text-yellow, h4.MTextYellow, h4.text-yellow, h5.MTextYellow, h5.text-yellow, h6.MTextYellow, h6.text-yellow, input.MTextYellow, input.text-yellow, label.MTextYellow, label.text-yellow, p.MTextYellow, p.text-yellow, span.MTextYellow, span.text-yellow, textarea.MTextYellow, textarea.text-yellow {
-  color: #969600; }
-a.MTextGreen, a.text-green, h1.MTextGreen, h1.text-green, h2.MTextGreen, h2.text-green, h3.MTextGreen, h3.text-green, h4.MTextGreen, h4.text-green, h5.MTextGreen, h5.text-green, h6.MTextGreen, h6.text-green, input.MTextGreen, input.text-green, label.MTextGreen, label.text-green, p.MTextGreen, p.text-green, span.MTextGreen, span.text-green, textarea.MTextGreen, textarea.text-green {
-  color: #009600; }
-a.MTextBlue, a.text-blue, h1.MTextBlue, h1.text-blue, h2.MTextBlue, h2.text-blue, h3.MTextBlue, h3.text-blue, h4.MTextBlue, h4.text-blue, h5.MTextBlue, h5.text-blue, h6.MTextBlue, h6.text-blue, input.MTextBlue, input.text-blue, label.MTextBlue, label.text-blue, p.MTextBlue, p.text-blue, span.MTextBlue, span.text-blue, textarea.MTextBlue, textarea.text-blue {
-  color: #004b96; }
-a.MTextViolet, a.text-violet, h1.MTextViolet, h1.text-violet, h2.MTextViolet, h2.text-violet, h3.MTextViolet, h3.text-violet, h4.MTextViolet, h4.text-violet, h5.MTextViolet, h5.text-violet, h6.MTextViolet, h6.text-violet, input.MTextViolet, input.text-violet, label.MTextViolet, label.text-violet, p.MTextViolet, p.text-violet, span.MTextViolet, span.text-violet, textarea.MTextViolet, textarea.text-violet {
-  color: #4b0096; }
-a.MTextBlack, a.text-black, h1.MTextBlack, h1.text-black, h2.MTextBlack, h2.text-black, h3.MTextBlack, h3.text-black, h4.MTextBlack, h4.text-black, h5.MTextBlack, h5.text-black, h6.MTextBlack, h6.text-black, input.MTextBlack, input.text-black, label.MTextBlack, label.text-black, p.MTextBlack, p.text-black, span.MTextBlack, span.text-black, textarea.MTextBlack, textarea.text-black {
-  color: #0a0a0a; }
-a.MTextWhite, a.text-white, h1.MTextWhite, h1.text-white, h2.MTextWhite, h2.text-white, h3.MTextWhite, h3.text-white, h4.MTextWhite, h4.text-white, h5.MTextWhite, h5.text-white, h6.MTextWhite, h6.text-white, input.MTextWhite, input.text-white, label.MTextWhite, label.text-white, p.MTextWhite, p.text-white, span.MTextWhite, span.text-white, textarea.MTextWhite, textarea.text-white {
-  color: white; }
-
 * {
   border: 0px;
   margin: 0px;

@@ -1,0 +1,42 @@
+a, h1, h2, h3, h4, h5, h6, input, label, p, span, textarea,{
+  &.MTextBold, &.text-bold{
+    font-weight:bold;
+  }
+  
+  &.MTextItalics, &.text-italics{
+    font-style: italic;
+  }
+
+  &.MTextRed, &.text-red{
+    color:$red_1;
+  }
+  
+  &.MTextOrange, &.text-orange{
+    color:$orange_1;
+  }
+
+  &.MTextYellow, &.text-yellow{
+    color:$yellow_1;
+  }
+
+  &.MTextGreen, &.text-green{
+    color:$green_1;
+  }
+
+  &.MTextBlue, &.text-blue{
+    color:$blue_1;
+  }
+
+  &.MTextViolet, &.text-violet{
+    color:$violet_1;
+  }
+
+  &.MTextBlack, &.text-black{
+    color:$mono_1;
+  }
+  
+  &.MTextWhite, &.text-white{
+    color:$mono_6;
+  }
+
+}

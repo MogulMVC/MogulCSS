@@ -1,0 +1,13 @@
+.MHiddenBGFull, .hidden-bg-full {
+  background: #232323;
+  overflow: hidden;
+  width: 100%; }
+
+.MHiddenBGMin, .hidden-bg-min {
+  background: #232323;
+  height: 0;
+  overflow: hidden;
+  width: 100%; }
+
+#MHiddenContent, #hidden-contet {
+  text-align: center; }
