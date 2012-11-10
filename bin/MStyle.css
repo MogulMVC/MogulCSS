@@ -1522,4 +1522,5 @@ h1.MToolBarTitle {
 
 .MIntent, .intent {
   background: #00ff00;
-  color: #ff00ff; }
+  color: #ff00ff;
+  font-size: 2em; }
