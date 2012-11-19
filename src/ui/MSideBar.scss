@@ -72,7 +72,7 @@
   background:-o-linear-gradient(top, $mono_5 0%,$mono_4_2 100%);
   background:-webkit-linear-gradient(top, $mono_5 0%,$mono_4_2 100%);
   background:linear-gradient(top, $mono_5 0%,$mono_4_2 100%);
-  border-bottom:solid 1px $mono_3;
+  border-bottom:solid 1px $outline;
   min-height:1.75em;
   overflow:hidden;
   padding:.35em;
@@ -91,19 +91,10 @@
   padding-bottom:0px;
 }
 
-#MSideBar a{
-  color:$mono_2;
-  
-  &:hover{
-    color:$mono_6;
-  }
- 
-}
-
 #MSideBar{
   background:#f0f0f0;
-  border-left:solid 1px $mono_3;
-  border-right:solid 1px $mono_3;
+  border-left:solid 1px $outline;
+  border-right:solid 1px $outline;
   overflow-x:hidden;
   overflow-y:auto;
   position:fixed;
@@ -111,6 +102,14 @@
   top:0;
   width:350px;
   z-index:200;
+  
+  & a{
+    color:$mono_2;
+  
+    &:hover{
+      color:$mono_6;
+    }
+  }
   
   .MSideBarListItem, .MSideBarItem{
     color:$mono_2;

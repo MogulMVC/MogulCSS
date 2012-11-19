@@ -48,7 +48,7 @@ code{
 }
 
 hr{  
-  background:$mono_3;
+  background:$outline;
   border:0;
   height:1px;
   margin:0;
@@ -105,7 +105,7 @@ label{
 
 pre{
   background:#e6e6e6;
-  border:1px solid $mono_3;
+  border:1px solid $outline;
   border-radius:$rounded;
   box-shadow:$shadow_inner_large;
   color:$mono_2;

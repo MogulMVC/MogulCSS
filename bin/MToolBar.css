@@ -23,7 +23,7 @@
   background: -o-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
   background: -webkit-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
   background: linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
-  border-bottom: 1px solid #646464;
+  border-bottom: 1px solid #969696;
   color: #323232;
   height: 2.4em;
   line-height: 2.4em;
@@ -86,7 +86,7 @@ h1.MToolBarTitle {
   margin-right: 0.4em; }
 
 .MToolBarSeperator {
-  background: #646464;
+  background: #969696;
   height: 100%;
   margin-left: 0.4em;
   margin-right: 0.4em;

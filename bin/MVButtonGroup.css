@@ -24,7 +24,7 @@
   background: -webkit-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
   background: linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
   border-radius: 3px;
-  border: 1px solid #646464;
+  border: 1px solid #969696;
   color: #323232;
   cursor: pointer;
   display: inline-block;
@@ -45,7 +45,7 @@
     color: white; }
   .MButton[disabled], [disabled].MButtonRed, input[disabled][type=reset], [disabled].MButtonR, [disabled].MButtonOrange, [disabled].MButtonO, [disabled].MButtonYellow, [disabled].MButtonY, [disabled].MButtonGreen, [disabled].MButtonG, [disabled].MButtonBlue, [disabled].MButtonUpload, [disabled].MButtonU, input[disabled][type=submit], [disabled].MButtonB, [disabled].MButtonViolet, [disabled].MButtonV, button[disabled], input[disabled][type=button], .MVButtonGroup [disabled], .MButton[disabled]:hover, [disabled].MButtonRed:hover, input[disabled][type=reset]:hover, [disabled].MButtonR:hover, [disabled].MButtonOrange:hover, [disabled].MButtonO:hover, [disabled].MButtonYellow:hover, [disabled].MButtonY:hover, [disabled].MButtonGreen:hover, [disabled].MButtonG:hover, [disabled].MButtonBlue:hover, [disabled].MButtonUpload:hover, [disabled].MButtonU:hover, input[disabled][type=submit]:hover, [disabled].MButtonB:hover, [disabled].MButtonViolet:hover, [disabled].MButtonV:hover, button[disabled]:hover, input[disabled][type=button]:hover, .MVButtonGroup [disabled]:hover, .MButton[disabled]:active, [disabled].MButtonRed:active, input[disabled][type=reset]:active, [disabled].MButtonR:active, [disabled].MButtonOrange:active, [disabled].MButtonO:active, [disabled].MButtonYellow:active, [disabled].MButtonY:active, [disabled].MButtonGreen:active, [disabled].MButtonG:active, [disabled].MButtonBlue:active, [disabled].MButtonUpload:active, [disabled].MButtonU:active, input[disabled][type=submit]:active, [disabled].MButtonB:active, [disabled].MButtonViolet:active, [disabled].MButtonV:active, button[disabled]:active, input[disabled][type=button]:active, .MVButtonGroup [disabled]:active {
     background: #e6e6e6;
-    border-color: #646464;
+    border-color: #969696;
     box-shadow: none;
     color: #969696;
     text-shadow: none; }

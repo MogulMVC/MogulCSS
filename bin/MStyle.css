@@ -101,7 +101,7 @@ code {
   font-family: monospace; }
 
 hr {
-  background: #646464;
+  background: #969696;
   border: 0;
   height: 1px;
   margin: 0;
@@ -123,7 +123,7 @@ input[type='range'] {
   -webkit-appearance: none !important;
   box-shadow: inset 0 0.2em 0.35em rgba(0, 0, 0, 0.4);
   background: #969696;
-  border: 1px solid #646464;
+  border: 1px solid #969696;
   border-radius: 3px;
   height: 5px; }
   input[type='range']::-webkit-slider-thumb {
@@ -134,7 +134,7 @@ input[type='range'] {
     background: -o-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
     background: -webkit-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
     background: linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
-    border: 1px solid #646464;
+    border: 1px solid #969696;
     border-radius: 2em;
     cursor: pointer;
     height: 15px;
@@ -145,7 +145,7 @@ label {
 
 pre {
   background: #e6e6e6;
-  border: 1px solid #646464;
+  border: 1px solid #969696;
   border-radius: 3px;
   box-shadow: inset 0 0.2em 0.35em rgba(0, 0, 0, 0.4);
   color: #323232;
@@ -162,7 +162,7 @@ select {
   background: -o-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
   background: -webkit-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
   background: linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
-  border-color: #646464;
+  border-color: #969696;
   border-radius: 3px;
   border-style: solid;
   border-width: 1px;
@@ -182,7 +182,7 @@ td {
 ::-webkit-scrollbar-track {
   box-shadow: inset 0 0.2em 0.35em rgba(0, 0, 0, 0.4);
   background: #969696;
-  border: 1px solid #646464; }
+  border: 1px solid #969696; }
 
 ::-webkit-scrollbar-thumb {
   background: #c8c8c8;
@@ -191,7 +191,7 @@ td {
   background: -o-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
   background: -webkit-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
   background: linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
-  border: 1px solid #646464; }
+  border: 1px solid #969696; }
 
 .MButton, .MButtonRed, input[type=reset], .MButtonR, .MButtonOrange, .MButtonO, .MButtonYellow, .MButtonY, .MButtonGreen, .MButtonG, .MButtonBlue, .MButtonUpload, .MButtonU, input[type=submit], .MButtonB, .MButtonViolet, .MButtonV, button, input[type=button], .MHButtonGroup *, .MVButtonGroup * {
   background: #e6e6e6;
@@ -201,7 +201,7 @@ td {
   background: -webkit-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
   background: linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
   border-radius: 3px;
-  border: 1px solid #646464;
+  border: 1px solid #969696;
   color: #323232;
   cursor: pointer;
   display: inline-block;
@@ -222,7 +222,7 @@ td {
     color: white; }
   .MButton[disabled], [disabled].MButtonRed, input[disabled][type=reset], [disabled].MButtonR, [disabled].MButtonOrange, [disabled].MButtonO, [disabled].MButtonYellow, [disabled].MButtonY, [disabled].MButtonGreen, [disabled].MButtonG, [disabled].MButtonBlue, [disabled].MButtonUpload, [disabled].MButtonU, input[disabled][type=submit], [disabled].MButtonB, [disabled].MButtonViolet, [disabled].MButtonV, button[disabled], input[disabled][type=button], .MHButtonGroup [disabled], .MVButtonGroup [disabled], .MButton[disabled]:hover, [disabled].MButtonRed:hover, input[disabled][type=reset]:hover, [disabled].MButtonR:hover, [disabled].MButtonOrange:hover, [disabled].MButtonO:hover, [disabled].MButtonYellow:hover, [disabled].MButtonY:hover, [disabled].MButtonGreen:hover, [disabled].MButtonG:hover, [disabled].MButtonBlue:hover, [disabled].MButtonUpload:hover, [disabled].MButtonU:hover, input[disabled][type=submit]:hover, [disabled].MButtonB:hover, [disabled].MButtonViolet:hover, [disabled].MButtonV:hover, button[disabled]:hover, input[disabled][type=button]:hover, .MHButtonGroup [disabled]:hover, .MVButtonGroup [disabled]:hover, .MButton[disabled]:active, [disabled].MButtonRed:active, input[disabled][type=reset]:active, [disabled].MButtonR:active, [disabled].MButtonOrange:active, [disabled].MButtonO:active, [disabled].MButtonYellow:active, [disabled].MButtonY:active, [disabled].MButtonGreen:active, [disabled].MButtonG:active, [disabled].MButtonBlue:active, [disabled].MButtonUpload:active, [disabled].MButtonU:active, input[disabled][type=submit]:active, [disabled].MButtonB:active, [disabled].MButtonViolet:active, [disabled].MButtonV:active, button[disabled]:active, input[disabled][type=button]:active, .MHButtonGroup [disabled]:active, .MVButtonGroup [disabled]:active {
     background: #e6e6e6;
-    border-color: #646464;
+    border-color: #969696;
     box-shadow: none;
     color: #969696;
     text-shadow: none; }
@@ -371,14 +371,14 @@ button {
 legend {
   background: white;
   border-radius: .3em;
-  border: 0.1em solid #646464;
+  border: 0.1em solid #969696;
   font-weight: bold;
   text-align: center; }
 
 input[type="email"], input[type="number"], input[type="password"], input[type="text"], input[type="search"], textarea {
   -moz-transition: border-color 0.25s, box-shadow 0.25s, color 0.25s;
   -webkit-transition: border-color 0.25s, box-shadow 0.25s, color 0.25s;
-  border: 1px solid #646464;
+  border: 1px solid #969696;
   border-radius: 3px;
   box-shadow: inset 0 0.2em 0.35em rgba(0, 0, 0, 0.4);
   color: #646464;
@@ -681,7 +681,7 @@ li {
   background: -webkit-linear-gradient(top, #232323 0%, #141414 100%);
   background: linear-gradient(top, #232323 0%, #141414 100%);
   border-radius: 3px;
-  border-top: solid 1px #646464;
+  border-top: solid 1px #969696;
   box-shadow: 0 0.2em 0.35em rgba(0, 0, 0, 0.4);
   color: white;
   display: block;
@@ -700,7 +700,7 @@ li {
   -o-user-select:none;
   -webkit-user-select:none;
   background:#c8c8c8;
-  border-color:$mono_3;
+  border-color:$outline;
   border-style:solid;
   border-top-left-radius:$rounded;
   border-top-right-radius:$rounded;
@@ -720,7 +720,7 @@ li {
   &:hover{
     box-shadow:none;
     cursor:default;
-    border-color:$mono_3;
+    border-color:$outline;
   }
 }
 
@@ -731,7 +731,7 @@ li {
   background:-o-linear-gradient(top, $mono_5 0%,#c8c8c8 100%);
   background:-webkit-linear-gradient(top, $mono_5 0%,#c8c8c8 100%);
   background:linear-gradient(top, $mono_5 0%,#c8c8c8 100%);
-  border-color:$mono_3;
+  border-color:$outline;
   border-radius:0 $rounded $rounded $rounded;
   border-style:solid;
   border-width:0 1px 1px 1px;
@@ -771,7 +771,7 @@ li {
   -o-user-select: none;
   -webkit-user-select: none;
   background: #C8C8C8;
-  border-color: #646464;
+  border-color: #969696;
   border-style: solid;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
@@ -792,7 +792,7 @@ li {
     position: relative; }
     .MTab.active:hover {
       box-shadow: 0 0.2em 0.35em rgba(0, 0, 0, 0.4);
-      border-color: #646464; }
+      border-color: #969696; }
 
 .MTabBodyContainer {
   background: #e6e6e6;
@@ -801,7 +801,7 @@ li {
   background: -o-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
   background: -webkit-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
   background: linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
-  border-color: #646464;
+  border-color: #969696;
   border-radius: 0 3px 3px 3px;
   border-style: solid;
   border-width: 0 1px 1px 1px;
@@ -825,7 +825,7 @@ li {
   background: -webkit-linear-gradient(top, #232323 0%, #141414 100%);
   background: linear-gradient(top, #232323 0%, #141414 100%);
   border-radius: 3px;
-  border-top: solid 1px #646464;
+  border-top: solid 1px #969696;
   box-shadow: 0 1.2em 2.4em -0.8em rgba(0, 0, 0, 0.4);
   color: white;
   font-weight: bold;
@@ -921,7 +921,7 @@ li {
   top: 50%; }
 
 .MVR {
-  background: #646464;
+  background: #969696;
   height: 100%;
   margin-left: 1.6em;
   margin-right: 1.6em;
@@ -929,7 +929,7 @@ li {
 
 .MWell {
   background: #e6e6e6;
-  border: 1px solid #646464;
+  border: 1px solid #969696;
   border-radius: 3px;
   box-shadow: inset 0 0.2em 0.35em rgba(0, 0, 0, 0.4);
   color: #323232;
@@ -944,7 +944,7 @@ li {
   background: -o-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
   background: -webkit-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
   background: linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
-  border: 1px solid #646464;
+  border: 1px solid #969696;
   border-radius: 3px;
   color: #323232;
   display: block;
@@ -1017,7 +1017,7 @@ li {
     padding-top: .35em;
     user-select: none; }
     #MHeader a:hover {
-      background-color: #646464;
+      background: #646464;
       border-radius: 3px;
       box-shadow: inset 0 0.2em 0.35em rgba(0, 0, 0, 0.4);
       color: white;
@@ -1031,7 +1031,7 @@ li {
   width: .4em; }
 
 .MHeaderSeperator {
-  background: #646464;
+  background: #969696;
   height: 100%;
   margin-left: .4em;
   margin-right: .4em;
@@ -1054,7 +1054,7 @@ li {
 
 #MHeaderPhoto {
   background: #646464;
-  border: 1px solid #646464;
+  border: 1px solid #969696;
   height: 24px;
   margin-top: .4em;
   width: 24px; }
@@ -1139,7 +1139,7 @@ a#MHeaderTools {
   background: -o-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
   background: -webkit-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
   background: linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
-  border-bottom: 1px solid #646464;
+  border-bottom: 1px solid #969696;
   color: #323232;
   height: 2.4em;
   line-height: 2.4em;
@@ -1202,7 +1202,7 @@ h1.MToolBarTitle {
   margin-right: 0.4em; }
 
 .MToolBarSeperator {
-  background: #646464;
+  background: #969696;
   height: 100%;
   margin-left: 0.4em;
   margin-right: 0.4em;
@@ -1291,7 +1291,7 @@ h1.MToolBarTitle {
   background: -o-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
   background: -webkit-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
   background: linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
-  border-bottom: solid 1px #646464;
+  border-bottom: solid 1px #969696;
   min-height: 1.75em;
   overflow: hidden;
   padding: .35em;
@@ -1307,15 +1307,10 @@ h1.MToolBarTitle {
 #MSideBarMenuFixedPlaceholder {
   padding-bottom: 0px; }
 
-#MSideBar a {
-  color: #323232; }
-  #MSideBar a:hover {
-    color: white; }
-
 #MSideBar {
   background: #f0f0f0;
-  border-left: solid 1px #646464;
-  border-right: solid 1px #646464;
+  border-left: solid 1px #969696;
+  border-right: solid 1px #969696;
   overflow-x: hidden;
   overflow-y: auto;
   position: fixed;
@@ -1323,6 +1318,10 @@ h1.MToolBarTitle {
   top: 0;
   width: 350px;
   z-index: 200; }
+  #MSideBar a {
+    color: #323232; }
+    #MSideBar a:hover {
+      color: white; }
   #MSideBar .MSideBarListItem, #MSideBar .MSideBarItem {
     color: #323232;
     overflow: hidden;
@@ -1448,7 +1447,7 @@ h1.MToolBarTitle {
   width: 0.4em; }
 
 .MHBoxSeperator {
-  background: none repeat scroll 0 0 #646464;
+  background: none repeat scroll 0 0 #969696;
   height: 100%;
   margin-left: 0.4em;
   margin-right: 0.4em;
@@ -1510,11 +1509,11 @@ h1.MToolBarTitle {
   table-layout: fixed; }
 
 .MTableBorder, .table-border {
-  border: 0.1em solid #646464;
+  border: 0.1em solid #969696;
   border-collapse: collapse;
   margin: 0; }
   .MTableBorder td, .table-border td {
-    border: 0.1em solid #646464;
+    border: 0.1em solid #969696;
     margin: 0; }
 
 .MTableCenter td, .table-center td {

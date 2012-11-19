@@ -5,7 +5,7 @@
   background:-o-linear-gradient(top, $mono_5 0%,$mono_4_2 100%);
   background:-webkit-linear-gradient(top, $mono_5 0%,$mono_4_2 100%);
   background:linear-gradient(top, $mono_5 0%,$mono_4_2 100%);
-  border-bottom:1px solid $mono_3;
+  border-bottom:1px solid $outline;
   color:$mono_2;
   height:2.4em;
   line-height:2.4em;
@@ -88,7 +88,7 @@ h1.MToolBarTitle{
 }
   
 .MToolBarSeperator{
-  background:$mono_3;
+  background:$outline;
   height:100%;
   margin-left:0.4em;
   margin-right:0.4em;

@@ -4,7 +4,7 @@
   -o-user-select:none;
   -webkit-user-select:none;
   background:#c8c8c8;
-  border-color:$mono_3;
+  border-color:$outline;
   border-style:solid;
   border-top-left-radius:$rounded;
   border-top-right-radius:$rounded;
@@ -24,7 +24,7 @@
   &:hover{
     box-shadow:none;
     cursor:default;
-    border-color:$mono_3;
+    border-color:$outline;
   }
 }
 
@@ -35,7 +35,7 @@
   background:-o-linear-gradient(top, $mono_5 0%,#c8c8c8 100%);
   background:-webkit-linear-gradient(top, $mono_5 0%,#c8c8c8 100%);
   background:linear-gradient(top, $mono_5 0%,#c8c8c8 100%);
-  border-color:$mono_3;
+  border-color:$outline;
   border-radius:0 $rounded $rounded $rounded;
   border-style:solid;
   border-width:0 1px 1px 1px;
@@ -77,7 +77,7 @@
   -o-user-select:none;
   -webkit-user-select:none;
   background:#C8C8C8;
-  border-color:$mono_3;
+  border-color:$outline;
   border-style:solid;
   border-top-left-radius:$rounded;
   border-top-right-radius:$rounded;
@@ -102,7 +102,7 @@
     
     &:hover{
       box-shadow:$shadow_outer_small;
-      border-color:$mono_3;
+      border-color:$outline;
     }
     
   }
@@ -116,7 +116,7 @@
   background:-o-linear-gradient(top, $mono_5 0%,#c8c8c8 100%);
   background:-webkit-linear-gradient(top, $mono_5 0%,#c8c8c8 100%);
   background:linear-gradient(top, $mono_5 0%,#c8c8c8 100%);
-  border-color:$mono_3;
+  border-color:$outline;
   border-radius:0 $rounded $rounded $rounded;
   border-style:solid;
   border-width:0 1px 1px 1px;

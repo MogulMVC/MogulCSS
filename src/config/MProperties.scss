@@ -68,12 +68,12 @@
 }
 
 .MTableBorder, .table-border{
-  border:.1em solid $mono_3;
+  border:.1em solid $outline;
   border-collapse:collapse;
   margin:0;
   
   td{
-    border:.1em solid $mono_3;
+    border:.1em solid $outline;
     margin:0;
   }
   

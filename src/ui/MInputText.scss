@@ -1,7 +1,7 @@
 input[type="email"], input[type="number"], input[type="password"], input[type="text"], input[type="search"], textarea{
   -moz-transition:border-color $speedNorm, box-shadow 0.25s, color $speedNorm;
   -webkit-transition:border-color $speedNorm, box-shadow 0.25s, color $speedNorm;
-  border: 1px solid $mono_3;
+  border: 1px solid $outline;
   border-radius:$rounded;
   box-shadow:$shadow_inner_large;
   color:$mono_3;

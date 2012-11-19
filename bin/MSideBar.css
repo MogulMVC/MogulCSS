@@ -63,7 +63,7 @@
   background: -o-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
   background: -webkit-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
   background: linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
-  border-bottom: solid 1px #646464;
+  border-bottom: solid 1px #969696;
   min-height: 1.75em;
   overflow: hidden;
   padding: .35em;
@@ -79,15 +79,10 @@
 #MSideBarMenuFixedPlaceholder {
   padding-bottom: 0px; }
 
-#MSideBar a {
-  color: #323232; }
-  #MSideBar a:hover {
-    color: white; }
-
 #MSideBar {
   background: #f0f0f0;
-  border-left: solid 1px #646464;
-  border-right: solid 1px #646464;
+  border-left: solid 1px #969696;
+  border-right: solid 1px #969696;
   overflow-x: hidden;
   overflow-y: auto;
   position: fixed;
@@ -95,6 +90,10 @@
   top: 0;
   width: 350px;
   z-index: 200; }
+  #MSideBar a {
+    color: #323232; }
+    #MSideBar a:hover {
+      color: white; }
   #MSideBar .MSideBarListItem, #MSideBar .MSideBarItem {
     color: #323232;
     overflow: hidden;
