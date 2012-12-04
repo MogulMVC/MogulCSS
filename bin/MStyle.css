@@ -670,7 +670,7 @@ li {
   position: fixed;
   top: 0;
   width: 350px;
-  z-index: 200;
+  z-index: 1000;
   right: 0; }
 
 .MSystemMessage {
@@ -691,7 +691,7 @@ li {
   max-width: 450px;
   padding: 1.6em;
   margin: .4em;
-  z-index: 500;
+  z-index: 1100;
   position: relative; }
 
 /*
@@ -1463,7 +1463,7 @@ h1.MToolBarTitle {
 .MTextCentered, .MCentered, .centered {
   text-align: center; }
 
-.MTextRight, .text-right {
+.MTextRight {
   text-align: right; }
 
 .MLeft, .float-left, .left {
