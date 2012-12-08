@@ -1,0 +1,77 @@
+.MDropdown {
+  list-style: none;
+  margin: 10px;
+  padding: 0;
+  display: block;
+  background:$mono_4_2;
+  background:-moz-linear-gradient(top, $mono_5 0%, $mono_4_2 100%);
+  background:-ms-linear-gradient(top, $mono_5 0%,$mono_4_2 100%);
+  background:-o-linear-gradient(top, $mono_5 0%,$mono_4_2 100%);
+  background:-webkit-linear-gradient(top, $mono_5 0%,$mono_4_2 100%);
+  background:linear-gradient(top, $mono_5 0%,$mono_4_2 100%);
+  
+  & li {
+    float: left;
+    position: relative;
+    display: block;
+    
+    & a {
+      font-weight: bold;
+      display: block;
+      background: none;
+      padding: 5px 10px;
+      color: $mono_1;
+      text-decoration: none;
+    }
+        
+    
+  }
+  
+}
+
+.MDropdown > li:hover > a {
+  background:$mono_1_2;
+  background:-moz-linear-gradient(top, $mono_1_3 0%, $mono_1_2 100%);
+  background:-ms-linear-gradient(top, $mono_1_3 0%,$mono_1_2 100%);
+  background:-o-linear-gradient(top, $mono_1_3 0%,$mono_1_2 100%);
+  background:-webkit-linear-gradient(top, $mono_1_3 0%,$mono_1_2 100%);
+  background:linear-gradient(top, $mono_1_3 0%,$mono_1_2 100%);
+  color: $mono_6;
+  border-radius: $rounded;
+}
+
+.MDropdown ul {
+  display: none;
+  position: absolute;
+  list-style: none;
+  z-index: 10;
+  background: $mono_6;
+  color: $mono_6;
+  margin: 0;
+  padding: 0 0;
+  box-shadow: $shadow_outer_small;
+  border: 1px solid $outline;
+  border-radius: $rounded;
+  
+  & li {
+    float: none;
+    min-width: 150px;
+  }
+  
+  & a {
+    white-space: nowrap;
+    display: block;
+  }
+  
+}
+
+.MDropdown ul li:hover > a {
+  background:$mono_1_2;
+  background:-moz-linear-gradient(top, $mono_1_3 0%, $mono_1_2 100%);
+  background:-ms-linear-gradient(top, $mono_1_3 0%,$mono_1_2 100%);
+  background:-o-linear-gradient(top, $mono_1_3 0%,$mono_1_2 100%);
+  background:-webkit-linear-gradient(top, $mono_1_3 0%,$mono_1_2 100%);
+  background:linear-gradient(top, $mono_1_3 0%,$mono_1_2 100%);
+  color: $mono_6;
+}
+
