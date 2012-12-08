@@ -368,6 +368,67 @@ button {
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px; }
 
+.MDropdown {
+  list-style: none;
+  margin: 10px;
+  padding: 0;
+  display: block;
+  background: #c8c8c8;
+  background: -moz-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
+  background: -ms-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
+  background: -o-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
+  background: -webkit-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
+  background: linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%); }
+  .MDropdown li {
+    float: left;
+    position: relative;
+    display: block; }
+    .MDropdown li a {
+      font-weight: bold;
+      display: block;
+      background: none;
+      padding: 5px 10px;
+      color: #0a0a0a;
+      text-decoration: none; }
+
+.MDropdown > li:hover > a {
+  background: #141414;
+  background: -moz-linear-gradient(top, #232323 0%, #141414 100%);
+  background: -ms-linear-gradient(top, #232323 0%, #141414 100%);
+  background: -o-linear-gradient(top, #232323 0%, #141414 100%);
+  background: -webkit-linear-gradient(top, #232323 0%, #141414 100%);
+  background: linear-gradient(top, #232323 0%, #141414 100%);
+  color: white;
+  border-radius: 3px; }
+
+.MDropdown ul {
+  display: none;
+  position: absolute;
+  list-style: none;
+  z-index: 10;
+  background: white;
+  color: white;
+  margin: 0;
+  padding: 0 0;
+  box-shadow: 0 0.2em 0.35em rgba(0, 0, 0, 0.4);
+  border: 1px solid #969696;
+  border-radius: 3px; }
+  .MDropdown ul li {
+    float: none;
+    min-width: 150px; }
+  .MDropdown ul a {
+    white-space: nowrap;
+    display: block; }
+
+.MDropdown ul li:hover > a {
+  background: #141414;
+  background: -moz-linear-gradient(top, #232323 0%, #141414 100%);
+  background: -ms-linear-gradient(top, #232323 0%, #141414 100%);
+  background: -o-linear-gradient(top, #232323 0%, #141414 100%);
+  background: -webkit-linear-gradient(top, #232323 0%, #141414 100%);
+  background: linear-gradient(top, #232323 0%, #141414 100%);
+  color: white; }
+
 legend {
   background: white;
   border-radius: .3em;
