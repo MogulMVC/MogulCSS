@@ -1,8 +1,8 @@
-.MContent, #MContentList, .MContent1000, .MContent960, .MContent900, .MContent870, .MContent840, .MContent800, .MContent740, .MContent700, .MContent610, .MContent600, .MContent500, .MContent400, .MContent300, .MContent200, .MContent100 {
+.MContent, .MContentList, .MContent1000, .MContent960, .MContent900, .MContent870, .MContent840, .MContent800, .MContent740, .MContent700, .MContent610, .MContent600, .MContent500, .MContent400, .MContent300, .MContent200, .MContent100 {
   margin: 0 auto;
   text-align: left; }
 
-#MContentList {
+.MContentList {
   width: 80%; }
 
 .MContent1000 {

@@ -1,14 +1,14 @@
 .MModalBG, .MModalBGBlack, .MModalBGWhite {
-  height: 150%;
+  height: 100%;
   left: 0;
-  opacity: .8;
   position: fixed;
+  text-align: center;
   top: 0;
-  width: 150%;
+  width: 100%;
   z-index: 1500; }
 
 .MModalBGBlack {
-  background-color: #0a0a0a; }
+  background: rgba(0, 0, 0, 0.8); }
 
 .MModalBGWhite {
-  background-color: white; }
+  background: rgba(255, 255, 255, 0.8); }

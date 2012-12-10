@@ -554,19 +554,19 @@ li {
   list-style-type: none; }
 
 .MModalBG, .MModalBGBlack, .MModalBGWhite {
-  height: 150%;
+  height: 100%;
   left: 0;
-  opacity: .8;
   position: fixed;
+  text-align: center;
   top: 0;
-  width: 150%;
+  width: 100%;
   z-index: 1500; }
 
 .MModalBGBlack {
-  background-color: #0a0a0a; }
+  background: rgba(0, 0, 0, 0.8); }
 
 .MModalBGWhite {
-  background-color: white; }
+  background: rgba(255, 255, 255, 0.8); }
 
 .MNote, .MNoteRed, .MNoteR, .MNoteOrange, .MNoteO, .MNoteYellow, .MNoteY, .MNoteGreen, .MNoteG, .MNoteBlue, .MNoteB, .MNoteViolet, .MNoteV {
   background: #f0f0f0;
@@ -1430,11 +1430,11 @@ h1.MToolBarTitle {
   opacity: 0;
   width: 100%; }
 
-.MContent, #MContentList, .MContent1000, .MContent960, .MContent900, .MContent870, .MContent840, .MContent800, .MContent740, .MContent700, .MContent610, .MContent600, .MContent500, .MContent400, .MContent300, .MContent200, .MContent100 {
+.MContent, .MContentList, .MContent1000, .MContent960, .MContent900, .MContent870, .MContent840, .MContent800, .MContent740, .MContent700, .MContent610, .MContent600, .MContent500, .MContent400, .MContent300, .MContent200, .MContent100 {
   margin: 0 auto;
   text-align: left; }
 
-#MContentList {
+.MContentList {
   width: 80%; }
 
 .MContent1000 {
