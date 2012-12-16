@@ -3,12 +3,6 @@
   margin: 10px;
   padding: 0;
   display: block;
-  background:$mono_4_2;
-  background:-moz-linear-gradient(top, $mono_5 0%, $mono_4_2 100%);
-  background:-ms-linear-gradient(top, $mono_5 0%,$mono_4_2 100%);
-  background:-o-linear-gradient(top, $mono_5 0%,$mono_4_2 100%);
-  background:-webkit-linear-gradient(top, $mono_5 0%,$mono_4_2 100%);
-  background:linear-gradient(top, $mono_5 0%,$mono_4_2 100%);
   
   & li {
     float: left;
@@ -16,11 +10,9 @@
     display: block;
     
     & a {
-      font-weight: bold;
       display: block;
       background: none;
       padding: 5px 10px;
-      color: $mono_1;
       text-decoration: none;
     }
         
