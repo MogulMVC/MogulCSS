@@ -9,26 +9,25 @@
 }
 
 .MNoteRed, .MNoteR{@extend .MNote;
-  background:$red_2;
+  background:#f26c4f;
 }
 
 .MNoteOrange, .MNoteO{@extend .MNote;
-  background:$orange_2;
+  background: #f7941d;
 }
 
 .MNoteYellow, .MNoteY{@extend .MNote;
-  background:#fff046
+  background: #fff568;
 }
 
 .MNoteGreen, .MNoteG{@extend .MNote;
-  background:$green_2;
+  background: #7cc576;
 }
 
 .MNoteBlue, .MNoteB{@extend .MNote;
-  background:$blue_2;
+  background: #448ccb;
 }
 
 .MNoteViolet, .MNoteV{@extend .MNote;
-  background:$violet_2;
+  background: #8781bd;
 }
-

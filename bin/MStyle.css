@@ -570,22 +570,22 @@ li {
   position: relative; }
 
 .MNoteRed, .MNoteR {
-  background: #fa0000; }
+  background: #f26c4f; }
 
 .MNoteOrange, .MNoteO {
-  background: #fa6400; }
+  background: #f7941d; }
 
 .MNoteYellow, .MNoteY {
-  background: #fff046; }
+  background: #fff568; }
 
 .MNoteGreen, .MNoteG {
-  background: #00fa00; }
+  background: #7cc576; }
 
 .MNoteBlue, .MNoteB {
-  background: #007dfa; }
+  background: #448ccb; }
 
 .MNoteViolet, .MNoteV {
-  background: #7d00fa; }
+  background: #8781bd; }
 
 .MPopup {
   box-shadow: 0 1.2em 2.4em -0.8em rgba(0, 0, 0, 0.4);
