@@ -1,3 +1,8 @@
+/* 
+ * MStyle.css by Alan James
+ * version 130211
+ * recommended Sass version 2.3.1
+ */
 a.MTextBold, h1.MTextBold, h2.MTextBold, h3.MTextBold, h4.MTextBold, h5.MTextBold, h6.MTextBold, input.MTextBold, label.MTextBold, p.MTextBold, span.MTextBold, textarea.MTextBold {
   font-weight: bold; }
 a.MTextItalics, h1.MTextItalics, h2.MTextItalics, h3.MTextItalics, h4.MTextItalics, h5.MTextItalics, h6.MTextItalics, input.MTextItalics, label.MTextItalics, p.MTextItalics, span.MTextItalics, textarea.MTextItalics {

@@ -1,3 +1,8 @@
+/* 
+ * MStyle.css by Alan James
+ * version 130211
+ * recommended Sass version 2.3.1
+ */
 .MGlow, .MButton, .MButtonRed, input[type=reset], .MButtonR, .MButtonOrange, .MButtonO, .MButtonYellow, .MButtonY, .MButtonGreen, .MButtonG, .MButtonBlue, .MButtonUpload, .MButtonU, input[type=submit], .MButtonB, .MButtonViolet, .MButtonV, button, input[type=button], .MHButtonGroup * {
   -moz-transition: box-shadow 0.25s;
   -o-transition: box-shadow 0.25s;
