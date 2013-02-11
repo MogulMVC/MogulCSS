@@ -1,1 +1,1 @@
-.MModalBG,.MModalBGBlack,.MModalBGWhite{height:100%;left:0;position:fixed;text-align:center;top:0;width:100%;z-index:1500}.MModalBGBlack{background:rgba(0,0,0,0.8)}.MModalBGWhite{background:rgba(255,255,255,0.8)}
+.MModalBG,.MModalBGBlack,.MModalBlack,.MModalBGWhite,.MModalWhite,.MModal{height:100%;left:0;position:fixed;text-align:center;top:0;width:100%;z-index:1500}.MModalBGBlack,.MModalBlack{background:rgba(0,0,0,0.8)}.MModalBGWhite,.MModalWhite{background:rgba(255,255,255,0.8)}

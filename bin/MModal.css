@@ -1,4 +1,4 @@
-.MModalBG, .MModalBGBlack, .MModalBGWhite {
+.MModalBG, .MModalBGBlack, .MModalBlack, .MModalBGWhite, .MModalWhite, .MModal {
   height: 100%;
   left: 0;
   position: fixed;
@@ -7,8 +7,8 @@
   width: 100%;
   z-index: 1500; }
 
-.MModalBGBlack {
+.MModalBGBlack, .MModalBlack {
   background: rgba(0, 0, 0, 0.8); }
 
-.MModalBGWhite {
+.MModalBGWhite, .MModalWhite {
   background: rgba(255, 255, 255, 0.8); }

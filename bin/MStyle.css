@@ -545,7 +545,7 @@ ul {
 li {
   list-style-type: none; }
 
-.MModalBG, .MModalBGBlack, .MModalBGWhite {
+.MModalBG, .MModalBGBlack, .MModalBlack, .MModalBGWhite, .MModalWhite, .MModal {
   height: 100%;
   left: 0;
   position: fixed;
@@ -554,10 +554,10 @@ li {
   width: 100%;
   z-index: 1500; }
 
-.MModalBGBlack {
+.MModalBGBlack, .MModalBlack {
   background: rgba(0, 0, 0, 0.8); }
 
-.MModalBGWhite {
+.MModalBGWhite, .MModalWhite {
   background: rgba(255, 255, 255, 0.8); }
 
 .MNote, .MNoteRed, .MNoteR, .MNoteOrange, .MNoteO, .MNoteYellow, .MNoteY, .MNoteGreen, .MNoteG, .MNoteBlue, .MNoteB, .MNoteViolet, .MNoteV {
@@ -1445,7 +1445,7 @@ h1.MToolBarTitle {
   width: 840px; }
 
 .MContent800 {
-  width: 600px; }
+  width: 800px; }
 
 .MContent740 {
   width: 740px; }
