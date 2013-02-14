@@ -1,17 +1,17 @@
 /* 
  * MStyle.css by Alan James
- * version 130211
+ * version 130214
  * recommended Sass version 2.3.1
  */
-.MGlow, .MButton, .MButtonRed, input[type=reset], .MButtonR, .MButtonOrange, .MButtonO, .MButtonYellow, .MButtonY, .MButtonGreen, .MButtonG, .MButtonBlue, .MButtonUpload, .MButtonU, input[type=submit], .MButtonB, .MButtonViolet, .MButtonV, button, input[type=button], .MVButtonGroup * {
+.MGlow, .MButton, .MButtonRed, input[type=reset], .MButtonR, .MButtonOrange, .MButtonO, .MButtonYellow, .MButtonY, .MButtonGreen, .MButtonG, .MButtonBlue, input[type=submit], .MButtonB, .MButtonViolet, .MButtonUpload, .MButtonU, .MButtonV, button, input[type=button], .MVButtonGroup * {
   -moz-transition: box-shadow 0.25s;
   -o-transition: box-shadow 0.25s;
   -webkit-transition: box-shadow 0.25s;
   transition: box-shadow 0.25s; }
-  .MGlow:hover, .MButton:hover, .MButtonRed:hover, input[type=reset]:hover, .MButtonR:hover, .MButtonOrange:hover, .MButtonO:hover, .MButtonYellow:hover, .MButtonY:hover, .MButtonGreen:hover, .MButtonG:hover, .MButtonBlue:hover, .MButtonUpload:hover, .MButtonU:hover, input[type=submit]:hover, .MButtonB:hover, .MButtonViolet:hover, .MButtonV:hover, button:hover, input[type=button]:hover, .MVButtonGroup :hover {
+  .MGlow:hover, .MButton:hover, .MButtonRed:hover, input[type=reset]:hover, .MButtonR:hover, .MButtonOrange:hover, .MButtonO:hover, .MButtonYellow:hover, .MButtonY:hover, .MButtonGreen:hover, .MButtonG:hover, .MButtonBlue:hover, input[type=submit]:hover, .MButtonB:hover, .MButtonViolet:hover, .MButtonUpload:hover, .MButtonU:hover, .MButtonV:hover, button:hover, input[type=button]:hover, .MVButtonGroup :hover {
     border-color: #007dfa;
     box-shadow: 0 0 0.4em #007dfa; }
-  .MGlow:active, .MButton:active, .MButtonRed:active, input[type=reset]:active, .MButtonR:active, .MButtonOrange:active, .MButtonO:active, .MButtonYellow:active, .MButtonY:active, .MButtonGreen:active, .MButtonG:active, .MButtonBlue:active, .MButtonUpload:active, .MButtonU:active, input[type=submit]:active, .MButtonB:active, .MButtonViolet:active, .MButtonV:active, button:active, input[type=button]:active, .MVButtonGroup :active {
+  .MGlow:active, .MButton:active, .MButtonRed:active, input[type=reset]:active, .MButtonR:active, .MButtonOrange:active, .MButtonO:active, .MButtonYellow:active, .MButtonY:active, .MButtonGreen:active, .MButtonG:active, .MButtonBlue:active, input[type=submit]:active, .MButtonB:active, .MButtonViolet:active, .MButtonUpload:active, .MButtonU:active, .MButtonV:active, button:active, input[type=button]:active, .MVButtonGroup :active {
     border-color: inherit;
     box-shadow: inherit; }
 
@@ -45,7 +45,7 @@
 .MTextShadowLarge {
   text-shadow: 0 0.2em 0.35em rgba(0, 0, 0, 0.4); }
 
-.MButton, .MButtonRed, input[type=reset], .MButtonR, .MButtonOrange, .MButtonO, .MButtonYellow, .MButtonY, .MButtonGreen, .MButtonG, .MButtonBlue, .MButtonUpload, .MButtonU, input[type=submit], .MButtonB, .MButtonViolet, .MButtonV, button, input[type=button], .MVButtonGroup * {
+.MButton, .MButtonRed, input[type=reset], .MButtonR, .MButtonOrange, .MButtonO, .MButtonYellow, .MButtonY, .MButtonGreen, .MButtonG, .MButtonBlue, input[type=submit], .MButtonB, .MButtonViolet, .MButtonUpload, .MButtonU, .MButtonV, button, input[type=button], .MVButtonGroup * {
   background: #e6e6e6;
   background: -moz-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
   background: -ms-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
@@ -64,21 +64,21 @@
   padding-left: 0.5em;
   padding-right: 0.5em;
   white-space: nowrap; }
-  .MButton:hover, .MButtonRed:hover, input[type=reset]:hover, .MButtonR:hover, .MButtonOrange:hover, .MButtonO:hover, .MButtonYellow:hover, .MButtonY:hover, .MButtonGreen:hover, .MButtonG:hover, .MButtonBlue:hover, .MButtonUpload:hover, .MButtonU:hover, input[type=submit]:hover, .MButtonB:hover, .MButtonViolet:hover, .MButtonV:hover, button:hover, input[type=button]:hover, .MVButtonGroup :hover {
+  .MButton:hover, .MButtonRed:hover, input[type=reset]:hover, .MButtonR:hover, .MButtonOrange:hover, .MButtonO:hover, .MButtonYellow:hover, .MButtonY:hover, .MButtonGreen:hover, .MButtonG:hover, .MButtonBlue:hover, input[type=submit]:hover, .MButtonB:hover, .MButtonViolet:hover, .MButtonUpload:hover, .MButtonU:hover, .MButtonV:hover, button:hover, input[type=button]:hover, .MVButtonGroup :hover {
     border-color: #007dfa;
     color: #323232; }
-  .MButton:active, .MButtonRed:active, input[type=reset]:active, .MButtonR:active, .MButtonOrange:active, .MButtonO:active, .MButtonYellow:active, .MButtonY:active, .MButtonGreen:active, .MButtonG:active, .MButtonBlue:active, .MButtonUpload:active, .MButtonU:active, input[type=submit]:active, .MButtonB:active, .MButtonViolet:active, .MButtonV:active, button:active, input[type=button]:active, .MVButtonGroup :active {
+  .MButton:active, .MButtonRed:active, input[type=reset]:active, .MButtonR:active, .MButtonOrange:active, .MButtonO:active, .MButtonYellow:active, .MButtonY:active, .MButtonGreen:active, .MButtonG:active, .MButtonBlue:active, input[type=submit]:active, .MButtonB:active, .MButtonViolet:active, .MButtonUpload:active, .MButtonU:active, .MButtonV:active, button:active, input[type=button]:active, .MVButtonGroup :active {
     background: #646464;
     border-color: #323232;
     box-shadow: inset 0 0.2em 0.35em rgba(0, 0, 0, 0.4);
     color: white; }
-  .MButton[disabled], [disabled].MButtonRed, input[disabled][type=reset], [disabled].MButtonR, [disabled].MButtonOrange, [disabled].MButtonO, [disabled].MButtonYellow, [disabled].MButtonY, [disabled].MButtonGreen, [disabled].MButtonG, [disabled].MButtonBlue, [disabled].MButtonUpload, [disabled].MButtonU, input[disabled][type=submit], [disabled].MButtonB, [disabled].MButtonViolet, [disabled].MButtonV, button[disabled], input[disabled][type=button], .MVButtonGroup [disabled], .MButton[disabled]:hover, [disabled].MButtonRed:hover, input[disabled][type=reset]:hover, [disabled].MButtonR:hover, [disabled].MButtonOrange:hover, [disabled].MButtonO:hover, [disabled].MButtonYellow:hover, [disabled].MButtonY:hover, [disabled].MButtonGreen:hover, [disabled].MButtonG:hover, [disabled].MButtonBlue:hover, [disabled].MButtonUpload:hover, [disabled].MButtonU:hover, input[disabled][type=submit]:hover, [disabled].MButtonB:hover, [disabled].MButtonViolet:hover, [disabled].MButtonV:hover, button[disabled]:hover, input[disabled][type=button]:hover, .MVButtonGroup [disabled]:hover, .MButton[disabled]:active, [disabled].MButtonRed:active, input[disabled][type=reset]:active, [disabled].MButtonR:active, [disabled].MButtonOrange:active, [disabled].MButtonO:active, [disabled].MButtonYellow:active, [disabled].MButtonY:active, [disabled].MButtonGreen:active, [disabled].MButtonG:active, [disabled].MButtonBlue:active, [disabled].MButtonUpload:active, [disabled].MButtonU:active, input[disabled][type=submit]:active, [disabled].MButtonB:active, [disabled].MButtonViolet:active, [disabled].MButtonV:active, button[disabled]:active, input[disabled][type=button]:active, .MVButtonGroup [disabled]:active {
+  .MButton[disabled], [disabled].MButtonRed, input[disabled][type=reset], [disabled].MButtonR, [disabled].MButtonOrange, [disabled].MButtonO, [disabled].MButtonYellow, [disabled].MButtonY, [disabled].MButtonGreen, [disabled].MButtonG, [disabled].MButtonBlue, input[disabled][type=submit], [disabled].MButtonB, [disabled].MButtonViolet, [disabled].MButtonUpload, [disabled].MButtonU, [disabled].MButtonV, button[disabled], input[disabled][type=button], .MVButtonGroup [disabled], .MButton[disabled]:hover, [disabled].MButtonRed:hover, input[disabled][type=reset]:hover, [disabled].MButtonR:hover, [disabled].MButtonOrange:hover, [disabled].MButtonO:hover, [disabled].MButtonYellow:hover, [disabled].MButtonY:hover, [disabled].MButtonGreen:hover, [disabled].MButtonG:hover, [disabled].MButtonBlue:hover, input[disabled][type=submit]:hover, [disabled].MButtonB:hover, [disabled].MButtonViolet:hover, [disabled].MButtonUpload:hover, [disabled].MButtonU:hover, [disabled].MButtonV:hover, button[disabled]:hover, input[disabled][type=button]:hover, .MVButtonGroup [disabled]:hover, .MButton[disabled]:active, [disabled].MButtonRed:active, input[disabled][type=reset]:active, [disabled].MButtonR:active, [disabled].MButtonOrange:active, [disabled].MButtonO:active, [disabled].MButtonYellow:active, [disabled].MButtonY:active, [disabled].MButtonGreen:active, [disabled].MButtonG:active, [disabled].MButtonBlue:active, input[disabled][type=submit]:active, [disabled].MButtonB:active, [disabled].MButtonViolet:active, [disabled].MButtonUpload:active, [disabled].MButtonU:active, [disabled].MButtonV:active, button[disabled]:active, input[disabled][type=button]:active, .MVButtonGroup [disabled]:active {
     background: #e6e6e6;
     border-color: #969696;
     box-shadow: none;
     color: #969696;
     text-shadow: none; }
-  .MButton span, .MButtonRed span, input[type=reset] span, .MButtonR span, .MButtonOrange span, .MButtonO span, .MButtonYellow span, .MButtonY span, .MButtonGreen span, .MButtonG span, .MButtonBlue span, .MButtonUpload span, .MButtonU span, input[type=submit] span, .MButtonB span, .MButtonViolet span, .MButtonV span, button span, input[type=button] span, .MVButtonGroup * span {
+  .MButton span, .MButtonRed span, input[type=reset] span, .MButtonR span, .MButtonOrange span, .MButtonO span, .MButtonYellow span, .MButtonY span, .MButtonGreen span, .MButtonG span, .MButtonBlue span, input[type=submit] span, .MButtonB span, .MButtonViolet span, .MButtonUpload span, .MButtonU span, .MButtonV span, button span, input[type=button] span, .MVButtonGroup * span {
     -moz-user-select: -moz-none;
     -o-user-select: none;
     -webkit-user-select: none;
@@ -140,7 +140,7 @@
   .MButtonGreen:active, .MButtonG:active {
     color: white; }
 
-.MButtonBlue, .MButtonUpload, .MButtonU, input[type=submit], .MButtonB {
+.MButtonBlue, input[type=submit], .MButtonB {
   background: #004b96;
   background: -moz-linear-gradient(top, #007dfa 0%, #004b96 100%);
   background: -ms-linear-gradient(top, #007dfa 0%, #004b96 100%);
@@ -149,12 +149,12 @@
   background: linear-gradient(top, #007dfa 0%, #004b96 100%);
   color: white;
   text-shadow: 0 0 0.4em rgba(0, 0, 0, 0.4); }
-  .MButtonBlue:hover, .MButtonUpload:hover, .MButtonU:hover, input[type=submit]:hover, .MButtonB:hover {
+  .MButtonBlue:hover, input[type=submit]:hover, .MButtonB:hover {
     color: white; }
-  .MButtonBlue:active, .MButtonUpload:active, .MButtonU:active, input[type=submit]:active, .MButtonB:active {
+  .MButtonBlue:active, input[type=submit]:active, .MButtonB:active {
     color: white; }
 
-.MButtonViolet, .MButtonV {
+.MButtonViolet, .MButtonUpload, .MButtonU, .MButtonV {
   background: #4b0096;
   background: -moz-linear-gradient(top, #7d00fa 0%, #4b0096 100%);
   background: -ms-linear-gradient(top, #7d00fa 0%, #4b0096 100%);
@@ -163,9 +163,9 @@
   background: linear-gradient(top, #7d00fa 0%, #4b0096 100%);
   color: white;
   text-shadow: 0 0 0.4em rgba(0, 0, 0, 0.4); }
-  .MButtonViolet:hover, .MButtonV:hover {
+  .MButtonViolet:hover, .MButtonUpload:hover, .MButtonU:hover, .MButtonV:hover {
     color: white; }
-  .MButtonViolet:active, .MButtonV:active {
+  .MButtonViolet:active, .MButtonUpload:active, .MButtonU:active, .MButtonV:active {
     color: white; }
 
 .MButtonUpload, .MButtonU {
@@ -181,11 +181,11 @@
   width: 100%;
   opacity: 0; }
 
-a.MButton, a.MButtonRed, a.MButtonR, a.MButtonOrange, a.MButtonO, a.MButtonYellow, a.MButtonY, a.MButtonGreen, a.MButtonG, a.MButtonBlue, a.MButtonUpload, a.MButtonU, a.MButtonB, a.MButtonViolet, a.MButtonV, .MVButtonGroup a, div.MButton, div.MButtonRed, div.MButtonR, div.MButtonOrange, div.MButtonO, div.MButtonYellow, div.MButtonY, div.MButtonGreen, div.MButtonG, div.MButtonBlue, div.MButtonUpload, div.MButtonU, div.MButtonB, div.MButtonViolet, div.MButtonV, .MVButtonGroup div, span.MButton, span.MButtonRed, span.MButtonR, span.MButtonOrange, span.MButtonO, span.MButtonYellow, span.MButtonY, span.MButtonGreen, span.MButtonG, span.MButtonBlue, span.MButtonUpload, span.MButtonU, span.MButtonB, span.MButtonViolet, span.MButtonV, .MVButtonGroup span {
+a.MButton, a.MButtonRed, a.MButtonR, a.MButtonOrange, a.MButtonO, a.MButtonYellow, a.MButtonY, a.MButtonGreen, a.MButtonG, a.MButtonBlue, a.MButtonB, a.MButtonViolet, a.MButtonUpload, a.MButtonU, a.MButtonV, .MVButtonGroup a, div.MButton, div.MButtonRed, div.MButtonR, div.MButtonOrange, div.MButtonO, div.MButtonYellow, div.MButtonY, div.MButtonGreen, div.MButtonG, div.MButtonBlue, div.MButtonB, div.MButtonViolet, div.MButtonUpload, div.MButtonU, div.MButtonV, .MVButtonGroup div, span.MButton, span.MButtonRed, span.MButtonR, span.MButtonOrange, span.MButtonO, span.MButtonYellow, span.MButtonY, span.MButtonGreen, span.MButtonG, span.MButtonBlue, span.MButtonB, span.MButtonViolet, span.MButtonUpload, span.MButtonU, span.MButtonV, .MVButtonGroup span {
   height: 1.45em;
   line-height: 1.45em; }
 
-button.MButton, button.MButtonRed, button.MButtonR, button.MButtonOrange, button.MButtonO, button.MButtonYellow, button.MButtonY, button.MButtonGreen, button.MButtonG, button.MButtonBlue, button.MButtonUpload, button.MButtonU, button.MButtonB, button.MButtonViolet, button.MButtonV, button, .MVButtonGroup button {
+button.MButton, button.MButtonRed, button.MButtonR, button.MButtonOrange, button.MButtonO, button.MButtonYellow, button.MButtonY, button.MButtonGreen, button.MButtonG, button.MButtonBlue, button.MButtonB, button.MButtonViolet, button.MButtonUpload, button.MButtonU, button.MButtonV, button, .MVButtonGroup button {
   height: 1.6em;
   line-height: 1; }
 
