@@ -7,8 +7,6 @@ $shadow_inner_small:inset 0 0 .4em rgba(0,0,0,.4);
 $shadow_text_large:0 .2em .35em rgba(0,0,0,.4);
 $shadow_text_small:0 0 .4em rgba(0,0,0,.4);
 
-// Classes
-
 .MShadowOuterSmall{
   box-shadow:$shadow_outer_small;
 }
