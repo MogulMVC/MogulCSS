@@ -147,6 +147,26 @@ a#MHeaderTools {
     padding: 0;
     text-shadow: none; }
 
+a#MHeaderSettings {
+  background-color: transparent;
+  background-image: url("/framework/img/global/header_settings.png");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  height: 36px;
+  margin: 0;
+  padding: 0;
+  width: 22px; }
+  a#MHeaderSettings:hover {
+    background-color: transparent;
+    background-image: url("/framework/img/global/header_settings.png");
+    background-position: 0 -36px;
+    background-repeat: no-repeat;
+    border-radius: 0;
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
+    text-shadow: none; }
+
 #MHeaderToolsWide {
   height: 100%; }
 
