@@ -190,7 +190,7 @@ button.MButton{
   line-height:1;
 }
 
-button{@extend .MButton; 
+button{@extend .MButton !optional; 
   cursor:pointer;
   font-size:1em;
   
@@ -201,7 +201,7 @@ button{@extend .MButton;
 }
 
 input{
-  &[type=button]{@extend .MButton;}
-  &[type=submit]{@extend .MButtonBlue;}
-  &[type=reset]{@extend .MButtonRed;}
+  &[type=button]{@extend .MButton !optional;}
+  &[type=submit]{@extend .MButtonBlue !optional;}
+  &[type=reset]{@extend .MButtonRed !optional;}
 }

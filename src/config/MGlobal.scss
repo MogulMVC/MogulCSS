@@ -105,11 +105,12 @@ label{
 
 pre{
   background:#e6e6e6;
-  border:1px solid $outline;
   border-radius:$rounded;
+  border:1px solid $outline;
   box-shadow:$shadow_inner_large;
   color:$mono_2;
   display:block;
+  margin:0;
   padding:0.5em;
   text-align:left;
 }

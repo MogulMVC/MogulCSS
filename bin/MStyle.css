@@ -1,6 +1,6 @@
 /* 
  * MStyle.css by Alan James
- * version 130310
+ * version 130416
  * recommended Sass version 2.3.1
  */
 a.MTextBold, h1.MTextBold, h2.MTextBold, h3.MTextBold, h4.MTextBold, h5.MTextBold, h6.MTextBold, input.MTextBold, label.MTextBold, p.MTextBold, span.MTextBold, textarea.MTextBold {
@@ -150,11 +150,12 @@ label {
 
 pre {
   background: #e6e6e6;
-  border: 1px solid #969696;
   border-radius: 3px;
+  border: 1px solid #969696;
   box-shadow: inset 0 0.2em 0.35em rgba(0, 0, 0, 0.4);
   color: #323232;
   display: block;
+  margin: 0;
   padding: 0.5em;
   text-align: left; }
 
@@ -1004,6 +1005,7 @@ li {
   background: linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
   border: 1px solid #969696;
   border-radius: 3px;
+  box-shadow: 0 0.2em 0.35em rgba(0, 0, 0, 0.4);
   color: #323232;
   display: block;
   padding: 1em;
@@ -1310,7 +1312,7 @@ h1.MToolBarTitle {
   position: fixed;
   top: 0;
   width: .8em;
-  z-index: 100; }
+  z-index: 200; }
 
 #MSideBarTriggerRight {
   height: 100%;
@@ -1318,7 +1320,7 @@ h1.MToolBarTitle {
   right: 0;
   top: 0;
   width: .8em;
-  z-index: 100; }
+  z-index: 200; }
 
 #MSideBarTriggerLeftIndicator {
   background: -moz-linear-gradient(left, #007dfa 0%, rgba(0, 125, 250, 0) 100%);
@@ -1531,8 +1533,7 @@ h1.MToolBarTitle {
   width: 1px; }
 
 .MVBoxLayout * {
-  display: block;
-  width: 100%; }
+  display: block; }
 
 .MTextLeft {
   text-align: left; }

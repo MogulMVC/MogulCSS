@@ -1,8 +1,7 @@
 /* 
  * MStyle.css by Alan James
- * version 130310
+ * version 130416
  * recommended Sass version 2.3.1
  */
 .MVBoxLayout * {
-  display: block;
-  width: 100%; }
+  display: block; }

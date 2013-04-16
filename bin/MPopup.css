@@ -1,6 +1,6 @@
 /* 
  * MStyle.css by Alan James
- * version 130310
+ * version 130416
  * recommended Sass version 2.3.1
  */
 .MShadowOuterSmall {
@@ -77,6 +77,7 @@
   background: linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
   border: 1px solid #969696;
   border-radius: 3px;
+  box-shadow: 0 0.2em 0.35em rgba(0, 0, 0, 0.4);
   color: #323232;
   display: block;
   padding: 1em;

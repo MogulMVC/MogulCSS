@@ -1,8 +1,26 @@
 /* 
  * MStyle.css by Alan James
- * version 130310
+ * version 130416
  * recommended Sass version 2.3.1
  */
+.MShadowOuterSmall {
+  box-shadow: 0 0.2em 0.35em rgba(0, 0, 0, 0.4); }
+
+.MShadowOuterLarge {
+  box-shadow: 0 1.2em 2.4em -0.8em rgba(0, 0, 0, 0.4); }
+
+.MShadowInnerSmall {
+  box-shadow: inset 0 0 0.4em rgba(0, 0, 0, 0.4); }
+
+.MShadowInnerLarge {
+  box-shadow: inset 0 0.2em 0.35em rgba(0, 0, 0, 0.4); }
+
+.MTextShadowSmall {
+  text-shadow: 0 0 0.4em rgba(0, 0, 0, 0.4); }
+
+.MTextShadowLarge {
+  text-shadow: 0 0.2em 0.35em rgba(0, 0, 0, 0.4); }
+
 legend {
   background: white;
   border-radius: .3em;
@@ -19,6 +37,7 @@ legend {
   background: linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
   border: 1px solid #969696;
   border-radius: 3px;
+  box-shadow: 0 0.2em 0.35em rgba(0, 0, 0, 0.4);
   color: #323232;
   display: block;
   padding: 1em;
