@@ -107,6 +107,10 @@
     
   }
   
+  &:active{
+    border-color:$outline;
+  }
+  
 }
 
 .MTabBodyContainer{

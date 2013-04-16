@@ -195,14 +195,16 @@ button {
   button::-moz-focus-inner {
     border: 0; }
 
-.MHButtonGroup * {
-  border-radius: 0px;
-  float: left;
-  margin-left: 0px;
-  margin-right: 0px; }
-  .MHButtonGroup *:first-child {
-    border-bottom-left-radius: 3px;
-    border-top-left-radius: 3px; }
-  .MHButtonGroup *:last-child {
-    border-bottom-right-radius: 3px;
-    border-top-right-radius: 3px; }
+.MHButtonGroup {
+  margin: 0.2em; }
+  .MHButtonGroup * {
+    border-radius: 0px;
+    float: left;
+    margin-left: 0px;
+    margin-right: 0px; }
+    .MHButtonGroup *:first-child {
+      border-bottom-left-radius: 3px;
+      border-top-left-radius: 3px; }
+    .MHButtonGroup *:last-child {
+      border-bottom-right-radius: 3px;
+      border-top-right-radius: 3px; }

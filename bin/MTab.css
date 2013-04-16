@@ -144,6 +144,8 @@
     .MTab.active:hover {
       box-shadow: 0 0.2em 0.35em rgba(0, 0, 0, 0.4);
       border-color: #969696; }
+  .MTab:active {
+    border-color: #969696; }
 
 .MTabBodyContainer {
   background: #e6e6e6;

@@ -373,17 +373,19 @@ button {
   button::-moz-focus-inner {
     border: 0; }
 
-.MHButtonGroup * {
-  border-radius: 0px;
-  float: left;
-  margin-left: 0px;
-  margin-right: 0px; }
-  .MHButtonGroup *:first-child {
-    border-bottom-left-radius: 3px;
-    border-top-left-radius: 3px; }
-  .MHButtonGroup *:last-child {
-    border-bottom-right-radius: 3px;
-    border-top-right-radius: 3px; }
+.MHButtonGroup {
+  margin: 0.2em; }
+  .MHButtonGroup * {
+    border-radius: 0px;
+    float: left;
+    margin-left: 0px;
+    margin-right: 0px; }
+    .MHButtonGroup *:first-child {
+      border-bottom-left-radius: 3px;
+      border-top-left-radius: 3px; }
+    .MHButtonGroup *:last-child {
+      border-bottom-right-radius: 3px;
+      border-top-right-radius: 3px; }
 
 .MVButtonGroup * {
   display: block;
@@ -876,6 +878,8 @@ li {
     .MTab.active:hover {
       box-shadow: 0 0.2em 0.35em rgba(0, 0, 0, 0.4);
       border-color: #969696; }
+  .MTab:active {
+    border-color: #969696; }
 
 .MTabBodyContainer {
   background: #e6e6e6;
