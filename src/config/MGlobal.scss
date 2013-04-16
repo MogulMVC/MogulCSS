@@ -104,11 +104,11 @@ label{
 }
 
 pre{
-  background:#e6e6e6;
+  background:$mono_2;
   border-radius:$rounded;
-  border:1px solid $outline;
+  border:1px solid $mono_1;
   box-shadow:$shadow_inner_large;
-  color:$mono_2;
+  color:$mono_6;
   display:block;
   margin:0;
   padding:0.5em;

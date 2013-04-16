@@ -5,7 +5,7 @@
  */
 a.MTextBold, h1.MTextBold, h2.MTextBold, h3.MTextBold, h4.MTextBold, h5.MTextBold, h6.MTextBold, input.MTextBold, label.MTextBold, p.MTextBold, span.MTextBold, textarea.MTextBold {
   font-weight: bold; }
-a.MTextItalics, h1.MTextItalics, h2.MTextItalics, h3.MTextItalics, h4.MTextItalics, h5.MTextItalics, h6.MTextItalics, input.MTextItalics, label.MTextItalics, p.MTextItalics, span.MTextItalics, textarea.MTextItalics {
+a.MTextItalic, h1.MTextItalic, h2.MTextItalic, h3.MTextItalic, h4.MTextItalic, h5.MTextItalic, h6.MTextItalic, input.MTextItalic, label.MTextItalic, p.MTextItalic, span.MTextItalic, textarea.MTextItalic {
   font-style: italic; }
 a.MTextRed, h1.MTextRed, h2.MTextRed, h3.MTextRed, h4.MTextRed, h5.MTextRed, h6.MTextRed, input.MTextRed, label.MTextRed, p.MTextRed, span.MTextRed, textarea.MTextRed {
   color: #960000; }
@@ -23,6 +23,30 @@ a.MTextBlack, h1.MTextBlack, h2.MTextBlack, h3.MTextBlack, h4.MTextBlack, h5.MTe
   color: #0a0a0a; }
 a.MTextWhite, h1.MTextWhite, h2.MTextWhite, h3.MTextWhite, h4.MTextWhite, h5.MTextWhite, h6.MTextWhite, input.MTextWhite, label.MTextWhite, p.MTextWhite, span.MTextWhite, textarea.MTextWhite {
   color: white; }
+
+h1 {
+  font-size: 2em;
+  margin: 0.5em 0; }
+
+h2 {
+  font-size: 1.8em;
+  margin: 0.5em 0; }
+
+h3 {
+  font-size: 1.6em;
+  margin: 0.5em 0; }
+
+h4 {
+  font-size: 1.4em;
+  margin: 0.5em 0; }
+
+h5 {
+  font-size: 1.2em;
+  margin: 0.5em 0; }
+
+h6 {
+  font-size: 1em;
+  margin: 0.5em 0; }
 
 .MGlow, input[type='range']::-webkit-slider-thumb, select, .MButton, .MButtonRed, input[type=reset], .MButtonR, .MButtonOrange, .MButtonO, .MButtonYellow, .MButtonY, .MButtonGreen, .MButtonG, .MButtonBlue, input[type=submit], .MButtonB, .MButtonViolet, .MButtonUpload, .MButtonU, .MButtonV, button, input[type=button], .MHButtonGroup *, .MVButtonGroup *, .MTab {
   -moz-transition: box-shadow 0.25s;
@@ -149,11 +173,11 @@ label {
   cursor: pointer; }
 
 pre {
-  background: #e6e6e6;
+  background: #323232;
   border-radius: 3px;
-  border: 1px solid #969696;
+  border: 1px solid #0a0a0a;
   box-shadow: inset 0 0.2em 0.35em rgba(0, 0, 0, 0.4);
-  color: #323232;
+  color: white;
   display: block;
   margin: 0;
   padding: 0.5em;
