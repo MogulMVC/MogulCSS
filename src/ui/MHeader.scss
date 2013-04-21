@@ -45,9 +45,6 @@
     user-select:none;
   
     &:hover{
-      background:$mono_3;
-      border-radius:$rounded;
-      box-shadow:$shadow_inner_large;
       color:$mono_6;
       text-shadow:0 0 .4em rgba(0,0,0,.5);
     }

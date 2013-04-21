@@ -1,6 +1,6 @@
 /* 
  * MStyle.css by Alan James
- * version 130418
+ * version 130421
  * recommended Sass version 2.3.1
  */
 .MShadowOuterSmall {
@@ -65,9 +65,6 @@
     padding-top: .35em;
     user-select: none; }
     #MHeader a:hover {
-      background: #646464;
-      border-radius: 3px;
-      box-shadow: inset 0 0.2em 0.35em rgba(0, 0, 0, 0.4);
       color: white;
       text-shadow: 0 0 0.4em rgba(0, 0, 0, 0.5); }
   #MHeader img {
