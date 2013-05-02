@@ -90,13 +90,6 @@ h6 {
 .MTextShadowLarge {
   text-shadow: 0 0.2em 0.35em rgba(0, 0, 0, 0.4); }
 
-* {
-  -moz-user-select: -moz-none;
-  -o-user-select: none;
-  -webkit-user-select: none;
-  font-family: Arial, sans-serif;
-  user-select: none; }
-
 *:focus {
   outline: none; }
 
@@ -117,14 +110,19 @@ a {
     color: #007dfa; }
 
 body {
+  -moz-user-select: -moz-none;
+  -o-user-select: none;
+  -webkit-user-select: none;
   border: 0;
   color: #323232;
+  font-family: Arial, sans-serif;
   font-size: 0.8em;
   height: 100%;
   line-height: 2;
   margin: 0 auto;
   padding: 0;
-  text-align: center; }
+  text-align: center;
+  user-select: none; }
 
 code {
   font-family: monospace; }
