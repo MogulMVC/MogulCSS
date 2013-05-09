@@ -171,7 +171,11 @@ label {
   cursor: pointer; }
 
 code {
-  line-height: 1.5em; }
+  background: #323232;
+  border-radius: 3px;
+  color: #ffffff;
+  line-height: 1.5em;
+  padding: 3px; }
 
 pre {
   background: #323232;

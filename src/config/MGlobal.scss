@@ -100,8 +100,12 @@ label{
   cursor:pointer;
 }
 
-code{
+code {
+  background: #323232;
+  border-radius: 3px;
+  color: #ffffff;
   line-height:1.5em;
+  padding: 3px;
 }
 
 pre{
