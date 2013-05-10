@@ -111,6 +111,14 @@
     }
   }
   
+  .MTabBodyContainer {
+    background: transparent;
+    border: none;
+    border-top: 1px solid #969696;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    padding: 0;
+  }
+  
   .MSideBarListItem, .MSideBarItem{
     color:$mono_2;
     overflow:hidden;
