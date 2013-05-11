@@ -112,11 +112,17 @@
   }
   
   .MTabBodyContainer {
-    background: transparent;
+    background: $mono_5_2;
     border: none;
-    border-top: 1px solid #969696;
+    border-top: 1px solid $mono_4;
+    border-radius: 0;
     box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    min-height: 10px;
     padding: 0;
+  }
+  
+  .MTab a:hover {
+    color: $mono_2;
   }
   
   .MSideBarListItem, .MSideBarItem{
