@@ -1,6 +1,6 @@
 /* 
  * MStyle.css by Alan James
- * version 130512
+ * version 130513
  * recommended Sass version 2.3.1
  */
 a.MTextBold, h1.MTextBold, h2.MTextBold, h3.MTextBold, h4.MTextBold, h5.MTextBold, h6.MTextBold, input.MTextBold, label.MTextBold, p.MTextBold, span.MTextBold, textarea.MTextBold {
@@ -173,7 +173,7 @@ label {
 code {
   background: #323232;
   border-radius: 3px;
-  color: #ffffff;
+  color: white;
   line-height: 1.5em;
   padding: 3px; }
 
@@ -1436,6 +1436,16 @@ h1.MToolBarTitle {
     color: #323232; }
     #MSideBar a:hover {
       color: white; }
+  #MSideBar .MTabBodyContainer {
+    background: #f0f0f0;
+    border: none;
+    border-top: 1px solid #969696;
+    border-radius: 0;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    min-height: 10px;
+    padding: 0; }
+  #MSideBar .MTab a:hover {
+    color: #323232; }
   #MSideBar .MSideBarListItem, #MSideBar .MSideBarItem {
     color: #323232;
     overflow: hidden;

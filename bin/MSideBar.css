@@ -1,6 +1,6 @@
 /* 
  * MStyle.css by Alan James
- * version 130512
+ * version 130513
  * recommended Sass version 2.3.1
  */
 #MSideBarTriggerLeft {
@@ -99,6 +99,16 @@
     color: #323232; }
     #MSideBar a:hover {
       color: white; }
+  #MSideBar .MTabBodyContainer {
+    background: #f0f0f0;
+    border: none;
+    border-top: 1px solid #969696;
+    border-radius: 0;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    min-height: 10px;
+    padding: 0; }
+  #MSideBar .MTab a:hover {
+    color: #323232; }
   #MSideBar .MSideBarListItem, #MSideBar .MSideBarItem {
     color: #323232;
     overflow: hidden;
