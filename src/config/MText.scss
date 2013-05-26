@@ -8,27 +8,27 @@ a, h1, h2, h3, h4, h5, h6, input, label, p, span, textarea,{
     font-style: italic;
   }
 
-  &.MTextRed{
+  &.MTextRed, &.MTextR{
     color:$red_1;
   }
   
-  &.MTextOrange{
+  &.MTextOrange, &.MTextO{
     color:$orange_1;
   }
 
-  &.MTextYellow{
+  &.MTextYellow, &.MTextY{
     color:$yellow_1;
   }
 
-  &.MTextGreen{
+  &.MTextGreen, &.MTextG{
     color:$green_1;
   }
 
-  &.MTextBlue{
+  &.MTextBlue, &.MTextB{
     color:$blue_1;
   }
 
-  &.MTextViolet{
+  &.MTextViolet, &.MTextV{
     color:$violet_1;
   }
 

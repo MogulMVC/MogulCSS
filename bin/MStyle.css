@@ -7,17 +7,17 @@ a.MTextBold, h1.MTextBold, h2.MTextBold, h3.MTextBold, h4.MTextBold, h5.MTextBol
   font-weight: bold; }
 a.MTextItalic, h1.MTextItalic, h2.MTextItalic, h3.MTextItalic, h4.MTextItalic, h5.MTextItalic, h6.MTextItalic, input.MTextItalic, label.MTextItalic, p.MTextItalic, span.MTextItalic, textarea.MTextItalic {
   font-style: italic; }
-a.MTextRed, h1.MTextRed, h2.MTextRed, h3.MTextRed, h4.MTextRed, h5.MTextRed, h6.MTextRed, input.MTextRed, label.MTextRed, p.MTextRed, span.MTextRed, textarea.MTextRed {
+a.MTextRed, a.MTextR, h1.MTextRed, h1.MTextR, h2.MTextRed, h2.MTextR, h3.MTextRed, h3.MTextR, h4.MTextRed, h4.MTextR, h5.MTextRed, h5.MTextR, h6.MTextRed, h6.MTextR, input.MTextRed, input.MTextR, label.MTextRed, label.MTextR, p.MTextRed, p.MTextR, span.MTextRed, span.MTextR, textarea.MTextRed, textarea.MTextR {
   color: #960000; }
-a.MTextOrange, h1.MTextOrange, h2.MTextOrange, h3.MTextOrange, h4.MTextOrange, h5.MTextOrange, h6.MTextOrange, input.MTextOrange, label.MTextOrange, p.MTextOrange, span.MTextOrange, textarea.MTextOrange {
+a.MTextOrange, a.MTextO, h1.MTextOrange, h1.MTextO, h2.MTextOrange, h2.MTextO, h3.MTextOrange, h3.MTextO, h4.MTextOrange, h4.MTextO, h5.MTextOrange, h5.MTextO, h6.MTextOrange, h6.MTextO, input.MTextOrange, input.MTextO, label.MTextOrange, label.MTextO, p.MTextOrange, p.MTextO, span.MTextOrange, span.MTextO, textarea.MTextOrange, textarea.MTextO {
   color: #963c00; }
-a.MTextYellow, h1.MTextYellow, h2.MTextYellow, h3.MTextYellow, h4.MTextYellow, h5.MTextYellow, h6.MTextYellow, input.MTextYellow, label.MTextYellow, p.MTextYellow, span.MTextYellow, textarea.MTextYellow {
+a.MTextYellow, a.MTextY, h1.MTextYellow, h1.MTextY, h2.MTextYellow, h2.MTextY, h3.MTextYellow, h3.MTextY, h4.MTextYellow, h4.MTextY, h5.MTextYellow, h5.MTextY, h6.MTextYellow, h6.MTextY, input.MTextYellow, input.MTextY, label.MTextYellow, label.MTextY, p.MTextYellow, p.MTextY, span.MTextYellow, span.MTextY, textarea.MTextYellow, textarea.MTextY {
   color: #969600; }
-a.MTextGreen, h1.MTextGreen, h2.MTextGreen, h3.MTextGreen, h4.MTextGreen, h5.MTextGreen, h6.MTextGreen, input.MTextGreen, label.MTextGreen, p.MTextGreen, span.MTextGreen, textarea.MTextGreen {
+a.MTextGreen, a.MTextG, h1.MTextGreen, h1.MTextG, h2.MTextGreen, h2.MTextG, h3.MTextGreen, h3.MTextG, h4.MTextGreen, h4.MTextG, h5.MTextGreen, h5.MTextG, h6.MTextGreen, h6.MTextG, input.MTextGreen, input.MTextG, label.MTextGreen, label.MTextG, p.MTextGreen, p.MTextG, span.MTextGreen, span.MTextG, textarea.MTextGreen, textarea.MTextG {
   color: #009600; }
-a.MTextBlue, h1.MTextBlue, h2.MTextBlue, h3.MTextBlue, h4.MTextBlue, h5.MTextBlue, h6.MTextBlue, input.MTextBlue, label.MTextBlue, p.MTextBlue, span.MTextBlue, textarea.MTextBlue {
+a.MTextBlue, a.MTextB, h1.MTextBlue, h1.MTextB, h2.MTextBlue, h2.MTextB, h3.MTextBlue, h3.MTextB, h4.MTextBlue, h4.MTextB, h5.MTextBlue, h5.MTextB, h6.MTextBlue, h6.MTextB, input.MTextBlue, input.MTextB, label.MTextBlue, label.MTextB, p.MTextBlue, p.MTextB, span.MTextBlue, span.MTextB, textarea.MTextBlue, textarea.MTextB {
   color: #004b96; }
-a.MTextViolet, h1.MTextViolet, h2.MTextViolet, h3.MTextViolet, h4.MTextViolet, h5.MTextViolet, h6.MTextViolet, input.MTextViolet, label.MTextViolet, p.MTextViolet, span.MTextViolet, textarea.MTextViolet {
+a.MTextViolet, a.MTextV, h1.MTextViolet, h1.MTextV, h2.MTextViolet, h2.MTextV, h3.MTextViolet, h3.MTextV, h4.MTextViolet, h4.MTextV, h5.MTextViolet, h5.MTextV, h6.MTextViolet, h6.MTextV, input.MTextViolet, input.MTextV, label.MTextViolet, label.MTextV, p.MTextViolet, p.MTextV, span.MTextViolet, span.MTextV, textarea.MTextViolet, textarea.MTextV {
   color: #4b0096; }
 a.MTextBlack, h1.MTextBlack, h2.MTextBlack, h3.MTextBlack, h4.MTextBlack, h5.MTextBlack, h6.MTextBlack, input.MTextBlack, label.MTextBlack, p.MTextBlack, span.MTextBlack, textarea.MTextBlack {
   color: #0a0a0a; }
