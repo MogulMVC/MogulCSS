@@ -1,6 +1,6 @@
 #!/bin/bash 
 
-rm bin/*
+rm bin/M*
 
 for i in src/compilers/*.scss; 
 do

@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Charcoal';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Charcoal'), local('Charcoal'), url(/framework/css/core/charcoal.ttf) format('truetype');
+}
+
 *:focus{
   outline:none;
 }
