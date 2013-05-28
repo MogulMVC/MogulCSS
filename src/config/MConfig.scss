@@ -1,10 +1,10 @@
 /* 
  * MStyle.css by Alan James
- * version 1305
+ * version 130528
  * recommended Sass version 2.3.1
  */
 
-$version:"1305";
+$version:"130528";
 
 // Speed
 $speedFast:0.125s;
@@ -62,4 +62,5 @@ $rounded_large:2em;
 
 // Font / Text
 // Charcoal is imported in MGlobal
-$font:Charcoal, Arial, sans-serif;
+// $font:Charcoal, Arial, sans-serif;
+$font:Arial, sans-serif;

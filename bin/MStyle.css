@@ -1,6 +1,6 @@
 /* 
  * MStyle.css by Alan James
- * version 1305
+ * version 130528
  * recommended Sass version 2.3.1
  */
 a.MTextBold, h1.MTextBold, h2.MTextBold, h3.MTextBold, h4.MTextBold, h5.MTextBold, h6.MTextBold, input.MTextBold, label.MTextBold, p.MTextBold, span.MTextBold, textarea.MTextBold {
@@ -90,12 +90,6 @@ h6 {
 .MTextShadowLarge {
   text-shadow: 0 0.2em 0.35em rgba(0, 0, 0, 0.4); }
 
-@font-face {
-  font-family: 'Charcoal';
-  font-style: normal;
-  font-weight: 400;
-  src: local("Charcoal"), local("Charcoal"), url(/framework/css/core/charcoal.ttf) format("truetype"); }
-
 *:focus {
   outline: none; }
 
@@ -121,7 +115,7 @@ body {
   -webkit-user-select: none;
   border: 0;
   color: #323232;
-  font-family: Charcoal, Arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 0.8em;
   height: 100%;
   line-height: 2;
@@ -275,7 +269,7 @@ td {
     -moz-user-select: -moz-none;
     -o-user-select: none;
     -webkit-user-select: none;
-    font-family: Charcoal, Arial, sans-serif;
+    font-family: Arial, sans-serif;
     user-select: none; }
 
 .MButtonRed, input[type=reset], .MButtonR {
