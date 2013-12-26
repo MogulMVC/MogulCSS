@@ -1,6 +1,6 @@
 /* 
  * MStyle.css by Alan James
- * version 130704
+ * version 1.0.0
  * recommended Sass version 2.3.1
  */
 a.MTextBold, h1.MTextBold, h2.MTextBold, h3.MTextBold, h4.MTextBold, h5.MTextBold, h6.MTextBold, input.MTextBold, label.MTextBold, p.MTextBold, span.MTextBold, textarea.MTextBold {
@@ -1057,7 +1057,7 @@ li {
 
 .MWidgetTitle {
   font-weight: bold;
-  margin: -5px auto 0.8em auto;
+  margin: -5px auto .8em auto;
   text-align: center;
   display: block; }
 
@@ -1280,7 +1280,7 @@ a#MHeaderSettings {
       box-shadow: inset 0 0.2em 0.35em rgba(0, 0, 0, 0.4);
       color: white;
       text-shadow: 0 0 0.4em rgba(0, 0, 0, 0.5); }
-  .MToolBar a.MButton, #MToolBar a.MButton, .MToolBar a.MButtonRed, #MToolBar a.MButtonRed, .MToolBar a.MButtonR, #MToolBar a.MButtonR, .MToolBar a.MButtonOrange, #MToolBar a.MButtonOrange, .MToolBar a.MButtonO, #MToolBar a.MButtonO, .MToolBar a.MButtonYellow, #MToolBar a.MButtonYellow, .MToolBar a.MButtonY, #MToolBar a.MButtonY, .MToolBar a.MButtonGreen, #MToolBar a.MButtonGreen, .MToolBar a.MButtonG, #MToolBar a.MButtonG, .MToolBar a.MButtonBlue, #MToolBar a.MButtonBlue, .MToolBar a.MButtonB, #MToolBar a.MButtonB, .MToolBar a.MButtonViolet, #MToolBar a.MButtonViolet, .MToolBar a.MButtonUpload, #MToolBar a.MButtonUpload, .MToolBar a.MButtonU, #MToolBar a.MButtonU, .MToolBar a.MButtonV, #MToolBar a.MButtonV, .MToolBar .MHButtonGroup a, .MHButtonGroup .MToolBar a, #MToolBar .MHButtonGroup a, .MHButtonGroup #MToolBar a, .MToolBar .MVButtonGroup a, .MVButtonGroup .MToolBar a, #MToolBar .MVButtonGroup a, .MVButtonGroup #MToolBar a, .MToolBar button.MButton, #MToolBar button.MButtonRed, #MToolBar button.MButtonR, #MToolBar button.MButtonOrange, #MToolBar button.MButtonO, #MToolBar button.MButtonYellow, #MToolBar button.MButtonY, #MToolBar button.MButtonGreen, #MToolBar button.MButtonG, #MToolBar button.MButtonBlue, #MToolBar button.MButtonB, #MToolBar button.MButtonViolet, .MToolBar button.MButtonUpload, #MToolBar button.MButtonUpload, .MToolBar button.MButtonU, #MToolBar button.MButtonU, #MToolBar button.MButtonV, .MToolBar button, #MToolBar button, .MToolBar .MHButtonGroup button, .MHButtonGroup .MToolBar button, #MToolBar .MHButtonGroup button, .MHButtonGroup #MToolBar button, .MToolBar .MVButtonGroup button, .MVButtonGroup .MToolBar button, #MToolBar .MVButtonGroup button, .MVButtonGroup #MToolBar button, .MToolBar div.MButton, #MToolBar div.MButton, .MToolBar div.MButtonRed, #MToolBar div.MButtonRed, .MToolBar div.MButtonR, #MToolBar div.MButtonR, .MToolBar div.MButtonOrange, #MToolBar div.MButtonOrange, .MToolBar div.MButtonO, #MToolBar div.MButtonO, .MToolBar div.MButtonYellow, #MToolBar div.MButtonYellow, .MToolBar div.MButtonY, #MToolBar div.MButtonY, .MToolBar div.MButtonGreen, #MToolBar div.MButtonGreen, .MToolBar div.MButtonG, #MToolBar div.MButtonG, .MToolBar div.MButtonBlue, #MToolBar div.MButtonBlue, .MToolBar div.MButtonB, #MToolBar div.MButtonB, .MToolBar div.MButtonViolet, #MToolBar div.MButtonViolet, .MToolBar div.MButtonUpload, #MToolBar div.MButtonUpload, .MToolBar div.MButtonU, #MToolBar div.MButtonU, .MToolBar div.MButtonV, #MToolBar div.MButtonV, .MToolBar .MHButtonGroup div, .MHButtonGroup .MToolBar div, #MToolBar .MHButtonGroup div, .MHButtonGroup #MToolBar div, .MToolBar .MVButtonGroup div, .MVButtonGroup .MToolBar div, #MToolBar .MVButtonGroup div, .MVButtonGroup #MToolBar div, .MToolBar input[type="button"], #MToolBar input[type="button"], .MToolBar input[type="submit"], #MToolBar input[type="submit"], .MToolBar span.MButton, #MToolBar span.MButton, .MToolBar span.MButtonRed, #MToolBar span.MButtonRed, .MToolBar span.MButtonR, #MToolBar span.MButtonR, .MToolBar span.MButtonOrange, #MToolBar span.MButtonOrange, .MToolBar span.MButtonO, #MToolBar span.MButtonO, .MToolBar span.MButtonYellow, #MToolBar span.MButtonYellow, .MToolBar span.MButtonY, #MToolBar span.MButtonY, .MToolBar span.MButtonGreen, #MToolBar span.MButtonGreen, .MToolBar span.MButtonG, #MToolBar span.MButtonG, .MToolBar span.MButtonBlue, #MToolBar span.MButtonBlue, .MToolBar span.MButtonB, #MToolBar span.MButtonB, .MToolBar span.MButtonViolet, #MToolBar span.MButtonViolet, .MToolBar span.MButtonUpload, #MToolBar span.MButtonUpload, .MToolBar span.MButtonU, #MToolBar span.MButtonU, .MToolBar span.MButtonV, #MToolBar span.MButtonV, .MToolBar .MHButtonGroup span, .MHButtonGroup .MToolBar span, #MToolBar .MHButtonGroup span, .MHButtonGroup #MToolBar span, .MToolBar .MVButtonGroup span, .MVButtonGroup .MToolBar span, #MToolBar .MVButtonGroup span, .MVButtonGroup #MToolBar span, .MToolBar select, #MToolBar select {
+  .MToolBar a.MButton, #MToolBar a.MButton, .MToolBar a.MButtonRed, #MToolBar a.MButtonRed, .MToolBar a.MButtonR, #MToolBar a.MButtonR, .MToolBar a.MButtonOrange, #MToolBar a.MButtonOrange, .MToolBar a.MButtonO, #MToolBar a.MButtonO, .MToolBar a.MButtonYellow, #MToolBar a.MButtonYellow, .MToolBar a.MButtonY, #MToolBar a.MButtonY, .MToolBar a.MButtonGreen, #MToolBar a.MButtonGreen, .MToolBar a.MButtonG, #MToolBar a.MButtonG, .MToolBar a.MButtonBlue, #MToolBar a.MButtonBlue, .MToolBar a.MButtonB, #MToolBar a.MButtonB, .MToolBar a.MButtonViolet, #MToolBar a.MButtonViolet, .MToolBar a.MButtonUpload, #MToolBar a.MButtonUpload, .MToolBar a.MButtonU, #MToolBar a.MButtonU, .MToolBar a.MButtonV, #MToolBar a.MButtonV, .MToolBar .MHButtonGroup a, .MHButtonGroup .MToolBar a, #MToolBar .MHButtonGroup a, .MHButtonGroup #MToolBar a, .MToolBar .MVButtonGroup a, .MVButtonGroup .MToolBar a, #MToolBar .MVButtonGroup a, .MVButtonGroup #MToolBar a, .MToolBar button.MButton, .MToolBar button, #MToolBar button, .MToolBar div.MButton, #MToolBar div.MButton, .MToolBar div.MButtonRed, #MToolBar div.MButtonRed, .MToolBar div.MButtonR, #MToolBar div.MButtonR, .MToolBar div.MButtonOrange, #MToolBar div.MButtonOrange, .MToolBar div.MButtonO, #MToolBar div.MButtonO, .MToolBar div.MButtonYellow, #MToolBar div.MButtonYellow, .MToolBar div.MButtonY, #MToolBar div.MButtonY, .MToolBar div.MButtonGreen, #MToolBar div.MButtonGreen, .MToolBar div.MButtonG, #MToolBar div.MButtonG, .MToolBar div.MButtonBlue, #MToolBar div.MButtonBlue, .MToolBar div.MButtonB, #MToolBar div.MButtonB, .MToolBar div.MButtonViolet, #MToolBar div.MButtonViolet, .MToolBar div.MButtonUpload, #MToolBar div.MButtonUpload, .MToolBar div.MButtonU, #MToolBar div.MButtonU, .MToolBar div.MButtonV, #MToolBar div.MButtonV, .MToolBar .MHButtonGroup div, .MHButtonGroup .MToolBar div, #MToolBar .MHButtonGroup div, .MHButtonGroup #MToolBar div, .MToolBar .MVButtonGroup div, .MVButtonGroup .MToolBar div, #MToolBar .MVButtonGroup div, .MVButtonGroup #MToolBar div, .MToolBar input[type="button"], #MToolBar input[type="button"], .MToolBar input[type="submit"], #MToolBar input[type="submit"], .MToolBar span.MButton, #MToolBar span.MButton, .MToolBar span.MButtonRed, #MToolBar span.MButtonRed, .MToolBar span.MButtonR, #MToolBar span.MButtonR, .MToolBar span.MButtonOrange, #MToolBar span.MButtonOrange, .MToolBar span.MButtonO, #MToolBar span.MButtonO, .MToolBar span.MButtonYellow, #MToolBar span.MButtonYellow, .MToolBar span.MButtonY, #MToolBar span.MButtonY, .MToolBar span.MButtonGreen, #MToolBar span.MButtonGreen, .MToolBar span.MButtonG, #MToolBar span.MButtonG, .MToolBar span.MButtonBlue, #MToolBar span.MButtonBlue, .MToolBar span.MButtonB, #MToolBar span.MButtonB, .MToolBar span.MButtonViolet, #MToolBar span.MButtonViolet, .MToolBar span.MButtonUpload, #MToolBar span.MButtonUpload, .MToolBar span.MButtonU, #MToolBar span.MButtonU, .MToolBar span.MButtonV, #MToolBar span.MButtonV, .MToolBar .MHButtonGroup span, .MHButtonGroup .MToolBar span, #MToolBar .MHButtonGroup span, .MHButtonGroup #MToolBar span, .MToolBar .MVButtonGroup span, .MVButtonGroup .MToolBar span, #MToolBar .MVButtonGroup span, .MVButtonGroup #MToolBar span, .MToolBar select, #MToolBar select {
     margin-top: 0.4em; }
   .MToolBar MButton img, #MToolBar MButton img {
     margin-left: -10px;
@@ -1363,7 +1363,7 @@ h1.MToolBarTitle {
   background: -webkit-linear-gradient(left, #007dfa 0%, rgba(0, 125, 250, 0) 100%);
   background: linear-gradient(left, #007dfa 0%, rgba(0, 125, 250, 0) 100%);
   height: 100%;
-  left: -0.8em;
+  left: -.8em;
   position: fixed;
   top: 0;
   width: .8em;
@@ -1377,7 +1377,7 @@ h1.MToolBarTitle {
   background: linear-gradient(right, #007dfa 0%, rgba(0, 125, 250, 0) 100%);
   height: 100%;
   position: fixed;
-  right: -0.8em;
+  right: -.8em;
   top: 0;
   width: .8em;
   z-index: 150; }
