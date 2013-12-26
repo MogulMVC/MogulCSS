@@ -16,3 +16,4 @@ echo $filename 'Complete'
 
 done
 
+tar cfvz versions/1.0.0.tar.gz bin/*
