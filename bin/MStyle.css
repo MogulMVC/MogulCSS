@@ -1,6 +1,6 @@
 /* 
  * MStyle.css by Alan James
- * version 1.0.0
+ * version 1.0.1
  * recommended Sass version 2.3.1
  */
 a.MTextBold, h1.MTextBold, h2.MTextBold, h3.MTextBold, h4.MTextBold, h5.MTextBold, h6.MTextBold, input.MTextBold, label.MTextBold, p.MTextBold, span.MTextBold, textarea.MTextBold {
@@ -245,7 +245,7 @@ td {
   display: inline-block;
   font-size: 1em;
   font-weight: bold;
-  margin: .2em;
+  margin: .2em 0;
   overflow: hidden;
   padding-left: 0.5em;
   padding-right: 0.5em;
