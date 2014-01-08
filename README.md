@@ -6,7 +6,7 @@ MogulCSS is a Sass based CSS library that is used by MogulJS and MogulMVC for st
 Demo
 ----
 
-Visit MogulMVC to see a partical list of MogulCSS's UI elements.
+Visit MogulMVC to see a list of MogulCSS's styles.
 
 [Demo](http://mogulmvc.com/css/)
 
