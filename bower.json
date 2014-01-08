@@ -1,15 +1,9 @@
-{
-  "name": "Test",
-  "version": "0.0.0",
-  "authors": [
-    "Alan James"
-  ],
-  "license": "MIT",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ]
+	"name": "mogul-css",
+	"version": "1.0.1",
+	"authors": [
+		{
+			"name": "Alan James",
+			"email": "alanjames1987@gmail.com"
+		}
+	]
 }

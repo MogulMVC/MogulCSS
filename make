@@ -10,8 +10,8 @@ extension="${filename##*.}"
 filename="${filename%.*}"
 
 sass src/compilers/$filename.scss:bin/$filename.css
-#sass src/compilers/$filename.scss:bin/$filename.min.css --style compressed
+sass src/compilers/$filename.scss:bin/$filename.min.css --style compressed
+
 echo $filename 'Complete'
 
 done
-
