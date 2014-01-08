@@ -15,5 +15,3 @@ sass src/compilers/$filename.scss:bin/$filename.min.css --style compressed
 echo $filename 'Complete'
 
 done
-
-tar cfvz versions/1.0.0.tar.gz bin/*
