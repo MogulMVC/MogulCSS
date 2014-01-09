@@ -3,6 +3,12 @@ MogulCSS
 
 MogulCSS is a Sass based CSS library.
 
+Install
+----
+To install you can download from GitHub or use Bower.
+
+`bower install mogul-css`
+
 Demo
 ---
 
