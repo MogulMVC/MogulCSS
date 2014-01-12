@@ -1,6 +1,6 @@
 /* 
  * MStyle.css by Alan James
- * version 1.0.1
+ * version 1.1.0
  * recommended Sass version 2.3.1
  */
 a.MTextBold, h1.MTextBold, h2.MTextBold, h3.MTextBold, h4.MTextBold, h5.MTextBold, h6.MTextBold, input.MTextBold, label.MTextBold, p.MTextBold, span.MTextBold, textarea.MTextBold {
@@ -1155,7 +1155,7 @@ li {
 
 a#MHeaderMenu {
   background-color: transparent;
-  background-image: url("/framework/img/global/header_menu.png");
+  background-image: url("../img/header-menu.png");
   background-position: 0 0;
   background-repeat: no-repeat;
   height: 36px;
@@ -1164,7 +1164,7 @@ a#MHeaderMenu {
   width: 22px; }
   a#MHeaderMenu:hover {
     background-color: transparent;
-    background-image: url("/framework/img/global/header_menu.png");
+    background-image: url("../img/header-menu.png");
     background-position: 0 -36px;
     background-repeat: no-repeat;
     border-radius: 0;
@@ -1175,7 +1175,7 @@ a#MHeaderMenu {
 
 a#MHeaderTools {
   background-color: transparent;
-  background-image: url("/framework/img/global/header_tools.png");
+  background-image: url("../img/header-tools.png");
   background-position: 0 0;
   background-repeat: no-repeat;
   height: 36px;
@@ -1184,7 +1184,7 @@ a#MHeaderTools {
   width: 22px; }
   a#MHeaderTools:hover {
     background-color: transparent;
-    background-image: url("/framework/img/global/header_tools.png");
+    background-image: url("../img/header-tools.png");
     background-position: 0 -36px;
     background-repeat: no-repeat;
     border-radius: 0;
@@ -1195,7 +1195,7 @@ a#MHeaderTools {
 
 a#MHeaderSettings {
   background-color: transparent;
-  background-image: url("/framework/img/global/header_settings.png");
+  background-image: url("../img/header-settings.png");
   background-position: 0 0;
   background-repeat: no-repeat;
   height: 36px;
@@ -1204,7 +1204,7 @@ a#MHeaderSettings {
   width: 22px; }
   a#MHeaderSettings:hover {
     background-color: transparent;
-    background-image: url("/framework/img/global/header_settings.png");
+    background-image: url("../img/header-settings.png");
     background-position: 0 -36px;
     background-repeat: no-repeat;
     border-radius: 0;
