@@ -103,7 +103,7 @@
 
 a#MHeaderMenu{
   background-color:transparent;
-  background-image:url("/framework/img/global/header_menu.png");
+  background-image:url("../img/header-menu.png");
   background-position:0 0;
   background-repeat:no-repeat;
   height:36px;
@@ -113,7 +113,7 @@ a#MHeaderMenu{
   
   &:hover{
     background-color:transparent;
-    background-image:url("/framework/img/global/header_menu.png");
+    background-image:url("../img/header-menu.png");
     background-position:0 -36px;
     background-repeat:no-repeat;
     border-radius:0;
@@ -127,7 +127,7 @@ a#MHeaderMenu{
 
 a#MHeaderTools{
   background-color:transparent;
-  background-image:url("/framework/img/global/header_tools.png");
+  background-image:url("../img/header-tools.png");
   background-position:0 0;
   background-repeat:no-repeat;
   height:36px;
@@ -137,7 +137,7 @@ a#MHeaderTools{
   
   &:hover{
     background-color:transparent;
-    background-image:url("/framework/img/global/header_tools.png");
+    background-image:url("../img/header-tools.png");
     background-position:0 -36px;
     background-repeat:no-repeat;
     border-radius:0;
@@ -151,7 +151,7 @@ a#MHeaderTools{
 
 a#MHeaderSettings{
   background-color:transparent;
-  background-image:url("/framework/img/global/header_settings.png");
+  background-image:url("../img/header-settings.png");
   background-position:0 0;
   background-repeat:no-repeat;
   height:36px;
@@ -161,7 +161,7 @@ a#MHeaderSettings{
   
   &:hover{
     background-color:transparent;
-    background-image:url("/framework/img/global/header_settings.png");
+    background-image:url("../img/header-settings.png");
     background-position:0 -36px;
     background-repeat:no-repeat;
     border-radius:0;
