@@ -11,8 +11,6 @@
 
 // Widgets
 @import "../ui/MButton";
-@import "../ui/MHButtonGroup";
-@import "../ui/MVButtonGroup";
 @import "../ui/MDropdown";
 @import "../ui/MGroupBox";
 @import "../ui/MInputText";
@@ -41,6 +39,8 @@
 @import "../ui/MFooter";
 
 // Widget Containers
+@import "../ui/MHButtonGroup";
+@import "../ui/MVButtonGroup";
 @import "../ui/MHBoxLayout";
 @import "../ui/MVBoxLayout";
 
