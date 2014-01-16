@@ -1,6 +1,6 @@
 /* 
  * MStyle.css by Alan James
- * version 1.1.0
+ * version 1.1.2
  * recommended Sass version 2.3.1
  */
 a.MTextBold, h1.MTextBold, h2.MTextBold, h3.MTextBold, h4.MTextBold, h5.MTextBold, h6.MTextBold, input.MTextBold, label.MTextBold, p.MTextBold, span.MTextBold, textarea.MTextBold {
@@ -382,33 +382,6 @@ button {
   button::-moz-focus-inner {
     border: 0; }
 
-.MHButtonGroup {
-  margin: 0.2em; }
-  .MHButtonGroup * {
-    border-radius: 0px;
-    float: left;
-    margin-left: 0px;
-    margin-right: 0px; }
-    .MHButtonGroup *:first-child {
-      border-bottom-left-radius: 3px;
-      border-top-left-radius: 3px; }
-    .MHButtonGroup *:last-child {
-      border-bottom-right-radius: 3px;
-      border-top-right-radius: 3px; }
-
-.MVButtonGroup * {
-  display: block;
-  width: 100%;
-  border-radius: 0px;
-  margin-top: 0px;
-  margin-bottom: 0px; }
-  .MVButtonGroup *:first-child {
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px; }
-  .MVButtonGroup *:last-child {
-    border-bottom-left-radius: 3px;
-    border-bottom-right-radius: 3px; }
-
 .MDropdown {
   list-style: none;
   margin: 10px;
@@ -546,7 +519,7 @@ textarea {
   overflow: hidden;
   text-overflow: ellipsis; }
 
-.MListSeperator {
+.MListSeparator, .MListSeperator {
   background: #646464;
   height: 1px;
   margin-top: 0.4em;
@@ -1124,7 +1097,7 @@ li {
   height: 36px;
   width: .4em; }
 
-.MHeaderSeperator {
+.MHeaderSeparator, .MHeaderSeperator {
   background: #969696;
   height: 100%;
   margin-left: .4em;
@@ -1315,7 +1288,7 @@ h1.MToolBarTitle {
 .MToolBarIcon {
   margin-right: 0.4em; }
 
-.MToolBarSeperator {
+.MToolBarSeparator, .MToolBarSeperator {
   background: #969696;
   height: 100%;
   margin-left: 0.4em;
@@ -1560,6 +1533,33 @@ h1.MToolBarTitle {
     margin-left: 0.4em;
     margin-right: 0.4em; }
 
+.MHButtonGroup {
+  margin: 0.2em; }
+  .MHButtonGroup * {
+    border-radius: 0px;
+    float: left;
+    margin-left: 0px;
+    margin-right: 0px; }
+    .MHButtonGroup *:first-child {
+      border-bottom-left-radius: 3px;
+      border-top-left-radius: 3px; }
+    .MHButtonGroup *:last-child {
+      border-bottom-right-radius: 3px;
+      border-top-right-radius: 3px; }
+
+.MVButtonGroup * {
+  display: block;
+  width: 100%;
+  border-radius: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px; }
+  .MVButtonGroup *:first-child {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px; }
+  .MVButtonGroup *:last-child {
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px; }
+
 .MHBoxLayout * {
   display: inline-block; }
 .MHBoxLayout option {
@@ -1569,7 +1569,7 @@ h1.MToolBarTitle {
   height: 100%;
   width: 0.4em; }
 
-.MHBoxSeperator {
+.MHBoxSeparator, .MHBoxSeperator {
   background: none repeat scroll 0 0 #969696;
   height: 100%;
   margin-left: 0.4em;
