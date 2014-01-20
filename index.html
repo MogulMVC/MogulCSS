@@ -3,20 +3,554 @@ The purpose of this file is to test the compiled CSS files.
 -->
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-    
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
 <html xmlns="http://www.w3.org/1999/xhtml">
 
-  <head>
+	<head>
 
-    <title>Mogul JS</title>
+		<title>Mogul JS</title>
 
-    <link href="bin/MStyle.css" type="text/css" rel="stylesheet" />
+		<link href="bin/MStyle.css" type="text/css" rel="stylesheet" />
 
-  </head>
+	</head>
 
-  <body>
+	<body>
+		<div id="MMainWindow">
 
-  </body>
+			<div id="MHeaderPlaceholder"></div>
+			<nav id="MHeader" class="MDropdown">
+				<div class="MHeaderSpacer left"></div>
+				<div class="MHeaderSpacer right"></div>
+
+				<li>
+					<a href="/" id="MHeaderHome">Header Link</a>
+				</li>
+
+			</nav><!--MHeader-->
+			
+			<div id="MToolBarPlaceholder"></div>
+			<nav id="MToolBar">
+
+				<div class="MToolBarSpacer left"></div>
+				<div class="MToolBarSpacer right"></div>
+
+				<a href="/">Toolbar Link</a>
+
+			</nav>
+			
+			<table>
+				<tr class="MWidthFull">
+
+					<td id="MSideBarContainer"><div id="MSideBarTriggerLeft"></div>
+					<ul id="MSideBar" class="MSideBarLeft">
+
+						<a href="#section_button">
+						<li class="MSideBarListItem">
+							<span>Button</span>
+						</li> </a>
+
+						<a href="#section_input">
+						<li class="MSideBarListItem">
+							<span>Input</span>
+						</li> </a>
+
+						<a href="#section_layout">
+						<li class="MSideBarListItem">
+							<span>Layout</span>
+						</li> </a>
+
+						<a href="#section_well">
+						<li class="MSideBarListItem">
+							<span>Well</span>
+						</li> </a>
+
+						<a href="#section_widget">
+						<li class="MSideBarListItem">
+							<span>Widget</span>
+						</li> </a>
+
+					</ul><!-- sidebar --></td>
+
+					<td class="MWidthFull MPadding"><h1>CSS UI Elements</h1>
+					<div class="MWidthFull">
+
+						<section id="section_button">
+							<h2>Button</h2>
+							<hr />
+
+							<table class="MWidthFull">
+
+								<tr>
+									<th>&lt;a&gt;</th>
+									<th><span class="MNoteY">&lt;button&gt; is prefered</span></th>
+									<th>&lt;div&gt;</th>
+									<th>&lt;span&gt;</th>
+									<th>Code</th>
+								</tr>
+
+								<tr>
+									<td><a class="MButton" data-mtip="S" title="I'm an &lt;a&gt; tag.">Button</a></td>
+									<td>
+									<button data-mtip="S" title="I'm a &lt;button&gt; tag.">
+										Button
+									</button></td>
+									<td>
+									<div class="MButton" data-mtip="S" title="I'm a &lt;div&gt; tag.">
+										Button
+									</div></td>
+									<td><span class="MButton" data-mtip="S" title="I'm a &lt;span&gt; tag.">Button</span></td>
+									<td><a class="showCode">Code</a> .MButton 									<pre class="MHidden"><code>&lt;a class=&quot;MButton&quot;&gt;Button&lt;/a&gt;
+&lt;button class=&quot;MButton&quot;&gt;Button&lt;/button&gt;
+&lt;div class=&quot;MButton&quot;&gt;Button&lt;/div&gt;
+&lt;span class=&quot;MButton&quot;&gt;Button&lt;/span&gt;</code></pre></td>
+								</tr>
+
+								<tr>
+									<td><a class="MButton" data-mtip="S" title="I'm an &lt;a&gt; tag disabled." disabled="true">Button Disabled</a></td>
+									<td>
+									<button data-mtip="S" title="I'm a &lt;button&gt; tag disabled." disabled="true">
+										Button Disabled
+									</button></td>
+									<td>
+									<div class="MButton" data-mtip="S" title="I'm a &lt;div&gt; tag disabled." disabled="true">
+										Button Disabled
+									</div></td>
+									<td><span class="MButton" data-mtip="S" title="I'm a &lt;span&gt; tag disabled." disabled="true">Button Disabled</span></td>
+									<td><a class="showCode">Code</a> .MButton with attribute disabled="true" 									<pre class="MHidden"><code>&lt;a class=&quot;MButton&quot; disabled=&quot;true&quot;&gt;Button&lt;/a&gt;
+&lt;button class=&quot;MButton&quot; disabled=&quot;true&quot;Button&lt;/button&gt;
+&lt;div class=&quot;MButton&quot; disabled=&quot;true&quot;&gt;Button&lt;/div&gt;
+&lt;span class=&quot;MButton&quot; disabled=&quot;true&quot;&gt;Button&lt;/span&gt;</code></pre></td>
+								</tr>
+
+								<tr>
+									<td><a class="MButtonRed" data-mtip="S" title="I'm an &lt;a&gt; tag.">Button Red</a></td>
+									<td>
+									<button class="MButtonRed" data-mtip="S" title="I'm a &lt;button&gt; tag.">
+										Button Red
+									</button></td>
+									<td>
+									<div class="MButtonRed" data-mtip="S" title="I'm a &lt;div&gt; tag.">
+										Button Red
+									</div></td>
+									<td><span class="MButtonRed" data-mtip="S" title="I'm a &lt;span&gt; tag.">Button Red</span></td>
+									<td><a class="showCode">Code</a> .MButtonRed or .MButtonR 									<pre class="MHidden"><code>&lt;a class=&quot;MButtonRed&quot;&gt;Button&lt;/a&gt;
+&lt;button class=&quot;MButtonRed&quot;&gt;Button&lt;/button&gt;
+&lt;div class=&quot;MButtonRed&quot;&gt;Button&lt;/div&gt;
+&lt;span class=&quot;MButtonRed&quot;&gt;Button&lt;/span&gt;</code></pre></td>
+								</tr>
+
+								<tr>
+									<td><a class="MButtonOrange" data-mtip="S" title="I'm an &lt;a&gt; tag.">Button Orange</a></td>
+									<td>
+									<button class="MButtonOrange" data-mtip="S" title="I'm a &lt;button&gt; tag.">
+										Button Orange
+									</button></td>
+									<td>
+									<div class="MButtonOrange" data-mtip="S" title="I'm a &lt;div&gt; tag.">
+										Button Orange
+									</div></td>
+									<td><span class="MButtonOrange" data-mtip="S" title="I'm a &lt;span&gt; tag.">Button Orange</span></td>
+									<td><a class="showCode">Code</a> .MButtonOrage or .MButtonO 									<pre class="MHidden"><code>&lt;a class=&quot;MButtonOrange&quot;&gt;Button&lt;/a&gt;
+&lt;button class=&quot;MButtonOrange&quot;&gt;Button&lt;/button&gt;
+&lt;div class=&quot;MButtonOrange&quot;&gt;Button&lt;/div&gt;
+&lt;span class=&quot;MButtonOrange&quot;&gt;Button&lt;/span&gt;</code></pre></td>
+								</tr>
+
+								<tr>
+									<td><a class="MButtonYellow" data-mtip="S" title="I'm an &lt;a&gt; tag.">Button Yellow</a></td>
+									<td>
+									<button class="MButtonYellow" data-mtip="S" title="I'm a &lt;button&gt; tag.">
+										Button Yellow
+									</button></td>
+									<td>
+									<div class="MButtonYellow" data-mtip="S" title="I'm a &lt;div&gt; tag.">
+										Button Yellow
+									</div></td>
+									<td><span class="MButtonYellow" data-mtip="S" title="I'm a &lt;span&gt; tag.">Button Yellow</span></td>
+									<td><a class="showCode">Code</a> .MButtonYellow or .MButtonY 									<pre class="MHidden"><code>&lt;a class=&quot;MButtonYellow&quot;&gt;Button&lt;/a&gt;
+&lt;button class=&quot;MButtonYellow&quot;&gt;Button&lt;/button&gt;
+&lt;div class=&quot;MButtonYellow&quot;&gt;Button&lt;/div&gt;
+&lt;span class=&quot;MButtonYellow&quot;&gt;Button&lt;/span&gt;</code></pre></td>
+								</tr>
+
+								<tr>
+									<td><a class="MButtonGreen" data-mtip="S" title="I'm an &lt;a&gt; tag.">Button Green</a></td>
+									<td>
+									<button class="MButtonGreen" data-mtip="S" title="I'm a &lt;button&gt; tag.">
+										Button Green
+									</button></td>
+									<td>
+									<div class="MButtonGreen" data-mtip="S" title="I'm a &lt;div&gt; tag.">
+										Button Green
+									</div></td>
+									<td><span class="MButtonGreen" data-mtip="S" title="I'm a &lt;span&gt; tag.">Button Green</span></td>
+									<td><a class="showCode">Code</a> .MButtonGreen or .MButtonG 									<pre class="MHidden"><code>&lt;a class=&quot;MButtonGreen&quot;&gt;Button&lt;/a&gt;
+&lt;button class=&quot;MButtonGreen&quot;&gt;Button&lt;/button&gt;
+&lt;div class=&quot;MButtonGreen&quot;&gt;Button&lt;/div&gt;
+&lt;span class=&quot;MButtonGreen&quot;&gt;Button&lt;/span&gt;</code></pre></td>
+								</tr>
+
+								<tr>
+									<td><a class="MButtonBlue" data-mtip="S" title="I'm an &lt;a&gt; tag.">Button Blue</a></td>
+									<td>
+									<button class="MButtonBlue" data-mtip="S" title="I'm a &lt;button&gt; tag.">
+										Button Blue
+									</button></td>
+									<td>
+									<div class="MButtonBlue" data-mtip="S" title="I'm a &lt;div&gt; tag.">
+										Button Blue
+									</div></td>
+									<td><span class="MButtonBlue" data-mtip="S" title="I'm a &lt;span&gt; tag.">Button Blue</span></td>
+									<td><a class="showCode">Code</a> .MButtonBlue or .MButtonB 									<pre class="MHidden"><code>&lt;a class=&quot;MButtonBlue&quot;&gt;Button&lt;/a&gt;
+&lt;button class=&quot;MButtonBlue&quot;&gt;Button&lt;/button&gt;
+&lt;div class=&quot;MButtonBlue&quot;&gt;Button&lt;/div&gt;
+&lt;span class=&quot;MButtonBlue&quot;&gt;Button&lt;/span&gt;</code></pre></td>
+								</tr>
+
+								<tr>
+									<td><a class="MButtonViolet" data-mtip="S" title="I'm an &lt;a&gt; tag.">Button Violet</a></td>
+									<td>
+									<button class="MButtonViolet" data-mtip="S" title="I'm a &lt;button&gt; tag.">
+										Button Violet
+									</button></td>
+									<td>
+									<div class="MButtonViolet" data-mtip="S" title="I'm a &lt;div&gt; tag.">
+										Button Violet
+									</div></td>
+									<td><span class="MButtonViolet" data-mtip="S" title="I'm a &lt;span&gt; tag.">Button Violet</span></td>
+									<td><a class="showCode">Code</a> .MButtonViolet or .MButtonV 									<pre class="MHidden"><code>&lt;a class=&quot;MButtonViolet&quot;&gt;Button&lt;/a&gt;
+&lt;button class=&quot;MButtonViolet&quot;&gt;Button&lt;/button&gt;
+&lt;div class=&quot;MButtonViolet&quot;&gt;Button&lt;/div&gt;
+&lt;span class=&quot;MButtonViolet&quot;&gt;Button&lt;/span&gt;</code></pre></td>
+								</tr>
+
+							</table>
+
+							<h3>Input Buttons</h3>
+
+							<input type="button" value="Button"/>
+							<input type="submit" />
+							<input type="reset" />
+
+							<br />
+
+							<a class="showCode">Code</a>
+							<pre class="MHidden"><code>&lt;input type=&quot;button&quot; value=&quot;Button&quot;/&gt;
+&lt;input type=&quot;submit&quot; /&gt;
+&lt;input type=&quot;reset&quot; /&gt;</code></pre>																																							
+	
+ <h3>Button Group</h3>
+
+							<div class="MHButtonGroup">
+								<button>
+									A Button
+								</button>
+								<button>
+									Another Button
+								</button>
+								<button>
+									Yet Another Button
+								</button>
+							</div>
+
+							<br />
+
+							<a class="showCode">Code</a>
+							<pre class="MHidden"><code>&lt;div class=&quot;MHButtonGroup&quot;&gt;
+	&lt;button&gt;A Button&lt;/button&gt;
+	&lt;button&gt;Another Button&lt;/button&gt;
+	&lt;button&gt;Yet Another Button&lt;/button&gt;
+&lt;/div&gt;</code></pre>							
+	
+
+							<div class="MVButtonGroup">
+								<button>
+									A Button
+								</button>
+								<button>
+									Another Button
+								</button>
+								<button>
+									Yet Another Button
+								</button>
+							</div>
+
+							<a class="showCode">Code</a>
+							<pre class="MHidden"><code>&lt;div class=&quot;MVButtonGroup&quot;&gt;
+	&lt;button&gt;A Button&lt;/button&gt;
+	&lt;button&gt;Another Button&lt;/button&gt;
+	&lt;button&gt;Yet Another Button&lt;/button&gt;
+&lt;/div&gt;</code></pre>							
+	
+
+						</section><!-- section_button -->
+
+						<section id="section_input">
+							<h2>Input</h2>
+							<hr />
+
+							<div class="MWidthFull">
+
+								<span class="MNoteR">A work in progress.</span>
+
+								<div class="MHBoxLayout">
+
+									<div data-mtip="S" title="I'm a checkbox with label.">
+										<input type="checkbox" id="checkbox1"/>
+										<label for="checkbox1">Checkbox</label>
+									</div>
+
+									<div class="MHBoxSpacer"></div>
+									<div class="MHBoxSpacer"></div>
+									<div class="MHBoxSpacer"></div>
+
+									<div data-mtip="S" title="I'm a radio button with label.">
+										<input type="radio" name="radio" id="radio1"/>
+										<label for="radio1">Radio 1</label>
+									</div>
+
+									<div class="MHBoxSpacer"></div>
+
+									<div data-mtip="S" title="I'm a radio button with label.">
+										<input type="radio" name="radio" id="radio2"/>
+										<label for="radio2">Radio 2</label>
+									</div>
+
+									<div class="MHBoxSpacer"></div>
+									<div class="MHBoxSpacer"></div>
+									<div class="MHBoxSpacer"></div>
+
+									<select>
+										<option>Select</option>
+										<option>Option 1</option>
+										<option>Option 2</option>
+										<option>Option 3 With More Text</option>
+									</select>
+
+									<div class="MHBoxSpacer"></div>
+									<div class="MHBoxSpacer"></div>
+									<div class="MHBoxSpacer"></div>
+
+									<input type="range" value="0" min="0" max="100"/>
+
+									<div class="MHBoxSpacer"></div>
+									<div class="MHBoxSpacer"></div>
+									<div class="MHBoxSpacer"></div>
+
+									<input type="number" value="0" min="0" max="100"/>
+
+								</div>
+
+							</div>
+
+							<a class="showCode">Code</a>
+							<pre class="MHidden"><code>&lt;input type=&quot;checkbox&quot; id=&quot;checkbox1&quot;/&gt;
+&lt;label for=&quot;checkbox1&quot;&gt;Checkbox&lt;/label&gt;
+
+&lt;input type=&quot;radio&quot; name=&quot;radio&quot; id=&quot;radio1&quot;/&gt;
+&lt;label for=&quot;radio1&quot;&gt;Radio 1&lt;/label&gt;
+
+&lt;input type=&quot;radio&quot; name=&quot;radio&quot; id=&quot;radio2&quot;/&gt;
+&lt;label for=&quot;radio2&quot;&gt;Radio 2&lt;/label&gt;
+	
+&lt;select&gt;
+	&lt;option&gt;Select&lt;/option&gt;
+	&lt;option&gt;Option 1&lt;/option&gt;
+	&lt;option&gt;Option 2&lt;/option&gt;
+	&lt;option&gt;Option 3 With More Text&lt;/option&gt;
+&lt;/select&gt;
+
+&lt;input type=&quot;number&quot; value=&quot;0&quot; min=&quot;0&quot; max=&quot;100&quot;/&gt;</code></pre>									
+
+ <h3>Text</h3>
+
+							<input class="MWidthFull" type="text" placeholder="Input Text"/>
+							<div class="MContentSpacer"></div>
+
+							<input class="MWidthFull MInputInvisible" type="text" placeholder="Input with No Border"/>
+							<div class="MContentSpacer"></div>
+
+							<input class="MWidthFull" type="text" placeholder="Input Text Disabled" disabled="true"/>
+							<div class="MContentSpacer"></div>
+							<textarea class="MWidthFull" placeholder="Textarea"></textarea>
+
+							<div class="MContentSpacer"></div>
+							<textarea class="MWidthFull MInputInvisible" placeholder="Textarea with No Border"></textarea>
+
+							<div class="MContentSpacer"></div>
+							<textarea class="MWidthFull" placeholder="Textarea Disabled" disabled="true"></textarea>
+							
+
+ <a class="showCode">Code</a>
+							<pre class="MHidden"><code>&lt;input class=&quot;MWidthFull&quot; type=&quot;text&quot; placeholder=&quot;Input Text&quot;/&gt;
+&lt;input class=&quot;MWidthFull MInputInvisible&quot; type=&quot;text&quot; placeholder=&quot;Input with No Border&quot;/&gt;
+&lt;input class=&quot;MWidthFull&quot; type=&quot;text&quot; placeholder=&quot;Input Text Disabled&quot; disabled=&quot;true&quot;/&gt;
+
+&lt;textarea class=&quot;MWidthFull&quot; placeholder=&quot;Textarea&quot;&gt;&lt;/textarea&gt;
+&lt;textarea class=&quot;MWidthFull MInputInvisible&quot; placeholder=&quot;Textarea with No Border&quot;&gt;&lt;/textarea&gt;
+&lt;textarea class=&quot;MWidthFull&quot; placeholder=&quot;Textarea Disabled&quot; disabled=&quot;true&quot;&gt;&lt;/textarea&gt;</code></pre>								
+																																																																																								
+
+						</section><!-- section_input -->
+
+						<section id="sections_notes">
+							<h2>Notes</h2>
+							<hr />
+
+							<p>
+								Notes are rotated on document ready to make them look more organic.
+								<br />
+								They can be applied to nearly any block level element and have a default maximum width of 200px.
+							</p>
+
+							<table>
+
+								<tr>
+									<td>
+									<p class="MNote">
+										I'm in a white note.
+									</p></td>
+									<td><a class="showCode">Code</a> .MNote 									<pre class="MHidden"><code>&lt;p class=&quot;MNote&quot;&gt;...&lt;/p&gt;</code></pre></td>
+								</tr>
+								<tr>
+									<td>
+									<p class="MNoteRed">
+										I'm in a red note.
+									</p></td>
+									<td><a class="showCode">Code</a> .MNoteRed or .MNoteR 									<pre class="MHidden"><code>&lt;p class=&quot;MNoteRed&quot;&gt;...&lt;/p&gt;</code></pre></td>
+								</tr>
+								<tr>
+									<td>
+									<p class="MNoteOrange">
+										I'm in a orange note.
+									</p></td>
+									<td><a class="showCode">Code</a> .MNoteOrange or .MNoteO 									<pre class="MHidden"><code>&lt;p class=&quot;MNoteOrange&quot;&gt;...&lt;/p&gt;</code></pre></td>
+								</tr>
+								<tr>
+									<td>
+									<p class="MNoteYellow">
+										I'm in a yellow note.
+									</p></td>
+									<td><a class="showCode">Code</a> .MNoteYellow or .MNoteY 									<pre class="MHidden"><code>&lt;p class=&quot;MNoteYellow&quot;&gt;...&lt;/p&gt;</code></pre></td>
+								</tr>
+								<tr>
+									<td>
+									<p class="MNoteGreen">
+										I'm in a green note.
+									</p></td>
+									<td><a class="showCode">Code</a> .MNoteGreen or .MNoteG 									<pre class="MHidden"><code>&lt;p class=&quot;MNoteGreen&quot;&gt;...&lt;/p&gt;</code></pre></td>
+								</tr>
+								<tr>
+									<td>
+									<p class="MNoteBlue">
+										I'm in a blue note.
+									</p></td>
+									<td><a class="showCode">Code</a> .MNoteBlue or .MNoteB 									<pre class="MHidden"><code>&lt;p class=&quot;MNoteBlue&quot;&gt;...&lt;/p&gt;</code></pre></td>
+								</tr>
+								<tr>
+									<td>
+									<p class="MNoteViolet">
+										I'm in a violet note.
+									</p></td>
+									<td><a class="showCode">Code</a> .MNoteViolet or .MNoteV 									<pre class="MHidden"><code>&lt;p class=&quot;MNoteViolet&quot;&gt;...&lt;/p&gt;</code></pre></td>
+								</tr>
+
+							</table>
+
+						</section>
+
+						<section id="section_layout">
+							<h2>Layout</h2>
+							<hr />
+
+							<h3>MHBoxLayout</h3>
+
+							<div class="MHBoxLayout">
+								<button>
+									Button
+								</button>
+								<button>
+									Button
+								</button>
+								<button>
+									Button
+								</button>
+							</div>
+
+							<a class="showCode">Code</a>
+							<pre class="MHidden"><code>&lt;div class=&quot;MHBoxLayout&quot;&gt;
+	...
+&lt;/div&gt;</code></pre>																																							
+	
+ <h3>MVBoxLayout</h3>
+
+							<div class="MVBoxLayout">
+								<button>
+									Button
+								</button>
+								<button>
+									Button
+								</button>
+								<button>
+									Button
+								</button>
+							</div>
+
+							<a class="showCode">Code</a>
+							<pre class="MHidden"><code>&lt;div class=&quot;MVBoxLayout&quot;&gt;
+	...
+&lt;/div&gt;</code></pre>																																							
+	
+
+						</section><!-- section_layout -->
+
+						<section id="section_well">
+							<h2>Well</h2>
+							<hr />
+							<br />
+
+							<div class="MWell">
+								<p>
+									I'm in a well.
+								</p>
+							</div>
+
+							<a class="showCode">Code</a>
+							<pre class="MHidden"><code>&lt;div class=&quot;MWell&quot;&gt;
+	...
+&lt;/div&gt;</code></pre>																																							
+	
+
+						</section>
+
+						<section id="section_widget">
+							<h2>Widget</h2>
+							<hr />
+							<br />
+
+							<div class="MWidget">
+								<p>
+									I'm in a widget.
+								</p>
+							</div>
+
+							<a class="showCode">Code</a>
+							<pre class="MHidden"><code>&lt;div class=&quot;MWidget&quot;&gt;
+	...
+&lt;/div&gt;</code></pre>																											
+					
+
+						</section>
+
+					</div></td>
+
+				</tr>
+			</table>
+			<div class="MContentSpacer"></div>
+
+		</div><!--MMainWindow-->
+
+	</body>
 
 </html>

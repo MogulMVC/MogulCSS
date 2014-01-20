@@ -1072,7 +1072,8 @@ li {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 900; }
+  z-index: 900;
+  margin: 0; }
   #MHeader a {
     -moz-user-select: none;
     -o-user-select: none;
